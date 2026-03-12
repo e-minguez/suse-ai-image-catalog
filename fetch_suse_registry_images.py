@@ -199,13 +199,25 @@ def get_image_details(repo, tag, cache=None):
     if cache and cache_key in cache:
         cached_item = cache[cache_key]
         if cached_item.get("digest") == digest:
-            # If it's a container image and missing SBOMs, we try extracting again
-            if "/containers/" in repo and "sboms" not in cached_item:
-                logger.info(f"    Cache hit for {full_image} but missing SBOM. Retrying extraction...")
+            # If it's a container image, check if SBOM files actually exist
+            needs_sbom_extraction = False
+            if "/containers/" in repo:
+                if "sboms" not in cached_item:
+                    needs_sbom_extraction = True
+                else:
+                    # Check if the SBOM files actually exist on disk
+                    for sbom in cached_item.get("sboms", []):
+                        sbom_path = sbom.get("path")
+                        if sbom_path and not os.path.exists(sbom_path):
+                            needs_sbom_extraction = True
+                            break
+
+            if needs_sbom_extraction:
+                logger.info(f"    Cache hit for {full_image} but SBOM missing or not on disk. Retrying extraction...")
                 image_data = cached_item.copy()
                 extract_sbom(full_image, image_data)
                 return image_data, None
-            
+
             logger.info(f"    Cache hit for {full_image} (digest: {digest})")
             return cached_item, None
         

@@ -2,6 +2,7 @@ import requests
 import json
 import logging
 import os
+import time
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -12,6 +13,9 @@ SITE_URL = "https://apps.rancher.io"
 STACK_SLUG = "suse-ai"
 OUTPUT_FILE = "data/suse_ai_images.json"
 
+# Rate limiting for API calls
+API_CALL_DELAY = 0.5  # seconds between API calls
+
 def fetch_json(endpoint):
     url = f"{BASE_URL}{endpoint}"
     try:
@@ -20,6 +24,61 @@ def fetch_json(endpoint):
         return response.json()
     except requests.RequestException as e:
         logger.error(f"Error fetching {url}: {e}")
+        return None
+
+def fetch_artifact_vulnerabilities(artifact_hash):
+    """
+    Fetch vulnerability data for an artifact from apps.rancher.io API.
+    Returns vulnerability summary in same format as Trivy scans.
+
+    Args:
+        artifact_hash: The digest value (without "SHA256:" prefix)
+
+    Returns:
+        Dictionary with vulnerability counts or None if fetch fails
+    """
+    if not artifact_hash:
+        return None
+
+    # Rate limiting to avoid overwhelming the API
+    time.sleep(API_CALL_DELAY)
+
+    url = f"{BASE_URL}/artifacts/{artifact_hash}"
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+
+        # Extract vulnerabilities from response
+        last_scan = data.get('last_scan', {})
+        vulnerabilities = last_scan.get('vulnerabilities', [])
+
+        # Count by severity
+        counts = {"critical": 0, "high": 0, "medium": 0, "low": 0, "unknown": 0}
+        for vuln in vulnerabilities:
+            severity = vuln.get('severity', 'UNKNOWN').lower()
+            counts[severity] = counts.get(severity, 0) + 1
+
+        total = sum(counts.values())
+
+        # Get scan date from last_scan
+        scan_date = last_scan.get('completed_at', '')
+
+        return {
+            "scan_date": scan_date,
+            "total": total,
+            "critical": counts.get("critical", 0),
+            "high": counts.get("high", 0),
+            "medium": counts.get("medium", 0),
+            "low": counts.get("low", 0),
+            "source": "apps.rancher.io",
+            "artifact_url": f"{SITE_URL}/artifacts/{artifact_hash}"
+        }
+    except requests.RequestException as e:
+        logger.warning(f"Failed to fetch vulnerabilities for artifact {artifact_hash[:12]}...: {e}")
+        return None
+    except Exception as e:
+        logger.error(f"Error processing vulnerabilities for {artifact_hash[:12]}...: {e}")
         return None
 
 def main():
@@ -100,6 +159,17 @@ def main():
                             if not is_new:
                                 cached_item = cache[cache_key]
                                 if cached_item.get("digest") == digest:
+                                    # Digest matches - reuse cached data
+                                    # Check if we need to fetch vulnerabilities
+                                    if pkg_format == 'CONTAINER' and "vulnerabilities" not in cached_item:
+                                        # Missing vulnerabilities, fetch them
+                                        artifact_hash = artifact.get('digest', {}).get('value')
+                                        if artifact_hash:
+                                            logger.info(f"    Fetching vulnerabilities for cached {image_name}...")
+                                            vuln_data = fetch_artifact_vulnerabilities(artifact_hash)
+                                            if vuln_data:
+                                                cached_item["vulnerabilities"] = vuln_data
+
                                     # Use cached item but update logo just in case
                                     cached_item["app_logo_url"] = app_logo_url
                                     results.append(cached_item)
@@ -110,6 +180,17 @@ def main():
                                 changes.append(f"New {artifact_type} (AppCo): {image_name} ({display_arch})")
 
                             logger.info(f"    {'New' if is_new else 'Updated'} artifact: {image_name} version {version_num}")
+
+                            # Fetch vulnerability data for containers
+                            vuln_data = None
+                            if pkg_format == 'CONTAINER':
+                                artifact_hash = artifact.get('digest', {}).get('value')
+                                if artifact_hash:
+                                    logger.info(f"      Fetching vulnerabilities...")
+                                    vuln_data = fetch_artifact_vulnerabilities(artifact_hash)
+                                    if vuln_data:
+                                        logger.info(f"      Found {vuln_data['total']} vulnerabilities (C:{vuln_data['critical']}, H:{vuln_data['high']}, M:{vuln_data['medium']}, L:{vuln_data['low']})")
+
                             image_data = {
                                 "application": app_slug,
                                 "app_logo_url": app_logo_url,
@@ -125,6 +206,11 @@ def main():
                                 "sboms": [r for r in artifact.get('resources', []) if r.get('type') == 'SBOM'],
                                 "labels": artifact.get('labels', {})
                             }
+
+                            # Add vulnerabilities if available
+                            if vuln_data:
+                                image_data["vulnerabilities"] = vuln_data
+
                             results.append(image_data)
 
     logger.info(f"Found {len(results)} container/chart artifacts.")

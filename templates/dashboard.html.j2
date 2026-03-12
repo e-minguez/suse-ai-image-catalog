@@ -775,7 +775,20 @@
             showChangelogPage(page);
         };
 
-        showChangelogPage(1);
+        // Determine initial page from URL hash (deep-link support)
+        let initialPage = 1;
+        const initHash = window.location.hash;
+        if (initHash) {
+            const initTarget = document.querySelector(initHash);
+            if (initTarget && initTarget.classList.contains('changelog-row')) {
+                const idx = rows.indexOf(initTarget);
+                if (idx !== -1) {
+                    initialPage = Math.floor(idx / CHANGELOG_PAGE_SIZE) + 1;
+                    setTimeout(() => initTarget.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+                }
+            }
+        }
+        showChangelogPage(initialPage);
     }
 
     initChangelogPagination();

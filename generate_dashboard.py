@@ -153,6 +153,9 @@ def generate_html():
         version = item.get("tag")
         anchor_id = slugify(f"{image_name}-{version}-{arch}")
 
+        # Extract vulnerability data if available
+        vulnerabilities = item.get("vulnerabilities")
+
         merged_data.append({
             "source": "SUSE Registry",
             "name": full_path,
@@ -166,6 +169,7 @@ def generate_html():
             "type": "Chart" if is_chart else "Container",
             "logo": get_registry_logo(item),
             "sboms": processed_sboms,
+            "vulnerabilities": vulnerabilities,
             "anchor_id": anchor_id
         })
 
@@ -195,6 +199,11 @@ def generate_html():
         group_data['arch_list'] = unique_archs
         group_data['os'] = latest['os']
         group_data['last_updated'] = latest['last_updated']
+
+        # Add vulnerability data from latest version
+        if 'vulnerabilities' in latest.get('details', {}):
+            group_data['latest_vulnerabilities'] = latest['details']['vulnerabilities']
+
         final_groups.append(group_data)
 
     final_groups.sort(key=lambda x: (x['type'], x['base_name']))

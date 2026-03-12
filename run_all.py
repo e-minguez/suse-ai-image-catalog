@@ -96,16 +96,34 @@ def main():
     # Step 2: Fetch Registry Data
     registry_changed = run_script("fetch_suse_registry_images.py", env=registry_env)
 
-    # Step 3: Update Changelog if anything changed
+    # Step 3: Scan SBOMs for vulnerabilities (if any exist)
+    vuln_scan_run = False
+    if os.path.exists("sboms"):
+        logger.info("Running vulnerability scanning...")
+        try:
+            result = subprocess.run(
+                [sys.executable, "process_vulnerabilities.py"],
+                capture_output=True,
+                text=True
+            )
+            if result.stderr:
+                logger.warning(f"Vulnerability scanning warnings:\n{result.stderr}")
+            if result.stdout:
+                logger.debug(f"Vulnerability scanning output:\n{result.stdout}")
+            vuln_scan_run = True
+        except Exception as e:
+            logger.warning(f"Vulnerability scanning failed (continuing anyway): {e}")
+
+    # Step 4: Update Changelog if anything changed
     changelog_updated = update_changelog()
 
-    # Step 4: Check if dashboard needs rebuilding
+    # Step 5: Check if dashboard needs rebuilding
     # Also check if index.html exists, if not, we must build it
     dashboard_exists = os.path.exists("index.html")
     force_rebuild = os.getenv("FORCE_REBUILD", "false").lower() == "true"
-    
-    if ai_changed or registry_changed or changelog_updated or not dashboard_exists or force_rebuild:
-        logger.info("Changes detected, changelog updated, dashboard missing, or force rebuild requested. Rebuilding dashboard...")
+
+    if ai_changed or registry_changed or changelog_updated or vuln_scan_run or not dashboard_exists or force_rebuild:
+        logger.info("Changes detected, changelog updated, vulnerabilities scanned, dashboard missing, or force rebuild requested. Rebuilding dashboard...")
         try:
             subprocess.run([sys.executable, "generate_dashboard.py"], check=True)
             logger.info("Dashboard successfully rebuilt.")

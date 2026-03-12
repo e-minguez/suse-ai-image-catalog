@@ -115,6 +115,9 @@ def generate_html():
         version = item.get("version")
         anchor_id = slugify(f"{image_name}-{version}-{arch}")
 
+        # Extract vulnerability data if available
+        vulnerabilities = item.get("vulnerabilities")
+
         merged_data.append({
             "source": "AppCo",
             "name": full_path,
@@ -128,6 +131,7 @@ def generate_html():
             "type": "Chart" if pkg_format == "HELM_CHART" else "Container",
             "logo": item.get("app_logo_url"),
             "sboms": processed_sboms,
+            "vulnerabilities": vulnerabilities,
             "anchor_id": anchor_id
         })
 

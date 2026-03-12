@@ -474,6 +474,11 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="d-flex justify-content-center py-2" id="changelogPaginationWrapper" style="display:none!important;">
+                    <nav aria-label="Changelog pagination">
+                        <ul class="pagination pagination-sm mb-0" id="changelogPagination"></ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </div>
@@ -620,7 +625,12 @@
         if (hash) {
             const target = document.querySelector(hash);
             if (target) {
-                if (target.classList.contains('version-row')) {
+                if (target.classList.contains('changelog-row')) {
+                    if (typeof changelogShowPageForRow === 'function') {
+                        changelogShowPageForRow(target.id);
+                    }
+                    setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'center' }), 300);
+                } else if (target.classList.contains('version-row')) {
                     const groupCollapse = target.closest('.collapse');
                     if (groupCollapse) {
                         const bsCollapse = new bootstrap.Collapse(groupCollapse, { toggle: false });
@@ -638,9 +648,11 @@
                         target.classList.remove('collapsed');
                     }
                 }
-                setTimeout(() => {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }, 300);
+                if (!target.classList.contains('changelog-row')) {
+                    setTimeout(() => {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }, 300);
+                }
             }
         }
     });
@@ -703,6 +715,70 @@
     backToTopBtn.onclick = function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
+
+    // Changelog pagination
+    const CHANGELOG_PAGE_SIZE = 5;
+    let changelogCurrentPage = 1;
+
+    function initChangelogPagination() {
+        const rows = Array.from(document.querySelectorAll('tr.changelog-row'));
+        if (rows.length <= CHANGELOG_PAGE_SIZE) return;
+
+        const totalPages = Math.ceil(rows.length / CHANGELOG_PAGE_SIZE);
+        const wrapper = document.getElementById('changelogPaginationWrapper');
+        const pagination = document.getElementById('changelogPagination');
+        wrapper.style.removeProperty('display');
+
+        function renderPagination(page) {
+            pagination.innerHTML = '';
+
+            const prevLi = document.createElement('li');
+            prevLi.className = 'page-item' + (page === 1 ? ' disabled' : '');
+            prevLi.innerHTML = `<a class="page-link" href="#" aria-label="Previous" onclick="changelogGoToPage(event, ${page - 1})"><span aria-hidden="true">&laquo;</span></a>`;
+            pagination.appendChild(prevLi);
+
+            for (let i = 1; i <= totalPages; i++) {
+                const li = document.createElement('li');
+                li.className = 'page-item' + (i === page ? ' active' : '');
+                li.innerHTML = `<a class="page-link" href="#" onclick="changelogGoToPage(event, ${i})">${i}</a>`;
+                pagination.appendChild(li);
+            }
+
+            const nextLi = document.createElement('li');
+            nextLi.className = 'page-item' + (page === totalPages ? ' disabled' : '');
+            nextLi.innerHTML = `<a class="page-link" href="#" aria-label="Next" onclick="changelogGoToPage(event, ${page + 1})"><span aria-hidden="true">&raquo;</span></a>`;
+            pagination.appendChild(nextLi);
+        }
+
+        function showChangelogPage(page) {
+            changelogCurrentPage = page;
+            const start = (page - 1) * CHANGELOG_PAGE_SIZE;
+            const end = start + CHANGELOG_PAGE_SIZE;
+            rows.forEach((row, idx) => {
+                row.style.display = (idx >= start && idx < end) ? '' : 'none';
+            });
+            renderPagination(page);
+        }
+
+        window.changelogGoToPage = function(event, page) {
+            event.preventDefault();
+            if (page < 1 || page > totalPages) return;
+            showChangelogPage(page);
+            history.replaceState(null, null, '#changelog');
+            document.getElementById('changelog').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        };
+
+        window.changelogShowPageForRow = function(rowId) {
+            const idx = rows.findIndex(r => r.id === rowId);
+            if (idx === -1) return;
+            const page = Math.floor(idx / CHANGELOG_PAGE_SIZE) + 1;
+            showChangelogPage(page);
+        };
+
+        showChangelogPage(1);
+    }
+
+    initChangelogPagination();
 </script>
 
 <footer class="mt-5 pb-4 text-center text-muted" style="font-size: 0.8rem;">

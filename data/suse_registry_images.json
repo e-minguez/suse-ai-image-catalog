@@ -14,7 +14,17 @@
       "dp.apps.rancher.io/containers/postgresql:18.1-4.13",
       "ai/containers/litellm-database:1.80.15-stable.1",
       "bci/bci-busybox"
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 101,
+      "critical": 3,
+      "high": 43,
+      "medium": 54,
+      "low": 1,
+      "scan_date": "2026-03-13T13:18:03.566311Z",
+      "source": "aggregated",
+      "component_count": 1
+    }
   },
   {
     "repository": "ai/charts/litellm",
@@ -31,7 +41,17 @@
       "dp.apps.rancher.io/containers/postgresql:18.1-4.13",
       "ai/containers/litellm-database:1.80.15-stable.1",
       "bci/bci-busybox"
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 101,
+      "critical": 3,
+      "high": 43,
+      "medium": 54,
+      "low": 1,
+      "scan_date": "2026-03-13T13:18:03.566311Z",
+      "source": "aggregated",
+      "component_count": 1
+    }
   },
   {
     "repository": "ai/charts/qdrant",
@@ -47,7 +67,17 @@
     "chart_images": [
       "ai/containers/qdrant:v1.16.3",
       "bci/bci-base:latest"
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 142,
+      "critical": 3,
+      "high": 23,
+      "medium": 44,
+      "low": 71,
+      "scan_date": "2026-03-13T13:18:05.308598Z",
+      "source": "aggregated",
+      "component_count": 1
+    }
   },
   {
     "repository": "ai/containers/litellm",

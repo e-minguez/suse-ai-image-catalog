@@ -27,16 +27,6 @@ def load_json(path):
             return json.load(f)
     return []
 
-def build_appco_container_map(rancher_data):
-    """Build a lookup {(application, version): [container_items]} from AppCo CONTAINER entries."""
-    from collections import defaultdict
-    container_map = defaultdict(list)
-    for item in rancher_data:
-        if item.get("packaging_format") == "CONTAINER":
-            key = (item.get("application"), item.get("version"))
-            container_map[key].append(item)
-    return container_map
-
 def build_registry_container_map(registry_data):
     """Build a lookup {image_name: item} from registry non-chart entries."""
     container_map = {}
@@ -72,35 +62,6 @@ def _sum_vulns(vuln_list):
         "artifact_url": None,
         "details_path": None,
     }
-
-def aggregate_appco_chart_vulns(application, version, appco_container_map):
-    """
-    Aggregate vulnerabilities for an AppCo Helm chart from its component containers.
-    Deduplicates by component, preferring x86_64 architecture.
-    Returns an aggregated vulnerability dict, or None if no data available.
-    """
-    containers = appco_container_map.get((application, version), [])
-    if not containers:
-        return None
-
-    # Group by component, prefer x86_64
-    best_per_component = {}
-    for c in containers:
-        comp = c.get("component") or c.get("image_name", "")
-        arch = (c.get("architecture") or "").lower()
-        if arch == "amd64":
-            arch = "x86_64"
-        existing = best_per_component.get(comp)
-        if existing is None or arch == "x86_64":
-            best_per_component[comp] = c
-
-    vuln_list = []
-    for c in best_per_component.values():
-        v = c.get("vulnerabilities")
-        if v and isinstance(v, dict):
-            vuln_list.append(v)
-
-    return _sum_vulns(vuln_list)
 
 def aggregate_registry_chart_vulns(chart_images, registry_container_map):
     """
@@ -167,8 +128,7 @@ def generate_html():
     registry_data = load_json(REGISTRY_JSON)
     changelog_data = load_json(CHANGELOG_JSON)
 
-    # Build lookup maps for chart vulnerability aggregation
-    appco_container_map = build_appco_container_map(rancher_data)
+    # Build lookup map for registry chart vulnerability aggregation
     registry_container_map = build_registry_container_map(registry_data)
 
     # Add anchor IDs to changelog entries
@@ -212,11 +172,10 @@ def generate_html():
         version = item.get("version")
         anchor_id = slugify(f"{image_name}-{version}-{arch}")
 
-        # For charts, prefer AppCo's own vulnerability scan; fall back to container aggregation
+        # AppCo charts have vulnerabilities pre-aggregated from component images during fetch.
+        # Registry charts aggregate from their rendered image list at dashboard-generation time.
         if pkg_format == "HELM_CHART":
-            vulnerabilities = item.get("vulnerabilities") or aggregate_appco_chart_vulns(
-                item.get("application"), item.get("version"), appco_container_map
-            )
+            vulnerabilities = item.get("vulnerabilities")
         else:
             vulnerabilities = item.get("vulnerabilities")
 
@@ -259,9 +218,11 @@ def generate_html():
         version = item.get("tag")
         anchor_id = slugify(f"{image_name}-{version}-{arch}")
 
-        # For charts, aggregate vulnerabilities from rendered image list; otherwise use direct data
+        # Registry charts have vulnerabilities aggregated by process_vulnerabilities.py from
+        # their chart_images list (scanning registry.suse.com images).
+        # Fall back to on-the-fly aggregation from registry container data for older data.
         if is_chart:
-            vulnerabilities = aggregate_registry_chart_vulns(
+            vulnerabilities = item.get("vulnerabilities") or aggregate_registry_chart_vulns(
                 item.get("chart_images", []), registry_container_map
             )
         else:

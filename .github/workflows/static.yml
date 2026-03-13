@@ -45,6 +45,9 @@ jobs:
       - name: Install Trivy
         uses: aquasecurity/setup-trivy@v0.2.5
 
+      - name: Setup Helm
+        uses: azure/setup-helm@v4
+
       - name: Login to SUSE Registry
         run: crane auth login registry.suse.com -u "${{ secrets.REGISTRY_USER }}" -p "${{ secrets.REGISTRY_PASSWORD }}"
         if: env.REGISTRY_USER != ''

@@ -16,6 +16,13 @@ NAMESPACE = "ai/"
 OUTPUT_FILE = "data/suse_registry_images.json"
 SBOM_DIR = "sboms"
 
+def normalize_timestamp(ts):
+    """Normalize any ISO 8601-like timestamp to 'YYYY-MM-DD HH:MM' format."""
+    if not ts:
+        return ts
+    m = re.match(r'(\d{4}-\d{2}-\d{2})[T ](\d{2}:\d{2})', str(ts))
+    return f"{m.group(1)} {m.group(2)}" if m else ts
+
 def cosign_is_installed():
     """Check if cosign is installed."""
     return shutil.which("cosign") is not None
@@ -356,7 +363,7 @@ def get_image_details(repo, tag, cache=None):
         "architecture": config.get("architecture"),
         "os": config.get("os"),
         "digest": digest,
-        "created": config.get("created"),
+        "created": normalize_timestamp(config.get("created")),
         "labels": config.get("config", {}).get("Labels", {}),
         "entrypoint": config.get("config", {}).get("Entrypoint"),
         "cmd": config.get("config", {}).get("Cmd")

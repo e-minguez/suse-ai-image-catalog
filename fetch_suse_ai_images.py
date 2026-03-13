@@ -2,6 +2,7 @@ import requests
 import json
 import logging
 import os
+import re
 import time
 
 # Configure logging
@@ -15,6 +16,13 @@ OUTPUT_FILE = "data/suse_ai_images.json"
 
 # Rate limiting for API calls
 API_CALL_DELAY = 0.5  # seconds between API calls
+
+def normalize_timestamp(ts):
+    """Normalize any ISO 8601-like timestamp to 'YYYY-MM-DD HH:MM' format."""
+    if not ts:
+        return ts
+    m = re.match(r'(\d{4}-\d{2}-\d{2})[T ](\d{2}:\d{2})', str(ts))
+    return f"{m.group(1)} {m.group(2)}" if m else ts
 
 def fetch_json(endpoint):
     url = f"{BASE_URL}{endpoint}"
@@ -275,7 +283,7 @@ def main():
                                 "os_family": artifact.get('operating_system', {}).get('family'),
                                 "os_version": artifact.get('operating_system', {}).get('version'),
                                 "digest": digest,
-                                "last_updated": artifact.get('registered_at'),
+                                "last_updated": normalize_timestamp(artifact.get('registered_at')),
                                 "sboms": [r for r in artifact.get('resources', []) if r.get('type') == 'SBOM'],
                                 "labels": artifact.get('labels', {})
                             }

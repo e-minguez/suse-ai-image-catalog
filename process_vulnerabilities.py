@@ -209,7 +209,7 @@ def extract_vulnerability_summary(trivy_json_path: str) -> dict:
         total = sum(counts.values())
 
         return {
-            "scan_date": datetime.utcnow().isoformat() + "Z",
+            "scan_date": datetime.utcnow().strftime('%Y-%m-%d %H:%M'),
             "total": total,
             "critical": counts.get("critical", 0),
             "high": counts.get("high", 0),

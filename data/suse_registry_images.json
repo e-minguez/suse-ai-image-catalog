@@ -21,7 +21,7 @@
       "high": 43,
       "medium": 54,
       "low": 1,
-      "scan_date": "2026-03-13T16:03:52.197788Z",
+      "scan_date": "2026-03-13 16:03",
       "source": "aggregated",
       "component_count": 1
     }
@@ -48,7 +48,7 @@
       "high": 43,
       "medium": 54,
       "low": 1,
-      "scan_date": "2026-03-13T16:03:52.197788Z",
+      "scan_date": "2026-03-13 16:03",
       "source": "aggregated",
       "component_count": 1
     }
@@ -74,7 +74,7 @@
       "high": 23,
       "medium": 44,
       "low": 71,
-      "scan_date": "2026-03-13T16:03:54.415605Z",
+      "scan_date": "2026-03-13 16:03",
       "source": "aggregated",
       "component_count": 1
     }
@@ -86,7 +86,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:c4f2e28ca6b4fa3cfe306266263d9d65c457977e0c198b88ff7e773207732459",
-    "created": "2026-01-17T19:40:18.700053355Z",
+    "created": "2026-01-17 19:40",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -111,7 +111,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:51.239171Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 101,
       "critical": 3,
       "high": 43,
@@ -127,7 +127,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:0b4ec3861e978b4aa254f4070f292cd345496a5fb59c72e1ee21cd6db94b670b",
-    "created": "2026-01-17T17:41:34.505637986Z",
+    "created": "2026-01-17 17:41",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -152,7 +152,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:51.364786Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 61,
       "critical": 1,
       "high": 34,
@@ -168,7 +168,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:f4913297d1bb3dc373eb8911a5ac816b597be9b5e08a91636b6c2786dd572aa8",
-    "created": "2026-01-24T19:30:57.29353971Z",
+    "created": "2026-01-24 19:30",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -193,7 +193,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:51.504585Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 90,
       "critical": 3,
       "high": 37,
@@ -209,7 +209,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:e24022878ccc87f57d808ac9304f18b87b8359e6556746d81cc20a5dc85f423a",
-    "created": "2026-02-21T21:39:11.455403955Z",
+    "created": "2026-02-21 21:39",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -234,7 +234,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:51.659345Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 39,
       "critical": 0,
       "high": 29,
@@ -250,7 +250,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:a876f3f22f9b6fd481c9091c44a8a893d81c172d66dc2749298dcd3dc4a3d6f0",
-    "created": "2026-02-17T02:08:11.179136793Z",
+    "created": "2026-02-17 02:08",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -275,7 +275,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:51.815150Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 51,
       "critical": 0,
       "high": 36,
@@ -291,7 +291,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:dff82ccc32fb648927c090607887401c7e8ec814fe7c951beb95fe51073ca02b",
-    "created": "2026-02-08T00:08:25.176328241Z",
+    "created": "2026-02-08 00:08",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -316,7 +316,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:51.927621Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 43,
       "critical": 0,
       "high": 27,
@@ -332,7 +332,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:262e53d7702ed82579717faff0b08f7c0b7e9973a6406cfcc0e4af7826327627",
-    "created": "2026-02-15T00:56:15.400807456Z",
+    "created": "2026-02-15 00:56",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -357,7 +357,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:52.068799Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 49,
       "critical": 0,
       "high": 33,
@@ -373,7 +373,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:c73076efec73779e941077fab0d45eaa7c28f7dd4de16f249cd190c239be879d",
-    "created": "2026-01-17T19:42:37.925125291Z",
+    "created": "2026-01-17 19:42",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -398,7 +398,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:52.197788Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 101,
       "critical": 3,
       "high": 43,
@@ -414,7 +414,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:8a83153b98ccf0cb0ced61c3582d6949734b6c2f67fec284448b4035dff08ee2",
-    "created": "2026-01-17T17:43:58.912582328Z",
+    "created": "2026-01-17 17:43",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -439,7 +439,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:52.339425Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 101,
       "critical": 3,
       "high": 43,
@@ -455,7 +455,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:e1c89ae70ff6970f489ab61d5218b3acd3b1bc05a0511af765914bde6f7b2209",
-    "created": "2026-01-24T19:34:02.976593311Z",
+    "created": "2026-01-24 19:34",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -480,7 +480,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:52.462448Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 90,
       "critical": 3,
       "high": 37,
@@ -496,7 +496,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:1e151b4d320df0b0f6555f13577d716213b4fd502a2b117ed15c6629dd8cf1dd",
-    "created": "2026-02-21T21:42:08.570447691Z",
+    "created": "2026-02-21 21:42",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -521,7 +521,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:52.612129Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 39,
       "critical": 0,
       "high": 29,
@@ -537,7 +537,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:7b9cbd3905f0d335630c2605b784e64ff69b6b2a0d12b3fc68f53dcf21fb6a97",
-    "created": "2026-02-17T02:11:10.005289164Z",
+    "created": "2026-02-17 02:11",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -562,7 +562,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:52.780683Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 51,
       "critical": 0,
       "high": 36,
@@ -578,7 +578,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:a73ca282472592aede981dd0d81bcb8bb665938e7bf04d7c7a32c78ad0901cf9",
-    "created": "2026-02-08T00:11:15.64864831Z",
+    "created": "2026-02-08 00:11",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -603,7 +603,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:52.923870Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 43,
       "critical": 0,
       "high": 27,
@@ -619,7 +619,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:e70342a7e2354a5b3ee6294a98fc348cbd4b5f60508a4982db9127580eec878c",
-    "created": "2026-02-15T00:59:24.936724894Z",
+    "created": "2026-02-15 00:59",
     "labels": {
       "dev.chainguard.image.title": "wolfi-base",
       "dev.chainguard.package.main": "",
@@ -644,7 +644,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:53.064368Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 49,
       "critical": 0,
       "high": 33,
@@ -660,7 +660,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:dab6de32f7b2cc599985a7c764db3e8b062f70508fb85ca074aa856f829bf335",
-    "created": "2025-12-04T12:06:42.339848048Z",
+    "created": "2025-12-04 12:06",
     "labels": {
       "org.opencontainers.image.description": "Official Qdrant image",
       "org.opencontainers.image.documentation": "https://qdrant.com/docs",
@@ -681,7 +681,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:53.275457Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 142,
       "critical": 3,
       "high": 23,
@@ -697,7 +697,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:c24ee51d97bea1858851c7bdd3993f57dcb569ea16316fe550df4cd6dbdb3ff5",
-    "created": "2025-12-04T11:39:33.146211913Z",
+    "created": "2025-12-04 11:39",
     "labels": {
       "maintainer": "Qdrant Team <info@qdrant.tech>",
       "org.opencontainers.image.description": "Official Qdrant image",
@@ -720,7 +720,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:53.740382Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 1928,
       "critical": 0,
       "high": 33,
@@ -736,7 +736,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:f62a111970e39426b994ff7955992deb4370a8fde1b3570f98d0fdc5ea404e78",
-    "created": "2025-12-04T11:24:46.754266303Z",
+    "created": "2025-12-04 11:24",
     "labels": {
       "maintainer": "Qdrant Team <info@qdrant.tech>",
       "org.opencontainers.image.description": "Official Qdrant image",
@@ -759,7 +759,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:53.980987Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 339,
       "critical": 0,
       "high": 18,
@@ -775,7 +775,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:f36caff47eaa318ab599ecd2d8e88bf08c05a8855f095914818685f4ad68857a",
-    "created": "2025-12-04T12:36:54.745382013Z",
+    "created": "2025-12-04 12:36",
     "labels": {
       "org.opencontainers.image.description": "Official Qdrant image",
       "org.opencontainers.image.documentation": "https://qdrant.com/docs",
@@ -796,7 +796,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:54.191995Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 142,
       "critical": 3,
       "high": 23,
@@ -812,7 +812,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:0425e3e03e7fd9b3dc95c4214546afe19de2eb2e28ca621441a56663ac6e1f46",
-    "created": "2025-12-19T15:02:14.002533214Z",
+    "created": "2025-12-19 15:02",
     "labels": {
       "org.opencontainers.image.description": "Official Qdrant image",
       "org.opencontainers.image.documentation": "https://qdrant.com/docs",
@@ -833,7 +833,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:54.415605Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 142,
       "critical": 3,
       "high": 23,
@@ -849,7 +849,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:f9e8534e25eafbb319a75de7643775df8828c4de50644ecc3f6fb0e95e774012",
-    "created": "2025-12-19T17:26:17.537656919Z",
+    "created": "2025-12-19 17:26",
     "labels": {
       "maintainer": "Qdrant Team <info@qdrant.tech>",
       "org.opencontainers.image.description": "Official Qdrant image",
@@ -872,7 +872,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:54.839476Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 1928,
       "critical": 0,
       "high": 33,
@@ -888,7 +888,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:f6938de63b2143c4bb3ddbe76a134caba8ab1a696062540e42dd44a3420e3f08",
-    "created": "2025-12-19T16:36:20.275199877Z",
+    "created": "2025-12-19 16:36",
     "labels": {
       "maintainer": "Qdrant Team <info@qdrant.tech>",
       "org.opencontainers.image.description": "Official Qdrant image",
@@ -911,7 +911,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:55.056214Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 339,
       "critical": 0,
       "high": 18,
@@ -927,7 +927,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:9dfabc51ededc48158899a288a19a04de1ab54a11d8c512e1c40eebbd5e2bc92",
-    "created": "2025-12-19T15:36:01.083799525Z",
+    "created": "2025-12-19 15:36",
     "labels": {
       "org.opencontainers.image.description": "Official Qdrant image",
       "org.opencontainers.image.documentation": "https://qdrant.com/docs",
@@ -948,7 +948,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:55.236892Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 142,
       "critical": 3,
       "high": 23,
@@ -964,7 +964,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:f1c7272cdac52b38c1a0e89313922d940ba50afd90d593a1605dbbc214e66ffb",
-    "created": "2026-02-19T15:01:58.130337764Z",
+    "created": "2026-02-19 15:01",
     "labels": {
       "org.opencontainers.image.description": "Official Qdrant image",
       "org.opencontainers.image.documentation": "https://qdrant.com/docs",
@@ -985,7 +985,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:55.418077Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 89,
       "critical": 0,
       "high": 11,
@@ -1001,7 +1001,7 @@
     "architecture": "amd64",
     "os": "linux",
     "digest": "sha256:5315819b0721f5211ccb432c6949e81c56bdcf63cab33b4dec45f42126970bde",
-    "created": "2026-02-19T13:56:39.074038495Z",
+    "created": "2026-02-19 13:56",
     "labels": {
       "maintainer": "Qdrant Team <info@qdrant.tech>",
       "org.opencontainers.image.description": "Official Qdrant image",
@@ -1024,7 +1024,7 @@
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-03-13T16:03:55.622948Z",
+      "scan_date": "2026-03-13 16:03",
       "total": 278,
       "critical": 0,
       "high": 12,

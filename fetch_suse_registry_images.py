@@ -25,11 +25,29 @@ def helm_is_installed():
     return shutil.which("helm") is not None
 
 def _extract_images_from_value(value, images):
-    """Recursively walk a parsed YAML structure and collect all 'image' string values."""
+    """Recursively walk a parsed YAML structure and collect all container image references.
+
+    Handles both the plain-string form and the repository/tag dict form:
+      image: "registry.suse.com/ai/containers/foo:1.0"
+      image:
+        registry: "registry.suse.com"
+        repository: "ai/containers/foo"
+        tag: "1.0"
+    """
     if isinstance(value, dict):
         for k, v in value.items():
-            if k == "image" and isinstance(v, str) and v.strip():
-                images.add(v.strip())
+            if k == "image":
+                if isinstance(v, str) and v.strip():
+                    images.add(v.strip())
+                elif isinstance(v, dict):
+                    registry = v.get("registry", "")
+                    repository = v.get("repository", "")
+                    tag = v.get("tag", "")
+                    if repository:
+                        ref = f"{registry}/{repository}" if registry else repository
+                        if tag:
+                            ref = f"{ref}:{tag}"
+                        images.add(ref.strip())
             else:
                 _extract_images_from_value(v, images)
     elif isinstance(value, list):

@@ -212,9 +212,9 @@ def generate_html():
         version = item.get("version")
         anchor_id = slugify(f"{image_name}-{version}-{arch}")
 
-        # For charts, aggregate vulnerabilities from component containers; otherwise use direct data
+        # For charts, prefer AppCo's own vulnerability scan; fall back to container aggregation
         if pkg_format == "HELM_CHART":
-            vulnerabilities = aggregate_appco_chart_vulns(
+            vulnerabilities = item.get("vulnerabilities") or aggregate_appco_chart_vulns(
                 item.get("application"), item.get("version"), appco_container_map
             )
         else:
@@ -312,8 +312,8 @@ def generate_html():
         group_data['last_updated'] = latest['last_updated']
 
         # Add vulnerability data from latest version
-        if 'vulnerabilities' in latest.get('details', {}):
-            group_data['latest_vulnerabilities'] = latest['details']['vulnerabilities']
+        if latest.get('vulnerabilities'):
+            group_data['latest_vulnerabilities'] = latest['vulnerabilities']
 
         final_groups.append(group_data)
 

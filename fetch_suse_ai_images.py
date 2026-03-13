@@ -161,7 +161,7 @@ def main():
                                 if cached_item.get("digest") == digest:
                                     # Digest matches - reuse cached data
                                     # Check if we need to fetch vulnerabilities
-                                    if pkg_format == 'CONTAINER' and "vulnerabilities" not in cached_item:
+                                    if "vulnerabilities" not in cached_item:
                                         # Missing vulnerabilities, fetch them
                                         artifact_hash = artifact.get('digest', {}).get('value')
                                         if artifact_hash:
@@ -181,15 +181,14 @@ def main():
 
                             logger.info(f"    {'New' if is_new else 'Updated'} artifact: {image_name} version {version_num}")
 
-                            # Fetch vulnerability data for containers
+                            # Fetch vulnerability data for all artifact types
                             vuln_data = None
-                            if pkg_format == 'CONTAINER':
-                                artifact_hash = artifact.get('digest', {}).get('value')
-                                if artifact_hash:
-                                    logger.info(f"      Fetching vulnerabilities...")
-                                    vuln_data = fetch_artifact_vulnerabilities(artifact_hash)
-                                    if vuln_data:
-                                        logger.info(f"      Found {vuln_data['total']} vulnerabilities (C:{vuln_data['critical']}, H:{vuln_data['high']}, M:{vuln_data['medium']}, L:{vuln_data['low']})")
+                            artifact_hash = artifact.get('digest', {}).get('value')
+                            if artifact_hash:
+                                logger.info(f"      Fetching vulnerabilities...")
+                                vuln_data = fetch_artifact_vulnerabilities(artifact_hash)
+                                if vuln_data:
+                                    logger.info(f"      Found {vuln_data['total']} vulnerabilities (C:{vuln_data['critical']}, H:{vuln_data['high']}, M:{vuln_data['medium']}, L:{vuln_data['low']})")
 
                             image_data = {
                                 "application": app_slug,

@@ -4,6 +4,7 @@ import logging
 import re
 import os
 import shutil
+import tempfile
 from base64 import b64decode
 
 # Configure logging
@@ -18,6 +19,90 @@ SBOM_DIR = "sboms"
 def cosign_is_installed():
     """Check if cosign is installed."""
     return shutil.which("cosign") is not None
+
+def helm_is_installed():
+    """Check if helm is installed."""
+    return shutil.which("helm") is not None
+
+def _extract_images_from_value(value, images):
+    """Recursively walk a parsed YAML structure and collect all 'image' string values."""
+    if isinstance(value, dict):
+        for k, v in value.items():
+            if k == "image" and isinstance(v, str) and v.strip():
+                images.add(v.strip())
+            else:
+                _extract_images_from_value(v, images)
+    elif isinstance(value, list):
+        for item in value:
+            _extract_images_from_value(item, images)
+
+def extract_chart_images(repo, tag, image_data):
+    """
+    Pulls a Helm chart from the OCI registry, renders it with `helm template`,
+    and extracts all container image references into image_data["chart_images"].
+    """
+    if not helm_is_installed():
+        logger.warning("helm is not installed, skipping chart image extraction.")
+        image_data["chart_images"] = []
+        return
+
+    full_ref = f"oci://{REGISTRY}/{repo}"
+    chart_name = repo.split("/")[-1]
+
+    with tempfile.TemporaryDirectory(prefix="chart_extract_") as tmpdir:
+        # Pull the chart
+        pull_cmd = ["helm", "pull", full_ref, "--version", tag, "--untar", "--destination", tmpdir]
+        logger.info(f"    Pulling chart {full_ref}:{tag}")
+        result = subprocess.run(pull_cmd, capture_output=True, text=True)
+        if result.returncode != 0:
+            logger.warning(f"    helm pull failed for {full_ref}:{tag}: {result.stderr.strip()}")
+            image_data["chart_images"] = []
+            return
+
+        chart_dir = os.path.join(tmpdir, chart_name)
+        if not os.path.isdir(chart_dir):
+            # Try to find the extracted dir (chart name may differ from repo segment)
+            subdirs = [d for d in os.listdir(tmpdir) if os.path.isdir(os.path.join(tmpdir, d))]
+            if not subdirs:
+                logger.warning(f"    No chart directory found after helm pull for {full_ref}:{tag}")
+                image_data["chart_images"] = []
+                return
+            chart_dir = os.path.join(tmpdir, subdirs[0])
+
+        # Render the chart templates
+        template_cmd = ["helm", "template", "release", chart_dir, "--include-crds"]
+        logger.info(f"    Rendering chart templates for {chart_name}:{tag}")
+        result = subprocess.run(template_cmd, capture_output=True, text=True)
+        if result.returncode != 0:
+            logger.warning(f"    helm template failed for {chart_name}:{tag}: {result.stderr.strip()}")
+            image_data["chart_images"] = []
+            return
+
+        # Parse rendered YAML (multi-document) and extract image references
+        try:
+            import yaml
+            raw_images = set()
+            for doc in yaml.safe_load_all(result.stdout):
+                if doc:
+                    _extract_images_from_value(doc, raw_images)
+        except ImportError:
+            # Fallback: regex extraction if PyYAML not available
+            raw_images = set(re.findall(r'^\s+image:\s+"?([^"\s]+)"?\s*$', result.stdout, re.MULTILINE))
+        except Exception as e:
+            logger.warning(f"    Failed to parse rendered chart YAML for {chart_name}:{tag}: {e}")
+            image_data["chart_images"] = []
+            return
+
+        # Normalize: strip registry prefix if present
+        chart_images = []
+        for img in sorted(raw_images):
+            normalized = img
+            if normalized.startswith(f"{REGISTRY}/"):
+                normalized = normalized[len(f"{REGISTRY}/"):]
+            chart_images.append(normalized)
+
+        image_data["chart_images"] = chart_images
+        logger.info(f"    Extracted {len(chart_images)} image(s) from chart {chart_name}:{tag}: {chart_images}")
 
 def extract_sbom(full_image, image_data):
     """
@@ -218,6 +303,17 @@ def get_image_details(repo, tag, cache=None):
                 extract_sbom(full_image, image_data)
                 return image_data, None
 
+            # If it's a chart, check if chart_images have been extracted yet
+            needs_chart_extraction = False
+            if "/charts/" in repo and "chart_images" not in cached_item:
+                needs_chart_extraction = True
+
+            if needs_chart_extraction:
+                logger.info(f"    Cache hit for {full_image} but chart_images missing. Retrying extraction...")
+                image_data = cached_item.copy()
+                extract_chart_images(repo, tag, image_data)
+                return image_data, None
+
             logger.info(f"    Cache hit for {full_image} (digest: {digest})")
             return cached_item, None
         
@@ -268,6 +364,10 @@ def get_image_details(repo, tag, cache=None):
 
     # Extract embedded SBOMs for container images
     extract_sbom(full_image, image_data)
+
+    # Extract image references from Helm charts
+    if "/charts/" in repo.lower():
+        extract_chart_images(repo, tag, image_data)
     
     return image_data, change_msg
 

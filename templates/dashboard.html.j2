@@ -383,9 +383,13 @@
                             <td><small>{{ group.last_updated | format_date }}</small></td>
                             <td>
                                 {% if group.latest_vulnerabilities %}
-                                <span class="badge bg-danger me-1" title="Critical">C: {{ group.latest_vulnerabilities.critical }}</span>
-                                <span class="badge bg-warning text-dark me-1" title="High">H: {{ group.latest_vulnerabilities.high }}</span>
-                                <span class="badge bg-info text-dark me-1" title="Medium">M: {{ group.latest_vulnerabilities.medium }}</span>
+                                {% set lv = group.latest_vulnerabilities %}
+                                <span class="badge bg-danger me-1" title="Critical">C: {{ lv.critical }}</span>
+                                <span class="badge bg-warning text-dark me-1" title="High">H: {{ lv.high }}</span>
+                                <span class="badge bg-info text-dark me-1" title="Medium">M: {{ lv.medium }}</span>
+                                {% if lv.source == "aggregated" %}
+                                <span class="badge bg-secondary ms-1" title="Aggregated from {{ lv.component_count }} image(s)" style="cursor:help;">∑ {{ lv.component_count }}</span>
+                                {% endif %}
                                 {% else %}
                                 <small class="text-muted">Not scanned</small>
                                 {% endif %}
@@ -434,22 +438,27 @@
                                             </td>
                                             <td>
                                                 {% if v.vulnerabilities %}
+                                                {% set vv = v.vulnerabilities %}
                                                 <div class="d-flex flex-column">
                                                     <div class="mb-1">
-                                                        <span class="badge bg-danger me-1" style="font-size: 0.6rem;">C: {{ v.vulnerabilities.critical }}</span>
-                                                        <span class="badge bg-warning text-dark me-1" style="font-size: 0.6rem;">H: {{ v.vulnerabilities.high }}</span>
-                                                        <span class="badge bg-info text-dark me-1" style="font-size: 0.6rem;">M: {{ v.vulnerabilities.medium }}</span>
-                                                        <span class="badge bg-secondary me-1" style="font-size: 0.6rem;">L: {{ v.vulnerabilities.low }}</span>
+                                                        <span class="badge bg-danger me-1" style="font-size: 0.6rem;">C: {{ vv.critical }}</span>
+                                                        <span class="badge bg-warning text-dark me-1" style="font-size: 0.6rem;">H: {{ vv.high }}</span>
+                                                        <span class="badge bg-info text-dark me-1" style="font-size: 0.6rem;">M: {{ vv.medium }}</span>
+                                                        <span class="badge bg-secondary me-1" style="font-size: 0.6rem;">L: {{ vv.low }}</span>
                                                     </div>
-                                                    <small class="text-muted" style="font-size: 0.55rem;">Scanned: {{ v.vulnerabilities.scan_date[:10] }}</small>
-                                                    {% if v.vulnerabilities.artifact_url %}
-                                                    <a href="{{ v.vulnerabilities.artifact_url }}" target="_blank" class="btn btn-sm btn-outline-primary mt-1" style="font-size: 0.6rem; padding: 2px 6px;">
+                                                    {% if vv.source == "aggregated" %}
+                                                    <small class="text-muted" style="font-size: 0.55rem;" title="Aggregated from {{ vv.component_count }} image(s)">∑ Aggregated ({{ vv.component_count }} image{{ 's' if vv.component_count != 1 else '' }})</small>
+                                                    {% else %}
+                                                    <small class="text-muted" style="font-size: 0.55rem;">Scanned: {{ vv.scan_date[:10] }}</small>
+                                                    {% if vv.artifact_url %}
+                                                    <a href="{{ vv.artifact_url }}" target="_blank" class="btn btn-sm btn-outline-primary mt-1" style="font-size: 0.6rem; padding: 2px 6px;">
                                                         <i class="bi bi-box-arrow-up-right"></i> View on AppCo
                                                     </a>
-                                                    {% elif v.vulnerabilities.details_path %}
-                                                    <a href="{{ v.vulnerabilities.details_path }}" target="_blank" class="btn btn-sm btn-outline-primary mt-1" style="font-size: 0.6rem; padding: 2px 6px;">
+                                                    {% elif vv.details_path %}
+                                                    <a href="{{ vv.details_path }}" target="_blank" class="btn btn-sm btn-outline-primary mt-1" style="font-size: 0.6rem; padding: 2px 6px;">
                                                         <i class="bi bi-file-text"></i> Full Report
                                                     </a>
+                                                    {% endif %}
                                                     {% endif %}
                                                 </div>
                                                 {% else %}

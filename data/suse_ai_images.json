@@ -7893,6 +7893,38 @@
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "vllm",
+    "image_name": "vllm:0.1.9-4.1",
+    "version": "0.13.0",
+    "packaging_format": "HELM_CHART",
+    "architecture": null,
+    "os_family": null,
+    "os_version": null,
+    "digest": "SHA256:799994cade83dcef7a6577da0f5ba093bb3c957dfa32b3c6d1adfea332e4e1d6",
+    "last_updated": "2026-04-07 00:36",
+    "sboms": [],
+    "labels": {},
+    "chart_images": [
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-19.10",
+      "dp.apps.rancher.io/containers/lmcache-lmstack-router:0.1.6-3.42",
+      "dp.apps.rancher.io/containers/lmcache-vllm-openai:0.3.2-4.3",
+      "dp.apps.rancher.io/containers/vllm-openai:0.13.0-5.3"
+    ],
+    "vulnerabilities": {
+      "total": 118,
+      "critical": 2,
+      "high": 47,
+      "medium": 41,
+      "low": 28,
+      "scan_date": "",
+      "source": "aggregated_appco_images",
+      "component_count": 4,
+      "artifact_url": "https://apps.rancher.io/artifacts/799994cade83dcef7a6577da0f5ba093bb3c957dfa32b3c6d1adfea332e4e1d6"
+    }
+  },
+  {
+    "application": "vllm",
+    "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
+    "component": "vllm",
     "image_name": "vllm:0.1.6-3.3",
     "version": "0.9.1",
     "packaging_format": "HELM_CHART",

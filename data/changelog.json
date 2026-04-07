@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-07 03:21",
+    "changes": [
+      "New Chart (AppCo): vllm:0.1.9-4.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-04-04 02:51",
     "changes": [
       "New Container (AppCo): ollama:0.14.2-11.34 (aarch64)",
@@ -291,19 +297,6 @@
       "New Chart (AppCo): suse-ai-deployer:1.2.0-5.3 (N/A)",
       "New Chart (AppCo): suse-ai-observability-extension:1.5.0-6.3 (N/A)",
       "New Chart (AppCo): vllm:0.1.6-3.3 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-03-06 02:42",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.11-3.1 (aarch64)",
-      "New Container (AppCo): milvus:2.6.11-3.1 (x86_64)",
-      "New Container (AppCo): heaptrack:1.3.0-3.1 (aarch64)",
-      "New Container (AppCo): heaptrack:1.3.0-3.1 (x86_64)",
-      "New Container (AppCo): mlflow:3.10.0-7.2 (aarch64)",
-      "New Container (AppCo): mlflow:3.10.0-7.2 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-10.2 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-10.2 (x86_64)"
     ]
   }
 ]

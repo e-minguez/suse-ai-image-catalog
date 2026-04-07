@@ -54,6 +54,15 @@ def update_changelog():
         except Exception as e:
             logger.error(f"Error reading data/registry_changes.json: {e}")
     
+    # Load GHCR changes
+    if os.path.exists("data/ghcr_changes.json"):
+        try:
+            with open("data/ghcr_changes.json", "r") as f:
+                all_changes.extend(json.load(f))
+            os.remove("data/ghcr_changes.json")
+        except Exception as e:
+            logger.error(f"Error reading data/ghcr_changes.json: {e}")
+    
     if not all_changes:
         return False
         
@@ -96,7 +105,10 @@ def main():
     # Step 2: Fetch Registry Data
     registry_changed = run_script("fetch_suse_registry_images.py", env=registry_env)
 
-    # Step 3: Scan SBOMs for vulnerabilities (if any exist)
+    # Step 3: Fetch GHCR Data
+    ghcr_changed = run_script("fetch_ghcr_images.py")
+
+    # Step 4: Scan SBOMs for vulnerabilities (if any exist)
     vuln_scan_run = False
     if os.path.exists("sboms"):
         logger.info("Running vulnerability scanning...")
@@ -114,15 +126,15 @@ def main():
         except Exception as e:
             logger.warning(f"Vulnerability scanning failed (continuing anyway): {e}")
 
-    # Step 4: Update Changelog if anything changed
+    # Step 5: Update Changelog if anything changed
     changelog_updated = update_changelog()
 
-    # Step 5: Check if dashboard needs rebuilding
+    # Step 6: Check if dashboard needs rebuilding
     # Also check if index.html exists, if not, we must build it
     dashboard_exists = os.path.exists("index.html")
     force_rebuild = os.getenv("FORCE_REBUILD", "false").lower() == "true"
 
-    if ai_changed or registry_changed or changelog_updated or vuln_scan_run or not dashboard_exists or force_rebuild:
+    if ai_changed or registry_changed or ghcr_changed or changelog_updated or vuln_scan_run or not dashboard_exists or force_rebuild:
         logger.info("Changes detected, changelog updated, vulnerabilities scanned, dashboard missing, or force rebuild requested. Rebuilding dashboard...")
         try:
             subprocess.run([sys.executable, "generate_dashboard.py"], check=True)

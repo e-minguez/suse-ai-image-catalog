@@ -2,7 +2,7 @@
 """
 Process extracted SBOMs and add vulnerability summaries to data files.
 Also scans chart-referenced images from registry.suse.com that are not yet in registry data.
-Designed to run after fetch_suse_registry_images.py in GitHub Actions.
+Designed to run after fetch_suse_registry_images.py and fetch_ghcr_images.py in GitHub Actions.
 """
 
 import os
@@ -20,6 +20,7 @@ logger = logging.getLogger(__name__)
 VULNS_DIR = "vulns"
 SBOM_DIR = "sboms"
 DATA_FILE = "data/suse_registry_images.json"
+GHCR_DATA_FILE = "data/ghcr_images.json"
 REGISTRY = "registry.suse.com"
 
 def ensure_vulns_dir():
@@ -284,7 +285,7 @@ def main():
     if chart_updated:
         logger.info(f"Updated {chart_updated} chart(s) with aggregated vulnerability data")
 
-    # Write updated data back
+    # Write updated registry data back
     total_updated = updated_count + chart_updated
     if total_updated > 0:
         with open(DATA_FILE, 'w') as f:
@@ -298,6 +299,51 @@ def main():
         logger.info("\nNo images were updated")
         if skipped_count > 0:
             logger.info(f"Skipped {skipped_count} images")
+
+    # Step 3: Scan SBOM files for GHCR container images
+    if os.path.exists(GHCR_DATA_FILE):
+        logger.info("\nProcessing GHCR images...")
+        with open(GHCR_DATA_FILE, 'r') as f:
+            ghcr_data = json.load(f)
+
+        ghcr_updated = 0
+        ghcr_skipped = 0
+
+        for item in ghcr_data:
+            sboms = item.get("sboms", [])
+            if not sboms:
+                ghcr_skipped += 1
+                continue
+
+            sbom_path = sboms[0].get("path")
+            if not sbom_path or not os.path.exists(sbom_path):
+                logger.warning(f"SBOM path not found or doesn't exist: {sbom_path}")
+                ghcr_skipped += 1
+                continue
+
+            sbom_basename = os.path.basename(sbom_path).replace("-cyclonedx.json", "")
+            vuln_output = os.path.join(VULNS_DIR, f"{sbom_basename}-vulns.json")
+
+            logger.info(f"Scanning {sbom_path}...")
+            if scan_sbom_with_trivy(sbom_path, vuln_output):
+                summary = extract_vulnerability_summary(vuln_output)
+                if summary:
+                    item["vulnerabilities"] = summary
+                    ghcr_updated += 1
+                    logger.info(f"  Found {summary['total']} vulnerabilities (C:{summary['critical']}, H:{summary['high']}, M:{summary['medium']}, L:{summary['low']})")
+                else:
+                    logger.warning(f"  Failed to extract summary from {vuln_output}")
+                    ghcr_skipped += 1
+            else:
+                logger.warning(f"  Scan failed for {sbom_path}, skipping")
+                ghcr_skipped += 1
+
+        if ghcr_updated > 0:
+            with open(GHCR_DATA_FILE, 'w') as f:
+                json.dump(ghcr_data, f, indent=2)
+            logger.info(f"Updated {ghcr_updated} GHCR image(s) with vulnerability data")
+        if ghcr_skipped > 0:
+            logger.info(f"Skipped {ghcr_skipped} GHCR image(s) (no SBOM or scan failed)")
 
     return 0
 

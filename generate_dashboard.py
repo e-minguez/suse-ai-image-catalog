@@ -7,6 +7,7 @@ from jinja2 import Environment, FileSystemLoader
 # File paths
 RANCHER_JSON = "data/suse_ai_images.json"
 REGISTRY_JSON = "data/suse_registry_images.json"
+GHCR_JSON = "data/ghcr_images.json"
 CHANGELOG_JSON = "data/changelog.json"
 OUTPUT_HTML = "index.html"
 TEMPLATE_DIR = "templates"
@@ -126,6 +127,7 @@ def to_json_encoded(obj):
 def generate_html():
     rancher_data = load_json(RANCHER_JSON)
     registry_data = load_json(REGISTRY_JSON)
+    ghcr_data = load_json(GHCR_JSON)
     changelog_data = load_json(CHANGELOG_JSON)
 
     # Build lookup map for registry chart vulnerability aggregation
@@ -245,6 +247,42 @@ def generate_html():
             "anchor_id": anchor_id
         })
 
+    for item in ghcr_data:
+        image_name = item.get("image_name")
+        full_path = item.get("full_image_ref") or f"ghcr.io/{image_name}"
+
+        # Process local SBOMs (same pattern as registry)
+        processed_sboms = []
+        for sbom in item.get("sboms", []):
+            processed_sboms.append({
+                "format": sbom.get("format"),
+                "url": sbom.get("path")
+            })
+        processed_sboms.sort(key=lambda x: x.get("format", ""))
+        item["processed_sboms"] = processed_sboms
+
+        arch = normalize_arch(item.get("architecture"))
+        version = item.get("tag")
+        anchor_id = slugify(f"{image_name}-{version}-{arch}")
+        vulnerabilities = item.get("vulnerabilities") or None
+
+        merged_data.append({
+            "source": "GHCR",
+            "name": full_path,
+            "version": version,
+            "tag": item.get("tag"),
+            "arch": arch,
+            "os": item.get("os") or "N/A",
+            "last_updated": item.get("created"),
+            "digest": item.get("digest"),
+            "details": item,
+            "type": "Container",
+            "logo": get_registry_logo(item),
+            "sboms": processed_sboms,
+            "vulnerabilities": vulnerabilities,
+            "anchor_id": anchor_id
+        })
+
     groups = {}
     for item in merged_data:
         full_path = item['name']
@@ -302,6 +340,7 @@ def generate_html():
         "chart_count": chart_count,
         "rancher_count": len(rancher_data),
         "registry_count": len(registry_data),
+        "ghcr_count": len(ghcr_data),
         "generated_at": datetime.now().strftime('%Y-%m-%d %H:%M'),
         "groups": final_groups,
         "changelog": changelog_data

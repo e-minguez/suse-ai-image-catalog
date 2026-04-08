@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-04-08 13:54",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.14-4.7 (aarch64)",
+      "New Container (AppCo): milvus:2.6.14-4.7 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-04-07 14:11",
     "changes": [
       "New Container (GHCR): suse/suse-ai-lifecycle-manager:0.4.0 (x86_64)",
@@ -315,15 +322,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.2-3.26 (x86_64)",
       "New Container (AppCo): vllm-openai:0.9.1-4.26 (aarch64)",
       "New Container (AppCo): vllm-openai:0.9.1-4.26 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-03-07 05:04",
-    "changes": [
-      "New Container (AppCo): mlflow:3.10.0-7.3 (aarch64)",
-      "New Container (AppCo): mlflow:3.10.0-7.3 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-10.3 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-10.3 (x86_64)"
     ]
   }
 ]

@@ -444,11 +444,23 @@ def get_image_details(repo, tag, cache=None):
                         if sbom_path and not os.path.exists(sbom_path):
                             needs_sbom_extraction = True
                             break
-                # Re-extract if vulnerabilities are missing or came from Trivy (old format)
+                # Re-extract if vulnerabilities are missing, came from Trivy (old format),
+                # or if the per-arch vuln files are missing from disk (e.g. cache was cleared)
+                # or if details_files is absent (migration from older attestation format)
                 if not needs_sbom_extraction:
-                    vuln_source = cached_item.get("vulnerabilities", {}).get("source", "")
+                    vuln = cached_item.get("vulnerabilities", {})
+                    vuln_source = vuln.get("source", "")
                     if vuln_source != "attestation":
                         needs_sbom_extraction = True
+                    elif not vuln.get("details_files"):
+                        # details_files missing — older attestation run, force re-extraction
+                        needs_sbom_extraction = True
+                    else:
+                        # Check that the vuln files actually exist on disk
+                        for df in vuln.get("details_files", []):
+                            if df.get("path") and not os.path.exists(df["path"]):
+                                needs_sbom_extraction = True
+                                break
 
             if needs_sbom_extraction:
                 logger.info(f"    Cache hit for {full_image} but attestations missing or not on disk. Retrying extraction...")

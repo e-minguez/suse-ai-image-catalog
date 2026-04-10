@@ -60,6 +60,7 @@ jobs:
         with:
           path: |
             sboms/
+            vulns/
             index.html
           key: ${{ runner.os }}-data-cache-
           restore-keys: |
@@ -88,6 +89,7 @@ jobs:
         with:
           path: |
             sboms/
+            vulns/
             index.html
           key: ${{ runner.os }}-data-cache-${{ hashFiles('data/*.json') }}
 

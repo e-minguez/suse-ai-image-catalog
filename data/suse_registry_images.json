@@ -252,7 +252,14 @@
       "medium": 54,
       "low": 1,
       "scan_date": "2026-03-13 20:37",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.80.15-stable.1-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.80.15-stable.1-amd64-vuln.json"
     }
   },
   {
@@ -294,7 +301,14 @@
       "medium": 3,
       "low": 0,
       "scan_date": "2026-03-13 20:30",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.82.1-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.82.1-amd64-vuln.json"
     }
   },
   {
@@ -336,7 +350,14 @@
       "medium": 54,
       "low": 1,
       "scan_date": "2026-03-13 20:38",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.80.15-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.80.15-stable-amd64-vuln.json"
     }
   },
   {
@@ -378,7 +399,14 @@
       "medium": 49,
       "low": 1,
       "scan_date": "2026-03-13 20:36",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.81.0-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.81.0-stable-amd64-vuln.json"
     }
   },
   {
@@ -420,7 +448,14 @@
       "medium": 13,
       "low": 2,
       "scan_date": "2026-03-13 20:33",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.81.13-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.81.13-amd64-vuln.json"
     }
   },
   {
@@ -462,7 +497,14 @@
       "medium": 7,
       "low": 0,
       "scan_date": "2026-03-13 20:31",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.81.15-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.81.15-amd64-vuln.json"
     }
   },
   {
@@ -504,7 +546,14 @@
       "medium": 15,
       "low": 1,
       "scan_date": "2026-03-13 20:35",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.81.3-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.81.3-stable-amd64-vuln.json"
     }
   },
   {
@@ -546,7 +595,14 @@
       "medium": 14,
       "low": 2,
       "scan_date": "2026-03-13 20:34",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.81.9-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.81.9-stable-amd64-vuln.json"
     }
   },
   {
@@ -588,7 +644,14 @@
       "medium": 0,
       "low": 0,
       "scan_date": "2026-03-13 20:29",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.82.0-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.82.0-stable-amd64-vuln.json"
     }
   },
   {
@@ -630,7 +693,14 @@
       "medium": 6,
       "low": 2,
       "scan_date": "2026-01-26 21:19",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.80.15-stable.1-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.80.15-stable.1-amd64-vuln.json"
     }
   },
   {
@@ -672,7 +742,14 @@
       "medium": 3,
       "low": 0,
       "scan_date": "2026-03-13 20:40",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.82.1-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.82.1-amd64-vuln.json"
     }
   },
   {
@@ -714,7 +791,14 @@
       "medium": 6,
       "low": 2,
       "scan_date": "2026-01-26 21:20",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.80.15-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.80.15-stable-amd64-vuln.json"
     }
   },
   {
@@ -756,7 +840,14 @@
       "medium": 2,
       "low": 1,
       "scan_date": "2026-01-26 21:18",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.81.0-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.81.0-stable-amd64-vuln.json"
     }
   },
   {
@@ -798,7 +889,14 @@
       "medium": 0,
       "low": 1,
       "scan_date": "2026-02-23 16:57",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.81.12-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.81.12-stable-amd64-vuln.json"
     }
   },
   {
@@ -840,7 +938,14 @@
       "medium": 4,
       "low": 1,
       "scan_date": "2026-02-23 16:56",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.81.13-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.81.13-amd64-vuln.json"
     }
   },
   {
@@ -882,7 +987,14 @@
       "medium": 7,
       "low": 0,
       "scan_date": "2026-03-13 20:41",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.81.15-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.81.15-amd64-vuln.json"
     }
   },
   {
@@ -924,7 +1036,14 @@
       "medium": 2,
       "low": 1,
       "scan_date": "2026-02-12 19:39",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.81.3-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.81.3-stable-amd64-vuln.json"
     }
   },
   {
@@ -966,7 +1085,14 @@
       "medium": 6,
       "low": 1,
       "scan_date": "2026-02-23 16:58",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.81.9-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.81.9-stable-amd64-vuln.json"
     }
   },
   {
@@ -1008,7 +1134,14 @@
       "medium": 0,
       "low": 0,
       "scan_date": "2026-03-13 20:39",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.82.0-stable-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.82.0-stable-amd64-vuln.json"
     }
   },
   {
@@ -1051,7 +1184,18 @@
       "medium": 88,
       "low": 142,
       "scan_date": "2026-03-13 20:55",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.16.2-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-qdrant-v1.16.2-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.16.2-amd64-vuln.json"
     }
   },
   {
@@ -1091,7 +1235,14 @@
       "medium": 1712,
       "low": 183,
       "scan_date": "2026-03-13 20:56",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.16.2-gpu-amd-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.16.2-gpu-amd-amd64-vuln.json"
     }
   },
   {
@@ -1131,7 +1282,14 @@
       "medium": 227,
       "low": 94,
       "scan_date": "2026-03-13 20:57",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.16.2-gpu-nvidia-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.16.2-gpu-nvidia-amd64-vuln.json"
     }
   },
   {
@@ -1174,7 +1332,18 @@
       "medium": 88,
       "low": 142,
       "scan_date": "2026-03-13 20:58",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.16.2-unprivileged-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-qdrant-v1.16.2-unprivileged-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.16.2-unprivileged-amd64-vuln.json"
     }
   },
   {
@@ -1217,7 +1386,18 @@
       "medium": 88,
       "low": 142,
       "scan_date": "2026-03-13 20:50",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.16.3-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-qdrant-v1.16.3-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.16.3-amd64-vuln.json"
     }
   },
   {
@@ -1257,7 +1437,14 @@
       "medium": 1712,
       "low": 183,
       "scan_date": "2026-03-13 20:52",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.16.3-gpu-amd-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.16.3-gpu-amd-amd64-vuln.json"
     }
   },
   {
@@ -1297,7 +1484,14 @@
       "medium": 227,
       "low": 94,
       "scan_date": "2026-03-13 20:53",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.16.3-gpu-nvidia-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.16.3-gpu-nvidia-amd64-vuln.json"
     }
   },
   {
@@ -1340,7 +1534,18 @@
       "medium": 88,
       "low": 142,
       "scan_date": "2026-03-13 20:54",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.16.3-unprivileged-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-qdrant-v1.16.3-unprivileged-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.16.3-unprivileged-amd64-vuln.json"
     }
   },
   {
@@ -1383,7 +1588,18 @@
       "medium": 16,
       "low": 138,
       "scan_date": "2026-03-13 20:49",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.17.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-qdrant-v1.17.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.17.0-amd64-vuln.json"
     }
   },
   {
@@ -1423,7 +1639,14 @@
       "medium": 181,
       "low": 85,
       "scan_date": "2026-03-13 20:48",
-      "source": "attestation"
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.17.0-gpu-nvidia-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.17.0-gpu-nvidia-amd64-vuln.json"
     }
   }
 ]

@@ -306,6 +306,8 @@ def extract_attestations_per_arch(full_image, image_data):
                     vuln_predicate = json.load(f)
                 summary = _parse_vuln_predicate(vuln_predicate)
                 if summary:
+                    summary["arch"] = arch
+                    summary["details_path"] = vuln_filepath
                     vuln_summaries.append(summary)
             except Exception as e:
                 logger.warning(f"        Could not re-parse cached vuln attestation {vuln_filepath}: {e}")
@@ -317,6 +319,8 @@ def extract_attestations_per_arch(full_image, image_data):
                 logger.info(f"        Saved vuln attestation to {vuln_filepath}")
                 summary = _parse_vuln_predicate(vuln_predicate)
                 if summary:
+                    summary["arch"] = arch
+                    summary["details_path"] = vuln_filepath
                     vuln_summaries.append(summary)
             else:
                 logger.info(f"        No vuln attestation found for {arch_ref}")
@@ -335,6 +339,11 @@ def extract_attestations_per_arch(full_image, image_data):
             "low": sum(v["low"] for v in vuln_summaries),
             "scan_date": max((v["scan_date"] for v in vuln_summaries if v.get("scan_date")), default=""),
             "source": "attestation",
+            "details_files": [
+                {"arch": v.get("arch", ""), "path": v["details_path"]}
+                for v in vuln_summaries if v.get("details_path")
+            ],
+            "details_path": next((v["details_path"] for v in vuln_summaries if v.get("details_path")), None),
         }
         logger.info(f"      Vuln summary: total={total} (from {len(vuln_summaries)} arch(es))")
     else:

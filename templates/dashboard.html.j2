@@ -455,9 +455,15 @@
                                                     <a href="{{ vv.artifact_url }}" target="_blank" class="btn btn-sm btn-outline-primary mt-1" style="font-size: 0.6rem; padding: 2px 6px;">
                                                         <i class="bi bi-box-arrow-up-right"></i> View on AppCo
                                                     </a>
+                                                    {% elif vv.details_files %}
+                                                    {% for df in vv.details_files %}
+                                                    <a href="{{ df.path }}" target="_blank" class="btn btn-sm btn-outline-secondary mt-1 me-1" style="font-size: 0.6rem; padding: 2px 6px;">
+                                                        <i class="bi bi-file-text"></i> Raw Scan ({{ df.arch }})
+                                                    </a>
+                                                    {% endfor %}
                                                     {% elif vv.details_path %}
-                                                    <a href="{{ vv.details_path }}" target="_blank" class="btn btn-sm btn-outline-primary mt-1" style="font-size: 0.6rem; padding: 2px 6px;">
-                                                        <i class="bi bi-file-text"></i> Full Report
+                                                    <a href="{{ vv.details_path }}" target="_blank" class="btn btn-sm btn-outline-secondary mt-1" style="font-size: 0.6rem; padding: 2px 6px;">
+                                                        <i class="bi bi-file-text"></i> Raw Scan
                                                     </a>
                                                     {% endif %}
                                                     {% endif %}

@@ -207,9 +207,12 @@ def generate_html():
         processed_sboms = []
         if "sboms" in item:
             for sbom in item["sboms"]:
+                arch_label = sbom.get("arch", "")
+                fmt = sbom.get("format", "")
+                display = f"{fmt} ({arch_label})" if arch_label else fmt
                 processed_sboms.append({
-                    "format": sbom.get("format"),
-                    "url": sbom.get("path")  # The path is already correct
+                    "format": display,
+                    "url": sbom.get("path")
                 })
         
         # Sort SBOMs by format name
@@ -254,8 +257,11 @@ def generate_html():
         # Process local SBOMs (same pattern as registry)
         processed_sboms = []
         for sbom in item.get("sboms", []):
+            arch_label = sbom.get("arch", "")
+            fmt = sbom.get("format", "")
+            display = f"{fmt} ({arch_label})" if arch_label else fmt
             processed_sboms.append({
-                "format": sbom.get("format"),
+                "format": display,
                 "url": sbom.get("path")
             })
         processed_sboms.sort(key=lambda x: x.get("format", ""))

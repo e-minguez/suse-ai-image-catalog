@@ -15,6 +15,8 @@ REGISTRY = "registry.suse.com"
 NAMESPACE = "ai/"
 OUTPUT_FILE = "data/suse_registry_images.json"
 SBOM_DIR = "sboms"
+VULNS_DIR = "vulns"
+COSIGN_KEY = "https://documentation.suse.com/suse-ai/files/sr-pubkey.pem"
 
 def normalize_timestamp(ts):
     """Normalize any ISO 8601-like timestamp to 'YYYY-MM-DD HH:MM' format."""
@@ -129,102 +131,214 @@ def extract_chart_images(repo, tag, image_data):
         image_data["chart_images"] = chart_images
         logger.info(f"    Extracted {len(chart_images)} image(s) from chart {chart_name}:{tag}: {chart_images}")
 
-def extract_sbom(full_image, image_data):
+def _build_cosign_cmd(attest_type, image_ref):
+    """Build a cosign verify-attestation command for the given type and image ref."""
+    cmd = [
+        "cosign", "verify-attestation",
+        "--type", attest_type,
+        "--key", COSIGN_KEY,
+        "--insecure-ignore-tlog",
+        "--output", "json",
+    ]
+    registry_user = os.getenv("REGISTRY_USER")
+    registry_pass = os.getenv("REGISTRY_PASSWORD")
+    if registry_user and registry_pass:
+        cmd.extend(["--registry-username", registry_user, "--registry-password", registry_pass])
+    cmd.append(image_ref)
+    return cmd
+
+
+def _cosign_env():
+    """Return an environment dict with cosign cache settings."""
+    env = os.environ.copy()
+    cosign_cache = os.path.join(os.getcwd(), ".cosign-cache")
+    os.makedirs(cosign_cache, exist_ok=True)
+    env["COSIGN_CACHE"] = cosign_cache
+    env["SIGSTORE_ROOT"] = cosign_cache
+    env["TUF_ENABLED"] = "0"
+    return env
+
+
+def _run_cosign_attestation(attest_type, image_ref):
     """
-    Extracts the CycloneDX SBOM from a container image using cosign.
+    Run cosign verify-attestation for attest_type on image_ref.
+    Returns the parsed predicate dict on success, None on failure.
+    """
+    cmd = _build_cosign_cmd(attest_type, image_ref)
+    try:
+        result = subprocess.run(
+            cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+            text=True, check=True, env=_cosign_env()
+        )
+        for line in result.stdout.strip().splitlines():
+            try:
+                attestation = json.loads(line)
+                payload = json.loads(b64decode(attestation['payload']))
+                predicate = payload.get('predicate')
+                if predicate:
+                    return predicate
+            except Exception as e:
+                logger.debug(f"      Failed to parse attestation line for {image_ref}: {e}")
+                continue
+    except subprocess.CalledProcessError as e:
+        logger.debug(f"      cosign {attest_type} failed for {image_ref}: {e.stderr.strip()[:200] if e.stderr else ''}")
+    except Exception as e:
+        logger.debug(f"      Unexpected error running cosign {attest_type} for {image_ref}: {e}")
+    return None
+
+
+def _parse_vuln_predicate(predicate):
+    """
+    Parse a CosignVulnPredicate and return a vulnerability summary dict.
+    Returns None if the predicate has no usable data.
+    """
+    counts = {"critical": 0, "high": 0, "medium": 0, "low": 0, "unknown": 0}
+    scanner_result = predicate.get("scanner", {}).get("result", {})
+    for res in scanner_result.get("Results", []):
+        for vuln in res.get("Vulnerabilities") or []:
+            sev = vuln.get("Severity", "UNKNOWN").lower()
+            counts[sev] = counts.get(sev, 0) + 1
+
+    total = sum(counts.values())
+
+    # Extract scan date from metadata
+    metadata = predicate.get("metadata", {})
+    raw_date = metadata.get("scanFinishedOn") or metadata.get("scanStartedOn") or ""
+    scan_date = normalize_timestamp(raw_date) or ""
+
+    return {
+        "total": total,
+        "critical": counts.get("critical", 0),
+        "high": counts.get("high", 0),
+        "medium": counts.get("medium", 0),
+        "low": counts.get("low", 0),
+        "scan_date": scan_date,
+        "source": "attestation",
+    }
+
+
+def extract_attestations_per_arch(full_image, image_data):
+    """
+    For each architecture in the image manifest, extract the CycloneDX SBOM
+    and vulnerability attestation using cosign, saving them to disk.
+    Populates image_data["sboms"] and image_data["vulnerabilities"].
     """
     if not full_image.startswith(f"{REGISTRY}/ai/containers/"):
         return
 
     if not cosign_is_installed():
-        logger.warning("cosign is not installed, skipping SBOM extraction.")
+        logger.warning("cosign is not installed, skipping attestation extraction.")
         return
 
-    logger.info(f"    Extracting SBOM for {full_image}")
+    logger.info(f"    Extracting per-arch attestations for {full_image}")
 
-    # Sanitize the image name for the filename
-    safe_name = re.sub(r'[:/]', '-', full_image.replace(f"{REGISTRY}/", ""))
-    sbom_filename = f"{safe_name}-cyclonedx.json"
-    sbom_filepath = os.path.join(SBOM_DIR, sbom_filename)
-
-    cmd = [
-        "cosign", "verify-attestation",
-        "--type", "cyclonedx",
-        "--key", "https://documentation.suse.com/suse-ai/files/sr-pubkey.pem",
-        "--insecure-ignore-tlog"
-    ]
-    
-    # Add credentials if available
-    registry_user = os.getenv("REGISTRY_USER")
-    registry_pass = os.getenv("REGISTRY_PASSWORD")
-    if registry_user and registry_pass:
-        cmd.extend(["--registry-username", registry_user, "--registry-password", registry_pass])
-    
-    # Image must be the last argument
-    cmd.append(full_image)
-
-    # Set a local cache directory for cosign to avoid permission issues in some environments
-    env = os.environ.copy()
-    cosign_cache = os.path.join(os.getcwd(), ".cosign-cache")
-    if not os.path.exists(cosign_cache):
-        os.makedirs(cosign_cache)
-    env["COSIGN_CACHE"] = cosign_cache
-    env["SIGSTORE_ROOT"] = cosign_cache
-    env["TUF_ENABLED"] = "0"
+    # Get per-arch digests from the manifest index
+    manifest_json = run_command(["crane", "manifest", full_image])
+    if not manifest_json:
+        logger.warning(f"      Could not fetch manifest for {full_image}")
+        return
 
     try:
-        # We capture stderr to log it if the command fails
-        result = subprocess.run(
-            cmd,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-            check=True,
-            env=env
-        )
-        
-        # cosign can return multiple attestations, one per line (NDJSON)
-        found_sbom = False
-        for line in result.stdout.strip().splitlines():
+        manifest = json.loads(manifest_json)
+    except json.JSONDecodeError as e:
+        logger.error(f"      Failed to parse manifest for {full_image}: {e}")
+        return
+
+    manifests = manifest.get("manifests", [])
+    if not manifests:
+        # Single-arch image — use the image digest directly
+        digest = run_command(["crane", "digest", full_image])
+        if digest:
+            manifests = [{"platform": {"architecture": "amd64"}, "digest": digest}]
+        else:
+            logger.warning(f"      No manifests found and could not get digest for {full_image}")
+            return
+
+    # Base image ref without tag (for @digest addressing)
+    image_base = full_image.rsplit(":", 1)[0]
+    safe_base = re.sub(r'[:/]', '-', full_image.replace(f"{REGISTRY}/", ""))
+
+    sboms = []
+    vuln_summaries = []
+
+    for entry in manifests:
+        platform = entry.get("platform", {})
+        arch = platform.get("architecture", "")
+        if not arch or arch == "unknown":
+            continue
+
+        digest = entry.get("digest", "")
+        if not digest:
+            continue
+
+        arch_ref = f"{image_base}@{digest}"
+        logger.info(f"      Processing arch={arch} digest={digest[:19]}...")
+
+        # --- CycloneDX SBOM ---
+        sbom_filename = f"{safe_base}-{arch}-cyclonedx.json"
+        sbom_filepath = os.path.join(SBOM_DIR, sbom_filename)
+
+        if os.path.exists(sbom_filepath):
+            logger.info(f"        SBOM already exists: {sbom_filepath}")
+            sbom_ok = True
+        else:
+            sbom_predicate = _run_cosign_attestation("cyclonedx", arch_ref)
+            if sbom_predicate:
+                with open(sbom_filepath, 'w') as f:
+                    json.dump(sbom_predicate, f, indent=2)
+                logger.info(f"        Saved SBOM to {sbom_filepath}")
+                sbom_ok = True
+            else:
+                logger.warning(f"        No CycloneDX SBOM found for {arch_ref}")
+                sbom_ok = False
+
+        if sbom_ok:
+            sboms.append({"path": sbom_filepath, "format": "CycloneDX", "arch": arch})
+
+        # --- Vulnerability attestation ---
+        vuln_filename = f"{safe_base}-{arch}-vuln.json"
+        vuln_filepath = os.path.join(VULNS_DIR, vuln_filename)
+
+        if os.path.exists(vuln_filepath):
+            logger.info(f"        Vuln attestation already exists: {vuln_filepath}")
             try:
-                attestation = json.loads(line)
-                payload = json.loads(b64decode(attestation['payload']))
-                
-                # The actual SBOM is in the 'predicate' field
-                sbom_data = payload.get('predicate')
+                with open(vuln_filepath) as f:
+                    vuln_predicate = json.load(f)
+                summary = _parse_vuln_predicate(vuln_predicate)
+                if summary:
+                    vuln_summaries.append(summary)
+            except Exception as e:
+                logger.warning(f"        Could not re-parse cached vuln attestation {vuln_filepath}: {e}")
+        else:
+            vuln_predicate = _run_cosign_attestation("vuln", arch_ref)
+            if vuln_predicate:
+                with open(vuln_filepath, 'w') as f:
+                    json.dump(vuln_predicate, f, indent=2)
+                logger.info(f"        Saved vuln attestation to {vuln_filepath}")
+                summary = _parse_vuln_predicate(vuln_predicate)
+                if summary:
+                    vuln_summaries.append(summary)
+            else:
+                logger.info(f"        No vuln attestation found for {arch_ref}")
 
-                if sbom_data:
-                    with open(sbom_filepath, 'w') as f:
-                        json.dump(sbom_data, f, indent=2)
-                    
-                    logger.info(f"      Successfully extracted SBOM to {sbom_filepath}")
-                    if "sboms" not in image_data:
-                        image_data["sboms"] = []
-                    
-                    # Avoid duplicates
-                    if not any(s.get("path") == sbom_filepath for s in image_data["sboms"]):
-                        image_data["sboms"].append({
-                            "path": sbom_filepath,
-                            "format": "CycloneDX"
-                        })
-                    found_sbom = True
-                    break # We found the CycloneDX SBOM, we can stop
-            except Exception as parse_error:
-                logger.debug(f"      Failed to parse an attestation line: {parse_error}")
-                continue
+    if sboms:
+        image_data["sboms"] = sboms
 
-        if not found_sbom:
-            logger.warning(f"      No SBOM predicate found in attestations for {full_image}")
-
-    except subprocess.CalledProcessError as e:
-        # Log the stderr for better debugging
-        logger.warning(f"      Could not find CycloneDX SBOM for {full_image}.")
-        if e.stderr:
-            logger.debug(f"      Cosign error: {e.stderr.strip()}")
-    except (json.JSONDecodeError, KeyError) as e:
-        logger.error(f"      Failed to parse cosign output for {full_image}: {e}")
-    except Exception as e:
-        logger.error(f"      An unexpected error occurred during SBOM extraction for {full_image}: {e}")
+    if vuln_summaries:
+        # Aggregate across arches: use max scan_date, sum counts
+        total = sum(v["total"] for v in vuln_summaries)
+        image_data["vulnerabilities"] = {
+            "total": total,
+            "critical": sum(v["critical"] for v in vuln_summaries),
+            "high": sum(v["high"] for v in vuln_summaries),
+            "medium": sum(v["medium"] for v in vuln_summaries),
+            "low": sum(v["low"] for v in vuln_summaries),
+            "scan_date": max((v["scan_date"] for v in vuln_summaries if v.get("scan_date")), default=""),
+            "source": "attestation",
+        }
+        logger.info(f"      Vuln summary: total={total} (from {len(vuln_summaries)} arch(es))")
+    else:
+        logger.info(f"      No vuln attestation data available for {full_image}")
 
 
 def run_command(cmd):
@@ -321,11 +435,20 @@ def get_image_details(repo, tag, cache=None):
                         if sbom_path and not os.path.exists(sbom_path):
                             needs_sbom_extraction = True
                             break
+                # Also re-extract if vuln attestation files are missing
+                if not needs_sbom_extraction and not cached_item.get("vulnerabilities"):
+                    vuln_files_exist = any(
+                        os.path.exists(os.path.join(VULNS_DIR, f))
+                        for f in os.listdir(VULNS_DIR)
+                        if re.sub(r'[:/]', '-', full_image.replace(f"{REGISTRY}/", "")) in f
+                    ) if os.path.isdir(VULNS_DIR) else False
+                    if not vuln_files_exist:
+                        needs_sbom_extraction = True
 
             if needs_sbom_extraction:
-                logger.info(f"    Cache hit for {full_image} but SBOM missing or not on disk. Retrying extraction...")
+                logger.info(f"    Cache hit for {full_image} but attestations missing or not on disk. Retrying extraction...")
                 image_data = cached_item.copy()
-                extract_sbom(full_image, image_data)
+                extract_attestations_per_arch(full_image, image_data)
                 return image_data, None
 
             # If it's a chart, check if chart_images have been extracted yet
@@ -387,8 +510,8 @@ def get_image_details(repo, tag, cache=None):
         "cmd": config.get("config", {}).get("Cmd")
     }
 
-    # Extract embedded SBOMs for container images
-    extract_sbom(full_image, image_data)
+    # Extract per-arch attestations (SBOM + vuln) for container images
+    extract_attestations_per_arch(full_image, image_data)
 
     # Extract image references from Helm charts
     if "/charts/" in repo.lower():
@@ -397,9 +520,9 @@ def get_image_details(repo, tag, cache=None):
     return image_data, change_msg
 
 def main():
-    # Create SBOMs directory if it doesn't exist
-    if not os.path.exists(SBOM_DIR):
-        os.makedirs(SBOM_DIR)
+    # Create output directories if they don't exist
+    os.makedirs(SBOM_DIR, exist_ok=True)
+    os.makedirs(VULNS_DIR, exist_ok=True)
 
     # Load existing data for caching
     cache = {}

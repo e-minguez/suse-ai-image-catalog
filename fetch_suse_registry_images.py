@@ -435,14 +435,10 @@ def get_image_details(repo, tag, cache=None):
                         if sbom_path and not os.path.exists(sbom_path):
                             needs_sbom_extraction = True
                             break
-                # Also re-extract if vuln attestation files are missing
-                if not needs_sbom_extraction and not cached_item.get("vulnerabilities"):
-                    vuln_files_exist = any(
-                        os.path.exists(os.path.join(VULNS_DIR, f))
-                        for f in os.listdir(VULNS_DIR)
-                        if re.sub(r'[:/]', '-', full_image.replace(f"{REGISTRY}/", "")) in f
-                    ) if os.path.isdir(VULNS_DIR) else False
-                    if not vuln_files_exist:
+                # Re-extract if vulnerabilities are missing or came from Trivy (old format)
+                if not needs_sbom_extraction:
+                    vuln_source = cached_item.get("vulnerabilities", {}).get("source", "")
+                    if vuln_source != "attestation":
                         needs_sbom_extraction = True
 
             if needs_sbom_extraction:

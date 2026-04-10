@@ -16,12 +16,12 @@
       "bci/bci-busybox"
     ],
     "vulnerabilities": {
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "scan_date": "2026-04-10 09:20",
+      "total": 19,
+      "critical": 0,
+      "high": 11,
+      "medium": 6,
+      "low": 2,
+      "scan_date": "2026-01-26 21:19",
       "source": "aggregated",
       "component_count": 1
     }
@@ -43,12 +43,12 @@
       "bci/bci-busybox"
     ],
     "vulnerabilities": {
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "scan_date": "2026-04-10 09:20",
+      "total": 19,
+      "critical": 0,
+      "high": 11,
+      "medium": 6,
+      "low": 2,
+      "scan_date": "2026-01-26 21:19",
       "source": "aggregated",
       "component_count": 1
     }
@@ -70,12 +70,12 @@
       "bci/bci-busybox"
     ],
     "vulnerabilities": {
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "scan_date": "2026-04-10 09:20",
+      "total": 19,
+      "critical": 0,
+      "high": 11,
+      "medium": 6,
+      "low": 2,
+      "scan_date": "2026-01-26 21:19",
       "source": "aggregated",
       "component_count": 1
     }
@@ -97,12 +97,12 @@
       "bci/bci-busybox"
     ],
     "vulnerabilities": {
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "scan_date": "2026-04-10 09:20",
+      "total": 19,
+      "critical": 0,
+      "high": 11,
+      "medium": 6,
+      "low": 2,
+      "scan_date": "2026-01-26 21:19",
       "source": "aggregated",
       "component_count": 1
     }
@@ -124,12 +124,12 @@
       "bci/bci-busybox"
     ],
     "vulnerabilities": {
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "scan_date": "2026-04-10 09:20",
+      "total": 19,
+      "critical": 0,
+      "high": 11,
+      "medium": 6,
+      "low": 2,
+      "scan_date": "2026-01-26 21:19",
       "source": "aggregated",
       "component_count": 1
     }
@@ -151,12 +151,12 @@
       "bci/bci-busybox"
     ],
     "vulnerabilities": {
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "scan_date": "2026-04-10 09:20",
+      "total": 19,
+      "critical": 0,
+      "high": 11,
+      "medium": 6,
+      "low": 2,
+      "scan_date": "2026-01-26 21:19",
       "source": "aggregated",
       "component_count": 1
     }
@@ -177,12 +177,12 @@
       "bci/bci-base:latest"
     ],
     "vulnerabilities": {
-      "total": 217,
-      "critical": 4,
-      "high": 42,
-      "medium": 78,
-      "low": 87,
-      "scan_date": "2026-04-10 09:20",
+      "total": 296,
+      "critical": 6,
+      "high": 52,
+      "medium": 88,
+      "low": 142,
+      "scan_date": "2026-03-13 20:50",
       "source": "aggregated",
       "component_count": 1
     }
@@ -203,12 +203,12 @@
       "bci/bci-base:latest"
     ],
     "vulnerabilities": {
-      "total": 165,
-      "critical": 1,
-      "high": 30,
-      "medium": 43,
-      "low": 85,
-      "scan_date": "2026-04-10 09:20",
+      "total": 190,
+      "critical": 0,
+      "high": 28,
+      "medium": 16,
+      "low": 138,
+      "scan_date": "2026-03-13 20:49",
       "source": "aggregated",
       "component_count": 1
     }
@@ -240,18 +240,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-1.80.15-stable.1-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-1.80.15-stable.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "details_path": "vulns/ai-containers-litellm-1.80.15-stable.1-vulns.json"
+      "total": 101,
+      "critical": 3,
+      "high": 43,
+      "medium": 54,
+      "low": 1,
+      "scan_date": "2026-03-13 20:37",
+      "source": "attestation"
     }
   },
   {
@@ -281,18 +282,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-1.82.1-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-1.82.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 71,
-      "critical": 2,
-      "high": 18,
-      "medium": 38,
-      "low": 13,
-      "details_path": "vulns/ai-containers-litellm-1.82.1-vulns.json"
+      "total": 12,
+      "critical": 0,
+      "high": 9,
+      "medium": 3,
+      "low": 0,
+      "scan_date": "2026-03-13 20:30",
+      "source": "attestation"
     }
   },
   {
@@ -322,18 +324,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-v1.80.15-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-v1.80.15-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "details_path": "vulns/ai-containers-litellm-v1.80.15-stable-vulns.json"
+      "total": 101,
+      "critical": 3,
+      "high": 43,
+      "medium": 54,
+      "low": 1,
+      "scan_date": "2026-03-13 20:38",
+      "source": "attestation"
     }
   },
   {
@@ -363,18 +366,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-v1.81.0-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-v1.81.0-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 140,
-      "critical": 5,
-      "high": 45,
-      "medium": 76,
-      "low": 14,
-      "details_path": "vulns/ai-containers-litellm-v1.81.0-stable-vulns.json"
+      "total": 90,
+      "critical": 3,
+      "high": 37,
+      "medium": 49,
+      "low": 1,
+      "scan_date": "2026-03-13 20:36",
+      "source": "attestation"
     }
   },
   {
@@ -404,18 +408,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-v1.81.13-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-v1.81.13-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 110,
-      "critical": 2,
-      "high": 45,
-      "medium": 48,
-      "low": 15,
-      "details_path": "vulns/ai-containers-litellm-v1.81.13-vulns.json"
+      "total": 51,
+      "critical": 0,
+      "high": 36,
+      "medium": 13,
+      "low": 2,
+      "scan_date": "2026-03-13 20:33",
+      "source": "attestation"
     }
   },
   {
@@ -445,18 +450,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-v1.81.15-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-v1.81.15-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 83,
-      "critical": 2,
-      "high": 26,
-      "medium": 42,
-      "low": 13,
-      "details_path": "vulns/ai-containers-litellm-v1.81.15-vulns.json"
+      "total": 24,
+      "critical": 0,
+      "high": 17,
+      "medium": 7,
+      "low": 0,
+      "scan_date": "2026-03-13 20:31",
+      "source": "attestation"
     }
   },
   {
@@ -486,18 +492,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-v1.81.3-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-v1.81.3-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 93,
-      "critical": 2,
-      "high": 35,
-      "medium": 42,
-      "low": 14,
-      "details_path": "vulns/ai-containers-litellm-v1.81.3-stable-vulns.json"
+      "total": 43,
+      "critical": 0,
+      "high": 27,
+      "medium": 15,
+      "low": 1,
+      "scan_date": "2026-03-13 20:35",
+      "source": "attestation"
     }
   },
   {
@@ -527,18 +534,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-v1.81.9-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-v1.81.9-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 88,
-      "critical": 2,
-      "high": 41,
-      "medium": 33,
-      "low": 12,
-      "details_path": "vulns/ai-containers-litellm-v1.81.9-stable-vulns.json"
+      "total": 49,
+      "critical": 0,
+      "high": 33,
+      "medium": 14,
+      "low": 2,
+      "scan_date": "2026-03-13 20:34",
+      "source": "attestation"
     }
   },
   {
@@ -568,18 +576,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-v1.82.0-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-v1.82.0-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 66,
-      "critical": 2,
-      "high": 16,
-      "medium": 35,
-      "low": 13,
-      "details_path": "vulns/ai-containers-litellm-v1.82.0-stable-vulns.json"
+      "total": 8,
+      "critical": 0,
+      "high": 8,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "2026-03-13 20:29",
+      "source": "attestation"
     }
   },
   {
@@ -609,18 +618,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-1.80.15-stable.1-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-1.80.15-stable.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "details_path": "vulns/ai-containers-litellm-database-1.80.15-stable.1-vulns.json"
+      "total": 19,
+      "critical": 0,
+      "high": 11,
+      "medium": 6,
+      "low": 2,
+      "scan_date": "2026-01-26 21:19",
+      "source": "attestation"
     }
   },
   {
@@ -650,18 +660,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-1.82.1-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-1.82.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 79,
-      "critical": 2,
-      "high": 26,
-      "medium": 38,
-      "low": 13,
-      "details_path": "vulns/ai-containers-litellm-database-1.82.1-vulns.json"
+      "total": 20,
+      "critical": 0,
+      "high": 17,
+      "medium": 3,
+      "low": 0,
+      "scan_date": "2026-03-13 20:40",
+      "source": "attestation"
     }
   },
   {
@@ -691,18 +702,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-v1.80.15-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-v1.80.15-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 151,
-      "critical": 5,
-      "high": 51,
-      "medium": 81,
-      "low": 14,
-      "details_path": "vulns/ai-containers-litellm-database-v1.80.15-stable-vulns.json"
+      "total": 19,
+      "critical": 0,
+      "high": 11,
+      "medium": 6,
+      "low": 2,
+      "scan_date": "2026-01-26 21:20",
+      "source": "attestation"
     }
   },
   {
@@ -732,18 +744,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-v1.81.0-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-v1.81.0-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 140,
-      "critical": 5,
-      "high": 45,
-      "medium": 76,
-      "low": 14,
-      "details_path": "vulns/ai-containers-litellm-database-v1.81.0-stable-vulns.json"
+      "total": 8,
+      "critical": 0,
+      "high": 5,
+      "medium": 2,
+      "low": 1,
+      "scan_date": "2026-01-26 21:18",
+      "source": "attestation"
     }
   },
   {
@@ -773,18 +786,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-v1.81.12-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-v1.81.12-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 99,
-      "critical": 2,
-      "high": 38,
-      "medium": 44,
-      "low": 15,
-      "details_path": "vulns/ai-containers-litellm-database-v1.81.12-stable-vulns.json"
+      "total": 7,
+      "critical": 0,
+      "high": 6,
+      "medium": 0,
+      "low": 1,
+      "scan_date": "2026-02-23 16:57",
+      "source": "attestation"
     }
   },
   {
@@ -814,18 +828,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-v1.81.13-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-v1.81.13-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 110,
-      "critical": 2,
-      "high": 45,
-      "medium": 48,
-      "low": 15,
-      "details_path": "vulns/ai-containers-litellm-database-v1.81.13-vulns.json"
+      "total": 18,
+      "critical": 0,
+      "high": 13,
+      "medium": 4,
+      "low": 1,
+      "scan_date": "2026-02-23 16:56",
+      "source": "attestation"
     }
   },
   {
@@ -855,18 +870,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-v1.81.15-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-v1.81.15-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 83,
-      "critical": 2,
-      "high": 26,
-      "medium": 42,
-      "low": 13,
-      "details_path": "vulns/ai-containers-litellm-database-v1.81.15-vulns.json"
+      "total": 24,
+      "critical": 0,
+      "high": 17,
+      "medium": 7,
+      "low": 0,
+      "scan_date": "2026-03-13 20:41",
+      "source": "attestation"
     }
   },
   {
@@ -896,18 +912,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-v1.81.3-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-v1.81.3-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 93,
-      "critical": 2,
-      "high": 35,
-      "medium": 42,
-      "low": 14,
-      "details_path": "vulns/ai-containers-litellm-database-v1.81.3-stable-vulns.json"
+      "total": 12,
+      "critical": 0,
+      "high": 9,
+      "medium": 2,
+      "low": 1,
+      "scan_date": "2026-02-12 19:39",
+      "source": "attestation"
     }
   },
   {
@@ -937,18 +954,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-v1.81.9-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-v1.81.9-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 103,
-      "critical": 2,
-      "high": 42,
-      "medium": 44,
-      "low": 15,
-      "details_path": "vulns/ai-containers-litellm-database-v1.81.9-stable-vulns.json"
+      "total": 24,
+      "critical": 0,
+      "high": 17,
+      "medium": 6,
+      "low": 1,
+      "scan_date": "2026-02-23 16:58",
+      "source": "attestation"
     }
   },
   {
@@ -978,18 +996,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-litellm-database-v1.82.0-stable-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-litellm-database-v1.82.0-stable-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 74,
-      "critical": 2,
-      "high": 24,
-      "medium": 35,
-      "low": 13,
-      "details_path": "vulns/ai-containers-litellm-database-v1.82.0-stable-vulns.json"
+      "total": 16,
+      "critical": 0,
+      "high": 16,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "2026-03-13 20:39",
+      "source": "attestation"
     }
   },
   {
@@ -1015,18 +1034,24 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.16.2-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.16.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-qdrant-v1.16.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 217,
-      "critical": 4,
-      "high": 42,
-      "medium": 78,
-      "low": 87,
-      "details_path": "vulns/ai-containers-qdrant-v1.16.2-vulns.json"
+      "total": 296,
+      "critical": 6,
+      "high": 52,
+      "medium": 88,
+      "low": 142,
+      "scan_date": "2026-03-13 20:55",
+      "source": "attestation"
     }
   },
   {
@@ -1054,18 +1079,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.16.2-gpu-amd-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.16.2-gpu-amd-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 2290,
-      "critical": 1,
-      "high": 51,
-      "medium": 2055,
+      "total": 1929,
+      "critical": 0,
+      "high": 34,
+      "medium": 1712,
       "low": 183,
-      "details_path": "vulns/ai-containers-qdrant-v1.16.2-gpu-amd-vulns.json"
+      "scan_date": "2026-03-13 20:56",
+      "source": "attestation"
     }
   },
   {
@@ -1093,18 +1119,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.16.2-gpu-nvidia-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.16.2-gpu-nvidia-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 362,
-      "critical": 1,
-      "high": 29,
-      "medium": 230,
-      "low": 102,
-      "details_path": "vulns/ai-containers-qdrant-v1.16.2-gpu-nvidia-vulns.json"
+      "total": 340,
+      "critical": 0,
+      "high": 19,
+      "medium": 227,
+      "low": 94,
+      "scan_date": "2026-03-13 20:57",
+      "source": "attestation"
     }
   },
   {
@@ -1130,18 +1157,24 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.16.2-unprivileged-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.16.2-unprivileged-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-qdrant-v1.16.2-unprivileged-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 217,
-      "critical": 4,
-      "high": 42,
-      "medium": 78,
-      "low": 87,
-      "details_path": "vulns/ai-containers-qdrant-v1.16.2-unprivileged-vulns.json"
+      "total": 296,
+      "critical": 6,
+      "high": 52,
+      "medium": 88,
+      "low": 142,
+      "scan_date": "2026-03-13 20:58",
+      "source": "attestation"
     }
   },
   {
@@ -1167,18 +1200,24 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.16.3-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.16.3-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-qdrant-v1.16.3-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 217,
-      "critical": 4,
-      "high": 42,
-      "medium": 78,
-      "low": 87,
-      "details_path": "vulns/ai-containers-qdrant-v1.16.3-vulns.json"
+      "total": 296,
+      "critical": 6,
+      "high": 52,
+      "medium": 88,
+      "low": 142,
+      "scan_date": "2026-03-13 20:50",
+      "source": "attestation"
     }
   },
   {
@@ -1206,18 +1245,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.16.3-gpu-amd-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.16.3-gpu-amd-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 2290,
-      "critical": 1,
-      "high": 51,
-      "medium": 2055,
+      "total": 1929,
+      "critical": 0,
+      "high": 34,
+      "medium": 1712,
       "low": 183,
-      "details_path": "vulns/ai-containers-qdrant-v1.16.3-gpu-amd-vulns.json"
+      "scan_date": "2026-03-13 20:52",
+      "source": "attestation"
     }
   },
   {
@@ -1245,18 +1285,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.16.3-gpu-nvidia-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.16.3-gpu-nvidia-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 362,
-      "critical": 1,
-      "high": 29,
-      "medium": 230,
-      "low": 102,
-      "details_path": "vulns/ai-containers-qdrant-v1.16.3-gpu-nvidia-vulns.json"
+      "total": 340,
+      "critical": 0,
+      "high": 19,
+      "medium": 227,
+      "low": 94,
+      "scan_date": "2026-03-13 20:53",
+      "source": "attestation"
     }
   },
   {
@@ -1282,18 +1323,24 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.16.3-unprivileged-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.16.3-unprivileged-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-qdrant-v1.16.3-unprivileged-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 217,
-      "critical": 4,
-      "high": 42,
-      "medium": 78,
-      "low": 87,
-      "details_path": "vulns/ai-containers-qdrant-v1.16.3-unprivileged-vulns.json"
+      "total": 296,
+      "critical": 6,
+      "high": 52,
+      "medium": 88,
+      "low": 142,
+      "scan_date": "2026-03-13 20:54",
+      "source": "attestation"
     }
   },
   {
@@ -1319,18 +1366,24 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.17.0-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.17.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-qdrant-v1.17.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 165,
-      "critical": 1,
-      "high": 30,
-      "medium": 43,
-      "low": 85,
-      "details_path": "vulns/ai-containers-qdrant-v1.17.0-vulns.json"
+      "total": 190,
+      "critical": 0,
+      "high": 28,
+      "medium": 16,
+      "low": 138,
+      "scan_date": "2026-03-13 20:49",
+      "source": "attestation"
     }
   },
   {
@@ -1358,18 +1411,19 @@
     ],
     "sboms": [
       {
-        "path": "sboms/ai-containers-qdrant-v1.17.0-gpu-nvidia-cyclonedx.json",
-        "format": "CycloneDX"
+        "path": "sboms/ai-containers-qdrant-v1.17.0-gpu-nvidia-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
       }
     ],
     "vulnerabilities": {
-      "scan_date": "2026-04-10 09:20",
-      "total": 310,
-      "critical": 1,
-      "high": 23,
-      "medium": 193,
-      "low": 93,
-      "details_path": "vulns/ai-containers-qdrant-v1.17.0-gpu-nvidia-vulns.json"
+      "total": 279,
+      "critical": 0,
+      "high": 13,
+      "medium": 181,
+      "low": 85,
+      "scan_date": "2026-03-13 20:48",
+      "source": "attestation"
     }
   }
 ]

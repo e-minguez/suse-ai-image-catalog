@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-04-14 21:03",
+    "changes": [
+      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.14-amd64 (x86_64)",
+      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.14-arm64 (arm64)",
+      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.14 (x86_64)",
+      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.15-amd64 (x86_64)",
+      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-amd64 (x86_64)",
+      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-arm64 (arm64)",
+      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0 (x86_64)",
+      "New Container (GHCR): suse/suse-ai-lifecycle-manager:latest (x86_64)"
+    ]
+  },
+  {
     "date": "2026-04-11 05:37",
     "changes": [
       "New Container (AppCo): ollama:0.14.2-11.35 (aarch64)",
@@ -300,31 +313,6 @@
     "date": "2026-03-13 16:03",
     "changes": [
       "New Chart (AppCo): ollama:1.38.0-12.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-03-13 02:45",
-    "changes": [
-      "New Container (AppCo): ollama:0.14.2-11.26 (aarch64)",
-      "New Container (AppCo): ollama:0.14.2-11.26 (x86_64)",
-      "New Container (AppCo): open-webui:0.6.41-14.33 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-14.33 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.29 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.29 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.29 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.29 (x86_64)",
-      "New Container (AppCo): pytorch:2.9.1-nvidia-1.29 (aarch64)",
-      "New Container (AppCo): pytorch:2.9.1-nvidia-1.29 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.16 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.16 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:1.5.0-5.8 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:1.5.0-5.8 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.6-3.29 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.6-3.29 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.2-3.28 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.2-3.28 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.9.1-4.28 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.9.1-4.28 (x86_64)"
     ]
   }
 ]

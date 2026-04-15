@@ -475,7 +475,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-art-explainer-latest-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-art-explainer-latest-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 390,
+      "critical": 4,
+      "high": 60,
+      "medium": 114,
+      "low": 210,
+      "scan_date": "2026-04-15 19:21",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-art-explainer-latest-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-art-explainer-latest-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-art-explainer-latest-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/autoscaler",
@@ -710,7 +742,66 @@
     "entrypoint": [
       "/ko-app/apiserver_receive_adapter"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 115,
+      "critical": 10,
+      "high": 45,
+      "medium": 50,
+      "low": 5,
+      "scan_date": "2026-04-15 18:20",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-arm64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-arm-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-s390x-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-eventing-cmd-apiserver_receive_adapter-v1.20.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/eventing/cmd/controller",
@@ -724,7 +815,66 @@
     "entrypoint": [
       "/ko-app/controller"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-eventing-cmd-controller-v1.20.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-controller-v1.20.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-controller-v1.20.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-controller-v1.20.0-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-controller-v1.20.0-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 115,
+      "critical": 10,
+      "high": 45,
+      "medium": 50,
+      "low": 5,
+      "scan_date": "2026-04-15 18:17",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-eventing-cmd-controller-v1.20.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-eventing-cmd-controller-v1.20.0-arm64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-eventing-cmd-controller-v1.20.0-arm-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-eventing-cmd-controller-v1.20.0-s390x-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-eventing-cmd-controller-v1.20.0-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-eventing-cmd-controller-v1.20.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/eventing/cmd/mtping",
@@ -738,7 +888,66 @@
     "entrypoint": [
       "/ko-app/mtping"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-eventing-cmd-mtping-v1.20.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-mtping-v1.20.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-mtping-v1.20.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-mtping-v1.20.0-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-mtping-v1.20.0-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 115,
+      "critical": 10,
+      "high": 45,
+      "medium": 50,
+      "low": 5,
+      "scan_date": "2026-04-15 18:26",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-eventing-cmd-mtping-v1.20.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-eventing-cmd-mtping-v1.20.0-arm64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-eventing-cmd-mtping-v1.20.0-arm-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-eventing-cmd-mtping-v1.20.0-s390x-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-eventing-cmd-mtping-v1.20.0-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-eventing-cmd-mtping-v1.20.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/eventing/cmd/webhook",
@@ -752,7 +961,66 @@
     "entrypoint": [
       "/ko-app/webhook"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-eventing-cmd-webhook-v1.20.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-webhook-v1.20.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-webhook-v1.20.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-webhook-v1.20.0-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-eventing-cmd-webhook-v1.20.0-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 115,
+      "critical": 10,
+      "high": 45,
+      "medium": 50,
+      "low": 5,
+      "scan_date": "2026-04-15 18:23",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-eventing-cmd-webhook-v1.20.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-eventing-cmd-webhook-v1.20.0-arm64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-eventing-cmd-webhook-v1.20.0-arm-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-eventing-cmd-webhook-v1.20.0-s390x-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-eventing-cmd-webhook-v1.20.0-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-eventing-cmd-webhook-v1.20.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/file-metrics-collector",
@@ -878,7 +1146,30 @@
       "-m",
       "huggingfaceserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-huggingfaceserver-v0.16.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 2534,
+      "critical": 4,
+      "high": 47,
+      "medium": 2300,
+      "low": 183,
+      "scan_date": "2026-04-15 18:37",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-huggingfaceserver-v0.16.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-huggingfaceserver-v0.16.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/huggingfaceserver",
@@ -898,7 +1189,30 @@
       "-m",
       "huggingfaceserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-huggingfaceserver-v0.16.0-gpu-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 2965,
+      "critical": 4,
+      "high": 57,
+      "medium": 2657,
+      "low": 247,
+      "scan_date": "2026-04-15 18:49",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-huggingfaceserver-v0.16.0-gpu-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-huggingfaceserver-v0.16.0-gpu-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/jobset",
@@ -1816,7 +2130,39 @@
       "-m",
       "lgbserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-lgbserver-v0.15.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-lgbserver-v0.15.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 470,
+      "critical": 10,
+      "high": 80,
+      "medium": 172,
+      "low": 206,
+      "scan_date": "2026-04-15 18:56",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-lgbserver-v0.15.2-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-lgbserver-v0.15.2-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-lgbserver-v0.15.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -2826,7 +3172,30 @@
       "/bin/bash",
       "-c",
       ". $CONDA_PATH/etc/profile.d/conda.sh &&     source ./hack/activate-env.sh $MLSERVER_ENV_TARBALL &&     mlserver start $MLSERVER_MODELS_DIR"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-mlserver-1.5.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 563,
+      "critical": 6,
+      "high": 104,
+      "medium": 296,
+      "low": 157,
+      "scan_date": "2026-04-15 19:14",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-mlserver-1.5.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-mlserver-1.5.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/model-registry/controller",
@@ -3737,7 +4106,39 @@
       "-m",
       "paddleserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-paddleserver-v0.15.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-paddleserver-v0.15.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 474,
+      "critical": 10,
+      "high": 84,
+      "medium": 172,
+      "low": 206,
+      "scan_date": "2026-04-15 19:01",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-paddleserver-v0.15.2-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-paddleserver-v0.15.2-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-paddleserver-v0.15.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/pmmlserver",
@@ -3753,7 +4154,39 @@
       "-m",
       "pmmlserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-pmmlserver-v0.15.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-pmmlserver-v0.15.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 868,
+      "critical": 10,
+      "high": 190,
+      "medium": 412,
+      "low": 254,
+      "scan_date": "2026-04-15 19:04",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-pmmlserver-v0.15.2-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-pmmlserver-v0.15.2-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-pmmlserver-v0.15.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/poddefaults-webhook",
@@ -4136,7 +4569,30 @@
     "entrypoint": null,
     "cmd": [
       "/bin/bash"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-pytorch-2.11.0-cuda12.8-cudnn9-runtime-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 671,
+      "critical": 0,
+      "high": 2,
+      "medium": 610,
+      "low": 59,
+      "scan_date": "2026-04-15 17:41",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-pytorch-2.11.0-cuda12.8-cudnn9-runtime-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-pytorch-2.11.0-cuda12.8-cudnn9-runtime-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/pytorch-mnist-cpu",
@@ -4845,7 +5301,30 @@
     "entrypoint": [
       "/usr/bin/tf_serving_entrypoint.sh"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-serving-2.6.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 105,
+      "critical": 0,
+      "high": 4,
+      "medium": 40,
+      "low": 61,
+      "scan_date": "2026-04-15 18:27",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-serving-2.6.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-serving-2.6.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/serving/cmd/controller",
@@ -5086,7 +5565,39 @@
       "-m",
       "sklearnserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-sklearnserver-v0.15.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-sklearnserver-v0.15.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 466,
+      "critical": 10,
+      "high": 78,
+      "medium": 172,
+      "low": 204,
+      "scan_date": "2026-04-15 18:58",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-sklearnserver-v0.15.2-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-sklearnserver-v0.15.2-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-sklearnserver-v0.15.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/storage-initializer",
@@ -5514,7 +6025,30 @@
     "cmd": [
       "--config",
       "/otelcol/collector-config.yaml"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-suse-ai-opentelemetry-collector-0.149.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 21,
+      "critical": 1,
+      "high": 8,
+      "medium": 10,
+      "low": 1,
+      "scan_date": "2026-04-15 19:19",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-suse-ai-opentelemetry-collector-0.149.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-suse-ai-opentelemetry-collector-0.149.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/tensorboard-controller",
@@ -5643,7 +6177,30 @@
     "entrypoint": null,
     "cmd": [
       "/bin/bash"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-tensorflow-2.13.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 1998,
+      "critical": 0,
+      "high": 99,
+      "medium": 1754,
+      "low": 145,
+      "scan_date": "2026-04-15 18:29",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-tensorflow-2.13.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-tensorflow-2.13.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/tfevent-metrics-collector",
@@ -5707,7 +6264,30 @@
     "entrypoint": [
       "/usr/local/bin/dockerd-entrypoint.sh"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-torchserve-kfs-0.9.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 1972,
+      "critical": 10,
+      "high": 115,
+      "medium": 1699,
+      "low": 148,
+      "scan_date": "2026-04-15 19:18",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-torchserve-kfs-0.9.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-torchserve-kfs-0.9.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/trainer/dataset-initializer",
@@ -5723,7 +6303,39 @@
       "-m",
       "pkg.initializers.dataset"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-trainer-dataset-initializer-v2.1.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-trainer-dataset-initializer-v2.1.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 398,
+      "critical": 8,
+      "high": 54,
+      "medium": 140,
+      "low": 194,
+      "scan_date": "2026-04-15 18:12",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-trainer-dataset-initializer-v2.1.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-trainer-dataset-initializer-v2.1.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-trainer-dataset-initializer-v2.1.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/trainer/deepspeed-runtime",
@@ -5830,7 +6442,39 @@
       "-m",
       "pkg.initializers.model"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-trainer-model-initializer-v2.1.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-trainer-model-initializer-v2.1.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 390,
+      "critical": 8,
+      "high": 50,
+      "medium": 136,
+      "low": 194,
+      "scan_date": "2026-04-15 18:14",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-trainer-model-initializer-v2.1.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-trainer-model-initializer-v2.1.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-trainer-model-initializer-v2.1.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/trainer/torchtune-trainer",
@@ -5848,7 +6492,39 @@
     "entrypoint": null,
     "cmd": [
       "/bin/bash"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-trainer-torchtune-trainer-v2.1.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-trainer-torchtune-trainer-v2.1.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 5624,
+      "critical": 0,
+      "high": 62,
+      "medium": 5204,
+      "low": 358,
+      "scan_date": "2026-04-15 18:07",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-trainer-torchtune-trainer-v2.1.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-trainer-torchtune-trainer-v2.1.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-trainer-torchtune-trainer-v2.1.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/trainer-controller-manager",
@@ -6031,6 +6707,38 @@
       "-m",
       "xgbserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-xgbserver-v0.15.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-xgbserver-v0.15.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 468,
+      "critical": 10,
+      "high": 78,
+      "medium": 172,
+      "low": 206,
+      "scan_date": "2026-04-15 18:54",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-xgbserver-v0.15.2-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-xgbserver-v0.15.2-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-xgbserver-v0.15.2-amd64-vuln.json"
+    }
   }
 ]

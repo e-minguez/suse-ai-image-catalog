@@ -1,5 +1,18 @@
 [
   {
+    "repository": "ai/charts/kubeflow",
+    "tag": "0.3.2",
+    "image_name": "ai/charts/kubeflow:0.3.2",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:7a47abbc0d87c7d458414ccf6426ed219ad06a86c9a9f75096984ee6428f17a1",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": []
+  },
+  {
     "repository": "ai/charts/litellm",
     "tag": "0.1.836",
     "image_name": "ai/charts/litellm:0.1.836",
@@ -212,6 +225,657 @@
       "source": "aggregated",
       "component_count": 1
     }
+  },
+  {
+    "repository": "ai/containers/activator",
+    "tag": "v1.20.0",
+    "image_name": "ai/containers/activator:v1.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:701507d9c480ff87dcfa4755ca7d3d6b727438cc78c21a32164750654aa08e67",
+    "created": "2025-10-22 07:19",
+    "labels": {
+      "org.opencontainers.image.created": "2025-10-22T07:19:46Z"
+    },
+    "entrypoint": [
+      "/ko-app/activator"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/agent",
+    "tag": "v0.16.0",
+    "image_name": "ai/containers/agent:v0.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0cd267870e575a22351f9028e5df88fac1151aa25e8c3f64b7ec337852792e0e",
+    "created": "2025-11-03 03:03",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/agent"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/aix-explainer",
+    "tag": "latest",
+    "image_name": "ai/containers/aix-explainer:latest",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:1406c69d742186c46e7b76cb6f42aa759d027deb0687a19695f438f77eaad2a9",
+    "created": "2023-04-16 21:38",
+    "labels": null,
+    "entrypoint": [
+      "python",
+      "-m",
+      "aixserver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/alibi-explainer",
+    "tag": "latest",
+    "image_name": "ai/containers/alibi-explainer:latest",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4c225124d9705a2ea28cb197cbd5e1c7f660f897ae19442830e1143ce031a4d3",
+    "created": "2024-03-30 22:49",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "alibiexplainer"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/art-explainer",
+    "tag": "latest",
+    "image_name": "ai/containers/art-explainer:latest",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0973ad4e7bce5909f207e8dcdcd5ef68c3b9254f71db81e0efa31fb0ee55fa5d",
+    "created": "2026-04-15 01:03",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "artserver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/autoscaler",
+    "tag": "v1.20.0",
+    "image_name": "ai/containers/autoscaler:v1.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:485c0a009cede9138a7ec1e5ab5a5ef22ff9ddbbc7f278571211f33c505ca596",
+    "created": "2025-10-22 07:19",
+    "labels": {
+      "org.opencontainers.image.created": "2025-10-22T07:19:46Z"
+    },
+    "entrypoint": [
+      "/ko-app/autoscaler"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/central-dashboard",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/central-dashboard:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b2329315e961bcc75759defd594e443b64fe7b972a06d95719df3265950dfdcf",
+    "created": "2025-03-25 17:30",
+    "labels": {
+      "git-version": "v1.10.0"
+    },
+    "entrypoint": [
+      "/sbin/tini",
+      "--",
+      "npm",
+      "start"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/earlystopping-medianstop",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/earlystopping-medianstop:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:e72e123472bd9e0dc8a491a14ab838cc03c55c8abe1a59ae79791952cc32cedd",
+    "created": "2025-10-30 22:20",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "main.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/enas-cnn-cifar10-cpu",
+    "tag": "v0.15.0",
+    "image_name": "ai/containers/enas-cnn-cifar10-cpu:v0.15.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:c6924649323091550b36d0dd76a62bdb2719ca5e3310c7902da4fe340df62ce8",
+    "created": "2023-03-22 13:07",
+    "labels": {},
+    "entrypoint": [
+      "python3",
+      "-u",
+      "RunTrial.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/eventing/cmd/apiserver_receive_adapter",
+    "tag": "v1.20.0",
+    "image_name": "ai/containers/eventing/cmd/apiserver_receive_adapter:v1.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:9cf675814667090fdb72be469c0854b3480c13b3338a461cb6e11977777840b3",
+    "created": "0001-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/apiserver_receive_adapter"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/eventing/cmd/controller",
+    "tag": "v1.20.0",
+    "image_name": "ai/containers/eventing/cmd/controller:v1.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:202f2c203154f30b642ddbd3843fad12637389a84bf097c22c216039469f704b",
+    "created": "0001-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/controller"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/eventing/cmd/mtping",
+    "tag": "v1.20.0",
+    "image_name": "ai/containers/eventing/cmd/mtping:v1.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:8624b33e7a4126a562b410baa807ebf9f83fd057b2118e5e55b3a069111856ef",
+    "created": "0001-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/mtping"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/eventing/cmd/webhook",
+    "tag": "v1.20.0",
+    "image_name": "ai/containers/eventing/cmd/webhook:v1.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b857ca0d0467c27b25b6efd555dee45281ca639eba06333c20e6adc9146002d8",
+    "created": "0001-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/webhook"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/file-metrics-collector",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/file-metrics-collector:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0616af2111b2c6029105ac4670e1e94a0ceb7ba02ddb06a8cee3a687fde1514c",
+    "created": "2025-10-30 21:29",
+    "labels": {},
+    "entrypoint": [
+      "./file-metricscollector"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/filebrowser",
+    "tag": "v2.25.0",
+    "image_name": "ai/containers/filebrowser:v2.25.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b06f6146754a44a492334947b0caa9ad93509ca1b04da8dacd3a76cdd4a2f471",
+    "created": "2023-09-14 23:03",
+    "labels": {
+      "org.opencontainers.image.created": "2023-09-14T22:55:21Z",
+      "org.opencontainers.image.name": "filebrowser",
+      "org.opencontainers.image.revision": "c1fb4004f7fbfd1ca3b5e1183a0317af2066c63e",
+      "org.opencontainers.image.source": "https://github.com/filebrowser/filebrowser",
+      "org.opencontainers.image.version": "2.25.0"
+    },
+    "entrypoint": [
+      "/filebrowser"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/huggingfaceserver",
+    "tag": "v0.16.0",
+    "image_name": "ai/containers/huggingfaceserver:v0.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:6c5ebbc2b660da504476cf18db0a1f64ee80417459ce0bf36fadbf767a62f52f",
+    "created": "2025-11-03 02:53",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "python",
+      "-m",
+      "huggingfaceserver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/huggingfaceserver",
+    "tag": "v0.16.0-gpu",
+    "image_name": "ai/containers/huggingfaceserver:v0.16.0-gpu",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:084d20663e3db31e38d40ec50d05e686373dc428ad50fd484c29f91bae2d62bf",
+    "created": "2025-11-03 03:09",
+    "labels": {
+      "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "python3",
+      "-m",
+      "huggingfaceserver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/jobset",
+    "tag": "v0.10.1",
+    "image_name": "ai/containers/jobset:v0.10.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:6976d1db4923177577e8ee3fe42abb173315a9bcf1b811f0ed94dd2073bd42bf",
+    "created": "2025-09-29 18:36",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/jupyter-web-app",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/jupyter-web-app:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:e29083895bf5b669a98c275cb1cb074086608247e519ca98a0bcee3201f01e43",
+    "created": "2025-03-25 19:15",
+    "labels": {},
+    "entrypoint": [
+      "/bin/bash",
+      "-c",
+      "gunicorn -w 3 --bind 0.0.0.0:5000 --access-logfile - entrypoint:app"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/katib/suggestion-hyperband",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/katib/suggestion-hyperband:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:6e894ceeb3dcac655e32121def80e5ab2cdf3fe25c06395a9029ce7c31f0c324",
+    "created": "2025-10-30 22:17",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "main.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/katib-controller",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/katib-controller:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:c2ac263011997e6d878c1577c9b3aa4bd5212097123af3ddf46365e2cfaedc1d",
+    "created": "2025-10-30 21:25",
+    "labels": {},
+    "entrypoint": [
+      "./katib-controller"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/katib-db-manager",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/katib-db-manager:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:93d431d2e7cfe8c212c966e15456b56d31dd6056f185b690e887fd879f21865e",
+    "created": "2025-10-30 21:26",
+    "labels": {},
+    "entrypoint": [
+      "./katib-db-manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/katib-ui",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/katib-ui:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0953504d02a32866c74ddb384eab29e24e9a55f8f245039be4630a37798595d7",
+    "created": "2025-10-30 22:14",
+    "labels": {},
+    "entrypoint": [
+      "./katib-ui"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kfam",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/kfam:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:f4b3f7055b55aa0fc69cddc0d24b4421ea84ed9da295cb4be5fbc1e5a78d2d77",
+    "created": "2025-03-25 17:29",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "/access-management"
+    ]
+  },
+  {
+    "repository": "ai/containers/kfp-api-server",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-api-server:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:5f9d674f75dbd9c056ad31a1d8c5432e1bdc1f0597dfefe6f58d00af983fbe22",
+    "created": "2026-02-24 21:24",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:19.286Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "/bin/apiserver --config=/config --sampleconfig=/config/sample_config.json -logtostderr=true --logLevel=${LOG_LEVEL}"
+    ]
+  },
+  {
+    "repository": "ai/containers/kfp-cache-server",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-cache-server:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:edeba636f4adb4cef5a68991023e31108005e3c600db11a3d35cb5c44fefce83",
+    "created": "2026-02-24 21:23",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:18.036Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": [
+      "/bin/cache_server"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kfp-frontend",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-frontend:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:58ed869dd2422d4d90dbe807666b348475db31002df4335ae9fe6d4bf48826bc",
+    "created": "2026-02-24 21:23",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:16.845Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": [
+      "docker-entrypoint.sh"
+    ],
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "node dist/server.js ../client/ 3000"
+    ]
+  },
+  {
+    "repository": "ai/containers/kfp-launcher",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-launcher:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:6b2d6c5733d957c9f7831cafe12aebcf9ef8ec503f57b74ed2ab00d5db113d29",
+    "created": "2026-02-24 21:23",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:12.110Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": [
+      "/bin/launcher-v2"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kfp-metadata-envoy",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-metadata-envoy:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:ae854892d51ac29bbab8a1cddd9a5beadd2e84b27b1a6bfbdf1871c9438e8763",
+    "created": "2026-02-24 21:21",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:13.259Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": [
+      "/usr/local/bin/envoy",
+      "-c"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kfp-metadata-writer",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-metadata-writer:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0aabb7e4af425a622b502ff9a32add14e147f0408e127a129b118053b80d270f",
+    "created": "2026-02-24 21:21",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:11.644Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "python3 -u /kfp/metadata_writer/metadata_writer.py"
+    ]
+  },
+  {
+    "repository": "ai/containers/kfp-persistence-agent",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-persistence-agent:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:7d44250d37fd8026740d1640cb91313580c05c875bd72ccbd66bc0ed44e3ed2b",
+    "created": "2026-02-24 21:22",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:15.249Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "persistence_agent --logtostderr=true --namespace=${NAMESPACE} --ttlSecondsAfterWorkflowFinish=${TTL_SECONDS_AFTER_WORKFLOW_FINISH} --numWorker ${NUM_WORKERS} --executionType ${EXECUTIONTYPE} --logLevel=${LOG_LEVEL}"
+    ]
+  },
+  {
+    "repository": "ai/containers/kfp-scheduled-workflow-controller",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-scheduled-workflow-controller:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:87851f90101b078defee70e19d0ff1b1fd485dcc99fb66298193c2545c4b0fc5",
+    "created": "2026-02-24 21:22",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:13.070Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "/bin/controller --logtostderr=true --namespace=${NAMESPACE} --logLevel=${LOG_LEVEL} --clientQPS=${CLIENT_QPS:-5} --clientBurst=${CLIENT_BURST:-10} --recurringRunResyncIntervalSeconds=${RESYNC_INTERVAL_SECONDS:-30} --metricsPort=${METRICS_PORT:-9090}"
+    ]
+  },
+  {
+    "repository": "ai/containers/kfp-viewer-crd-controller",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-viewer-crd-controller:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:dfd9e238dcd47d464a250f97e7fa5cad1971326579d80d4b81af4da7c0d54e46",
+    "created": "2026-02-24 21:22",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:18.481Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "/bin/controller -logtostderr=true -max_num_viewers=${MAX_NUM_VIEWERS} --namespace=${NAMESPACE}"
+    ]
+  },
+  {
+    "repository": "ai/containers/kfp-visualization-server",
+    "tag": "2.16.0",
+    "image_name": "ai/containers/kfp-visualization-server:2.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4a98413c806d43af4de8154a24d16b2506bcad497879926b68da8bbd8058f2e3",
+    "created": "2026-02-24 21:22",
+    "labels": {
+      "org.opencontainers.image.created": "2026-02-24T21:21:11.466Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "85a38e0719870e5b2f97a74f5c966d79bcc7c960",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.0"
+    },
+    "entrypoint": [
+      "python3",
+      "server.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve-controller",
+    "tag": "v0.16.0",
+    "image_name": "ai/containers/kserve-controller:v0.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4d89de192a7961a4fa456270e8d52de0b6f6d3e301fd16d150618f052653ddf6",
+    "created": "2025-11-03 03:03",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/lgbserver",
+    "tag": "v0.15.2",
+    "image_name": "ai/containers/lgbserver:v0.15.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2e665be250f746ec4f13ed05c9067cfd87e231c860cc4498dd7a0777c5c4ad46",
+    "created": "2025-05-27 07:20",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "lgbserver"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/litellm",
@@ -1145,6 +1809,538 @@
     }
   },
   {
+    "repository": "ai/containers/ml_metadata_store_server",
+    "tag": "1.14.0",
+    "image_name": "ai/containers/ml_metadata_store_server:1.14.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:51404ef4419c1426da80f3e14a83dcb55f65bb5a971371d36d14cec1e50af830",
+    "created": "2023-08-11 18:31",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "20.04"
+    },
+    "entrypoint": [
+      "/bin/sh",
+      "-c",
+      "\"/bin/metadata_store_server\"   \"--grpc_port=${GRPC_PORT}\"   \"--metadata_store_server_config_file=${METADATA_STORE_SERVER_CONFIG_FILE}\""
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/mlserver",
+    "tag": "1.5.0",
+    "image_name": "ai/containers/mlserver:1.5.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b9c6c3e1a4c31ea8714c28fb4d1708de7428f622892b7bb91b5af824c17d603e",
+    "created": "2024-03-05 14:05",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2024-01-17T19:05:39",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.29.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9-minimal",
+      "release": "1552",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://access.redhat.com/containers/#/registry.access.redhat.com/ubi9-minimal/images/9.3-1552",
+      "vcs-ref": "e8510c65a9be4b0635372fd09bee126ce7e08bc7",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.3"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/bash",
+      "-c",
+      ". $CONDA_PATH/etc/profile.d/conda.sh &&     source ./hack/activate-env.sh $MLSERVER_ENV_TARBALL &&     mlserver start $MLSERVER_MODELS_DIR"
+    ]
+  },
+  {
+    "repository": "ai/containers/model-registry/controller",
+    "tag": "v0.3.7",
+    "image_name": "ai/containers/model-registry/controller:v0.3.7",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:48945ffef82cbffbbaabdf096b54ad86e6d9b92c038bb45bf324527732cb38f0",
+    "created": "2026-03-06 18:03",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-02-17T16:42:34Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.42.2",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-03-06T17:59:23.433Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "378be614b2af3398ad65c70aa550616faa7b375e",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/model-registry",
+      "org.opencontainers.image.title": "model-registry",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/model-registry",
+      "org.opencontainers.image.version": "v0.3.7",
+      "release": "1771346502",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "0ced2bbee24d5463d4530756a57f8db895246c48",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.7"
+    },
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/model-registry/server",
+    "tag": "v0.3.7",
+    "image_name": "ai/containers/model-registry/server:v0.3.7",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:530f6e79d0bac636d8d440c306092be72c3080ce10bf9ff8aa327f84737257ab",
+    "created": "2026-03-06 18:05",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-02-17T16:42:34Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.42.2",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-03-06T18:04:08.765Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "378be614b2af3398ad65c70aa550616faa7b375e",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/model-registry",
+      "org.opencontainers.image.title": "model-registry",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/model-registry",
+      "org.opencontainers.image.version": "v0.3.7",
+      "release": "1771346502",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "0ced2bbee24d5463d4530756a57f8db895246c48",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.7"
+    },
+    "entrypoint": [
+      "/model-registry"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/model-registry/storage-initializer",
+    "tag": "v0.3.7",
+    "image_name": "ai/containers/model-registry/storage-initializer:v0.3.7",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:45f111662283009c235b5f44168b61da17ae35370a640ec666d56f4302d8de0e",
+    "created": "2026-03-06 18:01",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-02-17T16:42:34Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.42.2",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-03-06T17:59:20.729Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "378be614b2af3398ad65c70aa550616faa7b375e",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/model-registry",
+      "org.opencontainers.image.title": "model-registry",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/model-registry",
+      "org.opencontainers.image.version": "v0.3.7",
+      "release": "1771346502",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "0ced2bbee24d5463d4530756a57f8db895246c48",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.7"
+    },
+    "entrypoint": [
+      "/mr-storage-initializer"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/model-registry/ui",
+    "tag": "v0.3.7",
+    "image_name": "ai/containers/model-registry/ui:v0.3.7",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:eabf613d699c872000f4c490bad69e8185014b3e41495df356ff39a1315136f6",
+    "created": "2026-03-06 18:01",
+    "labels": {
+      "org.opencontainers.image.created": "2026-03-06T17:59:28.733Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "378be614b2af3398ad65c70aa550616faa7b375e",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/model-registry",
+      "org.opencontainers.image.title": "model-registry",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/model-registry",
+      "org.opencontainers.image.version": "0.3.7"
+    },
+    "entrypoint": [
+      "/bff"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/models-web-app",
+    "tag": "v0.13.0",
+    "image_name": "ai/containers/models-web-app:v0.13.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:73486345a602f7684ac7087ca6321c207aac16c398d8136daa033b3ca787b0e1",
+    "created": "2024-07-22 11:09",
+    "labels": {},
+    "entrypoint": [
+      "gunicorn",
+      "-w",
+      "3",
+      "--bind",
+      "0.0.0.0:5000",
+      "--access-logfile",
+      "-",
+      "entrypoint:app"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/mxnet-mnist",
+    "tag": "v0.15.0",
+    "image_name": "ai/containers/mxnet-mnist:v0.15.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:8216b42930983df1c9379216c5997cdef44bf7569662e13f5bac5d52c455283a",
+    "created": "2023-03-22 12:56",
+    "labels": {},
+    "entrypoint": [
+      "python3",
+      "/opt/mxnet-mnist/mnist.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/net-istio/cmd/controller",
+    "tag": "v1.20.1",
+    "image_name": "ai/containers/net-istio/cmd/controller:v1.20.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:52453d71844b8b0f9d23139bde9080c39e123d109f6f9aacdbf8d49321e87cfa",
+    "created": "2025-10-22 07:19",
+    "labels": {
+      "org.opencontainers.image.created": "2025-10-22T07:19:46Z"
+    },
+    "entrypoint": [
+      "/ko-app/controller"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/net-istio/cmd/webhook",
+    "tag": "v1.20.1",
+    "image_name": "ai/containers/net-istio/cmd/webhook:v1.20.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:dfc23229b2a377c593063cabdc0fdd6906bd0955c3a6dbd8462031b18b55e67c",
+    "created": "2025-10-22 07:19",
+    "labels": {
+      "org.opencontainers.image.created": "2025-10-22T07:19:46Z"
+    },
+    "entrypoint": [
+      "/ko-app/webhook"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/notebook-controller",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/notebook-controller:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a13f6056e7a6354df6426643ad38724bd08971a454109b622002ba3cf5593bb3",
+    "created": "2025-03-25 17:30",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/notebook-servers/codeserver-python",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/notebook-servers/codeserver-python:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:77e9091fa0e458c256db08163767cac1aafa5f092e115824ca66b82fa55baa9d",
+    "created": "2025-02-17 23:47",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/init"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/notebook-servers/jupyter-pytorch-cuda-full",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/notebook-servers/jupyter-pytorch-cuda-full:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:526cd83a1e3e27ab061de49fe6752fa6e0602d13ea671c3b469bdd34230ea5bc",
+    "created": "2025-02-17 23:59",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/init"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/notebook-servers/jupyter-pytorch-full",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/notebook-servers/jupyter-pytorch-full:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:36defd45e4df3a3169c9c8d29d0b4799c9b224ad7384f1cb34e915d8a7b36998",
+    "created": "2025-02-17 23:58",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/init"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/notebook-servers/jupyter-scipy",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/notebook-servers/jupyter-scipy:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:5c64bc8a4298bcb89b522e16903f49965a287a99cfdeededa426cc266c04cdaf",
+    "created": "2025-02-17 23:55",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/init"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/notebook-servers/jupyter-tensorflow-cuda-full",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/notebook-servers/jupyter-tensorflow-cuda-full:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:20b10690fbaf95da655d9050bb3ac7a0cb1954aef906864910daa5ab209e7948",
+    "created": "2025-02-18 00:00",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/init"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/notebook-servers/jupyter-tensorflow-full",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/notebook-servers/jupyter-tensorflow-full:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:60f75e7325504cf25c4cf310907b10e971c033957dc33d468993a8e7b8ff3329",
+    "created": "2025-02-17 23:58",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/init"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/notebook-servers/rstudio-tidyverse",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/notebook-servers/rstudio-tidyverse:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:7e5162899e5859cfcacf29854d48409984007d173d89edfaebcd1ce1f0e42228",
+    "created": "2025-02-17 23:54",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/init"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/paddleserver",
+    "tag": "v0.15.2",
+    "image_name": "ai/containers/paddleserver:v0.15.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a012ce78b752905c70f8a13b750d9d2419681b61c8ed86928a2434933e8b83f0",
+    "created": "2025-05-27 07:21",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "paddleserver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/pmmlserver",
+    "tag": "v0.15.2",
+    "image_name": "ai/containers/pmmlserver:v0.15.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:9c55c77e5719bf3071cc6120e0098a66fd17b31d13325639378715f2f25a5fe3",
+    "created": "2025-05-27 07:20",
+    "labels": {},
+    "entrypoint": [
+      "python3",
+      "-m",
+      "pmmlserver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/poddefaults-webhook",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/poddefaults-webhook:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:8f1e59ef88b6df5e8da4dd62fd2af8e94aba6c9bcbca88cfacfde5ed0eefb749",
+    "created": "2025-03-25 17:30",
+    "labels": {},
+    "entrypoint": [
+      "/webhook"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/profile-controller",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/profile-controller:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a818442177e2b0d3eec26ec85dc310cc9bd465836e016bd053b77010be95c688",
+    "created": "2025-03-25 17:54",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/pvcviewer-controller",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/pvcviewer-controller:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:f324e132c5320b827e2039e71165efe9d41a336d12b578525ce543b50d02d180",
+    "created": "2025-03-25 17:30",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11",
+    "image_name": "ai/containers/python:3.11",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:8f004bb4a5d9e8107f9d0a1aae78b990a6bf107b22888eda9c44ebccc42cd6cd",
+    "created": "2026-04-07 05:01",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11-slim",
+    "image_name": "ai/containers/python:3.11-slim",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:233de06753d30d120b1a3ce359d8d3be8bda78524cd8f520c99883bfe33964cf",
+    "created": "2026-04-07 02:27",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/pytorch",
+    "tag": "2.11.0-cuda12.8-cudnn9-runtime",
+    "image_name": "ai/containers/pytorch:2.11.0-cuda12.8-cudnn9-runtime",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:eee11b3b3872a8c838e35ef48f08b2d5def2080902c7f666831310ca1a0ef2be",
+    "created": "2026-03-23 18:51",
+    "labels": {
+      "com.nvidia.volumes.needed": "nvidia_driver",
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "24.04"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/bash"
+    ]
+  },
+  {
     "repository": "ai/containers/qdrant",
     "tag": "v1.16.2",
     "image_name": "ai/containers/qdrant:v1.16.2",
@@ -1648,5 +2844,523 @@
       ],
       "details_path": "vulns/ai-containers-qdrant-v1.17.0-gpu-nvidia-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/router",
+    "tag": "v0.16.0",
+    "image_name": "ai/containers/router:v0.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:5705ec62b1347235994a59427cfe3fd7703c01dbcef3698f1c9841436188b619",
+    "created": "2025-11-03 03:06",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/router"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/seaweedfs",
+    "tag": "4.00",
+    "image_name": "ai/containers/seaweedfs:4.00",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:dcbccdc9f33689d43ca3d1fb73d2baa319f8307c59d7923191b993ddc85ba6f8",
+    "created": "2025-11-03 21:59",
+    "labels": {
+      "author": "Chris Lu",
+      "org.opencontainers.image.created": "2025-11-03T21:48:57.762Z",
+      "org.opencontainers.image.description": "SeaweedFS is a distributed storage system for blobs, objects, files, and data lake, to store and serve billions of files fast!",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "a154ef9a0fca4155b799effe432153cd45273d1d",
+      "org.opencontainers.image.source": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.title": "seaweedfs",
+      "org.opencontainers.image.url": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.vendor": "Chris Lu",
+      "org.opencontainers.image.version": "4.00"
+    },
+    "entrypoint": [
+      "/entrypoint.sh"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/serving",
+    "tag": "2.6.2",
+    "image_name": "ai/containers/serving:2.6.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2f0b1213de372be6ddb310f9d5eecc6d6787a595b2466f1911b2b2a557bf9b8b",
+    "created": "2021-11-08 18:56",
+    "labels": {
+      "maintainer": "gvasudevan@google.com",
+      "tensorflow_serving_github_branchtag": "2.6.2",
+      "tensorflow_serving_github_commit": "cc2f8d4a77dbb469e438286a0958cc4ba7235521"
+    },
+    "entrypoint": [
+      "/usr/bin/tf_serving_entrypoint.sh"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/serving/cmd/controller",
+    "tag": "v1.20.0",
+    "image_name": "ai/containers/serving/cmd/controller:v1.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:3718bf2e2f135ac70699db930145b22e52fb49bdd47a613b58cd0732853576da",
+    "created": "2025-10-22 07:19",
+    "labels": {
+      "org.opencontainers.image.created": "2025-10-22T07:19:46Z"
+    },
+    "entrypoint": [
+      "/ko-app/controller"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/serving/cmd/queue",
+    "tag": "v1.20.0",
+    "image_name": "ai/containers/serving/cmd/queue:v1.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b78cfa015872b12cf64f01fc21f29190c6f2fa69aadbb90162fa98e843781777",
+    "created": "2025-10-22 07:19",
+    "labels": {
+      "org.opencontainers.image.created": "2025-10-22T07:19:46Z"
+    },
+    "entrypoint": [
+      "/ko-app/queue"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/serving/cmd/webhook",
+    "tag": "v1.20.0",
+    "image_name": "ai/containers/serving/cmd/webhook:v1.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0d9c4d4971d9b67eaf5ce1359f6ff334145d32b3c0cb9e650ab9fab687396696",
+    "created": "2025-10-22 07:19",
+    "labels": {
+      "org.opencontainers.image.created": "2025-10-22T07:19:46Z"
+    },
+    "entrypoint": [
+      "/ko-app/webhook"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/sklearnserver",
+    "tag": "v0.15.2",
+    "image_name": "ai/containers/sklearnserver:v0.15.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:3b0ee0f3162ed0213543db9edd0386400c984b6002aa8c300595b3f3621f6a28",
+    "created": "2025-05-27 07:21",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "sklearnserver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/storage-initializer",
+    "tag": "v0.16.0",
+    "image_name": "ai/containers/storage-initializer:v0.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a8014719af179c9f64114fea043bba4179ed21426c3f71448e8076db3edc2aea",
+    "created": "2025-11-03 03:13",
+    "labels": {},
+    "entrypoint": [
+      "/storage-initializer/scripts/initializer-entrypoint"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suggestion-darts",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/suggestion-darts:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:81cdfd5f970f1936666147cdc4ba3842b12e9762a90a86815fa8d99ed217da41",
+    "created": "2025-10-30 22:19",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "main.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suggestion-enas",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/suggestion-enas:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:668c73ab651e1ed504a44d84110fc62687fd5c5ef8affa19ee84a848b5e72db5",
+    "created": "2025-10-30 22:19",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "main.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suggestion-goptuna",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/suggestion-goptuna:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:7c067069e6defbacd463c8d3082b1ea77fc7a0a43fcedc1acf32cb4052fea7e3",
+    "created": "2025-10-30 21:33",
+    "labels": {},
+    "entrypoint": [
+      "./goptuna-suggestion"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suggestion-hyperopt",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/suggestion-hyperopt:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4ec9b73d41ef154f826e5c71b72da45fc03c5ce4e55fd4584efdaac18b51f164",
+    "created": "2025-10-30 22:16",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "main.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suggestion-optuna",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/suggestion-optuna:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:04a71f288d04251835846b87d18a9fcf816eb59003d282555dc3d94412c879c7",
+    "created": "2025-10-30 22:18",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "main.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suggestion-pbt",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/suggestion-pbt:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a812362ceecebfd4bc7c4a994021d4803cd1f49ed16714a8ca02a1d2d781cebf",
+    "created": "2025-10-30 22:20",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "main.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suggestion-skopt",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/suggestion-skopt:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:983f367de60aa52b8cce0f1297b48f4ad9d9d409399d6a4d4e586af635075f87",
+    "created": "2025-10-30 22:17",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "main.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suse-ai-opentelemetry-collector",
+    "tag": "0.149.0",
+    "image_name": "ai/containers/suse-ai-opentelemetry-collector:0.149.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:21d67f5961a28afe74139e09ae317ea3fea4866d2e6afab6c2045034959c9db1",
+    "created": "2026-04-07 19:32",
+    "labels": {
+      "com.suse.bci.micro.authors": "https://github.com/SUSE/bci/discussions",
+      "com.suse.bci.micro.created": "2026-04-03T09:19:44.331724203Z",
+      "com.suse.bci.micro.description": "A micro environment for containers based on the SUSE Linux Enterprise Base Container Image.",
+      "com.suse.bci.micro.disturl": "obs://build.suse.de/SUSE:SLE-15-SP7:Update:CR/containers/c7c0b959fce18ab212ae81b7ede7d86c-micro-image",
+      "com.suse.bci.micro.eula": "sle-bci",
+      "com.suse.bci.micro.lifecycle-url": "https://www.suse.com/lifecycle#suse-linux-enterprise-server-15",
+      "com.suse.bci.micro.name": "15.7-56.6",
+      "com.suse.bci.micro.reference": "registry.suse.com/bci/bci-micro:15.7-56.6",
+      "com.suse.bci.micro.release-stage": "released",
+      "com.suse.bci.micro.source": "https://sources.suse.com/SUSE:SLE-15-SP7:Update:CR/micro-image/c7c0b959fce18ab212ae81b7ede7d86c/",
+      "com.suse.bci.micro.supportlevel": "l3",
+      "com.suse.bci.micro.title": "SLE BCI 15 SP7 Micro",
+      "com.suse.bci.micro.until": "2031-07-31",
+      "com.suse.bci.micro.url": "https://www.suse.com/products/base-container-images/",
+      "com.suse.bci.micro.vendor": "SUSE LLC",
+      "com.suse.bci.micro.version": "15.7-56.6",
+      "com.suse.eula": "sle-bci",
+      "com.suse.lifecycle-url": "https://www.suse.com/lifecycle#suse-linux-enterprise-server-15",
+      "com.suse.release-stage": "released",
+      "com.suse.supportlevel": "l3",
+      "com.suse.supportlevel.until": "2031-07-31",
+      "io.artifacthub.package.logo-url": "https://opensource.suse.com/bci/SLE_BCI_logomark_green.svg",
+      "io.artifacthub.package.readme-url": "https://sources.suse.com/SUSE:SLE-15-SP7:Update:CR/micro-image/c7c0b959fce18ab212ae81b7ede7d86c/README.md",
+      "org.openbuildservice.disturl": "obs://build.suse.de/SUSE:SLE-15-SP7:Update:CR/containers/c7c0b959fce18ab212ae81b7ede7d86c-micro-image",
+      "org.opencontainers.image.authors": "https://github.com/SUSE/bci/discussions",
+      "org.opencontainers.image.created": "2026-04-07T19:26:39.830Z",
+      "org.opencontainers.image.description": "",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.ref.name": "15.7-56.6",
+      "org.opencontainers.image.revision": "2f070a0647cc5daf38311c7987e7c77a921babc0",
+      "org.opencontainers.image.source": "https://github.com/SUSE/suse-ai-opentelemetry-collector",
+      "org.opencontainers.image.title": "suse-ai-opentelemetry-collector",
+      "org.opencontainers.image.url": "https://github.com/SUSE/suse-ai-opentelemetry-collector",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "sha-2f070a0",
+      "org.opensuse.reference": "registry.suse.com/bci/bci-micro:15.7-56.6"
+    },
+    "entrypoint": [
+      "/otelcol/otelcol-custom"
+    ],
+    "cmd": [
+      "--config",
+      "/otelcol/collector-config.yaml"
+    ]
+  },
+  {
+    "repository": "ai/containers/tensorboard-controller",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/tensorboard-controller:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:5c1bda402cb59a444347931a2a5ef06bb2d41a20ce7a4c37be40b5891bf33a5f",
+    "created": "2025-03-25 17:30",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/tensorboards-web-app",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/tensorboards-web-app:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2ef002804c668b2feba2d610ba8e117379283696fb67adb437ecda84d21137e7",
+    "created": "2025-03-25 19:07",
+    "labels": {},
+    "entrypoint": [
+      "/bin/bash",
+      "-c",
+      "gunicorn -w 3 --bind 0.0.0.0:5000 --access-logfile - entrypoint:app"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/tensorflow",
+    "tag": "2.13.0",
+    "image_name": "ai/containers/tensorflow:2.13.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:f133c99eba6e59b921ea7543c81417cd831c9983f5d6ce65dff7adb0ec79d830",
+    "created": "2023-07-06 12:45",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "20.04"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/bash"
+    ]
+  },
+  {
+    "repository": "ai/containers/tfevent-metrics-collector",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/tfevent-metrics-collector:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:75485b03b7d981c7d167a49d81cfdf00b1e6c0e7c39bbfd665cae4fc0bed4296",
+    "created": "2025-10-30 22:15",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "main.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/torchserve-kfs",
+    "tag": "0.9.0",
+    "image_name": "ai/containers/torchserve-kfs:0.9.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:d6cfdac5d83007932aa7bfb29ec42858fbc5cd48b9a6f4a7f68088a5c3bde07e",
+    "created": "2023-10-30 18:51",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "20.04"
+    },
+    "entrypoint": [
+      "/usr/local/bin/dockerd-entrypoint.sh"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/trainer/dataset-initializer",
+    "tag": "v2.1.0",
+    "image_name": "ai/containers/trainer/dataset-initializer:v2.1.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a5b53529b91c72af37e72648c82b5de6e57ab58276d06dbde93f952118ca6b66",
+    "created": "2025-11-07 03:43",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "pkg.initializers.dataset"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/trainer/deepspeed-runtime",
+    "tag": "v2.1.0",
+    "image_name": "ai/containers/trainer/deepspeed-runtime:v2.1.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:bb5c4c9a6517026bfeb0704e2e8a6ba36914fdb4361a4f9edb2407132c163231",
+    "created": "2025-11-07 03:48",
+    "labels": {
+      "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/opt/nvidia/nvidia_entrypoint.sh"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/trainer/mlx-runtime",
+    "tag": "v2.1.0",
+    "image_name": "ai/containers/trainer/mlx-runtime:v2.1.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:f343702ac874d550aa92a9ad15c70aff6afcd5d269745e7cc268716d123e8774",
+    "created": "2025-11-07 03:46",
+    "labels": {
+      "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/opt/nvidia/nvidia_entrypoint.sh"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/trainer/model-initializer",
+    "tag": "v2.1.0",
+    "image_name": "ai/containers/trainer/model-initializer:v2.1.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:44a1b160e9d1beae8ad5c96f3641dbaf5f7b4e59f1801210581b8e4e4bc1a44c",
+    "created": "2025-11-07 03:43",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "pkg.initializers.model"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/trainer/torchtune-trainer",
+    "tag": "v2.1.0",
+    "image_name": "ai/containers/trainer/torchtune-trainer:v2.1.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:939dde92f6bfe8017fb83828a2d5f1f8655ccdfd746727807cf0e1f42cb2e5f0",
+    "created": "2025-11-07 03:46",
+    "labels": {
+      "com.nvidia.volumes.needed": "nvidia_driver",
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/bash"
+    ]
+  },
+  {
+    "repository": "ai/containers/trainer-controller-manager",
+    "tag": "v2.1.0",
+    "image_name": "ai/containers/trainer-controller-manager:v2.1.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:47b4373af5e26a8ed2afadb7a3efe6372a2a1ebd62120509114de7fc29d60873",
+    "created": "2025-11-07 03:44",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/training-operator",
+    "tag": "v1-3f15cb8",
+    "image_name": "ai/containers/training-operator:v1-3f15cb8",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:65ea7bc08eb2d416135ed353f36ae8ccb7fa7af6d97f4f9127e652cd2fe06f53",
+    "created": "2025-05-02 21:32",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/volumes-web-app",
+    "tag": "v1.10.0",
+    "image_name": "ai/containers/volumes-web-app:v1.10.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:ca300d41f40b1be5eb56f734f2caba32e29d5105de04d2da5fb4ebfb2103608b",
+    "created": "2025-03-25 19:09",
+    "labels": {},
+    "entrypoint": [
+      "/bin/bash",
+      "-c",
+      "gunicorn -w 3 --bind 0.0.0.0:5000 --access-logfile - entrypoint:app"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/xgbserver",
+    "tag": "v0.15.2",
+    "image_name": "ai/containers/xgbserver:v0.15.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:43d241127fed851fd3ddfeb7c5e1e0a787bd60f31b5d50c928270ab5d7498871",
+    "created": "2025-05-27 07:21",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "xgbserver"
+    ],
+    "cmd": null
   }
 ]

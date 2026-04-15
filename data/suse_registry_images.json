@@ -2341,6 +2341,21 @@
     ]
   },
   {
+    "repository": "ai/containers/pytorch-mnist-cpu",
+    "tag": "v0.15.0",
+    "image_name": "ai/containers/pytorch-mnist-cpu:v0.15.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:e070164160504a5df208c695f87064f612bbb485b91a57aed528076039071217",
+    "created": "2023-03-22 13:01",
+    "labels": {},
+    "entrypoint": [
+      "python3",
+      "/opt/pytorch-mnist/mnist.py"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/qdrant",
     "tag": "v1.16.2",
     "image_name": "ai/containers/qdrant:v1.16.2",
@@ -3198,7 +3213,39 @@
       "python",
       "main.py"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-tfevent-metrics-collector-v0.19.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-tfevent-metrics-collector-v0.19.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 2086,
+      "critical": 7,
+      "high": 229,
+      "medium": 1174,
+      "low": 670,
+      "scan_date": "2026-04-15 14:12",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-tfevent-metrics-collector-v0.19.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-tfevent-metrics-collector-v0.19.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-tfevent-metrics-collector-v0.19.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/torchserve-kfs",

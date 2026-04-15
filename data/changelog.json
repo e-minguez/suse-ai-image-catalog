@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-15 14:16",
+    "changes": [
+      "New Container (Registry): ai/containers/pytorch-mnist-cpu:v0.15.0 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-04-15 03:49",
     "changes": [
       "New Chart (Registry): ai/charts/kubeflow:0.3.2 (N/A)",
@@ -394,17 +400,6 @@
       "New Chart (Registry): ai/charts/litellm:1.81.3-stable (N/A)",
       "New Chart (Registry): ai/charts/litellm:1.81.9-stable (N/A)",
       "New Chart (Registry): ai/charts/qdrant:1.17.0 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-03-13 20:47",
-    "changes": [
-      "New Container (Registry): ai/containers/litellm:1.82.1 (x86_64)",
-      "New Container (Registry): ai/containers/litellm:v1.81.15 (x86_64)",
-      "New Container (Registry): ai/containers/litellm:v1.82.0-stable (x86_64)",
-      "New Container (Registry): ai/containers/litellm-database:1.82.1 (x86_64)",
-      "New Container (Registry): ai/containers/litellm-database:v1.81.15 (x86_64)",
-      "New Container (Registry): ai/containers/litellm-database:v1.82.0-stable (x86_64)"
     ]
   }
 ]

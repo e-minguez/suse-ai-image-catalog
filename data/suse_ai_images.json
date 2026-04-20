@@ -97,6 +97,42 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
+    "image_name": "milvus:5.0.19-12.1",
+    "version": "2.6.15",
+    "packaging_format": "HELM_CHART",
+    "architecture": null,
+    "os_family": null,
+    "os_version": null,
+    "digest": "SHA256:032afc200aedffe10e054c64997f092dd9770d33ff56f1b629e5116a7e54f3f0",
+    "last_updated": "2026-04-20 12:47",
+    "sboms": [],
+    "labels": {},
+    "chart_images": [
+      "dp.apps.rancher.io/containers/apache-kafka:4.1.2-5.2",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-21.1",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-21.8",
+      "dp.apps.rancher.io/containers/etcd:3.6.10-9.1",
+      "dp.apps.rancher.io/containers/heaptrack:1.3.0-5.1",
+      "dp.apps.rancher.io/containers/milvus:2.6.15-5.1",
+      "dp.apps.rancher.io/containers/mc:0.20250813.083541-8.4",
+      "dp.apps.rancher.io/containers/minio:0.20251015.172955-8.4"
+    ],
+    "vulnerabilities": {
+      "total": 8,
+      "critical": 0,
+      "high": 3,
+      "medium": 4,
+      "low": 1,
+      "scan_date": "",
+      "source": "aggregated_appco_images",
+      "component_count": 8,
+      "artifact_url": "https://apps.rancher.io/artifacts/032afc200aedffe10e054c64997f092dd9770d33ff56f1b629e5116a7e54f3f0"
+    }
+  },
+  {
+    "application": "milvus",
+    "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
+    "component": "milvus",
     "image_name": "milvus:2.6.14-4.7",
     "version": "2.6.14",
     "packaging_format": "CONTAINER",
@@ -5815,32 +5851,32 @@
     "application": "open-webui-mcpo",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-mcpo.png",
     "component": "open-webui-mcpo",
-    "image_name": "open-webui-mcpo:0.0.17-2.51",
+    "image_name": "open-webui-mcpo:0.0.17-2.52",
     "version": "0.0.17",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:92b3e1a2b10f2f18cc75ffde34a78036ad2ee93669f017baf20f5cc28718d118",
-    "last_updated": "2026-04-19 06:49",
+    "digest": "SHA256:79349872f19181879ef221499f991d3d8645e574bb4dbc683ee3d4e445ea4d4a",
+    "last_updated": "2026-04-20 13:10",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "open-webui-mcpo-0.0.17-2.51.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "open-webui-mcpo-0.0.17-2.52.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "open-webui-mcpo-0.0.17-2.51.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "open-webui-mcpo-0.0.17-2.52.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:956324f339c0066c5810170c0a9def23bbd7b5a2df8832aa6d122cc29427086c",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.11",
-      "org.opencontainers.image.created": "2026-04-18T02:00:03.760293240Z",
+      "org.opencontainers.image.created": "2026-04-20T12:45:43.801069320Z",
       "org.opencontainers.image.description": "A simple, secure MCP-to-OpenAPI proxy server.",
-      "org.opencontainers.image.ref.name": "0.0.17-2.51",
+      "org.opencontainers.image.ref.name": "0.0.17-2.52",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-mcpo-container/6f87acef9dedf5ee9f5fe01d17b00bee/",
       "org.opencontainers.image.title": "Open WebUI mcpo",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-mcpo",
@@ -5855,39 +5891,39 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/92b3e1a2b10f2f18cc75ffde34a78036ad2ee93669f017baf20f5cc28718d118"
+      "artifact_url": "https://apps.rancher.io/artifacts/79349872f19181879ef221499f991d3d8645e574bb4dbc683ee3d4e445ea4d4a"
     }
   },
   {
     "application": "open-webui-mcpo",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-mcpo.png",
     "component": "open-webui-mcpo",
-    "image_name": "open-webui-mcpo:0.0.17-2.51",
+    "image_name": "open-webui-mcpo:0.0.17-2.52",
     "version": "0.0.17",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:3b545746f790c3477237e0dca72f71fc42d51bc0ac44d344cffed7944b9f6584",
-    "last_updated": "2026-04-19 06:49",
+    "digest": "SHA256:f9ba8c36592b6e0a7b9213da57c71c579877f7eb291b5e6a3e5c8dcd16df7022",
+    "last_updated": "2026-04-20 13:10",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-mcpo-0.0.17-2.51.x86_64.spdx.json"
+        "filename": "open-webui-mcpo-0.0.17-2.52.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-mcpo-0.0.17-2.51.x86_64.cdx.json"
+        "filename": "open-webui-mcpo-0.0.17-2.52.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:aff8df808028a7c6481818924fb97d823a4cbdc4be6ecee883136066e923e4a7",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.11",
-      "org.opencontainers.image.created": "2026-04-18T02:05:37.172812223Z",
+      "org.opencontainers.image.created": "2026-04-20T12:55:32.106511656Z",
       "org.opencontainers.image.description": "A simple, secure MCP-to-OpenAPI proxy server.",
-      "org.opencontainers.image.ref.name": "0.0.17-2.51",
+      "org.opencontainers.image.ref.name": "0.0.17-2.52",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-mcpo-container/6f87acef9dedf5ee9f5fe01d17b00bee/",
       "org.opencontainers.image.title": "Open WebUI mcpo",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-mcpo",
@@ -5902,7 +5938,7 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/3b545746f790c3477237e0dca72f71fc42d51bc0ac44d344cffed7944b9f6584"
+      "artifact_url": "https://apps.rancher.io/artifacts/f9ba8c36592b6e0a7b9213da57c71c579877f7eb291b5e6a3e5c8dcd16df7022"
     }
   },
   {

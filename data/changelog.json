@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-28 14:36",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.19-13.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-04-27 10:27",
     "changes": [
       "New Container (AppCo): mlflow:3.11.1-10.2 (aarch64)",
@@ -373,12 +379,6 @@
       "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.11-amd64 (x86_64)",
       "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.11-arm64 (arm64)",
       "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.11 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-04-07 03:21",
-    "changes": [
-      "New Chart (AppCo): vllm:0.1.9-4.1 (N/A)"
     ]
   }
 ]

@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-04-30 17:44",
+    "changes": [
+      "New Container (AppCo): ollama:0.21.2-11.48 (aarch64)",
+      "New Container (AppCo): ollama:0.21.2-11.48 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-04-30 10:17",
     "changes": [
       "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.25 (aarch64)",
@@ -351,14 +358,6 @@
       "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.13-amd64 (x86_64)",
       "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.13-arm64 (arm64)",
       "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.13 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-04-08 17:16",
-    "changes": [
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.12-amd64 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.12-arm64 (arm64)",
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.12 (x86_64)"
     ]
   }
 ]

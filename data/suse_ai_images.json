@@ -4349,6 +4349,36 @@
     "application": "ollama",
     "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
     "component": "ollama",
+    "image_name": "ollama:1.55.0-13.1",
+    "version": "0.21.2",
+    "packaging_format": "HELM_CHART",
+    "architecture": null,
+    "os_family": null,
+    "os_version": null,
+    "digest": "SHA256:4cb8d9eb181e9ec114ddc1d08480a469fc31e1e2633d009e836c2cc3011aade1",
+    "last_updated": "2026-04-30 23:56",
+    "sboms": [],
+    "labels": {},
+    "chart_images": [
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-21.12",
+      "dp.apps.rancher.io/containers/ollama:0.21.2-11.48"
+    ],
+    "vulnerabilities": {
+      "total": 4,
+      "critical": 0,
+      "high": 1,
+      "medium": 3,
+      "low": 0,
+      "scan_date": "",
+      "source": "aggregated_appco_images",
+      "component_count": 2,
+      "artifact_url": "https://apps.rancher.io/artifacts/4cb8d9eb181e9ec114ddc1d08480a469fc31e1e2633d009e836c2cc3011aade1"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
     "image_name": "ollama:0.14.2-11.47",
     "version": "0.14.2",
     "packaging_format": "CONTAINER",

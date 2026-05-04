@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-05-04 17:50",
+    "changes": [
+      "New Container (AppCo): mlflow:3.11.1-10.4 (x86_64)",
+      "New Container (AppCo): mlflow:3.11.1-10.4 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-13.3 (x86_64)",
+      "New Container (AppCo): mlflow:2.22.4-13.3 (aarch64)"
+    ]
+  },
+  {
     "date": "2026-05-01 04:07",
     "changes": [
       "New Chart (AppCo): ollama:1.55.0-13.1 (N/A)"
@@ -338,15 +347,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.4 (x86_64)",
       "New Container (AppCo): vllm-openai:0.13.0-5.4 (aarch64)",
       "New Container (AppCo): vllm-openai:0.13.0-5.4 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-04-10 13:11",
-    "changes": [
-      "New Container (AppCo): mlflow:3.10.1-8.9 (x86_64)",
-      "New Container (AppCo): mlflow:3.10.1-8.9 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-11.8 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-11.8 (x86_64)"
     ]
   }
 ]

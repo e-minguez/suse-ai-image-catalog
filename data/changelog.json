@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-05-08 03:45",
+    "changes": [
+      "New Container (AppCo): ollama:0.21.2-11.49 (aarch64)",
+      "New Container (AppCo): ollama:0.21.2-11.49 (x86_64)",
+      "New Container (AppCo): open-webui:0.6.41-14.62 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-14.62 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.56 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.56 (x86_64)",
+      "New Container (AppCo): pytorch:2.9.1-nvidia-1.52 (aarch64)",
+      "New Container (AppCo): pytorch:2.9.1-nvidia-1.52 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.6-3.56 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.6-3.56 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.14 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.14 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.13.0-5.14 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.13.0-5.14 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-05-07 03:54",
     "changes": [
       "New Container (AppCo): mlflow:3.11.1-10.5 (aarch64)",
@@ -322,19 +341,6 @@
       "New Container (Registry): ai/containers/training-operator:v1-3f15cb8 (x86_64)",
       "New Container (Registry): ai/containers/volumes-web-app:v1.10.0 (x86_64)",
       "New Container (Registry): ai/containers/xgbserver:v0.15.2 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-04-14 21:03",
-    "changes": [
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.14-amd64 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.14-arm64 (arm64)",
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.14 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-dev.15-amd64 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-amd64 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0-arm64 (arm64)",
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:1.1.0 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-lifecycle-manager:latest (x86_64)"
     ]
   }
 ]

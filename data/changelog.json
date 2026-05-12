@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-05-12 18:12",
+    "changes": [
+      "New Container (AppCo): open-webui:0.6.41-14.64 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-14.64 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.57 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.57 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.52 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.52 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.6-3.57 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.6-3.57 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.15 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.15 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.13.0-5.15 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.13.0-5.15 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-05-12 14:46",
     "changes": [
       "New Container (AppCo): open-webui:0.6.41-14.63 (aarch64)",
@@ -242,19 +259,6 @@
       "New Chart (AppCo): suse-ai-deployer:1.2.0-5.6 (N/A)",
       "New Chart (AppCo): suse-ai-observability-extension:1.5.0-7.4 (N/A)",
       "New Chart (AppCo): vllm:0.1.9-4.4 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-04-15 21:08",
-    "changes": [
-      "New Chart (AppCo): ollama:1.38.0-12.3 (N/A)",
-      "New Chart (AppCo): open-webui:8.19.1-12.5 (N/A)",
-      "New Chart (AppCo): open-webui-mcpo:1.0.2-8.5 (N/A)",
-      "New Chart (AppCo): open-webui-pipelines:0.9.2-4.5 (N/A)",
-      "New Chart (AppCo): pytorch:0.3.2-4.5 (N/A)",
-      "New Chart (AppCo): suse-ai-deployer:1.2.0-5.5 (N/A)",
-      "New Chart (AppCo): suse-ai-observability-extension:1.5.0-7.3 (N/A)",
-      "New Chart (AppCo): vllm:0.1.9-4.3 (N/A)"
     ]
   }
 ]

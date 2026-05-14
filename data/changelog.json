@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-14 10:31",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.15-nvidia-7.1 (aarch64)",
+      "New Container (AppCo): milvus:2.6.15-nvidia-7.1 (x86_64)",
+      "New Container (AppCo): mlflow:3.11.1-10.7 (aarch64)",
+      "New Container (AppCo): mlflow:3.11.1-10.7 (x86_64)",
+      "New Container (AppCo): open-webui:0.6.41-14.65 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-14.65 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.53 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.53 (x86_64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-1.53 (aarch64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-1.53 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-05-13 10:43",
     "changes": [
       "New Container (AppCo): milvus:2.6.15-6.5 (aarch64)",
@@ -242,17 +257,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.11 (x86_64)",
       "New Container (AppCo): vllm-openai:0.13.0-5.11 (aarch64)",
       "New Container (AppCo): vllm-openai:0.13.0-5.11 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-04-17 13:53",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.15-4.9 (x86_64)",
-      "New Container (AppCo): milvus:2.6.15-4.9 (aarch64)",
-      "New Container (AppCo): mlflow:3.11.1-8.12 (x86_64)",
-      "New Container (AppCo): mlflow:3.11.1-8.12 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-11.11 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-11.11 (x86_64)"
     ]
   }
 ]

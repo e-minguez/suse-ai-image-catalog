@@ -3,33 +3,33 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.15-6.5",
+    "image_name": "milvus:2.6.15-nvidia-7.1",
     "version": "2.6.15",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:c56b5e42c7be8d8b559870b1997c95fcf434a916ccf7aac48b596d6cb2187db8",
-    "last_updated": "2026-05-13 08:44",
+    "digest": "SHA256:4b8582581ec2ce53d23534286fea111ce473c45f1a8e30357c88ab7e08eac9f1",
+    "last_updated": "2026-05-14 08:29",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.15-6.5.aarch64.spdx.json"
+        "filename": "milvus-2.6.15-nvidia-7.1.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "milvus-2.6.15-6.5.aarch64.cdx.json"
+        "filename": "milvus-2.6.15-nvidia-7.1.aarch64.cdx.json"
       }
     ],
     "labels": {
-      "com.suse.apps.main-package": "milvus-2.6",
+      "com.suse.apps.main-package": "milvus-2.6-nvidia",
       "org.opencontainers.image.base.digest": "sha256:c8436d1447fe921b7ea3e7a85ad3aa92eaf14315d72e7fdd28f1e4b0defdc60a",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-13T08:26:22.324283120Z",
+      "org.opencontainers.image.created": "2026-05-14T08:12:39.336332200Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.15-6.5",
+      "org.opencontainers.image.ref.name": "2.6.15-nvidia-7.1",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -43,40 +43,40 @@
       "medium": 3,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/c56b5e42c7be8d8b559870b1997c95fcf434a916ccf7aac48b596d6cb2187db8"
+      "artifact_url": "https://apps.rancher.io/artifacts/4b8582581ec2ce53d23534286fea111ce473c45f1a8e30357c88ab7e08eac9f1"
     }
   },
   {
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.15-6.5",
+    "image_name": "milvus:2.6.15-nvidia-7.1",
     "version": "2.6.15",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:e9ecc3b33aff05aefeb21ccd5b83af78fa95890a23b92947cd428b1c8a7b9fcd",
-    "last_updated": "2026-05-13 08:44",
+    "digest": "SHA256:b96e1188e2a14dbe2e86f42f3b4ffe4f3a5ae1e767f10669a58062a977fd10f8",
+    "last_updated": "2026-05-14 08:29",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.15-6.5.x86_64.spdx.json"
+        "filename": "milvus-2.6.15-nvidia-7.1.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "milvus-2.6.15-6.5.x86_64.cdx.json"
+        "filename": "milvus-2.6.15-nvidia-7.1.x86_64.cdx.json"
       }
     ],
     "labels": {
-      "com.suse.apps.main-package": "milvus-2.6",
+      "com.suse.apps.main-package": "milvus-2.6-nvidia",
       "org.opencontainers.image.base.digest": "sha256:0aaa3addad28602353154665af82a21e4757cb0f74b1e4e8256813a5abeb8b9c",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-13T08:08:18.215369680Z",
+      "org.opencontainers.image.created": "2026-05-14T08:12:20.771724342Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.15-6.5",
+      "org.opencontainers.image.ref.name": "2.6.15-nvidia-7.1",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -90,7 +90,7 @@
       "medium": 3,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/e9ecc3b33aff05aefeb21ccd5b83af78fa95890a23b92947cd428b1c8a7b9fcd"
+      "artifact_url": "https://apps.rancher.io/artifacts/b96e1188e2a14dbe2e86f42f3b4ffe4f3a5ae1e767f10669a58062a977fd10f8"
     }
   },
   {
@@ -1377,80 +1377,33 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.11.1-10.6",
-    "version": "3.11.1",
-    "packaging_format": "CONTAINER",
-    "architecture": "x86_64",
-    "os_family": "SLE",
-    "os_version": "15.7",
-    "digest": "SHA256:268aadcc428c8ad99cb5d921960152918645856196bfba4048b64e4d6bdf15b9",
-    "last_updated": "2026-05-08 18:57",
-    "sboms": [
-      {
-        "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "mlflow-3.11.1-10.6.x86_64.cdx.json"
-      },
-      {
-        "type": "SBOM",
-        "format": "SPDX",
-        "filename": "mlflow-3.11.1-10.6.x86_64.spdx.json"
-      }
-    ],
-    "labels": {
-      "com.suse.apps.main-package": "mlflow-3",
-      "org.opencontainers.image.base.digest": "sha256:0aaa3addad28602353154665af82a21e4757cb0f74b1e4e8256813a5abeb8b9c",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-08T06:58:26.120601857Z",
-      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.11.1-10.6",
-      "org.opencontainers.image.title": "MLflow",
-      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
-      "org.opencontainers.image.vendor": "SUSE LLC",
-      "org.opencontainers.image.version": "3.11.1"
-    },
-    "vulnerabilities": {
-      "scan_date": "",
-      "total": 6,
-      "critical": 0,
-      "high": 5,
-      "medium": 1,
-      "low": 0,
-      "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/268aadcc428c8ad99cb5d921960152918645856196bfba4048b64e4d6bdf15b9"
-    }
-  },
-  {
-    "application": "mlflow",
-    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
-    "component": "mlflow",
-    "image_name": "mlflow:3.11.1-10.6",
+    "image_name": "mlflow:3.11.1-10.7",
     "version": "3.11.1",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:204263b86182e368709c00e2fe998a3e2639b4120610bc895e94a57d0f098c33",
-    "last_updated": "2026-05-08 18:57",
+    "digest": "SHA256:2661813e7ef3f2337cfb4f8b34278b5d834869128fab508a11802e491f9a90b4",
+    "last_updated": "2026-05-14 09:50",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-3.11.1-10.6.aarch64.cdx.json"
+        "filename": "mlflow-3.11.1-10.7.aarch64.cdx.json"
       },
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-3.11.1-10.6.aarch64.spdx.json"
+        "filename": "mlflow-3.11.1-10.7.aarch64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-3",
       "org.opencontainers.image.base.digest": "sha256:c8436d1447fe921b7ea3e7a85ad3aa92eaf14315d72e7fdd28f1e4b0defdc60a",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-08T07:31:51.088606520Z",
+      "org.opencontainers.image.created": "2026-05-14T09:23:12.733550080Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.11.1-10.6",
+      "org.opencontainers.image.ref.name": "3.11.1-10.7",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -1458,13 +1411,60 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 6,
+      "total": 9,
       "critical": 0,
-      "high": 5,
+      "high": 8,
       "medium": 1,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/204263b86182e368709c00e2fe998a3e2639b4120610bc895e94a57d0f098c33"
+      "artifact_url": "https://apps.rancher.io/artifacts/2661813e7ef3f2337cfb4f8b34278b5d834869128fab508a11802e491f9a90b4"
+    }
+  },
+  {
+    "application": "mlflow",
+    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
+    "component": "mlflow",
+    "image_name": "mlflow:3.11.1-10.7",
+    "version": "3.11.1",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:a845f01b47881ebd34f3cc3e0af971196d40bd2fb3531f52fccb1a2fa8e61caa",
+    "last_updated": "2026-05-14 09:50",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "mlflow-3.11.1-10.7.x86_64.cdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "mlflow-3.11.1-10.7.x86_64.spdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "mlflow-3",
+      "org.opencontainers.image.base.digest": "sha256:0aaa3addad28602353154665af82a21e4757cb0f74b1e4e8256813a5abeb8b9c",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
+      "org.opencontainers.image.created": "2026-05-14T08:02:22.901502780Z",
+      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
+      "org.opencontainers.image.ref.name": "3.11.1-10.7",
+      "org.opencontainers.image.title": "MLflow",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "3.11.1"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 9,
+      "critical": 0,
+      "high": 8,
+      "medium": 1,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/a845f01b47881ebd34f3cc3e0af971196d40bd2fb3531f52fccb1a2fa8e61caa"
     }
   },
   {
@@ -4646,53 +4646,6 @@
     "image_name": "ollama:0.11.4-10.99",
     "version": "0.11.4",
     "packaging_format": "CONTAINER",
-    "architecture": "aarch64",
-    "os_family": "SLE",
-    "os_version": "15.6",
-    "digest": "SHA256:a76988457ea049df88cbfcb2c1daaef2e762a20539160274da5d1f39598a6caf",
-    "last_updated": "2025-11-29 05:01",
-    "sboms": [
-      {
-        "type": "SBOM",
-        "format": "SPDX",
-        "filename": "ollama-0.11.4-10.99.aarch64.spdx.json"
-      },
-      {
-        "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "ollama-0.11.4-10.99.aarch64.cdx.json"
-      }
-    ],
-    "labels": {
-      "org.opencontainers.image.base.digest": "sha256:103cf4b2309e07301fba3f2ce14494618f931dfc3dc9aa2da2f78f00c82e5d5e",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.6.54.6",
-      "org.opencontainers.image.created": "2025-11-28T15:56:23.672082720Z",
-      "org.opencontainers.image.description": "Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.",
-      "org.opencontainers.image.ref.name": "0.11.4-10.99",
-      "org.opencontainers.image.source": "https://sources.suse.com/SUSE:SLE-15-SP6:Update:Products:AI/ollama-nvidia-container/749d318f5be8e29d4ebbbe04c90876a0/",
-      "org.opencontainers.image.title": "Ollama",
-      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
-      "org.opencontainers.image.vendor": "SUSE LLC",
-      "org.opencontainers.image.version": "0.11.4"
-    },
-    "vulnerabilities": {
-      "scan_date": "",
-      "total": 4,
-      "critical": 1,
-      "high": 3,
-      "medium": 0,
-      "low": 0,
-      "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/a76988457ea049df88cbfcb2c1daaef2e762a20539160274da5d1f39598a6caf"
-    }
-  },
-  {
-    "application": "ollama",
-    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
-    "component": "ollama",
-    "image_name": "ollama:0.11.4-10.99",
-    "version": "0.11.4",
-    "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.6",
@@ -4731,6 +4684,53 @@
       "low": 0,
       "source": "apps.rancher.io",
       "artifact_url": "https://apps.rancher.io/artifacts/c5f7354b37700b1bbbc926f78730a3c0721258417d0a9db05864b274a12f8ced"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
+    "image_name": "ollama:0.11.4-10.99",
+    "version": "0.11.4",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.6",
+    "digest": "SHA256:a76988457ea049df88cbfcb2c1daaef2e762a20539160274da5d1f39598a6caf",
+    "last_updated": "2025-11-29 05:01",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "ollama-0.11.4-10.99.aarch64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "ollama-0.11.4-10.99.aarch64.cdx.json"
+      }
+    ],
+    "labels": {
+      "org.opencontainers.image.base.digest": "sha256:103cf4b2309e07301fba3f2ce14494618f931dfc3dc9aa2da2f78f00c82e5d5e",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.6.54.6",
+      "org.opencontainers.image.created": "2025-11-28T15:56:23.672082720Z",
+      "org.opencontainers.image.description": "Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.",
+      "org.opencontainers.image.ref.name": "0.11.4-10.99",
+      "org.opencontainers.image.source": "https://sources.suse.com/SUSE:SLE-15-SP6:Update:Products:AI/ollama-nvidia-container/749d318f5be8e29d4ebbbe04c90876a0/",
+      "org.opencontainers.image.title": "Ollama",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "0.11.4"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 4,
+      "critical": 1,
+      "high": 3,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/a76988457ea049df88cbfcb2c1daaef2e762a20539160274da5d1f39598a6caf"
     }
   },
   {
@@ -4850,53 +4850,6 @@
     "image_name": "ollama:0.6.8-10.49",
     "version": "0.6.8",
     "packaging_format": "CONTAINER",
-    "architecture": "x86_64",
-    "os_family": "SLE",
-    "os_version": "15.6",
-    "digest": "SHA256:0645fad34106bc26dfbfd947d2576aeb066a969eacd5d37494a6896bbe777daa",
-    "last_updated": "2025-08-08 18:35",
-    "sboms": [
-      {
-        "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "ollama-0.6.8-10.49.x86_64.cdx.json"
-      },
-      {
-        "type": "SBOM",
-        "format": "SPDX",
-        "filename": "ollama-0.6.8-10.49.x86_64.spdx.json"
-      }
-    ],
-    "labels": {
-      "org.opencontainers.image.base.digest": "sha256:592385970a14eee93496c33b7487ee31b306e6dcc3d2aa7a07be02c120d6bccb",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.6.49.1",
-      "org.opencontainers.image.created": "2025-08-08T11:18:22.483493403Z",
-      "org.opencontainers.image.description": "Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.",
-      "org.opencontainers.image.ref.name": "0.6.8-10.49",
-      "org.opencontainers.image.source": "https://sources.suse.com/SUSE:SLE-15-SP6:Update:Products:AI/ollama-nvidia-container/749d318f5be8e29d4ebbbe04c90876a0/",
-      "org.opencontainers.image.title": "Ollama",
-      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
-      "org.opencontainers.image.vendor": "SUSE LLC",
-      "org.opencontainers.image.version": "0.6.8"
-    },
-    "vulnerabilities": {
-      "scan_date": "",
-      "total": 9,
-      "critical": 1,
-      "high": 4,
-      "medium": 4,
-      "low": 0,
-      "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/0645fad34106bc26dfbfd947d2576aeb066a969eacd5d37494a6896bbe777daa"
-    }
-  },
-  {
-    "application": "ollama",
-    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
-    "component": "ollama",
-    "image_name": "ollama:0.6.8-10.49",
-    "version": "0.6.8",
-    "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.6",
@@ -4935,6 +4888,53 @@
       "low": 0,
       "source": "apps.rancher.io",
       "artifact_url": "https://apps.rancher.io/artifacts/e3de7a90f0f95c3ffd43712a062b6bfec8d7031af68989de54446bfce03234e6"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
+    "image_name": "ollama:0.6.8-10.49",
+    "version": "0.6.8",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.6",
+    "digest": "SHA256:0645fad34106bc26dfbfd947d2576aeb066a969eacd5d37494a6896bbe777daa",
+    "last_updated": "2025-08-08 18:35",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "ollama-0.6.8-10.49.x86_64.cdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "ollama-0.6.8-10.49.x86_64.spdx.json"
+      }
+    ],
+    "labels": {
+      "org.opencontainers.image.base.digest": "sha256:592385970a14eee93496c33b7487ee31b306e6dcc3d2aa7a07be02c120d6bccb",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.6.49.1",
+      "org.opencontainers.image.created": "2025-08-08T11:18:22.483493403Z",
+      "org.opencontainers.image.description": "Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.",
+      "org.opencontainers.image.ref.name": "0.6.8-10.49",
+      "org.opencontainers.image.source": "https://sources.suse.com/SUSE:SLE-15-SP6:Update:Products:AI/ollama-nvidia-container/749d318f5be8e29d4ebbbe04c90876a0/",
+      "org.opencontainers.image.title": "Ollama",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "0.6.8"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 9,
+      "critical": 1,
+      "high": 4,
+      "medium": 4,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/0645fad34106bc26dfbfd947d2576aeb066a969eacd5d37494a6896bbe777daa"
     }
   },
   {
@@ -5060,48 +5060,6 @@
     "image_name": "ollama:0.5.7-7.6",
     "version": "0.5.7",
     "packaging_format": "CONTAINER",
-    "architecture": "x86_64",
-    "os_family": "SLE",
-    "os_version": "15.6",
-    "digest": "SHA256:2e300673bff37dbbaec76cadf951046c62260db8ec5def7a51f1a39b240b986a",
-    "last_updated": "2025-03-20 23:32",
-    "sboms": [
-      {
-        "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "ollama-0.5.7-7.6.x86_64.cdx.json"
-      }
-    ],
-    "labels": {
-      "org.opencontainers.image.base.digest": "sha256:eaa908393f077c85c1de7b24d40bba2ee5936dc1b9e9f4dd0f782cae68a09bc4",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.6.30.2",
-      "org.opencontainers.image.created": "2025-03-20T16:56:56.617865264Z",
-      "org.opencontainers.image.description": "Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.",
-      "org.opencontainers.image.ref.name": "0.5.7-7.6",
-      "org.opencontainers.image.source": "https://sources.suse.com/SUSE:SLE-15-SP6:Update:Products:AI/ollama-nvidia-container/1963dbf2034cf25d4053a94fd126017f/",
-      "org.opencontainers.image.title": "Ollama",
-      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
-      "org.opencontainers.image.vendor": "SUSE LLC",
-      "org.opencontainers.image.version": "0.5.7"
-    },
-    "vulnerabilities": {
-      "scan_date": "",
-      "total": 18,
-      "critical": 1,
-      "high": 9,
-      "medium": 8,
-      "low": 0,
-      "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/2e300673bff37dbbaec76cadf951046c62260db8ec5def7a51f1a39b240b986a"
-    }
-  },
-  {
-    "application": "ollama",
-    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
-    "component": "ollama",
-    "image_name": "ollama:0.5.7-7.6",
-    "version": "0.5.7",
-    "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.6",
@@ -5135,6 +5093,48 @@
       "low": 0,
       "source": "apps.rancher.io",
       "artifact_url": "https://apps.rancher.io/artifacts/d548ee4f876d3886a55b3a240b730efa73efb9104b1409ad07cccb783dd476e2"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
+    "image_name": "ollama:0.5.7-7.6",
+    "version": "0.5.7",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.6",
+    "digest": "SHA256:2e300673bff37dbbaec76cadf951046c62260db8ec5def7a51f1a39b240b986a",
+    "last_updated": "2025-03-20 23:32",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "ollama-0.5.7-7.6.x86_64.cdx.json"
+      }
+    ],
+    "labels": {
+      "org.opencontainers.image.base.digest": "sha256:eaa908393f077c85c1de7b24d40bba2ee5936dc1b9e9f4dd0f782cae68a09bc4",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.6.30.2",
+      "org.opencontainers.image.created": "2025-03-20T16:56:56.617865264Z",
+      "org.opencontainers.image.description": "Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.",
+      "org.opencontainers.image.ref.name": "0.5.7-7.6",
+      "org.opencontainers.image.source": "https://sources.suse.com/SUSE:SLE-15-SP6:Update:Products:AI/ollama-nvidia-container/1963dbf2034cf25d4053a94fd126017f/",
+      "org.opencontainers.image.title": "Ollama",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "0.5.7"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 18,
+      "critical": 1,
+      "high": 9,
+      "medium": 8,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/2e300673bff37dbbaec76cadf951046c62260db8ec5def7a51f1a39b240b986a"
     }
   },
   {
@@ -5357,27 +5357,27 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.6.41-14.64",
+    "image_name": "open-webui:0.6.41-14.65",
     "version": "0.6.41",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:33698860b6268af4c499965b2ca112498512334b5017600993144fe610e26b82",
-    "last_updated": "2026-05-12 16:53",
+    "digest": "SHA256:97473c353e4e14f54d6c53c048b70dd792002fd117525f940a15b43696b3fe90",
+    "last_updated": "2026-05-14 09:21",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.6.41-14.64.aarch64.cdx.json"
+        "filename": "open-webui-0.6.41-14.65.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:c8436d1447fe921b7ea3e7a85ad3aa92eaf14315d72e7fdd28f1e4b0defdc60a",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-12T14:18:56.761618680Z",
+      "org.opencontainers.image.created": "2026-05-13T16:40:02.087406160Z",
       "org.opencontainers.image.description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.",
-      "org.opencontainers.image.ref.name": "0.6.41-14.64",
+      "org.opencontainers.image.ref.name": "0.6.41-14.65",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-container/ddae608bcd2eebd906a696ffa6efa16b/",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
@@ -5392,34 +5392,34 @@
       "medium": 6,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/33698860b6268af4c499965b2ca112498512334b5017600993144fe610e26b82"
+      "artifact_url": "https://apps.rancher.io/artifacts/97473c353e4e14f54d6c53c048b70dd792002fd117525f940a15b43696b3fe90"
     }
   },
   {
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.6.41-14.64",
+    "image_name": "open-webui:0.6.41-14.65",
     "version": "0.6.41",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:269bbea90cd06fb273bb5a160f680cb14f082dbe9cbca09aa687765a9c6ce3d3",
-    "last_updated": "2026-05-12 16:53",
+    "digest": "SHA256:990a0321245331a0672fbe9fcda110f71f38314987147b7edcf6c1527f11ed3b",
+    "last_updated": "2026-05-14 09:21",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.6.41-14.64.x86_64.cdx.json"
+        "filename": "open-webui-0.6.41-14.65.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:0aaa3addad28602353154665af82a21e4757cb0f74b1e4e8256813a5abeb8b9c",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-12T14:46:10.370156613Z",
+      "org.opencontainers.image.created": "2026-05-13T21:05:57.115638287Z",
       "org.opencontainers.image.description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.",
-      "org.opencontainers.image.ref.name": "0.6.41-14.64",
+      "org.opencontainers.image.ref.name": "0.6.41-14.65",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-container/ddae608bcd2eebd906a696ffa6efa16b/",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
@@ -5428,13 +5428,13 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 12,
+      "total": 10,
       "critical": 1,
-      "high": 5,
+      "high": 3,
       "medium": 6,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/269bbea90cd06fb273bb5a160f680cb14f082dbe9cbca09aa687765a9c6ce3d3"
+      "artifact_url": "https://apps.rancher.io/artifacts/990a0321245331a0672fbe9fcda110f71f38314987147b7edcf6c1527f11ed3b"
     }
   },
   {
@@ -6114,32 +6114,32 @@
     "application": "open-webui-pipelines",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-pipelines.png",
     "component": "open-webui-pipelines",
-    "image_name": "open-webui-pipelines:0.20250819.030501-8.52",
+    "image_name": "open-webui-pipelines:0.20250819.030501-8.53",
     "version": "0.20250819.030501",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:66a863c71ca282e749e771f6c220ca13d9c551fc968148e67b31ee265dce65ee",
-    "last_updated": "2026-05-12 16:53",
+    "digest": "SHA256:c27298d02d7636a8cd6801c2a23020c3b06caaf34975e53a8c4fbba12a64261f",
+    "last_updated": "2026-05-14 09:21",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.52.aarch64.spdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.53.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.52.aarch64.cdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.53.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:c8436d1447fe921b7ea3e7a85ad3aa92eaf14315d72e7fdd28f1e4b0defdc60a",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-12T14:36:56.541183240Z",
+      "org.opencontainers.image.created": "2026-05-13T18:51:40.426351280Z",
       "org.opencontainers.image.description": "Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs and much more! Easily extend functionalities, integrate unique logic, and create dynamic workflows with just a few lines of code.",
-      "org.opencontainers.image.ref.name": "0.20250819.030501-8.52",
+      "org.opencontainers.image.ref.name": "0.20250819.030501-8.53",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-pipelines-container/72a8c152a1f5f742ec21b2560d6dfcfd/",
       "org.opencontainers.image.title": "Open WebUI Pipelines",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-pipelines",
@@ -6148,45 +6148,45 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 10,
+      "total": 9,
       "critical": 0,
-      "high": 5,
+      "high": 4,
       "medium": 4,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/66a863c71ca282e749e771f6c220ca13d9c551fc968148e67b31ee265dce65ee"
+      "artifact_url": "https://apps.rancher.io/artifacts/c27298d02d7636a8cd6801c2a23020c3b06caaf34975e53a8c4fbba12a64261f"
     }
   },
   {
     "application": "open-webui-pipelines",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-pipelines.png",
     "component": "open-webui-pipelines",
-    "image_name": "open-webui-pipelines:0.20250819.030501-8.52",
+    "image_name": "open-webui-pipelines:0.20250819.030501-8.53",
     "version": "0.20250819.030501",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:12a2bf9b12ddcdb66760565497ef6c39d52b11dab3f9e2c68b14fc7b9dcda613",
-    "last_updated": "2026-05-12 16:53",
+    "digest": "SHA256:e01febb6bf34587f727e843eb6aa73ce458b93b602f5ed0f88f84e4b50082aa2",
+    "last_updated": "2026-05-14 09:21",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.52.x86_64.spdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.53.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.52.x86_64.cdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.53.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:0aaa3addad28602353154665af82a21e4757cb0f74b1e4e8256813a5abeb8b9c",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-12T14:33:09.217466246Z",
+      "org.opencontainers.image.created": "2026-05-13T18:51:31.374889711Z",
       "org.opencontainers.image.description": "Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs and much more! Easily extend functionalities, integrate unique logic, and create dynamic workflows with just a few lines of code.",
-      "org.opencontainers.image.ref.name": "0.20250819.030501-8.52",
+      "org.opencontainers.image.ref.name": "0.20250819.030501-8.53",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-pipelines-container/72a8c152a1f5f742ec21b2560d6dfcfd/",
       "org.opencontainers.image.title": "Open WebUI Pipelines",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-pipelines",
@@ -6195,13 +6195,13 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 10,
+      "total": 9,
       "critical": 0,
-      "high": 5,
+      "high": 4,
       "medium": 4,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/12a2bf9b12ddcdb66760565497ef6c39d52b11dab3f9e2c68b14fc7b9dcda613"
+      "artifact_url": "https://apps.rancher.io/artifacts/e01febb6bf34587f727e843eb6aa73ce458b93b602f5ed0f88f84e4b50082aa2"
     }
   },
   {
@@ -6377,6 +6377,100 @@
     "sboms": [],
     "labels": {},
     "chart_images": []
+  },
+  {
+    "application": "pytorch",
+    "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
+    "component": "pytorch",
+    "image_name": "pytorch:2.10.0-nvidia-1.53",
+    "version": "2.10.0",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:454678c9c77dbef9fa9030293faefe94c7ea8d23dcafa16c0841294b260b7094",
+    "last_updated": "2026-05-14 10:00",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "pytorch-2.10.0-nvidia-1.53.aarch64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "pytorch-2.10.0-nvidia-1.53.aarch64.cdx.json"
+      }
+    ],
+    "labels": {
+      "org.opencontainers.image.base.digest": "sha256:c8436d1447fe921b7ea3e7a85ad3aa92eaf14315d72e7fdd28f1e4b0defdc60a",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
+      "org.opencontainers.image.created": "2026-05-13T22:07:14.814487240Z",
+      "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing",
+      "org.opencontainers.image.ref.name": "2.10.0-nvidia-1.53",
+      "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/pytorch-container/30a9aa04f205f0418edbd94334bd24be/",
+      "org.opencontainers.image.title": "PyTorch",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "2.10.0"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/454678c9c77dbef9fa9030293faefe94c7ea8d23dcafa16c0841294b260b7094"
+    }
+  },
+  {
+    "application": "pytorch",
+    "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
+    "component": "pytorch",
+    "image_name": "pytorch:2.10.0-nvidia-1.53",
+    "version": "2.10.0",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:d7a28065e774d435f45c994da7afaf5c388da0323b59980e2d0a60e5995c98ad",
+    "last_updated": "2026-05-14 10:00",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "pytorch-2.10.0-nvidia-1.53.x86_64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "pytorch-2.10.0-nvidia-1.53.x86_64.cdx.json"
+      }
+    ],
+    "labels": {
+      "org.opencontainers.image.base.digest": "sha256:0aaa3addad28602353154665af82a21e4757cb0f74b1e4e8256813a5abeb8b9c",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
+      "org.opencontainers.image.created": "2026-05-13T22:09:54.579813659Z",
+      "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing",
+      "org.opencontainers.image.ref.name": "2.10.0-nvidia-1.53",
+      "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/pytorch-container/30a9aa04f205f0418edbd94334bd24be/",
+      "org.opencontainers.image.title": "PyTorch",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "2.10.0"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/d7a28065e774d435f45c994da7afaf5c388da0323b59980e2d0a60e5995c98ad"
+    }
   },
   {
     "application": "pytorch",

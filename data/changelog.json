@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-05-14 21:19",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.15-7.3 (aarch64)",
+      "New Container (AppCo): milvus:2.6.15-nvidia-7.3 (aarch64)",
+      "New Container (AppCo): milvus:2.6.15-7.3 (x86_64)",
+      "New Container (AppCo): milvus:2.6.15-nvidia-7.3 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-05-14 14:35",
     "changes": [
       "New Container (AppCo): milvus:2.6.15-7.2 (aarch64)",
@@ -225,14 +234,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.12 (x86_64)",
       "New Container (AppCo): vllm-openai:0.13.0-5.12 (aarch64)",
       "New Container (AppCo): vllm-openai:0.13.0-5.12 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-04-20 14:08",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.19-12.1 (N/A)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.52 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.52 (x86_64)"
     ]
   }
 ]

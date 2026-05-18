@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-05-18 04:24",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.17-7.6 (x86_64)",
+      "New Container (AppCo): milvus:2.6.17-nvidia-7.6 (aarch64)",
+      "New Container (AppCo): milvus:2.6.17-nvidia-7.6 (x86_64)",
+      "New Container (AppCo): milvus:2.6.17-7.6 (aarch64)"
+    ]
+  },
+  {
     "date": "2026-05-16 03:53",
     "changes": [
       "New Container (AppCo): milvus:2.6.16-nvidia-7.5 (aarch64)",
@@ -191,12 +200,6 @@
       "New Chart (AppCo): suse-ai-observability-extension:2.0.0-8.1 (N/A)",
       "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.1 (aarch64)",
       "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.1 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-04-28 14:36",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.19-13.1 (N/A)"
     ]
   }
 ]

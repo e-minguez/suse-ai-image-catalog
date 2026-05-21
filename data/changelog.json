@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-21 15:48",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.21-17.1 (N/A)",
+      "New Container (AppCo): mlflow:3.12.0-10.14 (x86_64)",
+      "New Container (AppCo): mlflow:3.12.0-10.14 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-13.9 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-13.9 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-05-21 11:36",
     "changes": [
       "New Chart (AppCo): milvus:5.0.21-16.1 (N/A)"
@@ -183,15 +193,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.14 (x86_64)",
       "New Container (AppCo): vllm-openai:0.13.0-5.14 (aarch64)",
       "New Container (AppCo): vllm-openai:0.13.0-5.14 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-05-07 03:54",
-    "changes": [
-      "New Container (AppCo): mlflow:3.11.1-10.5 (aarch64)",
-      "New Container (AppCo): mlflow:3.11.1-10.5 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-13.4 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-13.4 (x86_64)"
     ]
   }
 ]

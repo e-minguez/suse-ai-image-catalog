@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-05-26 04:18",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.17-nvidia-7.10 (x86_64)",
+      "New Container (AppCo): milvus:2.6.17-nvidia-7.10 (aarch64)",
+      "New Container (AppCo): milvus:2.6.17-7.10 (aarch64)",
+      "New Container (AppCo): milvus:2.6.17-7.10 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-05-23 10:06",
     "changes": [
       "New Chart (AppCo): milvus:5.0.21-18.1 (N/A)"
@@ -163,23 +172,6 @@
     "changes": [
       "New Container (AppCo): milvus:2.6.15-6.5 (aarch64)",
       "New Container (AppCo): milvus:2.6.15-6.5 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-05-12 18:12",
-    "changes": [
-      "New Container (AppCo): open-webui:0.6.41-14.64 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-14.64 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.57 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.57 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.52 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.52 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.6-3.57 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.6-3.57 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.15 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.2-4.15 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.13.0-5.15 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.13.0-5.15 (x86_64)"
     ]
   }
 ]

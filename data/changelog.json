@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-29 11:39",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.21-20.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-05-28 22:06",
     "changes": [
       "New Container (AppCo): mlflow:3.12.0-10.20 (x86_64)",
@@ -176,17 +182,6 @@
     "changes": [
       "New Container (AppCo): mlflow:3.12.0-10.8 (aarch64)",
       "New Container (AppCo): mlflow:3.12.0-10.8 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-05-15 04:11",
-    "changes": [
-      "New Container (AppCo): ollama:0.21.2-11.50 (aarch64)",
-      "New Container (AppCo): ollama:0.21.2-11.50 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.2 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.2 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.26 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.26 (x86_64)"
     ]
   }
 ]

@@ -1919,80 +1919,33 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.12.0-10.21",
-    "version": "3.12.0",
-    "packaging_format": "CONTAINER",
-    "architecture": "x86_64",
-    "os_family": "SLE",
-    "os_version": "15.7",
-    "digest": "SHA256:7f6434e206d33a7fc8edd92010768f0416d050b00c07bab9317357cc9beb0b6c",
-    "last_updated": "2026-05-29 12:04",
-    "sboms": [
-      {
-        "type": "SBOM",
-        "format": "SPDX",
-        "filename": "mlflow-3.12.0-10.21.x86_64.spdx.json"
-      },
-      {
-        "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "mlflow-3.12.0-10.21.x86_64.cdx.json"
-      }
-    ],
-    "labels": {
-      "com.suse.apps.main-package": "mlflow-3",
-      "org.opencontainers.image.base.digest": "sha256:0aaa3addad28602353154665af82a21e4757cb0f74b1e4e8256813a5abeb8b9c",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-29T11:41:05.730063627Z",
-      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.12.0-10.21",
-      "org.opencontainers.image.title": "MLflow",
-      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
-      "org.opencontainers.image.vendor": "SUSE LLC",
-      "org.opencontainers.image.version": "3.12.0"
-    },
-    "vulnerabilities": {
-      "scan_date": "",
-      "total": 0,
-      "critical": 0,
-      "high": 0,
-      "medium": 0,
-      "low": 0,
-      "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/7f6434e206d33a7fc8edd92010768f0416d050b00c07bab9317357cc9beb0b6c"
-    }
-  },
-  {
-    "application": "mlflow",
-    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
-    "component": "mlflow",
-    "image_name": "mlflow:3.12.0-10.21",
+    "image_name": "mlflow:3.12.0-10.22",
     "version": "3.12.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:29b2f5b568854b5366cceda02a142984dae47d96e48ddee90ce5043b1117a590",
-    "last_updated": "2026-05-29 12:04",
+    "digest": "SHA256:e50da4c3dcec4ca8e3a71996d7edc5810dab8e3b3a55738e295f2d9657d9f7d5",
+    "last_updated": "2026-05-29 21:18",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "mlflow-3.12.0-10.21.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "mlflow-3.12.0-10.22.aarch64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "mlflow-3.12.0-10.21.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "mlflow-3.12.0-10.22.aarch64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-3",
       "org.opencontainers.image.base.digest": "sha256:c8436d1447fe921b7ea3e7a85ad3aa92eaf14315d72e7fdd28f1e4b0defdc60a",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-29T11:44:58.445505880Z",
+      "org.opencontainers.image.created": "2026-05-29T15:33:57.890836680Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.12.0-10.21",
+      "org.opencontainers.image.ref.name": "3.12.0-10.22",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -2006,7 +1959,54 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/29b2f5b568854b5366cceda02a142984dae47d96e48ddee90ce5043b1117a590"
+      "artifact_url": "https://apps.rancher.io/artifacts/e50da4c3dcec4ca8e3a71996d7edc5810dab8e3b3a55738e295f2d9657d9f7d5"
+    }
+  },
+  {
+    "application": "mlflow",
+    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
+    "component": "mlflow",
+    "image_name": "mlflow:3.12.0-10.22",
+    "version": "3.12.0",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:f7c0770dd4504d3e42cdbc487412e69d2b71f0b385cb4c146fca8b3e63c371f2",
+    "last_updated": "2026-05-29 21:18",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "mlflow-3.12.0-10.22.x86_64.cdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "mlflow-3.12.0-10.22.x86_64.spdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "mlflow-3",
+      "org.opencontainers.image.base.digest": "sha256:0aaa3addad28602353154665af82a21e4757cb0f74b1e4e8256813a5abeb8b9c",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
+      "org.opencontainers.image.created": "2026-05-29T15:58:51.976485147Z",
+      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
+      "org.opencontainers.image.ref.name": "3.12.0-10.22",
+      "org.opencontainers.image.title": "MLflow",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "3.12.0"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/f7c0770dd4504d3e42cdbc487412e69d2b71f0b385cb4c146fca8b3e63c371f2"
     }
   },
   {
@@ -5993,27 +5993,27 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.6.41-14.71",
+    "image_name": "open-webui:0.6.41-14.72",
     "version": "0.6.41",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:0217b75ceaec8fdf449aa7a1386cf59f115762cc608834a8aceedfb1ce38c290",
-    "last_updated": "2026-05-27 01:08",
+    "digest": "SHA256:aae314afe3268acf2843821f3879f228e9a831e9a9f3dc670004d63704f344ac",
+    "last_updated": "2026-05-29 20:40",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.6.41-14.71.aarch64.cdx.json"
+        "filename": "open-webui-0.6.41-14.72.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:c8436d1447fe921b7ea3e7a85ad3aa92eaf14315d72e7fdd28f1e4b0defdc60a",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-26T16:55:38.502453360Z",
+      "org.opencontainers.image.created": "2026-05-29T18:57:13.200841320Z",
       "org.opencontainers.image.description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.",
-      "org.opencontainers.image.ref.name": "0.6.41-14.71",
+      "org.opencontainers.image.ref.name": "0.6.41-14.72",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-container/ddae608bcd2eebd906a696ffa6efa16b/",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
@@ -6028,34 +6028,34 @@
       "medium": 6,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/0217b75ceaec8fdf449aa7a1386cf59f115762cc608834a8aceedfb1ce38c290"
+      "artifact_url": "https://apps.rancher.io/artifacts/aae314afe3268acf2843821f3879f228e9a831e9a9f3dc670004d63704f344ac"
     }
   },
   {
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.6.41-14.71",
+    "image_name": "open-webui:0.6.41-14.72",
     "version": "0.6.41",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:9a76d4095aa707911a58b01718367ddd396deda82209d50fff8cde998ef3e490",
-    "last_updated": "2026-05-27 01:08",
+    "digest": "SHA256:fa700d414d7f51b18592f485ee18326c51d0b62d39106d72f2e8f210ff715ae7",
+    "last_updated": "2026-05-29 20:40",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.6.41-14.71.x86_64.cdx.json"
+        "filename": "open-webui-0.6.41-14.72.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:0aaa3addad28602353154665af82a21e4757cb0f74b1e4e8256813a5abeb8b9c",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.15",
-      "org.opencontainers.image.created": "2026-05-26T16:54:12.361790045Z",
+      "org.opencontainers.image.created": "2026-05-29T19:40:41.873205037Z",
       "org.opencontainers.image.description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.",
-      "org.opencontainers.image.ref.name": "0.6.41-14.71",
+      "org.opencontainers.image.ref.name": "0.6.41-14.72",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-container/ddae608bcd2eebd906a696ffa6efa16b/",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
@@ -6070,7 +6070,7 @@
       "medium": 6,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/9a76d4095aa707911a58b01718367ddd396deda82209d50fff8cde998ef3e490"
+      "artifact_url": "https://apps.rancher.io/artifacts/fa700d414d7f51b18592f485ee18326c51d0b62d39106d72f2e8f210ff715ae7"
     }
   },
   {

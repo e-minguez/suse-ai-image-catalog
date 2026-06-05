@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-06-05 04:30",
+    "changes": [
+      "New Container (AppCo): ollama:0.21.2-11.54 (aarch64)",
+      "New Container (AppCo): ollama:0.21.2-11.54 (x86_64)",
+      "New Container (AppCo): open-webui:0.6.41-14.74 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-14.74 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.62 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.62 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.58 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.58 (x86_64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.4 (aarch64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.4 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.5 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.5 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.28 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.28 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.62 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.62 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.19 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.19 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.22 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.22 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-06-04 15:36",
     "changes": [
       "New Container (AppCo): mlflow:3.13.0-10.23 (x86_64)",
@@ -172,15 +197,6 @@
     "date": "2026-05-21 11:36",
     "changes": [
       "New Chart (AppCo): milvus:5.0.21-16.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-05-20 22:04",
-    "changes": [
-      "New Container (AppCo): mlflow:3.12.0-10.12 (x86_64)",
-      "New Container (AppCo): mlflow:3.12.0-10.12 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-13.7 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-13.7 (aarch64)"
     ]
   }
 ]

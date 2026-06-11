@@ -2143,33 +2143,33 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.13.0-11.2",
+    "image_name": "mlflow:3.13.0-11.3",
     "version": "3.13.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:8e2323eb56e9ed7d70dd457f312495842e3ec51e45b5e428a8658b718b6f379c",
-    "last_updated": "2026-06-08 22:54",
+    "digest": "SHA256:4a59c2e90d0c60902b8316a164de194e4dffd8d68c3c22cd50b83a0ca8cce09b",
+    "last_updated": "2026-06-11 18:34",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-3.13.0-11.2.x86_64.cdx.json"
+        "filename": "mlflow-3.13.0-11.3.x86_64.cdx.json"
       },
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-3.13.0-11.2.x86_64.spdx.json"
+        "filename": "mlflow-3.13.0-11.3.x86_64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-3",
       "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T10:37:15.755886863Z",
+      "org.opencontainers.image.created": "2026-06-11T14:23:05.652555337Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.13.0-11.2",
+      "org.opencontainers.image.ref.name": "3.13.0-11.3",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -2183,40 +2183,40 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/8e2323eb56e9ed7d70dd457f312495842e3ec51e45b5e428a8658b718b6f379c"
+      "artifact_url": "https://apps.rancher.io/artifacts/4a59c2e90d0c60902b8316a164de194e4dffd8d68c3c22cd50b83a0ca8cce09b"
     }
   },
   {
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.13.0-11.2",
+    "image_name": "mlflow:3.13.0-11.3",
     "version": "3.13.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:9277a8d3ccc4855c860ac0cfb4c9c0564f50058a577052f3b6659e14f0ba6225",
-    "last_updated": "2026-06-08 22:54",
+    "digest": "SHA256:f9e44bb28c4d1f37512d22edc53de64f12417fdeb38e6dbe385061602a79001e",
+    "last_updated": "2026-06-11 18:34",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "mlflow-3.13.0-11.2.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "mlflow-3.13.0-11.3.aarch64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "mlflow-3.13.0-11.2.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "mlflow-3.13.0-11.3.aarch64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-3",
       "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T10:51:13.329883960Z",
+      "org.opencontainers.image.created": "2026-06-11T14:20:57.318401160Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.13.0-11.2",
+      "org.opencontainers.image.ref.name": "3.13.0-11.3",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -2230,7 +2230,7 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/9277a8d3ccc4855c860ac0cfb4c9c0564f50058a577052f3b6659e14f0ba6225"
+      "artifact_url": "https://apps.rancher.io/artifacts/f9e44bb28c4d1f37512d22edc53de64f12417fdeb38e6dbe385061602a79001e"
     }
   },
   {
@@ -4191,80 +4191,33 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:2.22.4-14.2",
-    "version": "2.22.4",
-    "packaging_format": "CONTAINER",
-    "architecture": "aarch64",
-    "os_family": "SLE",
-    "os_version": "15.7",
-    "digest": "SHA256:047112e9c2382e6329124f18368641c9dcbe9aabe31043df5d11ddbcc9ba41b5",
-    "last_updated": "2026-06-08 22:54",
-    "sboms": [
-      {
-        "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "mlflow-2.22.4-14.2.aarch64.cdx.json"
-      },
-      {
-        "type": "SBOM",
-        "format": "SPDX",
-        "filename": "mlflow-2.22.4-14.2.aarch64.spdx.json"
-      }
-    ],
-    "labels": {
-      "com.suse.apps.main-package": "mlflow-2",
-      "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T11:01:34.566745000Z",
-      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "2.22.4-14.2",
-      "org.opencontainers.image.title": "MLflow",
-      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
-      "org.opencontainers.image.vendor": "SUSE LLC",
-      "org.opencontainers.image.version": "2.22.4"
-    },
-    "vulnerabilities": {
-      "scan_date": "",
-      "total": 20,
-      "critical": 5,
-      "high": 12,
-      "medium": 3,
-      "low": 0,
-      "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/047112e9c2382e6329124f18368641c9dcbe9aabe31043df5d11ddbcc9ba41b5"
-    }
-  },
-  {
-    "application": "mlflow",
-    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
-    "component": "mlflow",
-    "image_name": "mlflow:2.22.4-14.2",
+    "image_name": "mlflow:2.22.4-14.3",
     "version": "2.22.4",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:ea51460aad78bb481269994a86faffda52ad3873c1326f0df9278792e9168578",
-    "last_updated": "2026-06-08 22:54",
+    "digest": "SHA256:270aa296b7425a41e1abfdbc66d73552a5c8b028a7626bb30c34f4bf4eb607e9",
+    "last_updated": "2026-06-11 18:34",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "mlflow-2.22.4-14.2.x86_64.cdx.json"
+        "format": "SPDX",
+        "filename": "mlflow-2.22.4-14.3.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "mlflow-2.22.4-14.2.x86_64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "mlflow-2.22.4-14.3.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-2",
       "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T10:37:14.217618376Z",
+      "org.opencontainers.image.created": "2026-06-11T14:23:04.948416798Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "2.22.4-14.2",
+      "org.opencontainers.image.ref.name": "2.22.4-14.3",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -4278,7 +4231,54 @@
       "medium": 3,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/ea51460aad78bb481269994a86faffda52ad3873c1326f0df9278792e9168578"
+      "artifact_url": "https://apps.rancher.io/artifacts/270aa296b7425a41e1abfdbc66d73552a5c8b028a7626bb30c34f4bf4eb607e9"
+    }
+  },
+  {
+    "application": "mlflow",
+    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
+    "component": "mlflow",
+    "image_name": "mlflow:2.22.4-14.3",
+    "version": "2.22.4",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:2ad330bbb269cad794bd93aba624377626abf6ad38ec313c6a06dfaf3f65b10b",
+    "last_updated": "2026-06-11 18:34",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "mlflow-2.22.4-14.3.aarch64.cdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "mlflow-2.22.4-14.3.aarch64.spdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "mlflow-2",
+      "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
+      "org.opencontainers.image.created": "2026-06-11T14:20:56.544376760Z",
+      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
+      "org.opencontainers.image.ref.name": "2.22.4-14.3",
+      "org.opencontainers.image.title": "MLflow",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "2.22.4"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 20,
+      "critical": 5,
+      "high": 12,
+      "medium": 3,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/2ad330bbb269cad794bd93aba624377626abf6ad38ec313c6a06dfaf3f65b10b"
     }
   },
   {

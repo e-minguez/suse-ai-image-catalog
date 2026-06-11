@@ -3,80 +3,33 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.18-nvidia-8.2",
+    "image_name": "milvus:2.6.18-8.3",
     "version": "2.6.18",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:5fe401e7d5aeed1942f0913cec113ed3574975186e2736ef21aed19f40dd0fee",
-    "last_updated": "2026-06-08 21:47",
+    "digest": "SHA256:dba8e2473940bfa206946d17117fb3331e7765fdf990c5673503ab6f34daeea9",
+    "last_updated": "2026-06-11 20:08",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "milvus-2.6.18-nvidia-8.2.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "milvus-2.6.18-8.3.aarch64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "milvus-2.6.18-nvidia-8.2.aarch64.cdx.json"
-      }
-    ],
-    "labels": {
-      "com.suse.apps.main-package": "milvus-2.6-nvidia",
-      "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T17:14:24.140641960Z",
-      "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.18-nvidia-8.2",
-      "org.opencontainers.image.title": "Milvus",
-      "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
-      "org.opencontainers.image.vendor": "SUSE LLC",
-      "org.opencontainers.image.version": "2.6.18"
-    },
-    "vulnerabilities": {
-      "scan_date": "",
-      "total": 6,
-      "critical": 0,
-      "high": 3,
-      "medium": 3,
-      "low": 0,
-      "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/5fe401e7d5aeed1942f0913cec113ed3574975186e2736ef21aed19f40dd0fee"
-    }
-  },
-  {
-    "application": "milvus",
-    "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
-    "component": "milvus",
-    "image_name": "milvus:2.6.18-8.2",
-    "version": "2.6.18",
-    "packaging_format": "CONTAINER",
-    "architecture": "aarch64",
-    "os_family": "SLE",
-    "os_version": "15.7",
-    "digest": "SHA256:e7c105846a884f6f274e6d78ba434fb8a56bbb71d020fc6d65127eee57b96960",
-    "last_updated": "2026-06-08 21:47",
-    "sboms": [
-      {
-        "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.18-8.2.aarch64.spdx.json"
-      },
-      {
-        "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "milvus-2.6.18-8.2.aarch64.cdx.json"
+        "filename": "milvus-2.6.18-8.3.aarch64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6",
       "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T14:29:49.190101600Z",
+      "org.opencontainers.image.created": "2026-06-11T18:25:36.209003600Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.18-8.2",
+      "org.opencontainers.image.ref.name": "2.6.18-8.3",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -90,87 +43,40 @@
       "medium": 3,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/e7c105846a884f6f274e6d78ba434fb8a56bbb71d020fc6d65127eee57b96960"
+      "artifact_url": "https://apps.rancher.io/artifacts/dba8e2473940bfa206946d17117fb3331e7765fdf990c5673503ab6f34daeea9"
     }
   },
   {
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.18-8.2",
+    "image_name": "milvus:2.6.18-nvidia-8.3",
     "version": "2.6.18",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:58a3de1f2056e4f27bab36b4873c5e786b2b039a41d4b723d9e07e8404d6b6f4",
-    "last_updated": "2026-06-08 21:47",
+    "digest": "SHA256:9e4c31306ca4e662d521e1e5bcd9678eb6a070f1def2cbc68c2cdfc18196a0eb",
+    "last_updated": "2026-06-11 20:08",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.18-8.2.x86_64.spdx.json"
+        "filename": "milvus-2.6.18-nvidia-8.3.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "milvus-2.6.18-8.2.x86_64.cdx.json"
-      }
-    ],
-    "labels": {
-      "com.suse.apps.main-package": "milvus-2.6",
-      "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T13:44:04.125153663Z",
-      "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.18-8.2",
-      "org.opencontainers.image.title": "Milvus",
-      "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
-      "org.opencontainers.image.vendor": "SUSE LLC",
-      "org.opencontainers.image.version": "2.6.18"
-    },
-    "vulnerabilities": {
-      "scan_date": "",
-      "total": 6,
-      "critical": 0,
-      "high": 3,
-      "medium": 3,
-      "low": 0,
-      "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/58a3de1f2056e4f27bab36b4873c5e786b2b039a41d4b723d9e07e8404d6b6f4"
-    }
-  },
-  {
-    "application": "milvus",
-    "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
-    "component": "milvus",
-    "image_name": "milvus:2.6.18-nvidia-8.2",
-    "version": "2.6.18",
-    "packaging_format": "CONTAINER",
-    "architecture": "x86_64",
-    "os_family": "SLE",
-    "os_version": "15.7",
-    "digest": "SHA256:ec8a5612b309487be12dd500f96a75b87b1b6f87567c582c19e7dcc9716f90a6",
-    "last_updated": "2026-06-08 21:47",
-    "sboms": [
-      {
-        "type": "SBOM",
-        "format": "SPDX",
-        "filename": "milvus-2.6.18-nvidia-8.2.x86_64.spdx.json"
-      },
-      {
-        "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "milvus-2.6.18-nvidia-8.2.x86_64.cdx.json"
+        "filename": "milvus-2.6.18-nvidia-8.3.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6-nvidia",
       "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T12:47:23.196001430Z",
+      "org.opencontainers.image.created": "2026-06-11T16:43:01.814542855Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.18-nvidia-8.2",
+      "org.opencontainers.image.ref.name": "2.6.18-nvidia-8.3",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -184,7 +90,101 @@
       "medium": 3,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/ec8a5612b309487be12dd500f96a75b87b1b6f87567c582c19e7dcc9716f90a6"
+      "artifact_url": "https://apps.rancher.io/artifacts/9e4c31306ca4e662d521e1e5bcd9678eb6a070f1def2cbc68c2cdfc18196a0eb"
+    }
+  },
+  {
+    "application": "milvus",
+    "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
+    "component": "milvus",
+    "image_name": "milvus:2.6.18-nvidia-8.3",
+    "version": "2.6.18",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:e77578401563ee342f03d1c584ef1e1c8027f2b510ab19381c7f24a2dd59b033",
+    "last_updated": "2026-06-11 20:08",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "milvus-2.6.18-nvidia-8.3.aarch64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "milvus-2.6.18-nvidia-8.3.aarch64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "milvus-2.6-nvidia",
+      "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
+      "org.opencontainers.image.created": "2026-06-11T19:53:26.225544400Z",
+      "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
+      "org.opencontainers.image.ref.name": "2.6.18-nvidia-8.3",
+      "org.opencontainers.image.title": "Milvus",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "2.6.18"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 6,
+      "critical": 0,
+      "high": 3,
+      "medium": 3,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/e77578401563ee342f03d1c584ef1e1c8027f2b510ab19381c7f24a2dd59b033"
+    }
+  },
+  {
+    "application": "milvus",
+    "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
+    "component": "milvus",
+    "image_name": "milvus:2.6.18-8.3",
+    "version": "2.6.18",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:f3657045389f5198af8226872450ad1a61f605d7f201e433665686a00ded71e2",
+    "last_updated": "2026-06-11 20:08",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "milvus-2.6.18-8.3.x86_64.cdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "milvus-2.6.18-8.3.x86_64.spdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "milvus-2.6",
+      "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
+      "org.opencontainers.image.created": "2026-06-11T17:45:57.579956618Z",
+      "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
+      "org.opencontainers.image.ref.name": "2.6.18-8.3",
+      "org.opencontainers.image.title": "Milvus",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "2.6.18"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 6,
+      "critical": 0,
+      "high": 3,
+      "medium": 3,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/f3657045389f5198af8226872450ad1a61f605d7f201e433665686a00ded71e2"
     }
   },
   {
@@ -6311,27 +6311,27 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.6.41-14.77",
+    "image_name": "open-webui:0.6.41-14.78",
     "version": "0.6.41",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:40da3e2808b70ba9b405b3fc1ba4f397ad15a7c57143bb349f514b2744e3c615",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:df7ea58bcfbf97010092c6f20b5a0b6610e2d1f2376a198006775e4e2716cde3",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.6.41-14.77.aarch64.cdx.json"
+        "filename": "open-webui-0.6.41-14.78.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T14:45:47.249345840Z",
+      "org.opencontainers.image.created": "2026-06-11T18:44:45.803941880Z",
       "org.opencontainers.image.description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.",
-      "org.opencontainers.image.ref.name": "0.6.41-14.77",
+      "org.opencontainers.image.ref.name": "0.6.41-14.78",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-container/ddae608bcd2eebd906a696ffa6efa16b/",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
@@ -6346,34 +6346,34 @@
       "medium": 6,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/40da3e2808b70ba9b405b3fc1ba4f397ad15a7c57143bb349f514b2744e3c615"
+      "artifact_url": "https://apps.rancher.io/artifacts/df7ea58bcfbf97010092c6f20b5a0b6610e2d1f2376a198006775e4e2716cde3"
     }
   },
   {
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.6.41-14.77",
+    "image_name": "open-webui:0.6.41-14.78",
     "version": "0.6.41",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:88ee92fe09ac6dfe69e93d7231d85089a5b2aa7f9d338414b1c57e177aa5fd2b",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:0af4d2da91a0a7d33f9d34f66a59773cef6dcfef54e574fe94230ed0d1d152de",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.6.41-14.77.x86_64.cdx.json"
+        "filename": "open-webui-0.6.41-14.78.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T12:56:06.480363923Z",
+      "org.opencontainers.image.created": "2026-06-11T18:37:28.776190142Z",
       "org.opencontainers.image.description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.",
-      "org.opencontainers.image.ref.name": "0.6.41-14.77",
+      "org.opencontainers.image.ref.name": "0.6.41-14.78",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-container/ddae608bcd2eebd906a696ffa6efa16b/",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
@@ -6388,7 +6388,7 @@
       "medium": 6,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/88ee92fe09ac6dfe69e93d7231d85089a5b2aa7f9d338414b1c57e177aa5fd2b"
+      "artifact_url": "https://apps.rancher.io/artifacts/0af4d2da91a0a7d33f9d34f66a59773cef6dcfef54e574fe94230ed0d1d152de"
     }
   },
   {
@@ -6929,32 +6929,32 @@
     "application": "open-webui-mcpo",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-mcpo.png",
     "component": "open-webui-mcpo",
-    "image_name": "open-webui-mcpo:0.0.17-2.64",
+    "image_name": "open-webui-mcpo:0.0.17-2.65",
     "version": "0.0.17",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:0cec8e31ff6e8cb9268e09e957ba7cab135427399d83d2d161f347c54e1bf5a4",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:2ba8f2136dfdac594443c220f0675938c6a6522581b13cabc7ed77ab86d7b7a4",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "open-webui-mcpo-0.0.17-2.64.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "open-webui-mcpo-0.0.17-2.65.aarch64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "open-webui-mcpo-0.0.17-2.64.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "open-webui-mcpo-0.0.17-2.65.aarch64.spdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T12:58:04.760861360Z",
+      "org.opencontainers.image.created": "2026-06-11T18:37:04.706706480Z",
       "org.opencontainers.image.description": "A simple, secure MCP-to-OpenAPI proxy server.",
-      "org.opencontainers.image.ref.name": "0.0.17-2.64",
+      "org.opencontainers.image.ref.name": "0.0.17-2.65",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-mcpo-container/6f87acef9dedf5ee9f5fe01d17b00bee/",
       "org.opencontainers.image.title": "Open WebUI mcpo",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-mcpo",
@@ -6969,39 +6969,39 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/0cec8e31ff6e8cb9268e09e957ba7cab135427399d83d2d161f347c54e1bf5a4"
+      "artifact_url": "https://apps.rancher.io/artifacts/2ba8f2136dfdac594443c220f0675938c6a6522581b13cabc7ed77ab86d7b7a4"
     }
   },
   {
     "application": "open-webui-mcpo",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-mcpo.png",
     "component": "open-webui-mcpo",
-    "image_name": "open-webui-mcpo:0.0.17-2.64",
+    "image_name": "open-webui-mcpo:0.0.17-2.65",
     "version": "0.0.17",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:d7b9129f4ff3437758ed762f13ad06e3baae1bd0ca9fef3e0ae51ca4b800fd65",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:8a8484c813228b068efee4f60274c96ca3f992c7825b51d0d67227eee0088eb4",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "open-webui-mcpo-0.0.17-2.64.x86_64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "open-webui-mcpo-0.0.17-2.65.x86_64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "open-webui-mcpo-0.0.17-2.64.x86_64.cdx.json"
+        "format": "SPDX",
+        "filename": "open-webui-mcpo-0.0.17-2.65.x86_64.spdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T12:31:21.181350141Z",
+      "org.opencontainers.image.created": "2026-06-11T18:38:36.677221443Z",
       "org.opencontainers.image.description": "A simple, secure MCP-to-OpenAPI proxy server.",
-      "org.opencontainers.image.ref.name": "0.0.17-2.64",
+      "org.opencontainers.image.ref.name": "0.0.17-2.65",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-mcpo-container/6f87acef9dedf5ee9f5fe01d17b00bee/",
       "org.opencontainers.image.title": "Open WebUI mcpo",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-mcpo",
@@ -7016,7 +7016,7 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/d7b9129f4ff3437758ed762f13ad06e3baae1bd0ca9fef3e0ae51ca4b800fd65"
+      "artifact_url": "https://apps.rancher.io/artifacts/8a8484c813228b068efee4f60274c96ca3f992c7825b51d0d67227eee0088eb4"
     }
   },
   {
@@ -7068,32 +7068,32 @@
     "application": "open-webui-pipelines",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-pipelines.png",
     "component": "open-webui-pipelines",
-    "image_name": "open-webui-pipelines:0.20250819.030501-8.59",
+    "image_name": "open-webui-pipelines:0.20250819.030501-8.60",
     "version": "0.20250819.030501",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:ac7778b331e8e2435ce2fae22d9566f4227cfdf9fd625c8f1b86fb20e5dab3f9",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:075bc0ce2b7d50c177093ade377977dcfa4a3188acdfb773e456b1f6d19f3b66",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.59.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "open-webui-pipelines-0.20250819.030501-8.60.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.59.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "open-webui-pipelines-0.20250819.030501-8.60.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T13:34:45.293618160Z",
+      "org.opencontainers.image.created": "2026-06-11T18:59:18.295993880Z",
       "org.opencontainers.image.description": "Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs and much more! Easily extend functionalities, integrate unique logic, and create dynamic workflows with just a few lines of code.",
-      "org.opencontainers.image.ref.name": "0.20250819.030501-8.59",
+      "org.opencontainers.image.ref.name": "0.20250819.030501-8.60",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-pipelines-container/72a8c152a1f5f742ec21b2560d6dfcfd/",
       "org.opencontainers.image.title": "Open WebUI Pipelines",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-pipelines",
@@ -7108,39 +7108,39 @@
       "medium": 4,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/ac7778b331e8e2435ce2fae22d9566f4227cfdf9fd625c8f1b86fb20e5dab3f9"
+      "artifact_url": "https://apps.rancher.io/artifacts/075bc0ce2b7d50c177093ade377977dcfa4a3188acdfb773e456b1f6d19f3b66"
     }
   },
   {
     "application": "open-webui-pipelines",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-pipelines.png",
     "component": "open-webui-pipelines",
-    "image_name": "open-webui-pipelines:0.20250819.030501-8.59",
+    "image_name": "open-webui-pipelines:0.20250819.030501-8.60",
     "version": "0.20250819.030501",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:ec6d979cd4a46e2d5db54d88b2265dd22087758137fc0c2ebf0374887ab884bb",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:6ec1a43b232367fa39914beca53c723d12431ecec4da720503060f50d7ef254f",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.59.x86_64.spdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.60.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.59.x86_64.cdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.60.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T12:16:42.620642671Z",
+      "org.opencontainers.image.created": "2026-06-11T18:34:01.767143722Z",
       "org.opencontainers.image.description": "Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs and much more! Easily extend functionalities, integrate unique logic, and create dynamic workflows with just a few lines of code.",
-      "org.opencontainers.image.ref.name": "0.20250819.030501-8.59",
+      "org.opencontainers.image.ref.name": "0.20250819.030501-8.60",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-pipelines-container/72a8c152a1f5f742ec21b2560d6dfcfd/",
       "org.opencontainers.image.title": "Open WebUI Pipelines",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-pipelines",
@@ -7155,7 +7155,7 @@
       "medium": 4,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/ec6d979cd4a46e2d5db54d88b2265dd22087758137fc0c2ebf0374887ab884bb"
+      "artifact_url": "https://apps.rancher.io/artifacts/6ec1a43b232367fa39914beca53c723d12431ecec4da720503060f50d7ef254f"
     }
   },
   {
@@ -7868,6 +7868,56 @@
     "sboms": [],
     "labels": {},
     "chart_images": []
+  },
+  {
+    "application": "suse-ai-deployer",
+    "app_logo_url": "https://apps.rancher.io/logos/suse-ai-deployer.png",
+    "component": "suse-ai-deployer",
+    "image_name": "suse-ai-deployer:1.2.1-6.1",
+    "version": "1.2.1",
+    "packaging_format": "HELM_CHART",
+    "architecture": null,
+    "os_family": null,
+    "os_version": null,
+    "digest": "SHA256:98a6d4930582905dc6feeee6b91e0689a993d892234bceed85a5fe9594beaf56",
+    "last_updated": "2026-06-11 20:42",
+    "sboms": [],
+    "labels": {},
+    "chart_images": [
+      "dp.apps.rancher.io/containers/apache-kafka:4.1.2-8.1",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-21.20",
+      "dp.apps.rancher.io/containers/apache-tika:3.2.2-7.8",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-21.20",
+      "dp.apps.rancher.io/containers/etcd:3.6.12-11.1",
+      "dp.apps.rancher.io/containers/heaptrack:1.3.0-7.1",
+      "dp.apps.rancher.io/containers/milvus:2.6.18-8.2",
+      "dp.apps.rancher.io/containers/mc:0.20250813.083541-14.1",
+      "dp.apps.rancher.io/containers/minio:0.20251015.172955-14.1",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-19.10",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-21.12",
+      "dp.apps.rancher.io/containers/ollama:0.12.9-11.15",
+      "dp.apps.rancher.io/containers/ollama:0.21.2-11.48",
+      "dp.apps.rancher.io/containers/open-webui:0.6.41-14.20",
+      "dp.apps.rancher.io/containers/redis:8.4.0-2.1",
+      "dp.apps.rancher.io/containers/open-webui-mcpo:0.0.17-2.18",
+      "dp.apps.rancher.io/containers/open-webui-pipelines:0.20250819.030501-8.19",
+      "dp.apps.rancher.io/containers/pytorch:2.9.1-nvidia-1.18",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-19.10",
+      "dp.apps.rancher.io/containers/lmcache-lmstack-router:0.1.10-3.60",
+      "dp.apps.rancher.io/containers/lmcache-vllm-openai:0.3.9-4.17",
+      "dp.apps.rancher.io/containers/vllm-openai:0.19.0-5.20"
+    ],
+    "vulnerabilities": {
+      "total": 264,
+      "critical": 4,
+      "high": 94,
+      "medium": 112,
+      "low": 54,
+      "scan_date": "",
+      "source": "aggregated_appco_images",
+      "component_count": 22,
+      "artifact_url": "https://apps.rancher.io/artifacts/98a6d4930582905dc6feeee6b91e0689a993d892234bceed85a5fe9594beaf56"
+    }
   },
   {
     "application": "suse-ai-deployer",
@@ -9638,32 +9688,32 @@
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-lmstack-router",
-    "image_name": "lmcache-lmstack-router:0.1.10-3.64",
+    "image_name": "lmcache-lmstack-router:0.1.10-3.65",
     "version": "0.1.10",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:841d0eb7408b7f225a2f25de3a5e4fb15652aa461edd5d327214f4c3db198587",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:ce4af52d2a624c809b12935e19cb50058a31f19cd5f33f21b648134c2e16391b",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "lmcache-lmstack-router-0.1.10-3.64.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "lmcache-lmstack-router-0.1.10-3.65.aarch64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "lmcache-lmstack-router-0.1.10-3.64.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "lmcache-lmstack-router-0.1.10-3.65.aarch64.spdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T13:07:30.038639160Z",
+      "org.opencontainers.image.created": "2026-06-11T18:34:01.652113440Z",
       "org.opencontainers.image.description": "A lightweight, high-performance API router that directs requests to appropriate backends based on routing keys or session IDs to maximize KV cache reuse.",
-      "org.opencontainers.image.ref.name": "0.1.10-3.64",
+      "org.opencontainers.image.ref.name": "0.1.10-3.65",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/lmcache-lmstack-router-container/60a156fbf0190481595d899fec1ad9ca/",
       "org.opencontainers.image.title": "LMStack Router",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm",
@@ -9678,39 +9728,39 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/841d0eb7408b7f225a2f25de3a5e4fb15652aa461edd5d327214f4c3db198587"
+      "artifact_url": "https://apps.rancher.io/artifacts/ce4af52d2a624c809b12935e19cb50058a31f19cd5f33f21b648134c2e16391b"
     }
   },
   {
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-lmstack-router",
-    "image_name": "lmcache-lmstack-router:0.1.10-3.64",
+    "image_name": "lmcache-lmstack-router:0.1.10-3.65",
     "version": "0.1.10",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:9b5e0e8a3fa6e4f7f5388d14f01cd7938fbb2e2ab1b1e5e92848fe2948e26edd",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:03cbeec1c4a6f004518bf6c6cba8f61a69e50ef1b33db932bbc1e683e33e206c",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "lmcache-lmstack-router-0.1.10-3.64.x86_64.cdx.json"
+        "format": "SPDX",
+        "filename": "lmcache-lmstack-router-0.1.10-3.65.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "lmcache-lmstack-router-0.1.10-3.64.x86_64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "lmcache-lmstack-router-0.1.10-3.65.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-08T12:24:48.499219644Z",
+      "org.opencontainers.image.created": "2026-06-11T18:21:57.437036717Z",
       "org.opencontainers.image.description": "A lightweight, high-performance API router that directs requests to appropriate backends based on routing keys or session IDs to maximize KV cache reuse.",
-      "org.opencontainers.image.ref.name": "0.1.10-3.64",
+      "org.opencontainers.image.ref.name": "0.1.10-3.65",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/lmcache-lmstack-router-container/60a156fbf0190481595d899fec1ad9ca/",
       "org.opencontainers.image.title": "LMStack Router",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm",
@@ -9725,7 +9775,7 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/9b5e0e8a3fa6e4f7f5388d14f01cd7938fbb2e2ab1b1e5e92848fe2948e26edd"
+      "artifact_url": "https://apps.rancher.io/artifacts/03cbeec1c4a6f004518bf6c6cba8f61a69e50ef1b33db932bbc1e683e33e206c"
     }
   },
   {
@@ -9826,27 +9876,27 @@
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-vllm-openai",
-    "image_name": "lmcache-vllm-openai:0.3.9-4.21",
+    "image_name": "lmcache-vllm-openai:0.3.9-4.22",
     "version": "0.3.9",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:e4f39309683aae19acfa35d81785be05aae44254b6a770872221be2a7b9fb8f8",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:5e6a5dfe99a66917077ea9675d4a9559380c37e82ddc47af67c4f6a2900d0a0f",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "lmcache-vllm-openai-0.3.9-4.21.aarch64.cdx.json"
+        "filename": "lmcache-vllm-openai-0.3.9-4.22.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-09T11:36:05.232764000Z",
+      "org.opencontainers.image.created": "2026-06-11T19:08:49.928115640Z",
       "org.opencontainers.image.description": "A high-throughput, memory-efficient inference and serving engine for LLMs with integrated key-value cache reuse across requests.",
-      "org.opencontainers.image.ref.name": "0.3.9-4.21",
+      "org.opencontainers.image.ref.name": "0.3.9-4.22",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/lmcache-vllm-openai-container/cdcbde73f3351a24140d7469f5ae5b2b/",
       "org.opencontainers.image.title": "LMCache vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm",
@@ -9861,34 +9911,34 @@
       "medium": 1,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/e4f39309683aae19acfa35d81785be05aae44254b6a770872221be2a7b9fb8f8"
+      "artifact_url": "https://apps.rancher.io/artifacts/5e6a5dfe99a66917077ea9675d4a9559380c37e82ddc47af67c4f6a2900d0a0f"
     }
   },
   {
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-vllm-openai",
-    "image_name": "lmcache-vllm-openai:0.3.9-4.21",
+    "image_name": "lmcache-vllm-openai:0.3.9-4.22",
     "version": "0.3.9",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:46162458f0fc4de3cd501229725fb8e319e1aba07686687c55f26ca8eeb2c2a5",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:78aa6fe4235b75cc3e3b0316d8d9dd534727fa65fac5bda3caf5be2a373e4333",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "lmcache-vllm-openai-0.3.9-4.21.x86_64.cdx.json"
+        "filename": "lmcache-vllm-openai-0.3.9-4.22.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-09T01:24:20.142187361Z",
+      "org.opencontainers.image.created": "2026-06-11T18:43:32.430695803Z",
       "org.opencontainers.image.description": "A high-throughput, memory-efficient inference and serving engine for LLMs with integrated key-value cache reuse across requests.",
-      "org.opencontainers.image.ref.name": "0.3.9-4.21",
+      "org.opencontainers.image.ref.name": "0.3.9-4.22",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/lmcache-vllm-openai-container/cdcbde73f3351a24140d7469f5ae5b2b/",
       "org.opencontainers.image.title": "LMCache vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm",
@@ -9903,7 +9953,7 @@
       "medium": 1,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/46162458f0fc4de3cd501229725fb8e319e1aba07686687c55f26ca8eeb2c2a5"
+      "artifact_url": "https://apps.rancher.io/artifacts/78aa6fe4235b75cc3e3b0316d8d9dd534727fa65fac5bda3caf5be2a373e4333"
     }
   },
   {
@@ -9994,27 +10044,27 @@
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "vllm-openai",
-    "image_name": "vllm-openai:0.19.0-5.24",
+    "image_name": "vllm-openai:0.19.0-5.25",
     "version": "0.19.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:157ca5aef8a56dc538ba6d3fc21e20ae0eb42e37401d4b4a776e2fa04658bc0e",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:b623abd3945ea344040daf219d4d1646a07d91b9f7996a22a3703384abe1ccc6",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "vllm-openai-0.19.0-5.24.aarch64.cdx.json"
+        "filename": "vllm-openai-0.19.0-5.25.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:afa9017cb23359220e8a8321ff234bc93abb185fda2115cd168697d901946001",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-09T11:36:07.660227200Z",
+      "org.opencontainers.image.created": "2026-06-11T19:08:31.068296640Z",
       "org.opencontainers.image.description": "An HTTP server that implements OpenAI's Completions API, Chat API, and more.",
-      "org.opencontainers.image.ref.name": "0.19.0-5.24",
+      "org.opencontainers.image.ref.name": "0.19.0-5.25",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/vllm-openai-container/83ce3f0b46300de09be65a874aa0611a/",
       "org.opencontainers.image.title": "vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm",
@@ -10029,34 +10079,34 @@
       "medium": 1,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/157ca5aef8a56dc538ba6d3fc21e20ae0eb42e37401d4b4a776e2fa04658bc0e"
+      "artifact_url": "https://apps.rancher.io/artifacts/b623abd3945ea344040daf219d4d1646a07d91b9f7996a22a3703384abe1ccc6"
     }
   },
   {
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "vllm-openai",
-    "image_name": "vllm-openai:0.19.0-5.24",
+    "image_name": "vllm-openai:0.19.0-5.25",
     "version": "0.19.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:0b1a48e0c5865f422a04423608dcf3d7b48ce17187bf7770cb6297e2e424cce9",
-    "last_updated": "2026-06-09 13:18",
+    "digest": "SHA256:149c5ec5c973be31d4c65c1cebb0606ef4230243cf08dbf1e3feecc2bd9f407c",
+    "last_updated": "2026-06-11 20:23",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "vllm-openai-0.19.0-5.24.x86_64.cdx.json"
+        "filename": "vllm-openai-0.19.0-5.25.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:4ed4f6d6625e0505b1745050af2d61e507997053f3c0d32f487128b9702d17ac",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-56.21",
-      "org.opencontainers.image.created": "2026-06-09T01:24:19.219886049Z",
+      "org.opencontainers.image.created": "2026-06-11T18:43:32.959611881Z",
       "org.opencontainers.image.description": "An HTTP server that implements OpenAI's Completions API, Chat API, and more.",
-      "org.opencontainers.image.ref.name": "0.19.0-5.24",
+      "org.opencontainers.image.ref.name": "0.19.0-5.25",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/vllm-openai-container/83ce3f0b46300de09be65a874aa0611a/",
       "org.opencontainers.image.title": "vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm",
@@ -10071,7 +10121,7 @@
       "medium": 1,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/0b1a48e0c5865f422a04423608dcf3d7b48ce17187bf7770cb6297e2e424cce9"
+      "artifact_url": "https://apps.rancher.io/artifacts/149c5ec5c973be31d4c65c1cebb0606ef4230243cf08dbf1e3feecc2bd9f407c"
     }
   },
   {

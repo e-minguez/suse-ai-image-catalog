@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-06-12 18:18",
+    "changes": [
+      "New Container (AppCo): ollama:0.21.2-11.56 (aarch64)",
+      "New Container (AppCo): ollama:0.21.2-11.56 (x86_64)",
+      "New Container (AppCo): open-webui:0.6.41-14.79 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-14.79 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.66 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.66 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.61 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.61 (x86_64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.7 (aarch64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.7 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.8 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.8 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.30 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.30 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.66 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.66 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.23 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.23 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.26 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.26 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-06-12 04:55",
     "changes": [
       "New Chart (AppCo): milvus:5.0.22-27.1 (N/A)"
@@ -203,15 +228,6 @@
     "date": "2026-05-30 10:11",
     "changes": [
       "New Chart (AppCo): milvus:5.0.21-21.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-05-29 22:03",
-    "changes": [
-      "New Container (AppCo): mlflow:3.12.0-10.22 (aarch64)",
-      "New Container (AppCo): mlflow:3.12.0-10.22 (x86_64)",
-      "New Container (AppCo): open-webui:0.6.41-14.72 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-14.72 (x86_64)"
     ]
   }
 ]

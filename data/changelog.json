@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-06-13 05:03",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.22-28.1 (N/A)",
+      "New Container (Registry): ai/containers/chrislusf/seaweedfs:4.00 (x86_64)",
+      "New Container (Registry): ai/containers/jobset/jobset:v0.10.1 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:v1.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/eventing/cmd/controller:v1.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/eventing/cmd/mtping:v1.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/eventing/cmd/webhook:v1.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/art-explainer:latest (x86_64)",
+      "New Container (Registry): ai/containers/kserve/huggingfaceserver:v0.16.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/huggingfaceserver:v0.16.0-gpu (x86_64)",
+      "New Container (Registry): ai/containers/kserve/lgbserver:v0.15.2 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/paddleserver:v0.15.2 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/pmmlserver:v0.15.2 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/sklearnserver:v0.15.2 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/xgbserver:v0.15.2 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/katib/suggestion-hyperband:v0.19.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-frontend:2.16.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-launcher:2.16.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-viewer-crd-controller:2.16.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-visualization-server:2.16.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/kfam:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-cuda-full:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-full:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/notebook-servers/jupyter-scipy:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-cuda-full:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-full:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/notebook-servers/rstudio-tidyverse:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/profile-controller:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/pvcviewer-controller:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/tensorboard-controller:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/tensorboards-web-app:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kubeflow/volumes-web-app:v1.10.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/model-registry/controller:v0.3.7 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/model-registry/storage-initializer:v0.3.7 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/dataset-initializer:v2.1.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/deepspeed-runtime:v2.1.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/mlx-runtime:v2.1.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/model-initializer:v2.1.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/torchtune-trainer:v2.1.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/trainer-controller-manager:v2.1.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-3f15cb8 (x86_64)",
+      "New Container (Registry): ai/containers/pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime (x86_64)",
+      "New Container (Registry): ai/containers/pytorch/torchserve-kfs:0.9.0 (x86_64)",
+      "New Container (Registry): ai/containers/seldonio/mlserver:1.5.0 (x86_64)",
+      "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:0.149.0 (x86_64)",
+      "New Container (Registry): ai/containers/tensorflow/serving:2.6.2 (x86_64)",
+      "New Container (Registry): ai/containers/tensorflow/tensorflow:2.13.0 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-06-12 22:08",
     "changes": [
       "New Container (Registry): ai/containers/filebrowser/filebrowser:v2.25.0 (x86_64)",
@@ -270,12 +323,6 @@
       "New Container (AppCo): milvus:2.6.17-7.13 (aarch64)",
       "New Container (AppCo): milvus:2.6.17-7.13 (x86_64)",
       "New Container (AppCo): milvus:2.6.17-nvidia-7.13 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-06-02 19:52",
-    "changes": [
-      "New Chart (AppCo): vllm:0.1.10-5.1 (N/A)"
     ]
   }
 ]

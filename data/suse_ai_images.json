@@ -191,14 +191,14 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:5.0.22-28.1",
+    "image_name": "milvus:5.0.22-29.1",
     "version": "2.6.18",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:25ce6eb67aad688ad28bfd6571f0585b7389d8d244ff14d7decaf40dcf2bb1f2",
-    "last_updated": "2026-06-13 01:47",
+    "digest": "SHA256:9c5c159dea75faa51ab87393c45b2fbca730bcfb415b8c888f78815653fafffb",
+    "last_updated": "2026-06-15 09:35",
     "sboms": [],
     "labels": {},
     "chart_images": [
@@ -220,7 +220,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 8,
-      "artifact_url": "https://apps.rancher.io/artifacts/25ce6eb67aad688ad28bfd6571f0585b7389d8d244ff14d7decaf40dcf2bb1f2"
+      "artifact_url": "https://apps.rancher.io/artifacts/9c5c159dea75faa51ab87393c45b2fbca730bcfb415b8c888f78815653fafffb"
     }
   },
   {

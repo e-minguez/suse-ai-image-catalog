@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-06-22 22:19",
+    "changes": [
+      "Updated Container (GHCR): suse/aif-operator:0.1.0-dev.3 (x86_64)",
+      "Updated Container (GHCR): suse/chart/aif-operator:0.1.0-dev.3 (N/A)"
+    ]
+  },
+  {
     "date": "2026-06-22 13:52",
     "changes": [
       "New Container (GHCR): suse/aif-operator:0.1.0-dev.3 (x86_64)",
@@ -330,17 +337,6 @@
     "date": "2026-06-10 11:50",
     "changes": [
       "New Chart (AppCo): milvus:5.0.22-25.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-06-10 04:27",
-    "changes": [
-      "New Container (AppCo): ollama:0.21.2-11.55 (aarch64)",
-      "New Container (AppCo): ollama:0.21.2-11.55 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.7 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.7 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.29 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.29 (x86_64)"
     ]
   }
 ]

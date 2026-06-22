@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-06-22 13:52",
+    "changes": [
+      "New Container (GHCR): suse/aif-operator:0.1.0-dev.3 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:0.1.0-dev.3-amd64 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:0.1.0-dev.3-arm64 (arm64)",
+      "New Container (GHCR): suse/aif-ui:0.1.0-dev.3 (x86_64)",
+      "New Container (GHCR): suse/chart/aif-operator:0.1.0-dev.3 (N/A)",
+      "New Container (GHCR): suse/chart/aif-ui:0.1.0-dev.3 (N/A)"
+    ]
+  },
+  {
     "date": "2026-06-21 05:11",
     "changes": [
       "New Chart (AppCo): milvus:5.0.22-34.1 (N/A)"
@@ -330,25 +341,6 @@
       "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.7 (x86_64)",
       "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.29 (aarch64)",
       "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.29 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-06-09 15:27",
-    "changes": [
-      "New Container (AppCo): open-webui:0.6.41-14.77 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-14.77 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.64 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.64 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.59 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.59 (x86_64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.6 (aarch64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.6 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.64 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.64 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.21 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.21 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.24 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.24 (x86_64)"
     ]
   }
 ]

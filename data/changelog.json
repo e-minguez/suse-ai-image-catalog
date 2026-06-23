@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-06-23 18:15",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.18-8.7 (aarch64)",
+      "New Container (AppCo): milvus:2.6.18-nvidia-8.7 (x86_64)",
+      "New Container (AppCo): milvus:2.6.18-8.7 (x86_64)",
+      "New Container (AppCo): milvus:2.6.18-nvidia-8.7 (aarch64)"
+    ]
+  },
+  {
     "date": "2026-06-23 04:20",
     "changes": [
       "New Container (AppCo): milvus:2.6.18-nvidia-8.6 (aarch64)",
@@ -338,12 +347,6 @@
       "New Container (AppCo): mlflow:3.13.0-11.3 (aarch64)",
       "New Container (AppCo): mlflow:2.22.4-14.3 (x86_64)",
       "New Container (AppCo): mlflow:2.22.4-14.3 (aarch64)"
-    ]
-  },
-  {
-    "date": "2026-06-10 16:02",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.22-26.1 (N/A)"
     ]
   }
 ]

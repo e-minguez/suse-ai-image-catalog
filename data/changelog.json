@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-06-23 04:20",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.18-nvidia-8.6 (aarch64)",
+      "New Container (AppCo): milvus:2.6.18-8.6 (aarch64)",
+      "New Container (AppCo): milvus:2.6.18-8.6 (x86_64)",
+      "New Container (AppCo): milvus:2.6.18-nvidia-8.6 (x86_64)",
+      "New Container (AppCo): mlflow:3.14.0-11.6 (x86_64)",
+      "New Container (AppCo): mlflow:3.14.0-11.6 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-14.6 (x86_64)",
+      "New Container (AppCo): mlflow:2.22.4-14.6 (aarch64)"
+    ]
+  },
+  {
     "date": "2026-06-22 22:19",
     "changes": [
       "Updated Container (GHCR): suse/aif-operator:0.1.0-dev.3 (x86_64)",
@@ -331,12 +344,6 @@
     "date": "2026-06-10 16:02",
     "changes": [
       "New Chart (AppCo): milvus:5.0.22-26.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-06-10 11:50",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.22-25.1 (N/A)"
     ]
   }
 ]

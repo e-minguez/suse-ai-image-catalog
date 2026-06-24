@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-06-24 18:11",
+    "changes": [
+      "Updated Container (GHCR): suse/aif-operator:0.1.0-dev.3 (x86_64)",
+      "Updated Container (GHCR): suse/chart/aif-operator:0.1.0-dev.3 (N/A)"
+    ]
+  },
+  {
     "date": "2026-06-23 21:53",
     "changes": [
       "New Container (AppCo): mlflow:3.14.0-11.7 (aarch64)",
@@ -325,28 +332,6 @@
     "date": "2026-06-12 04:55",
     "changes": [
       "New Chart (AppCo): milvus:5.0.22-27.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-06-11 22:10",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.18-8.3 (aarch64)",
-      "New Container (AppCo): milvus:2.6.18-nvidia-8.3 (x86_64)",
-      "New Container (AppCo): milvus:2.6.18-nvidia-8.3 (aarch64)",
-      "New Container (AppCo): milvus:2.6.18-8.3 (x86_64)",
-      "New Container (AppCo): open-webui:0.6.41-14.78 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-14.78 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.65 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.65 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.60 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.60 (x86_64)",
-      "New Chart (AppCo): suse-ai-deployer:1.2.1-6.1 (N/A)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.65 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.65 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.22 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.22 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.25 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.25 (x86_64)"
     ]
   }
 ]

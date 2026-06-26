@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-06-26 11:04",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.22-35.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-06-25 21:56",
     "changes": [
       "New Container (AppCo): milvus:2.6.18-8.8 (aarch64)",
@@ -267,60 +273,6 @@
       "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:0.149.0 (x86_64)",
       "New Container (Registry): ai/containers/tensorflow/serving:2.6.2 (x86_64)",
       "New Container (Registry): ai/containers/tensorflow/tensorflow:2.13.0 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-06-12 22:08",
-    "changes": [
-      "New Container (Registry): ai/containers/filebrowser/filebrowser:v2.25.0 (x86_64)",
-      "New Container (Registry): ai/containers/knative-releases/knative.dev/net-istio/cmd/controller:v1.20.1 (x86_64)",
-      "New Container (Registry): ai/containers/knative-releases/knative.dev/net-istio/cmd/webhook:v1.20.1 (x86_64)",
-      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/activator:v1.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/autoscaler:v1.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/controller:v1.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/queue:v1.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/webhook:v1.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/agent:v0.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/aix-explainer:latest (x86_64)",
-      "New Container (Registry): ai/containers/kserve/alibi-explainer:latest (x86_64)",
-      "New Container (Registry): ai/containers/kserve/kserve-controller:v0.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/models-web-app:v0.13.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/router:v0.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/storage-initializer:v0.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/earlystopping-medianstop:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/file-metrics-collector:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/katib-controller:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/katib-db-manager:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/katib-ui:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/suggestion-darts:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/suggestion-enas:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/suggestion-goptuna:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/suggestion-hyperopt:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/suggestion-optuna:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/suggestion-pbt:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/suggestion-skopt:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/tfevent-metrics-collector:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kfp-api-server:2.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kfp-cache-server:2.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-envoy:2.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-writer:2.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kfp-persistence-agent:2.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kfp-scheduled-workflow-controller:2.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kubeflow/central-dashboard:v1.10.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kubeflow/jupyter-web-app:v1.10.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kubeflow/notebook-controller:v1.10.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/kubeflow/poddefaults-webhook:v1.10.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/model-registry/server:v0.3.7 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/model-registry/ui:v0.3.7 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflowkatib/enas-cnn-cifar10-cpu:v0.15.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflowkatib/mxnet-mnist:v0.15.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflowkatib/pytorch-mnist-cpu:v0.15.0 (x86_64)",
-      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
-      "Updated Container (Registry): ai/containers/python:3.11-slim (x86_64)",
-      "New Container (Registry): ai/containers/tfx-oss-public/ml_metadata_store_server:1.14.0 (x86_64)",
-      "New Chart (Registry): ai/nvidia/charts/k8s-nim-operator:2.0.1 (N/A)",
-      "New Chart (Registry): ai/nvidia/charts/k8s-nim-operator:2.0.2 (N/A)",
-      "New Chart (Registry): ai/nvidia/charts/k8s-nim-operator:3.1.0 (N/A)"
     ]
   }
 ]

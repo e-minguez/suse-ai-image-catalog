@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-06-27 14:08",
+    "changes": [
+      "New Container (AppCo): mlflow:3.14.0-11.8 (aarch64)",
+      "New Container (AppCo): mlflow:3.14.0-11.8 (x86_64)",
+      "New Container (AppCo): mlflow:2.22.4-14.8 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-14.8 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-06-27 04:13",
     "changes": [
       "New Container (AppCo): milvus:2.6.19-8.10 (x86_64)",
@@ -164,71 +173,6 @@
       "New Container (AppCo): milvus:2.6.18-8.4 (x86_64)",
       "New Container (AppCo): milvus:2.6.18-8.4 (aarch64)",
       "New Container (AppCo): milvus:2.6.18-nvidia-8.4 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-06-15 11:30",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.22-29.1 (N/A)",
-      "New Container (GHCR): suse/suse-ai-operator:0.1.0-dev.1 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-operator:0.1.0-dev.2 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-operator:0.1.0-dev.3 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-operator:0.1.0-dev.4 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-operator:0.1.0 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-operator:latest (x86_64)",
-      "New Container (GHCR): suse/suse-ai-operator:0.1.0-dev.5 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-operator:0.1.0-dev.6 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-operator:0.1.0-dev.7 (x86_64)",
-      "New Container (GHCR): suse/aif-operator:0.1.0-dev.1 (x86_64)",
-      "New Container (GHCR): suse/aif-operator:0.1.0-dev.2 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:0.1.0-dev.1-amd64 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:0.1.0-dev.1-arm64 (arm64)",
-      "New Container (GHCR): suse/aif-ui:0.1.0-dev.1 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:0.1.0-dev.2-amd64 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:0.1.0-dev.2-arm64 (arm64)",
-      "New Container (GHCR): suse/aif-ui:0.1.0-dev.2 (x86_64)",
-      "New Container (GHCR): suse/chart/aif-operator:0.1.0-dev.1 (N/A)",
-      "New Container (GHCR): suse/chart/aif-operator:0.1.0-dev.2 (N/A)",
-      "New Container (GHCR): suse/chart/aif-ui:0.1.0-dev.1 (N/A)",
-      "New Container (GHCR): suse/chart/aif-ui:0.1.0-dev.2 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-operator:0.1.0-dev.1 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-operator:0.1.0-dev.2 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-operator:0.1.0-dev.3 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-operator:0.1.0-dev.4 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-operator:0.1.0 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-operator:0.1.0-dev.5 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-operator:0.1.0-dev.6 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-operator:0.1.0-dev.7 (N/A)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:sha-d4277f7 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:latest (x86_64)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:sha-5d2b96a (x86_64)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:sha-be5ab44 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:sha-75ace01 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:sha-2f070a0 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:sha-7124b88 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:sha-29b4a0c (x86_64)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:sha-4312c33 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-opentelemetry-collector:sha-e2aa819 (x86_64)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:0.4.0 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.0.0 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.1 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.2 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.3 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.4 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.5 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.6 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.7 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.8 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.9 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.10 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.11 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.12 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.13 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0-dev.14 (N/A)",
-      "New Container (GHCR): suse/chart/suse-ai-lifecycle-manager:1.1.0 (N/A)",
-      "New Container (GHCR): suse/suse-ai-observability-extension:sha-a46a0d0 (x86_64)",
-      "New Container (GHCR): suse/suse-ai-observability-extension:sha-1f67f0c (x86_64)",
-      "New Container (GHCR): suse/suse-ai-observability-extension:sha-738f4f0 (x86_64)"
     ]
   }
 ]

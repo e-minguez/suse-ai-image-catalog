@@ -7748,6 +7748,35 @@
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
+    "image_name": "pytorch:0.3.3-5.1",
+    "version": "2.10.0",
+    "packaging_format": "HELM_CHART",
+    "architecture": null,
+    "os_family": null,
+    "os_version": null,
+    "digest": "SHA256:0719e0cb98c8ef9daec4b81f9d8e0e1b0a864a294514fa996dbcfa950728119d",
+    "last_updated": "2026-07-02 15:49",
+    "sboms": [],
+    "labels": {},
+    "chart_images": [
+      "dp.apps.rancher.io/containers/pytorch:2.10.0-nvidia-2.2"
+    ],
+    "vulnerabilities": {
+      "total": 2,
+      "critical": 0,
+      "high": 2,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "",
+      "source": "aggregated_appco_images",
+      "component_count": 1,
+      "artifact_url": "https://apps.rancher.io/artifacts/0719e0cb98c8ef9daec4b81f9d8e0e1b0a864a294514fa996dbcfa950728119d"
+    }
+  },
+  {
+    "application": "pytorch",
+    "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
+    "component": "pytorch",
     "image_name": "pytorch:2.9.1-nvidia-1.52",
     "version": "2.9.1",
     "packaging_format": "CONTAINER",

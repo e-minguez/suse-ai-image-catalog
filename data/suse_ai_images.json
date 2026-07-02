@@ -191,14 +191,14 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:5.0.23-37.1",
+    "image_name": "milvus:5.0.23-38.1",
     "version": "2.6.19",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:012ec479b9f32903fdfb400bafa9e900ad7533c0fe6ada768f65c38491a672e0",
-    "last_updated": "2026-06-30 01:08",
+    "digest": "SHA256:3ede04c3cbbc1e6812e007e34477f80cd5196aebedd1e559eb9e49bf70ea2478",
+    "last_updated": "2026-07-02 12:12",
     "sboms": [],
     "labels": {},
     "chart_images": [
@@ -207,20 +207,20 @@
       "dp.apps.rancher.io/containers/bci-busybox:15.7-24.1",
       "dp.apps.rancher.io/containers/etcd:3.6.12-11.1",
       "dp.apps.rancher.io/containers/heaptrack:1.3.0-7.1",
-      "dp.apps.rancher.io/containers/milvus:2.6.19-8.10",
+      "dp.apps.rancher.io/containers/milvus:2.6.19-8.11",
       "dp.apps.rancher.io/containers/mc:0.20250813.083541-14.1",
       "dp.apps.rancher.io/containers/minio:0.20251015.172955-14.1"
     ],
     "vulnerabilities": {
       "total": 79,
       "critical": 0,
-      "high": 55,
-      "medium": 21,
+      "high": 53,
+      "medium": 23,
       "low": 1,
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 8,
-      "artifact_url": "https://apps.rancher.io/artifacts/012ec479b9f32903fdfb400bafa9e900ad7533c0fe6ada768f65c38491a672e0"
+      "artifact_url": "https://apps.rancher.io/artifacts/3ede04c3cbbc1e6812e007e34477f80cd5196aebedd1e559eb9e49bf70ea2478"
     }
   },
   {

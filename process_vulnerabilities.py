@@ -2,9 +2,13 @@
 """
 Process vulnerability data for container images.
 
-For SUSE registry images: vulnerability data is now extracted directly from
-embedded cosign attestations during fetch_suse_registry_images.py. This script
-only aggregates that data for Helm charts and optionally scans GHCR images with Trivy.
+For SUSE registry images: vulnerability data is extracted directly from embedded
+cosign attestations during fetch_suse_registry_images.py; this script only
+aggregates that data for Helm charts.
+
+For GHCR images: those images do not ship CycloneDX attestations, so we scan the
+container image itself with `trivy image` and record a per-image vulnerability
+summary. Raw scan output is cached per-digest under vulns/.
 """
 
 import os
@@ -100,22 +104,22 @@ def aggregate_chart_vulnerabilities(data):
 
     return updated
 
-def scan_sbom_with_trivy(sbom_path: str, output_path: str) -> bool:
-    """Execute Trivy scan on an SBOM file. Returns True on success."""
+def scan_image_with_trivy(image_ref: str, output_path: str) -> bool:
+    """Execute a Trivy scan against a container image. Returns True on success."""
     try:
         result = subprocess.run(
-            ["trivy", "sbom", "--format", "json", "--output", output_path, sbom_path],
-            capture_output=True, text=True, timeout=300
+            ["trivy", "image", "--quiet", "--format", "json", "--output", output_path, image_ref],
+            capture_output=True, text=True, timeout=600
         )
         if result.returncode != 0:
-            logger.warning(f"Trivy scan failed for {sbom_path}: {result.stderr}")
+            logger.warning(f"Trivy image scan failed for {image_ref}: {result.stderr.strip()}")
             return False
         return True
     except subprocess.TimeoutExpired:
-        logger.error(f"Trivy scan timed out for {sbom_path}")
+        logger.error(f"Trivy image scan timed out for {image_ref}")
         return False
     except Exception as e:
-        logger.error(f"Error scanning {sbom_path}: {e}")
+        logger.error(f"Error scanning {image_ref}: {e}")
         return False
 
 def extract_vulnerability_summary(trivy_json_path: str) -> dict:
@@ -173,7 +177,10 @@ def main():
     else:
         logger.info("No registry charts needed vulnerability aggregation updates")
 
-    # Step 2: Scan SBOM files for GHCR container images using Trivy
+    # Step 2: Scan GHCR container images directly with Trivy.
+    # GHCR images don't ship CycloneDX attestations, so we scan the image itself
+    # instead of an SBOM. Raw output is cached per-digest under vulns/, so unchanged
+    # images (including identical digests shared across tags) are scanned only once.
     if not os.path.exists(GHCR_DATA_FILE):
         return 0
 
@@ -187,42 +194,62 @@ def main():
 
     ghcr_updated = 0
     ghcr_skipped = 0
+    digest_summary_cache = {}  # digest -> summary, to dedup identical digests across tags
 
     for item in ghcr_data:
-        sboms = item.get("sboms", [])
-        if not sboms:
+        # Helm chart OCI artifacts have no scannable image filesystem; skip them.
+        if "/chart/" in item.get("repository", ""):
             ghcr_skipped += 1
             continue
 
-        sbom_path = sboms[0].get("path")
-        if not sbom_path or not os.path.exists(sbom_path):
-            logger.warning(f"SBOM path not found or doesn't exist: {sbom_path}")
+        image_ref = item.get("full_image_ref")
+        digest = item.get("digest", "")
+        if not image_ref or not digest:
             ghcr_skipped += 1
             continue
 
-        sbom_basename = os.path.basename(sbom_path).replace("-cyclonedx.json", "")
-        vuln_output = os.path.join(VULNS_DIR, f"{sbom_basename}-vulns.json")
+        # Same digest already scanned this run — reuse the summary.
+        if digest in digest_summary_cache:
+            item["vulnerabilities"] = digest_summary_cache[digest]
+            ghcr_updated += 1
+            continue
 
-        logger.info(f"Scanning {sbom_path}...")
-        if scan_sbom_with_trivy(sbom_path, vuln_output):
-            summary = extract_vulnerability_summary(vuln_output)
-            if summary:
-                item["vulnerabilities"] = summary
-                ghcr_updated += 1
-                logger.info(f"  Found {summary['total']} vulnerabilities (C:{summary['critical']}, H:{summary['high']}, M:{summary['medium']}, L:{summary['low']})")
-            else:
-                logger.warning(f"  Failed to extract summary from {vuln_output}")
-                ghcr_skipped += 1
+        hash_val = digest.split(":", 1)[1] if ":" in digest else digest
+        vuln_output = os.path.join(VULNS_DIR, f"ghcr-{hash_val[:16]}-vulns.json")
+
+        cache_hit = os.path.exists(vuln_output)
+        if cache_hit:
+            logger.info(f"Cache hit for {image_ref} (digest {hash_val[:12]})")
         else:
-            logger.warning(f"  Scan failed for {sbom_path}, skipping")
-            ghcr_skipped += 1
+            logger.info(f"Scanning {image_ref}...")
+            if not scan_image_with_trivy(image_ref, vuln_output):
+                logger.warning(f"  Scan failed for {image_ref}, skipping")
+                ghcr_skipped += 1
+                continue
 
-    if ghcr_updated > 0:
-        with open(GHCR_DATA_FILE, 'w') as f:
-            json.dump(ghcr_data, f, indent=2)
+        summary = extract_vulnerability_summary(vuln_output)
+        if not summary:
+            logger.warning(f"  Failed to extract summary from {vuln_output}")
+            ghcr_skipped += 1
+            continue
+
+        # Preserve the original scan date on cache hits to avoid needless data churn.
+        prev = item.get("vulnerabilities") or {}
+        if cache_hit and prev.get("scan_date"):
+            summary["scan_date"] = prev["scan_date"]
+
+        item["vulnerabilities"] = summary
+        digest_summary_cache[digest] = summary
+        ghcr_updated += 1
+        logger.info(f"  Found {summary['total']} vulnerabilities (C:{summary['critical']}, H:{summary['high']}, M:{summary['medium']}, L:{summary['low']})")
+
+    # Persist so cached-but-previously-unscanned items get their summaries written.
+    with open(GHCR_DATA_FILE, 'w') as f:
+        json.dump(ghcr_data, f, indent=2)
+    if ghcr_updated:
         logger.info(f"Updated {ghcr_updated} GHCR image(s) with vulnerability data")
-    if ghcr_skipped > 0:
-        logger.info(f"Skipped {ghcr_skipped} GHCR image(s) (no SBOM or scan failed)")
+    if ghcr_skipped:
+        logger.info(f"Skipped {ghcr_skipped} GHCR image(s) (chart, missing digest, or scan failed)")
 
     return 0
 

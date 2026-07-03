@@ -108,7 +108,12 @@ def scan_image_with_trivy(image_ref: str, output_path: str) -> bool:
     """Execute a Trivy scan against a container image. Returns True on success."""
     try:
         result = subprocess.run(
-            ["trivy", "image", "--quiet", "--format", "json", "--output", output_path, image_ref],
+            [
+                "trivy", "image", "--quiet",
+                "--scanners", "vuln",          # only vuln scanning (skip secret/misconfig passes)
+                "--pkg-types", "os,library",
+                "--format", "json", "--output", output_path, image_ref,
+            ],
             capture_output=True, text=True, timeout=600
         )
         if result.returncode != 0:

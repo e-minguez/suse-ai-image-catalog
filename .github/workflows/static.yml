@@ -45,6 +45,14 @@ jobs:
       - name: Install Trivy
         uses: aquasecurity/setup-trivy@e07451d2e059ed86c2870430ea286b3a9e0bf241
 
+      - name: Cache Trivy vulnerability DB
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/trivy
+          key: ${{ runner.os }}-trivy-db-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-trivy-db-
+
       - name: Setup Helm
         uses: azure/setup-helm@v4
 

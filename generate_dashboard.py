@@ -105,6 +105,10 @@ def get_registry_logo(item):
                 return f"https://github.com/{org}.png"
     return REGISTRY_LOGO_PLACEHOLDER
 
+def natural_version_key(v):
+    """Zero-pad numeric runs so version strings sort naturally (dev.10 > dev.9)."""
+    return re.sub(r'\d+', lambda m: m.group().zfill(10), str(v or ""))
+
 def slugify(text):
     if not text: return ""
     # Replace non-alphanumeric with hyphen, then collapse hyphens
@@ -306,7 +310,13 @@ def generate_html():
 
     final_groups = []
     for base_name, group_data in groups.items():
-        group_data['versions'].sort(key=lambda x: x.get('last_updated') or '', reverse=True)
+        # Sort newest-first by date, falling back to a natural version sort so
+        # entries without a timestamp (e.g. GHCR chart artifacts) still order
+        # dev.8 > dev.7 > ... instead of keeping insertion order.
+        group_data['versions'].sort(
+            key=lambda x: (x.get('last_updated') or '', natural_version_key(x.get('version'))),
+            reverse=True,
+        )
         latest = group_data['versions'][0]
         group_data['latest_version'] = latest['version']
         group_data['latest_tag'] = latest['tag']

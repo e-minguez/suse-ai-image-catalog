@@ -5,11 +5,18 @@ import re
 import os
 import shutil
 import tempfile
+import time
+import collections
 from base64 import b64decode
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
+
+# Lightweight profiling: wall-clock seconds per phase and call counts.
+# Safe as module-level state because the fetch loop runs serially.
+TIMINGS = collections.defaultdict(float)
+COUNTS = collections.defaultdict(int)
 
 REGISTRY = "registry.suse.com"
 NAMESPACE = "ai/"
@@ -64,6 +71,14 @@ def _extract_images_from_value(value, images):
             _extract_images_from_value(item, images)
 
 def extract_chart_images(repo, tag, image_data):
+    """Timing wrapper around _extract_chart_images_impl."""
+    _t0 = time.perf_counter()
+    try:
+        return _extract_chart_images_impl(repo, tag, image_data)
+    finally:
+        TIMINGS["charts"] += time.perf_counter() - _t0
+
+def _extract_chart_images_impl(repo, tag, image_data):
     """
     Pulls a Helm chart from the OCI registry, renders it with `helm template`,
     and extracts all container image references into image_data["chart_images"].
@@ -165,6 +180,8 @@ def _run_cosign_attestation(attest_type, image_ref):
     Returns the parsed predicate dict on success, None on failure.
     """
     cmd = _build_cosign_cmd(attest_type, image_ref)
+    _t0 = time.perf_counter()
+    COUNTS["cosign_calls"] += 1
     try:
         result = subprocess.run(
             cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
@@ -184,6 +201,8 @@ def _run_cosign_attestation(attest_type, image_ref):
         logger.debug(f"      cosign {attest_type} failed for {image_ref}: {e.stderr.strip()[:200] if e.stderr else ''}")
     except Exception as e:
         logger.debug(f"      Unexpected error running cosign {attest_type} for {image_ref}: {e}")
+    finally:
+        TIMINGS["cosign"] += time.perf_counter() - _t0
     return None
 
 
@@ -218,6 +237,14 @@ def _parse_vuln_predicate(predicate):
 
 
 def extract_attestations_per_arch(full_image, image_data):
+    """Timing wrapper around _extract_attestations_per_arch_impl."""
+    _t0 = time.perf_counter()
+    try:
+        return _extract_attestations_per_arch_impl(full_image, image_data)
+    finally:
+        TIMINGS["attestations"] += time.perf_counter() - _t0
+
+def _extract_attestations_per_arch_impl(full_image, image_data):
     """
     For each architecture in the image manifest, extract the CycloneDX SBOM
     and vulnerability attestation using cosign, saving them to disk.
@@ -387,7 +414,9 @@ KNOWN_REPOS = [
 
 def get_repositories():
     logger.info(f"Fetching catalog for {REGISTRY}")
+    _t0 = time.perf_counter()
     output = run_command(["crane", "catalog", REGISTRY])
+    TIMINGS["catalog"] += time.perf_counter() - _t0
     
     repos = []
     if output:
@@ -410,7 +439,10 @@ def get_repositories():
 
 def get_tags(repo):
     logger.info(f"  Fetching tags for {repo}")
+    _t0 = time.perf_counter()
     output = run_command(["crane", "ls", f"{REGISTRY}/{repo}"])
+    TIMINGS["tags_ls"] += time.perf_counter() - _t0
+    COUNTS["tags_ls_calls"] += 1
     if not output:
         return []
     
@@ -420,8 +452,11 @@ def get_tags(repo):
 
 def get_image_details(repo, tag, cache=None):
     full_image = f"{REGISTRY}/{repo}:{tag}"
-    
+
+    _t0 = time.perf_counter()
     digest = run_command(["crane", "digest", full_image])
+    TIMINGS["digest"] += time.perf_counter() - _t0
+    COUNTS["digest_calls"] += 1
     if not digest:
         return None, None
 
@@ -480,10 +515,14 @@ def get_image_details(repo, tag, cache=None):
                 return image_data, None
 
             logger.info(f"    Cache hit for {full_image} (digest: {digest})")
+            COUNTS["cache_hit"] += 1
             return cached_item, None
-        
+
         # We need config to get arch for updated artifacts too
+        COUNTS["digest_changed"] += 1
+        _t0 = time.perf_counter()
         config_json = run_command(["crane", "config", full_image])
+        TIMINGS["config"] += time.perf_counter() - _t0
         if config_json:
             try:
                 config = json.loads(config_json)
@@ -497,8 +536,11 @@ def get_image_details(repo, tag, cache=None):
     
     # If it's new, we'll get arch below after the cache block
     logger.info(f"    Inspecting {full_image} (Cache miss or digest changed)")
-    
+    COUNTS["inspect_new"] += 1
+
+    _t0 = time.perf_counter()
     config_json = run_command(["crane", "config", full_image])
+    TIMINGS["config"] += time.perf_counter() - _t0
     if not config_json:
         return None, None
     
@@ -535,6 +577,20 @@ def get_image_details(repo, tag, cache=None):
         extract_chart_images(repo, tag, image_data)
     
     return image_data, change_msg
+
+def _log_profile(wall):
+    """Print a phase-timing / call-count summary to stderr for CI diagnosis."""
+    logger.info("──────── registry fetch profile ────────")
+    logger.info(f"  total wall time        : {wall:6.1f}s")
+    for phase in ("catalog", "tags_ls", "digest", "config", "attestations", "charts"):
+        if TIMINGS.get(phase):
+            logger.info(f"  {phase:22s}: {TIMINGS[phase]:6.1f}s")
+    logger.info("  ── call counts ──")
+    for name in ("tags_ls_calls", "digest_calls", "cache_hit", "digest_changed",
+                 "inspect_new", "cosign_calls"):
+        if COUNTS.get(name):
+            logger.info(f"  {name:22s}: {COUNTS[name]}")
+    logger.info("────────────────────────────────────────")
 
 def main():
     # Create output directories if they don't exist
@@ -607,4 +663,8 @@ def main():
         logger.info("No changes detected in registry images.")
 
 if __name__ == "__main__":
-    main()
+    _wall0 = time.perf_counter()
+    try:
+        main()
+    finally:
+        _log_profile(time.perf_counter() - _wall0)

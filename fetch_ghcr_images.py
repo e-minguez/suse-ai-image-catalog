@@ -31,6 +31,10 @@ GHCR_IMAGES = [
     "ghcr.io/suse/suse-ai-lifecycle-manager",
     "ghcr.io/suse/chart/suse-ai-lifecycle-manager",
     "ghcr.io/suse/suse-ai-observability-extension",
+    "ghcr.io/suse/aif-operator",
+    "ghcr.io/suse/aif-ui",
+    "ghcr.io/suse/chart/aif-operator",
+    "ghcr.io/suse/chart/aif-ui"
 ]
 
 OUTPUT_FILE = "data/ghcr_images.json"

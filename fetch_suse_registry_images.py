@@ -7,14 +7,18 @@ import shutil
 import tempfile
 import time
 import collections
+import threading
+from concurrent.futures import ThreadPoolExecutor
 from base64 import b64decode
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
-# Lightweight profiling: wall-clock seconds per phase and call counts.
-# Safe as module-level state because the fetch loop runs serially.
+# Lightweight profiling: wall-clock seconds per phase and call counts. Updated from
+# worker threads via _add() under _prof_lock. Note: with MAX_WORKERS > 1 the per-phase
+# seconds sum overlapping thread time, so they exceed total wall time — use them for
+# relative comparison, not as a wall-clock breakdown.
 TIMINGS = collections.defaultdict(float)
 COUNTS = collections.defaultdict(int)
 
@@ -24,6 +28,18 @@ OUTPUT_FILE = "data/suse_registry_images.json"
 SBOM_DIR = "sboms"
 VULNS_DIR = "vulns"
 COSIGN_KEY = "https://documentation.suse.com/suse-ai/files/sr-pubkey.pem"
+
+# Concurrency for the (network-bound) crane calls. Kept deliberately low to avoid
+# hammering registry.suse.com; override with REGISTRY_FETCH_WORKERS if needed.
+MAX_WORKERS = max(1, int(os.getenv("REGISTRY_FETCH_WORKERS", "2")))
+
+# Guards the module-level profiling accumulators against concurrent += from workers.
+_prof_lock = threading.Lock()
+
+def _add(mapping, key, val):
+    """Thread-safe accumulate into a profiling map."""
+    with _prof_lock:
+        mapping[key] += val
 
 def normalize_timestamp(ts):
     """Normalize any ISO 8601-like timestamp to 'YYYY-MM-DD HH:MM' format."""
@@ -76,7 +92,7 @@ def extract_chart_images(repo, tag, image_data):
     try:
         return _extract_chart_images_impl(repo, tag, image_data)
     finally:
-        TIMINGS["charts"] += time.perf_counter() - _t0
+        _add(TIMINGS, "charts", time.perf_counter() - _t0)
 
 def _extract_chart_images_impl(repo, tag, image_data):
     """
@@ -181,7 +197,7 @@ def _run_cosign_attestation(attest_type, image_ref):
     """
     cmd = _build_cosign_cmd(attest_type, image_ref)
     _t0 = time.perf_counter()
-    COUNTS["cosign_calls"] += 1
+    _add(COUNTS, "cosign_calls", 1)
     try:
         result = subprocess.run(
             cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
@@ -202,7 +218,7 @@ def _run_cosign_attestation(attest_type, image_ref):
     except Exception as e:
         logger.debug(f"      Unexpected error running cosign {attest_type} for {image_ref}: {e}")
     finally:
-        TIMINGS["cosign"] += time.perf_counter() - _t0
+        _add(TIMINGS, "cosign", time.perf_counter() - _t0)
     return None
 
 
@@ -242,7 +258,7 @@ def extract_attestations_per_arch(full_image, image_data):
     try:
         return _extract_attestations_per_arch_impl(full_image, image_data)
     finally:
-        TIMINGS["attestations"] += time.perf_counter() - _t0
+        _add(TIMINGS, "attestations", time.perf_counter() - _t0)
 
 def _extract_attestations_per_arch_impl(full_image, image_data):
     """
@@ -379,16 +395,11 @@ def _extract_attestations_per_arch_impl(full_image, image_data):
 
 def run_command(cmd):
     try:
-        # Check if crane is even available before running
-        if cmd[0] == "crane":
-            try:
-                subprocess.run(["crane", "version"], capture_output=True, check=True)
-            except (subprocess.CalledProcessError, FileNotFoundError):
-                logger.error("crane command not found in PATH")
-                return None
-
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         return result.stdout.strip()
+    except FileNotFoundError:
+        logger.error(f"Command not found: {cmd[0]}")
+        return None
     except subprocess.CalledProcessError as e:
         cmd_str = ' '.join(cmd)
         if "UNAUTHORIZED" in e.stderr:
@@ -416,7 +427,7 @@ def get_repositories():
     logger.info(f"Fetching catalog for {REGISTRY}")
     _t0 = time.perf_counter()
     output = run_command(["crane", "catalog", REGISTRY])
-    TIMINGS["catalog"] += time.perf_counter() - _t0
+    _add(TIMINGS, "catalog", time.perf_counter() - _t0)
     
     repos = []
     if output:
@@ -441,8 +452,8 @@ def get_tags(repo):
     logger.info(f"  Fetching tags for {repo}")
     _t0 = time.perf_counter()
     output = run_command(["crane", "ls", f"{REGISTRY}/{repo}"])
-    TIMINGS["tags_ls"] += time.perf_counter() - _t0
-    COUNTS["tags_ls_calls"] += 1
+    _add(TIMINGS, "tags_ls", time.perf_counter() - _t0)
+    _add(COUNTS, "tags_ls_calls", 1)
     if not output:
         return []
     
@@ -455,8 +466,8 @@ def get_image_details(repo, tag, cache=None):
 
     _t0 = time.perf_counter()
     digest = run_command(["crane", "digest", full_image])
-    TIMINGS["digest"] += time.perf_counter() - _t0
-    COUNTS["digest_calls"] += 1
+    _add(TIMINGS, "digest", time.perf_counter() - _t0)
+    _add(COUNTS, "digest_calls", 1)
     if not digest:
         return None, None
 
@@ -515,14 +526,14 @@ def get_image_details(repo, tag, cache=None):
                 return image_data, None
 
             logger.info(f"    Cache hit for {full_image} (digest: {digest})")
-            COUNTS["cache_hit"] += 1
+            _add(COUNTS, "cache_hit", 1)
             return cached_item, None
 
         # We need config to get arch for updated artifacts too
-        COUNTS["digest_changed"] += 1
+        _add(COUNTS, "digest_changed", 1)
         _t0 = time.perf_counter()
         config_json = run_command(["crane", "config", full_image])
-        TIMINGS["config"] += time.perf_counter() - _t0
+        _add(TIMINGS, "config", time.perf_counter() - _t0)
         if config_json:
             try:
                 config = json.loads(config_json)
@@ -536,11 +547,11 @@ def get_image_details(repo, tag, cache=None):
     
     # If it's new, we'll get arch below after the cache block
     logger.info(f"    Inspecting {full_image} (Cache miss or digest changed)")
-    COUNTS["inspect_new"] += 1
+    _add(COUNTS, "inspect_new", 1)
 
     _t0 = time.perf_counter()
     config_json = run_command(["crane", "config", full_image])
-    TIMINGS["config"] += time.perf_counter() - _t0
+    _add(TIMINGS, "config", time.perf_counter() - _t0)
     if not config_json:
         return None, None
     
@@ -617,24 +628,41 @@ def main():
         return
 
     logger.info(f"Found {len(repos)} repositories in {NAMESPACE}")
-    
-    all_images = []
-    changes = []
-    for repo in repos:
-        tags = get_tags(repo)
+    logger.info(f"Using {MAX_WORKERS} worker(s) for registry calls")
+
+    # Phase 1: list tags for every repo. Network-bound, so run with a small pool.
+    # ThreadPoolExecutor.map preserves input order, so the assembled work list is
+    # deterministic (same order as the serial version) — keeps change detection stable.
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        repo_tags = list(ex.map(get_tags, repos))
+
+    work = []
+    for repo, tags in zip(repos, repo_tags):
         if not tags:
             logger.warning(f"  No tags found for {repo}")
             continue
-            
         for tag in tags:
-            details, change_msg = get_image_details(repo, tag, cache)
-            if details:
-                all_images.append(details)
-                if change_msg:
-                    changes.append(change_msg)
-            else:
-                logger.warning(f"    Failed to get details for {repo}:{tag}")
-                
+            work.append((repo, tag))
+
+    # Phase 2: fetch details per (repo, tag), also network-bound. The cache dict is
+    # only read here (built above), so concurrent access is safe. map() preserves order.
+    def _fetch(item):
+        repo, tag = item
+        return get_image_details(repo, tag, cache)
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        results = list(ex.map(_fetch, work))
+
+    all_images = []
+    changes = []
+    for (repo, tag), (details, change_msg) in zip(work, results):
+        if details:
+            all_images.append(details)
+            if change_msg:
+                changes.append(change_msg)
+        else:
+            logger.warning(f"    Failed to get details for {repo}:{tag}")
+
     logger.info(f"Found total of {len(all_images)} images.")
     
     # Check if data actually changed

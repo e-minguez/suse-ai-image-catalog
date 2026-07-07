@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-07 04:12",
+    "changes": [
+      "New Container (GHCR): suse/aif-operator:2.0.1-rc.1 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.0.1-rc.1-amd64 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.0.1-rc.1-arm64 (arm64)",
+      "New Container (GHCR): suse/aif-ui:2.0.1-rc.1 (x86_64)",
+      "New Container (GHCR): suse/chart/aif-operator:2.0.1-rc.1 (N/A)",
+      "New Container (GHCR): suse/chart/aif-ui:2.0.1-rc.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-07-06 18:20",
     "changes": [
       "New Container (GHCR): suse/aif-operator:2.0.0 (x86_64)",
@@ -173,15 +184,6 @@
     "changes": [
       "Updated Container (GHCR): suse/aif-operator:0.1.0-dev.3 (x86_64)",
       "Updated Container (GHCR): suse/chart/aif-operator:0.1.0-dev.3 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-06-23 21:53",
-    "changes": [
-      "New Container (AppCo): mlflow:3.14.0-11.7 (aarch64)",
-      "New Container (AppCo): mlflow:3.14.0-11.7 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-14.7 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-14.7 (aarch64)"
     ]
   }
 ]

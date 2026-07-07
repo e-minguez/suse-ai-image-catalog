@@ -11563,50 +11563,5 @@
       ],
       "details_path": "vulns/ai-containers-xgbserver-v0.15.2-amd64-vuln.json"
     }
-  },
-  {
-    "repository": "ai/nvidia/charts/k8s-nim-operator",
-    "tag": "2.0.1",
-    "image_name": "ai/nvidia/charts/k8s-nim-operator:2.0.1",
-    "architecture": null,
-    "os": null,
-    "digest": "sha256:4a61818814c6acaa244e029829baafb46ae98359261c18184cc07ce763e73d65",
-    "created": null,
-    "labels": {},
-    "entrypoint": null,
-    "cmd": null,
-    "chart_images": [
-      "ai/nvidia/containers/nvidia/cloud-native/k8s-nim-operator:v2.0.1"
-    ]
-  },
-  {
-    "repository": "ai/nvidia/charts/k8s-nim-operator",
-    "tag": "2.0.2",
-    "image_name": "ai/nvidia/charts/k8s-nim-operator:2.0.2",
-    "architecture": null,
-    "os": null,
-    "digest": "sha256:8a9ba00f5481668ddfaeb6b9b954f485c2b0894a35ac7f892aeb5d8b2f920e5a",
-    "created": null,
-    "labels": {},
-    "entrypoint": null,
-    "cmd": null,
-    "chart_images": [
-      "ai/nvidia/containers/nvidia/cloud-native/k8s-nim-operator:v2.0.2"
-    ]
-  },
-  {
-    "repository": "ai/nvidia/charts/k8s-nim-operator",
-    "tag": "3.1.0",
-    "image_name": "ai/nvidia/charts/k8s-nim-operator:3.1.0",
-    "architecture": null,
-    "os": null,
-    "digest": "sha256:6035154702b025413bc55eff21b9e6b6d4afd88d4f243f2fa90464d701747d2a",
-    "created": null,
-    "labels": {},
-    "entrypoint": null,
-    "cmd": null,
-    "chart_images": [
-      "ai/nvidia/containers/nvidia/cloud-native/k8s-nim-operator:v3.1.0"
-    ]
   }
 ]

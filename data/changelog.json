@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-08 03:35",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.19-8.13 (aarch64)",
+      "New Container (AppCo): milvus:2.6.19-nvidia-8.13 (aarch64)",
+      "New Container (AppCo): milvus:2.6.19-8.13 (x86_64)",
+      "New Container (AppCo): milvus:2.6.19-nvidia-8.13 (x86_64)",
+      "New Chart (AppCo): milvus:5.0.23-41.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-07-07 04:12",
     "changes": [
       "New Container (GHCR): suse/aif-operator:2.0.1-rc.1 (x86_64)",
@@ -177,13 +187,6 @@
       "New Container (GHCR): suse/aif-ui:0.1.0-dev.4 (x86_64)",
       "New Container (GHCR): suse/chart/aif-operator:0.1.0-dev.4 (N/A)",
       "New Container (GHCR): suse/chart/aif-ui:0.1.0-dev.4 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-06-24 18:11",
-    "changes": [
-      "Updated Container (GHCR): suse/aif-operator:0.1.0-dev.3 (x86_64)",
-      "Updated Container (GHCR): suse/chart/aif-operator:0.1.0-dev.3 (N/A)"
     ]
   }
 ]

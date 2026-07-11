@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-07-11 07:03",
+    "changes": [
+      "New Container (Registry): ai/containers/jobset/jobset:v0.12.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-api-server:2.16.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-frontend:2.16.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-envoy:2.16.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-writer:2.16.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-persistence-agent:2.16.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-scheduled-workflow-controller:2.16.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-viewer-crd-controller:2.16.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-visualization-server:2.16.1 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11-slim (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.0 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.1 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.10 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.11 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.12 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.13 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.14 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.15 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.2 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.3 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.4 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.5 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.6 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.7 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.8 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.11.9 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.0 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.1 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.10 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.11 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.12 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.13 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.2 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.3 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.4 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.6 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.7 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.8 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.9 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.13.0 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.13.1 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.13.2 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.13.3 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.13.4 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.13.5 (x86_64)",
+      "New Container (Registry): ai/containers/tfx-oss-public/ml_metadata_store_server:1.15.0 (x86_64)",
+      "New Container (Registry): ai/containers/tfx-oss-public/ml_metadata_store_server:1.16.0 (x86_64)",
+      "New Container (Registry): ai/containers/tfx-oss-public/ml_metadata_store_server:1.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/tfx-oss-public/ml_metadata_store_server:1.17.1 (x86_64)",
+      "New Container (Registry): ai/containers/tfx-oss-public/ml_metadata_store_server:1.21.0 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-11 04:15",
     "changes": [
       "New Chart (AppCo): milvus:5.0.23-44.1 (N/A)",
@@ -540,12 +596,6 @@
       "New Container (GHCR): suse/aif-ui:0.1.0-dev.5 (x86_64)",
       "New Container (GHCR): suse/chart/aif-operator:0.1.0-dev.5 (N/A)",
       "New Container (GHCR): suse/chart/aif-ui:0.1.0-dev.5 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-06-30 04:25",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.23-37.1 (N/A)"
     ]
   }
 ]

@@ -3615,6 +3615,20 @@
     }
   },
   {
+    "repository": "ai/containers/jobset/jobset",
+    "tag": "v0.12.0",
+    "image_name": "ai/containers/jobset/jobset:v0.12.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:e75536f1135b7bb2f19f8c3b620782fbdd9091d73398e3a272f9a5fed322980d",
+    "created": "2026-05-08 18:10",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/jupyter-web-app",
     "tag": "v1.10.0",
     "image_name": "ai/containers/jupyter-web-app:v1.10.0",
@@ -8470,6 +8484,31 @@
     }
   },
   {
+    "repository": "ai/containers/kubeflow/kfp-api-server",
+    "tag": "2.16.1",
+    "image_name": "ai/containers/kubeflow/kfp-api-server:2.16.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:621fdae9bfcc93405eca299c24f715bc7f17dbb76f1b53e8b2b35852e4d7d423",
+    "created": "2026-05-05 00:03",
+    "labels": {
+      "org.opencontainers.image.created": "2026-05-05T00:00:16.898Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "67a73cf809f7c76fee33c749f302f2bceedd8fab",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.1"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "/bin/apiserver --config=/config --sampleconfig=/config/sample_config.json -logtostderr=true --logLevel=${LOG_LEVEL}"
+    ]
+  },
+  {
     "repository": "ai/containers/kubeflow/kfp-cache-server",
     "tag": "2.16.0",
     "image_name": "ai/containers/kubeflow/kfp-cache-server:2.16.0",
@@ -8589,6 +8628,33 @@
     }
   },
   {
+    "repository": "ai/containers/kubeflow/kfp-frontend",
+    "tag": "2.16.1",
+    "image_name": "ai/containers/kubeflow/kfp-frontend:2.16.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:86cc488ac808b2c0fcfc13e373c705cc75ab244276d96a389525f4d85f55c5fa",
+    "created": "2026-05-05 00:03",
+    "labels": {
+      "org.opencontainers.image.created": "2026-05-05T00:00:25.968Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "67a73cf809f7c76fee33c749f302f2bceedd8fab",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.1"
+    },
+    "entrypoint": [
+      "docker-entrypoint.sh"
+    ],
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "node dist/server.js ../client/ 3000"
+    ]
+  },
+  {
     "repository": "ai/containers/kubeflow/kfp-launcher",
     "tag": "2.16.0",
     "image_name": "ai/containers/kubeflow/kfp-launcher:2.16.0",
@@ -8683,6 +8749,31 @@
     }
   },
   {
+    "repository": "ai/containers/kubeflow/kfp-metadata-envoy",
+    "tag": "2.16.1",
+    "image_name": "ai/containers/kubeflow/kfp-metadata-envoy:2.16.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:109913d63d6fd8ea7eafba13222a8f23d5932ce7345da35180c9469d46482697",
+    "created": "2026-05-05 00:00",
+    "labels": {
+      "org.opencontainers.image.created": "2026-05-05T00:00:19.118Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.revision": "67a73cf809f7c76fee33c749f302f2bceedd8fab",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.1"
+    },
+    "entrypoint": [
+      "/usr/local/bin/envoy",
+      "-c"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kubeflow/kfp-metadata-writer",
     "tag": "2.16.0",
     "image_name": "ai/containers/kubeflow/kfp-metadata-writer:2.16.0",
@@ -8729,6 +8820,31 @@
       ],
       "details_path": "vulns/ai-containers-kubeflow-kfp-metadata-writer-2.16.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-metadata-writer",
+    "tag": "2.16.1",
+    "image_name": "ai/containers/kubeflow/kfp-metadata-writer:2.16.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a7d9ad29298cf904f774ecbd3d171a1796626f782419cbbda571ac1af0ddb9f4",
+    "created": "2026-05-05 00:00",
+    "labels": {
+      "org.opencontainers.image.created": "2026-05-05T00:00:39.683Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "67a73cf809f7c76fee33c749f302f2bceedd8fab",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.1"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "python3 -u /kfp/metadata_writer/metadata_writer.py"
+    ]
   },
   {
     "repository": "ai/containers/kubeflow/kfp-persistence-agent",
@@ -8779,6 +8895,31 @@
     }
   },
   {
+    "repository": "ai/containers/kubeflow/kfp-persistence-agent",
+    "tag": "2.16.1",
+    "image_name": "ai/containers/kubeflow/kfp-persistence-agent:2.16.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:7c87fd0872492126c26af9a6fe87684d23bebb9effd0d7cf5767b3ad44fd166e",
+    "created": "2026-05-05 00:02",
+    "labels": {
+      "org.opencontainers.image.created": "2026-05-05T00:00:30.926Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "67a73cf809f7c76fee33c749f302f2bceedd8fab",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.1"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "persistence_agent --logtostderr=true --namespace=${NAMESPACE} --ttlSecondsAfterWorkflowFinish=${TTL_SECONDS_AFTER_WORKFLOW_FINISH} --numWorker ${NUM_WORKERS} --executionType ${EXECUTIONTYPE} --logLevel=${LOG_LEVEL}"
+    ]
+  },
+  {
     "repository": "ai/containers/kubeflow/kfp-scheduled-workflow-controller",
     "tag": "2.16.0",
     "image_name": "ai/containers/kubeflow/kfp-scheduled-workflow-controller:2.16.0",
@@ -8825,6 +8966,31 @@
       ],
       "details_path": "vulns/ai-containers-kubeflow-kfp-scheduled-workflow-controller-2.16.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-scheduled-workflow-controller",
+    "tag": "2.16.1",
+    "image_name": "ai/containers/kubeflow/kfp-scheduled-workflow-controller:2.16.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:d1c5e7436deccc3182e0abc16a93aef0f77bf23d6d36adf69344d0a2a00227ba",
+    "created": "2026-05-05 00:02",
+    "labels": {
+      "org.opencontainers.image.created": "2026-05-05T00:00:15.608Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "67a73cf809f7c76fee33c749f302f2bceedd8fab",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.1"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "/bin/controller --logtostderr=true --namespace=${NAMESPACE} --logLevel=${LOG_LEVEL} --clientQPS=${CLIENT_QPS:-5} --clientBurst=${CLIENT_BURST:-10} --recurringRunResyncIntervalSeconds=${RESYNC_INTERVAL_SECONDS:-30} --metricsPort=${METRICS_PORT:-9090}"
+    ]
   },
   {
     "repository": "ai/containers/kubeflow/kfp-viewer-crd-controller",
@@ -8875,6 +9041,31 @@
     }
   },
   {
+    "repository": "ai/containers/kubeflow/kfp-viewer-crd-controller",
+    "tag": "2.16.1",
+    "image_name": "ai/containers/kubeflow/kfp-viewer-crd-controller:2.16.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:03032b062bc54107485b66b89e516859e6eeaf12dbbbfe7e630ad72e6a380133",
+    "created": "2026-05-05 00:02",
+    "labels": {
+      "org.opencontainers.image.created": "2026-05-05T00:00:23.273Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "67a73cf809f7c76fee33c749f302f2bceedd8fab",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.1"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "/bin/controller -logtostderr=true -max_num_viewers=${MAX_NUM_VIEWERS} --namespace=${NAMESPACE}"
+    ]
+  },
+  {
     "repository": "ai/containers/kubeflow/kfp-visualization-server",
     "tag": "2.16.0",
     "image_name": "ai/containers/kubeflow/kfp-visualization-server:2.16.0",
@@ -8920,6 +9111,30 @@
       ],
       "details_path": "vulns/ai-containers-kubeflow-kfp-visualization-server-2.16.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-visualization-server",
+    "tag": "2.16.1",
+    "image_name": "ai/containers/kubeflow/kfp-visualization-server:2.16.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:756a2425e61b4cdc81cfc23c2e31e82b9d9faeae5b6f2855f5fced117ae53ea9",
+    "created": "2026-05-05 00:01",
+    "labels": {
+      "org.opencontainers.image.created": "2026-05-05T00:00:29.049Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "67a73cf809f7c76fee33c749f302f2bceedd8fab",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.16.1"
+    },
+    "entrypoint": [
+      "python3",
+      "server.py"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kubeflow/kubeflow/central-dashboard",
@@ -16574,8 +16789,8 @@
     "image_name": "ai/containers/python:3.11",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:69feacea6aaa46204e67ee127b30ed727b6c7f7600503cdc1fd1fc0483c16b1c",
-    "created": "2026-06-11 05:02",
+    "digest": "sha256:5f2ae647ccf207c8a7d3c7373a7855bf7f6ce18ecf0bc85d2d7ba603f3e1f45c",
+    "created": "2026-07-06 21:50",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -16674,8 +16889,8 @@
     "image_name": "ai/containers/python:3.11-slim",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:f9fa7f851e38bfb19c9de3afbc4b86ae7176ea7aaf94535c31df5458d5849457",
-    "created": "2026-06-11 01:11",
+    "digest": "sha256:e031123e3d85762b141ad1cbc56452ba69c6e722ebf2f042cc0dc86c47c0d8b3",
+    "created": "2026-07-06 21:49",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -16770,6 +16985,440 @@
   },
   {
     "repository": "ai/containers/python",
+    "tag": "3.11.0",
+    "image_name": "ai/containers/python:3.11.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:55101c8373de5311b0ece8746251882ddb0bb394588c93d2477b88852ad00e72",
+    "created": "2022-12-06 13:21",
+    "labels": null,
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.1",
+    "image_name": "ai/containers/python:3.11.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4d25a30d2943e5feb9c571b763936c843d7a6f45216f508bfe99741067f4ca06",
+    "created": "2023-02-04 11:16",
+    "labels": null,
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.10",
+    "image_name": "ai/containers/python:3.11.10",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:5e5ef24d131e78708b5947823f2830ab42328132b6caff002bf6481d64b99593",
+    "created": "2024-10-18 23:23",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.11",
+    "image_name": "ai/containers/python:3.11.11",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4ca910a51a1a474e5d95aa52455331b2a94272eeae3c498be1ad7a2ff9b00bf3",
+    "created": "2024-12-03 22:49",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.12",
+    "image_name": "ai/containers/python:3.11.12",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4e0b4f7d6124f7ff41cdc1b82bedaa07722c55fbb78038c7587b5f7c0b892c1a",
+    "created": "2025-05-08 22:27",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.13",
+    "image_name": "ai/containers/python:3.11.13",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:16e9aaa3fdc728525d4bf3ce02fc311a18c87222005facc3e3c2a5795d297fe1",
+    "created": "2025-08-08 18:20",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.14",
+    "image_name": "ai/containers/python:3.11.14",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:3b3706a90cb23f04fabb0d255824f9a70ceb46177041898133dd5a35f3a50f0a",
+    "created": "2026-02-24 21:54",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.15",
+    "image_name": "ai/containers/python:3.11.15",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:5f2ae647ccf207c8a7d3c7373a7855bf7f6ce18ecf0bc85d2d7ba603f3e1f45c",
+    "created": "2026-07-06 21:50",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.2",
+    "image_name": "ai/containers/python:3.11.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:5329e75033c4446dc92d702cf8ebbeb63e549d9b83076a776f6753e10817fc3c",
+    "created": "2023-03-23 06:02",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.3",
+    "image_name": "ai/containers/python:3.11.3",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:3a619e3c96fd4c5fc5e1998fd4dcb1f1403eb90c4c6409c70d7e80b9468df7df",
+    "created": "2023-05-23 01:49",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.4",
+    "image_name": "ai/containers/python:3.11.4",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:85b3d192dddbc96588b719e86991e472b390805a754681a38132de1977d8e429",
+    "created": "2023-07-22 09:54",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.5",
+    "image_name": "ai/containers/python:3.11.5",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2e376990a11f1c1e03796d08db0e99c36eadb4bb6491372b227f1e53c3482914",
+    "created": "2023-08-24 16:53",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.6",
+    "image_name": "ai/containers/python:3.11.6",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2a725c9721f737a2944244c98c714d24f8bcfaddd9f5c15083cbaa024f7fce54",
+    "created": "2023-10-21 17:01",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.7",
+    "image_name": "ai/containers/python:3.11.7",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:63bec515ae23ef6b4563d29e547e81c15d80bf41eff5969cb43d034d333b63b8",
+    "created": "2023-12-20 02:14",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.8",
+    "image_name": "ai/containers/python:3.11.8",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:61d662f6d52206ab2290af4258257b5369573b6a4bbd904896699cc909221334",
+    "created": "2024-03-21 23:32",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.11.9",
+    "image_name": "ai/containers/python:3.11.9",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a03f4e5b67980d474839e7b4d4a405871a4259690287d65060cff95d0cb311cd",
+    "created": "2024-08-29 23:26",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.0",
+    "image_name": "ai/containers/python:3.12.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:1987c4ae3b5afaa3a7c5e247e9eaab7348082ba167986ca90d4d6a197fb364e8",
+    "created": "2023-10-21 18:46",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.1",
+    "image_name": "ai/containers/python:3.12.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a3d69b8412f7068fd060ccc7e175825713d5a767e1e14753e75bce6f746c8a7e",
+    "created": "2023-12-20 04:08",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.10",
+    "image_name": "ai/containers/python:3.12.10",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:45d13f5cba9b0f9bdfaed658d3e4fcfb1694ce49a6d70ec07c9f3980a7dc8b26",
+    "created": "2025-05-08 22:27",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.11",
+    "image_name": "ai/containers/python:3.12.11",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:c1a5d356638cc86bd865d9019efbc34a6b0c3ad15a21e5ab4eb57bd2d1c3f7ce",
+    "created": "2025-08-08 18:20",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.12",
+    "image_name": "ai/containers/python:3.12.12",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:cb770de9f47e77715f13434d96f7ebaae7ad3a1f4fd9c8b338549bf99c9980ab",
+    "created": "2026-02-24 21:51",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.13",
+    "image_name": "ai/containers/python:3.12.13",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a9e4190f02729f01e5b3719bd8b3ea0f8d9350dc17d01a1ce1ca6e3fbfcf7a99",
+    "created": "2026-06-24 05:00",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.2",
+    "image_name": "ai/containers/python:3.12.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:19973e1796237522ed1fcc1357c766770b47dc15854eafdda055b65953fe5ec1",
+    "created": "2024-03-21 23:32",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.3",
+    "image_name": "ai/containers/python:3.12.3",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:3966b81808d864099f802080d897cef36c01550472ab3955fdd716d1c665acd6",
+    "created": "2024-04-09 15:49",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.4",
+    "image_name": "ai/containers/python:3.12.4",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:e8be0ea148390d08bc077840cf87ac6a538d80b0ea1e8752b3e3982987cd0a53",
+    "created": "2024-07-29 06:49",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.6",
+    "image_name": "ai/containers/python:3.12.6",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:14f073695854184b65a82808ea2baa352d49c1a86442f06a90d9c236861c7a8f",
+    "created": "2024-09-09 17:16",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.7",
+    "image_name": "ai/containers/python:3.12.7",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:8d97a0ab83113f8984517f14492f57186d943db7815682cab9d820c9c0a8c998",
+    "created": "2024-10-18 23:23",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.8",
+    "image_name": "ai/containers/python:3.12.8",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:e74938514dc67ad3eade8798aa929f5dd569e463758c83243636d4e1b54aa559",
+    "created": "2025-01-17 12:35",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.12.9",
+    "image_name": "ai/containers/python:3.12.9",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4ece045a9078331fad2da10fe3313fff96cecc429365def92c540cc17d9b1579",
+    "created": "2025-02-04 21:54",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.13.0",
+    "image_name": "ai/containers/python:3.13.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:e95be020750503923c5d4f51a56ab8f5b21e40cdce66fb7000e270df68d04f8e",
+    "created": "2024-10-18 23:23",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.13.1",
+    "image_name": "ai/containers/python:3.13.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:7be9b757ea8fa90b43efd604dd5ef2923364230f00564b2ea7f0982d24b374c9",
+    "created": "2025-01-17 12:35",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
     "tag": "3.13.10",
     "image_name": "ai/containers/python:3.13.10",
     "architecture": "amd64",
@@ -16832,6 +17481,62 @@
     "os": "linux",
     "digest": "sha256:4c822f0fadfeba9ea973d81fb5bbd5c2106f12ae02d0a5cdd48907909395310b",
     "created": "2026-06-24 04:57",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.13.2",
+    "image_name": "ai/containers/python:3.13.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0293f851d58c726748c9f5d7dca65528ac2d38887b18a48e5689f6c59ef77ea9",
+    "created": "2025-02-04 23:51",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.13.3",
+    "image_name": "ai/containers/python:3.13.3",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0bc836167214f98aca9c9bca7b4c6dc2c2a77f4a29d5029e6561a14706335102",
+    "created": "2025-05-08 22:27",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.13.4",
+    "image_name": "ai/containers/python:3.13.4",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b077ca6a99f3e8f96d686bf4c590ed59079b779ef33090db3fb7cf348ba47c6d",
+    "created": "2025-06-04 02:30",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
+    "tag": "3.13.5",
+    "image_name": "ai/containers/python:3.13.5",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4ea77121eab13d9e71f2783d7505f5655b25bb7b2c263e8020aae3b555dbc0b2",
+    "created": "2025-06-11 21:49",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -19212,6 +19917,101 @@
       ],
       "details_path": "vulns/ai-containers-tfx-oss-public-ml_metadata_store_server-1.14.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/tfx-oss-public/ml_metadata_store_server",
+    "tag": "1.15.0",
+    "image_name": "ai/containers/tfx-oss-public/ml_metadata_store_server:1.15.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:17db265b3dbcd85abd4bde8c76339fa1160ccebb4299c0cf7c6a3b1d231bb208",
+    "created": "2024-04-23 05:54",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "20.04"
+    },
+    "entrypoint": [
+      "/bin/sh",
+      "-c",
+      "\"/bin/metadata_store_server\"   \"--grpc_port=${GRPC_PORT}\"   \"--metadata_store_server_config_file=${METADATA_STORE_SERVER_CONFIG_FILE}\""
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/tfx-oss-public/ml_metadata_store_server",
+    "tag": "1.16.0",
+    "image_name": "ai/containers/tfx-oss-public/ml_metadata_store_server:1.16.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:575a4ff90f1780e5d46236f49fcdb3687b93a3f6d8665e4abee861e0658bc306",
+    "created": "2024-10-01 23:15",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "20.04"
+    },
+    "entrypoint": [
+      "/bin/sh",
+      "-c",
+      "\"/bin/metadata_store_server\"   \"--grpc_port=${GRPC_PORT}\"   \"--metadata_store_server_config_file=${METADATA_STORE_SERVER_CONFIG_FILE}\""
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/tfx-oss-public/ml_metadata_store_server",
+    "tag": "1.17.0",
+    "image_name": "ai/containers/tfx-oss-public/ml_metadata_store_server:1.17.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:cf9869368715509109dd0597fe72c97858982dd84dc1eb4e94c6340dcc7e3baf",
+    "created": "2025-04-06 22:38",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "20.04"
+    },
+    "entrypoint": [
+      "/bin/sh",
+      "-c",
+      "\"/bin/metadata_store_server\"   \"--grpc_port=${GRPC_PORT}\"   \"--metadata_store_server_config_file=${METADATA_STORE_SERVER_CONFIG_FILE}\""
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/tfx-oss-public/ml_metadata_store_server",
+    "tag": "1.17.1",
+    "image_name": "ai/containers/tfx-oss-public/ml_metadata_store_server:1.17.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:651bd70ef04eaa41f61570a06378b28c84c5d5f652c0273f11769a649343c99d",
+    "created": "2026-02-04 22:35",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "20.04"
+    },
+    "entrypoint": [
+      "/bin/sh",
+      "-c",
+      "\"/bin/metadata_store_server\"   \"--grpc_port=${GRPC_PORT}\"   \"--metadata_store_server_config_file=${METADATA_STORE_SERVER_CONFIG_FILE}\""
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/tfx-oss-public/ml_metadata_store_server",
+    "tag": "1.21.0",
+    "image_name": "ai/containers/tfx-oss-public/ml_metadata_store_server:1.21.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:83a8659d3dc9f4ad4f4e8084750af153a66ca2e7d79254bf6cca2a0e92ca462f",
+    "created": "2026-06-08 21:12",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "20.04"
+    },
+    "entrypoint": [
+      "/bin/sh",
+      "-c",
+      "\"/bin/metadata_store_server\"   \"--grpc_port=${GRPC_PORT}\"   \"--metadata_store_server_config_file=${METADATA_STORE_SERVER_CONFIG_FILE}\""
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/torchserve-kfs",

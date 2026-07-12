@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-07-12 17:55",
+    "changes": [
+      "New Container (AppCo): ollama:0.21.2-11.60 (aarch64)",
+      "New Container (AppCo): ollama:0.21.2-11.60 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.65 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.65 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.11 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.11 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.70 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.70 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-12 04:27",
     "changes": [
       "New Container (AppCo): open-webui:0.6.41-15.2 (aarch64)",
@@ -745,15 +758,6 @@
     "date": "2026-07-02 14:27",
     "changes": [
       "New Chart (AppCo): milvus:5.0.23-38.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-07-02 04:16",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.19-8.11 (x86_64)",
-      "New Container (AppCo): milvus:2.6.19-nvidia-8.11 (aarch64)",
-      "New Container (AppCo): milvus:2.6.19-nvidia-8.11 (x86_64)",
-      "New Container (AppCo): milvus:2.6.19-8.11 (aarch64)"
     ]
   }
 ]

@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-13 16:08",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.20-8.16 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-8.16 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-8.16 (x86_64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-8.16 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.12.5 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-12 17:55",
     "changes": [
       "New Container (AppCo): ollama:0.21.2-11.60 (aarch64)",
@@ -752,12 +762,6 @@
       "New Container (GHCR): suse/aif-ui:0.1.0-dev.8 (x86_64)",
       "New Container (GHCR): suse/chart/aif-operator:0.1.0-dev.8 (N/A)",
       "New Container (GHCR): suse/chart/aif-ui:0.1.0-dev.8 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-07-02 14:27",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.23-38.1 (N/A)"
     ]
   }
 ]

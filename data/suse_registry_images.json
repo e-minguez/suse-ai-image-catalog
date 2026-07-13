@@ -19183,6 +19183,20 @@
   },
   {
     "repository": "ai/containers/python",
+    "tag": "3.12.5",
+    "image_name": "ai/containers/python:3.12.5",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:11aa4b620c15f855f66f02a7f3c1cd9cf843cc10f3edbcf158e5ebcd98d1f549",
+    "created": "2024-08-29 23:26",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
+    "repository": "ai/containers/python",
     "tag": "3.12.6",
     "image_name": "ai/containers/python:3.12.6",
     "architecture": "amd64",

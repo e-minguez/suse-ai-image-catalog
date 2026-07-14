@@ -32468,6 +32468,43 @@
     "entrypoint": null,
     "cmd": [
       "python3"
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.10-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.10-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.10-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.10-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.10-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.10-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.10-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
     ]
   },
   {
@@ -32482,6 +32519,43 @@
     "entrypoint": null,
     "cmd": [
       "python3"
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.11-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.11-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.11-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.11-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.11-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.11-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.11-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
     ]
   },
   {
@@ -32496,6 +32570,43 @@
     "entrypoint": null,
     "cmd": [
       "python3"
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.12-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.12-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.12-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.12-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.12-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.12-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.12-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
     ]
   },
   {
@@ -32510,6 +32621,48 @@
     "entrypoint": null,
     "cmd": [
       "python3"
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.13-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.13-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.13-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.13-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.13-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.13-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.13-riscv64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "riscv64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.13-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
     ]
   },
   {
@@ -32524,7 +32677,93 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.14-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.14-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.14-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.14-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.14-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.14-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.14-riscv64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "riscv64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.14-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 43974,
+      "critical": 1393,
+      "high": 9416,
+      "medium": 22349,
+      "low": 10296,
+      "scan_date": "2026-07-14 13:14",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.14-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.14-arm-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.14-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-python-3.11.14-arm64-vuln.json"
+        },
+        {
+          "arch": "386",
+          "path": "vulns/ai-containers-python-3.11.14-386-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-python-3.11.14-ppc64le-vuln.json"
+        },
+        {
+          "arch": "riscv64",
+          "path": "vulns/ai-containers-python-3.11.14-riscv64-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-python-3.11.14-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.14-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32538,7 +32777,93 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.15-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.15-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.15-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.15-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.15-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.15-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.15-riscv64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "riscv64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.15-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18216,
+      "critical": 392,
+      "high": 2778,
+      "medium": 6246,
+      "low": 8384,
+      "scan_date": "2026-07-14 13:08",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.15-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.15-arm-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.15-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-python-3.11.15-arm64-vuln.json"
+        },
+        {
+          "arch": "386",
+          "path": "vulns/ai-containers-python-3.11.15-386-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-python-3.11.15-ppc64le-vuln.json"
+        },
+        {
+          "arch": "riscv64",
+          "path": "vulns/ai-containers-python-3.11.15-riscv64-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-python-3.11.15-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.15-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32566,7 +32891,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.3-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.3-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.3-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.3-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.3-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.3-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.3-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.3-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.3-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18,
+      "critical": 0,
+      "high": 6,
+      "medium": 10,
+      "low": 2,
+      "scan_date": "2026-07-14 14:16",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.3-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.3-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.3-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32580,7 +32972,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.4-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.4-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.4-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.4-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.4-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.4-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.4-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.4-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.4-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18,
+      "critical": 0,
+      "high": 6,
+      "medium": 10,
+      "low": 2,
+      "scan_date": "2026-07-14 14:07",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.4-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.4-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.4-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32594,7 +33053,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.5-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.5-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.5-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.5-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.5-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.5-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.5-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.5-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.5-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18,
+      "critical": 0,
+      "high": 6,
+      "medium": 10,
+      "low": 2,
+      "scan_date": "2026-07-14 13:59",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.5-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.5-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.5-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32608,7 +33134,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.6-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.6-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.6-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.6-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.6-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.6-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.6-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.6-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.6-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18,
+      "critical": 0,
+      "high": 6,
+      "medium": 10,
+      "low": 2,
+      "scan_date": "2026-07-14 13:52",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.6-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.6-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.6-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32622,7 +33215,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.7-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.7-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.7-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.7-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.7-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.7-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.7-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.7-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.7-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18,
+      "critical": 0,
+      "high": 6,
+      "medium": 10,
+      "low": 2,
+      "scan_date": "2026-07-14 13:46",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.7-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.7-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.7-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32636,7 +33296,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.8-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.8-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.8-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.8-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.8-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.8-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.8-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.8-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.8-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 16,
+      "critical": 0,
+      "high": 6,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 13:40",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.8-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.8-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.8-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32650,7 +33377,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.11.9-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.9-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.9-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.9-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.9-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.9-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.9-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.9-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.11.9-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 16,
+      "critical": 0,
+      "high": 6,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 13:35",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.9-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.9-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.9-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32664,7 +33458,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.0-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.0-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.0-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18,
+      "critical": 0,
+      "high": 6,
+      "medium": 10,
+      "low": 2,
+      "scan_date": "2026-07-14 13:02",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.0-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32678,7 +33539,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.1-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.1-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.1-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.1-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.1-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18,
+      "critical": 0,
+      "high": 6,
+      "medium": 10,
+      "low": 2,
+      "scan_date": "2026-07-14 12:54",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.1-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.1-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32692,7 +33620,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.10-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.10-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.10-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.10-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.10-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.10-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.10-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.10-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.10-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 10,
+      "critical": 0,
+      "high": 0,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 11:48",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.10-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.10-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.10-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32706,6 +33701,48 @@
     "entrypoint": null,
     "cmd": [
       "python3"
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.11-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.11-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.11-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.11-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.11-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.11-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.11-riscv64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "riscv64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.11-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
     ]
   },
   {
@@ -32720,7 +33757,93 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.12-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.12-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.12-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.12-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.12-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.12-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.12-riscv64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "riscv64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.12-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 43950,
+      "critical": 1393,
+      "high": 9392,
+      "medium": 22349,
+      "low": 10296,
+      "scan_date": "2026-07-14 11:39",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.12-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.12.12-arm-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.12.12-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-python-3.12.12-arm64-vuln.json"
+        },
+        {
+          "arch": "386",
+          "path": "vulns/ai-containers-python-3.12.12-386-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-python-3.12.12-ppc64le-vuln.json"
+        },
+        {
+          "arch": "riscv64",
+          "path": "vulns/ai-containers-python-3.12.12-riscv64-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-python-3.12.12-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.12-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32734,7 +33857,93 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.13-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.13-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.13-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.13-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.13-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.13-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.13-riscv64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "riscv64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.13-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18200,
+      "critical": 392,
+      "high": 2762,
+      "medium": 6246,
+      "low": 8384,
+      "scan_date": "2026-07-14 11:32",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.13-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.12.13-arm-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.12.13-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-python-3.12.13-arm64-vuln.json"
+        },
+        {
+          "arch": "386",
+          "path": "vulns/ai-containers-python-3.12.13-386-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-python-3.12.13-ppc64le-vuln.json"
+        },
+        {
+          "arch": "riscv64",
+          "path": "vulns/ai-containers-python-3.12.13-riscv64-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-python-3.12.13-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.13-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32748,7 +33957,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.2-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.2-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.2-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.2-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.2-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 16,
+      "critical": 0,
+      "high": 6,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 12:46",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.2-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32762,7 +34038,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.3-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.3-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.3-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.3-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.3-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.3-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.3-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.3-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.3-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 16,
+      "critical": 0,
+      "high": 6,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 12:37",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.3-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.3-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.3-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32776,7 +34119,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.4-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.4-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.4-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.4-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.4-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.4-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.4-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.4-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.4-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 18,
+      "critical": 0,
+      "high": 8,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 12:29",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.4-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.4-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.4-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32790,7 +34200,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.5-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.5-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.5-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.5-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.5-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.5-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.5-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.5-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.5-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 10,
+      "critical": 0,
+      "high": 0,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 12:19",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.5-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.5-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.5-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32804,7 +34281,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.6-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.6-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.6-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.6-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.6-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.6-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.6-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.6-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.6-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 10,
+      "critical": 0,
+      "high": 0,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 12:11",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.6-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.6-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.6-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32818,7 +34362,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.7-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.7-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.7-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.7-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.7-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.7-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.7-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.7-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.7-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 10,
+      "critical": 0,
+      "high": 0,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 12:04",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.7-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.7-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.7-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32832,7 +34443,83 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.8-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.8-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.8-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.8-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.8-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.8-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.8-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.8-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.8-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.8-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 15,
+      "critical": 0,
+      "high": 0,
+      "medium": 12,
+      "low": 3,
+      "scan_date": "2026-07-14 11:59",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.8-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.8-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.8-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.8-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32846,7 +34533,83 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.12.9-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.9-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.9-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.9-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.9-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.9-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.9-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.9-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.9-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.12.9-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 15,
+      "critical": 0,
+      "high": 0,
+      "medium": 12,
+      "low": 3,
+      "scan_date": "2026-07-14 11:53",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.9-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.9-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.9-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.9-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32860,7 +34623,74 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.13.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.0-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.0-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.0-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 10,
+      "critical": 0,
+      "high": 0,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 11:25",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.0-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.13.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -32874,7 +34704,83 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.13.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.1-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.1-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.1-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.1-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.1-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 15,
+      "critical": 0,
+      "high": 0,
+      "medium": 12,
+      "low": 3,
+      "scan_date": "2026-07-14 11:15",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.1-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.1-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.1-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.13.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -33437,7 +35343,83 @@
     "entrypoint": null,
     "cmd": [
       "python3"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-python-3.13.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.2-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.2-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.2-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.2-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.2-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 15,
+      "critical": 0,
+      "high": 0,
+      "medium": 12,
+      "low": 3,
+      "scan_date": "2026-07-14 11:04",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.2-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.2-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.13.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -33459,6 +35441,36 @@
         "arch": "amd64"
       },
       {
+        "path": "sboms/ai-containers-python-3.13.3-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.3-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.3-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.3-386-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "386"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.3-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-python-3.13.3-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      },
+      {
         "path": "sboms/ai-containers-python-3.13.3-amd64-cyclonedx.json",
         "format": "CycloneDX",
         "arch": "amd64"
@@ -33468,7 +35480,27 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 10,
+      "critical": 0,
+      "high": 0,
+      "medium": 8,
+      "low": 2,
+      "scan_date": "2026-07-14 10:55",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.3-amd64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.13.3-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.13.3-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",

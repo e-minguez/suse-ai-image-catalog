@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-07-14 04:38",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.20-8.17 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-8.17 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-8.17 (x86_64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-8.17 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-13 22:25",
     "changes": [
       "Updated Container (Registry): ai/containers/kserve/art-explainer:latest (x86_64)"
@@ -750,12 +759,6 @@
       "New Container (GHCR): suse/chart/aif-operator:2.0.0-rc.2 (N/A)",
       "New Container (GHCR): suse/chart/aif-ui:2.0.0-rc.1 (N/A)",
       "New Container (GHCR): suse/chart/aif-ui:2.0.0-rc.2 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-07-03 04:03",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.23-39.1 (N/A)"
     ]
   }
 ]

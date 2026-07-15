@@ -18720,7 +18720,30 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.10.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 605,
+      "critical": 20,
+      "high": 151,
+      "medium": 234,
+      "low": 183,
+      "scan_date": "2026-07-14 21:52",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.10.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.10.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18736,7 +18759,30 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.10.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 592,
+      "critical": 20,
+      "high": 143,
+      "medium": 229,
+      "low": 183,
+      "scan_date": "2026-07-14 21:51",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.10.1-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.10.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18752,7 +18798,30 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.10.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 576,
+      "critical": 20,
+      "high": 139,
+      "medium": 218,
+      "low": 182,
+      "scan_date": "2026-07-14 21:50",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.10.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.10.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18768,7 +18837,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.11.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.11.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 1136,
+      "critical": 40,
+      "high": 268,
+      "medium": 436,
+      "low": 358,
+      "scan_date": "2026-07-14 21:49",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.11.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.11.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.11.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18784,7 +18885,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.11.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.11.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 1136,
+      "critical": 40,
+      "high": 268,
+      "medium": 436,
+      "low": 358,
+      "scan_date": "2026-07-14 21:47",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.11.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.11.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.11.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18800,7 +18933,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.11.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.11.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 1108,
+      "critical": 40,
+      "high": 256,
+      "medium": 420,
+      "low": 358,
+      "scan_date": "2026-07-14 21:46",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.11.2-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.11.2-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.11.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18816,7 +18981,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.12.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.12.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 1090,
+      "critical": 30,
+      "high": 224,
+      "medium": 420,
+      "low": 382,
+      "scan_date": "2026-07-14 21:44",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.12.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.12.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.12.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18832,7 +19029,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.12.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.12.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 1086,
+      "critical": 30,
+      "high": 234,
+      "medium": 418,
+      "low": 370,
+      "scan_date": "2026-07-14 21:42",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.12.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.12.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.12.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18848,7 +19077,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.13.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.13.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 1068,
+      "critical": 30,
+      "high": 224,
+      "medium": 418,
+      "low": 362,
+      "scan_date": "2026-07-14 21:40",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.13.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.13.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.13.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18864,7 +19125,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.13.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.13.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 1048,
+      "critical": 22,
+      "high": 212,
+      "medium": 418,
+      "low": 362,
+      "scan_date": "2026-07-14 21:39",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.13.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.13.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.13.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18880,7 +19173,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.14.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.14.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 842,
+      "critical": 18,
+      "high": 180,
+      "medium": 330,
+      "low": 290,
+      "scan_date": "2026-07-14 21:37",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.14.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.14.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.14.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18896,7 +19221,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.14.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.14.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 778,
+      "critical": 18,
+      "high": 164,
+      "medium": 298,
+      "low": 274,
+      "scan_date": "2026-07-14 21:35",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.14.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.14.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.14.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18912,7 +19269,30 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.15.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 385,
+      "critical": 9,
+      "high": 82,
+      "medium": 145,
+      "low": 137,
+      "scan_date": "2026-07-14 21:33",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.15.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.15.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18928,7 +19308,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.15.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.15.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 764,
+      "critical": 18,
+      "high": 160,
+      "medium": 288,
+      "low": 274,
+      "scan_date": "2026-07-14 21:32",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.15.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.15.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.15.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18944,7 +19356,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.15.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.15.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 726,
+      "critical": 16,
+      "high": 160,
+      "medium": 266,
+      "low": 260,
+      "scan_date": "2026-07-14 21:31",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.15.2-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.15.2-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.15.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18960,7 +19404,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.16.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.16.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 676,
+      "critical": 18,
+      "high": 152,
+      "medium": 228,
+      "low": 254,
+      "scan_date": "2026-07-14 21:29",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.16.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.16.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.16.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18976,7 +19452,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.17.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.17.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 668,
+      "critical": 16,
+      "high": 134,
+      "medium": 234,
+      "low": 260,
+      "scan_date": "2026-07-14 21:27",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.17.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.17.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.17.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -18992,7 +19500,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.17.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.17.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 596,
+      "critical": 12,
+      "high": 116,
+      "medium": 198,
+      "low": 246,
+      "scan_date": "2026-07-14 21:25",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.17.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.17.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.17.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -19008,7 +19548,39 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.18.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.18.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 654,
+      "critical": 12,
+      "high": 120,
+      "medium": 236,
+      "low": 262,
+      "scan_date": "2026-07-14 21:24",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.18.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.18.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.18.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -19072,7 +19644,14 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.7.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ]
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -19088,7 +19667,14 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.8.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ]
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -19104,7 +19690,14 @@
       "-m",
       "artserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-art-explainer-v0.9.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ]
   },
   {
     "repository": "ai/containers/kserve/huggingfaceserver",
@@ -22297,7 +22890,39 @@
       "-u",
       "RunTrial.py"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-katib-enas-cnn-cifar10-cpu-v0.19.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-katib-enas-cnn-cifar10-cpu-v0.19.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 3817,
+      "critical": 15,
+      "high": 500,
+      "medium": 2294,
+      "low": 945,
+      "scan_date": "2026-07-14 22:03",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-katib-enas-cnn-cifar10-cpu-v0.19.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-katib-enas-cnn-cifar10-cpu-v0.19.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-katib-enas-cnn-cifar10-cpu-v0.19.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/katib/file-metrics-collector",
@@ -22496,7 +23121,39 @@
       "python3",
       "/opt/pytorch-mnist/mnist.py"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-katib-pytorch-mnist-cpu-v0.19.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-katib-pytorch-mnist-cpu-v0.19.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 636,
+      "critical": 12,
+      "high": 92,
+      "medium": 212,
+      "low": 258,
+      "scan_date": "2026-07-14 22:00",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-katib-pytorch-mnist-cpu-v0.19.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-katib-pytorch-mnist-cpu-v0.19.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-katib-pytorch-mnist-cpu-v0.19.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/katib/suggestion-darts",

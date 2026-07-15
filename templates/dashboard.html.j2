@@ -424,8 +424,8 @@
                                         <tr class="version-row" id="{{ v.anchor_id }}">
                                             <td class="ps-5" onclick="showDetails('{{ v.details | to_json_encoded }}', '{{ v.name }}', '{{ group.logo or 'None' }}', '{{ v.anchor_id }}')">
                                                 <i class="bi bi-tag me-2 text-muted"></i>{{ v.version }}
-                                                {% if v.tag and v.tag != v.version %}
-                                                <small class="text-muted ms-1">({{ v.tag }})</small>
+                                                {% if v.aliases %}
+                                                <small class="text-muted ms-1">({{ v.aliases | join(', ') }})</small>
                                                 {% endif %}
                                                 <i class="bi bi-link-45deg anchor-link" title="Copy link to this version" onclick="copyAnchor(event, '{{ v.anchor_id }}')"></i>
                                             </td>

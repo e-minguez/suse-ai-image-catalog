@@ -109,6 +109,11 @@ def natural_version_key(v):
     """Zero-pad numeric runs so version strings sort naturally (dev.10 > dev.9)."""
     return re.sub(r'\d+', lambda m: m.group().zfill(10), str(v or ""))
 
+def version_sort_key(v):
+    """Version sort ignoring a leading 'v' prefix, digit runs zero-padded."""
+    s = re.sub(r'^v(?=\d)', '', str(v or ""))
+    return natural_version_key(s)
+
 def slugify(text):
     if not text: return ""
     # Replace non-alphanumeric with hyphen, then collapse hyphens
@@ -310,11 +315,39 @@ def generate_html():
 
     final_groups = []
     for base_name, group_data in groups.items():
-        # Sort newest-first by date, falling back to a natural version sort so
-        # entries without a timestamp (e.g. GHCR chart artifacts) still order
-        # dev.8 > dev.7 > ... instead of keeping insertion order.
+        # Collapse tags that resolve to the same digest (e.g. "1.89.0" and
+        # "v1.89.0") into a single row: keep a canonical entry, list the rest as
+        # aliases. Entries without a digest are never merged.
+        deduped = []
+        by_digest = {}
+        for v in group_data['versions']:
+            digest = v.get('digest')
+            if not digest:
+                v['aliases'] = []
+                deduped.append(v)
+                continue
+            by_digest.setdefault(digest, []).append(v)
+        for digest, bucket in by_digest.items():
+            # Canonical: prefer a non-"vN" tag, then lowest natural version.
+            canonical = min(
+                bucket,
+                key=lambda x: (bool(re.match(r'^v\d', str(x.get('version') or ''))),
+                               version_sort_key(x.get('version'))),
+            )
+            aliases = sorted(
+                (x.get('version') for x in bucket if x is not canonical),
+                key=version_sort_key,
+            )
+            canonical['aliases'] = aliases
+            deduped.append(canonical)
+        group_data['versions'] = deduped
+
+        # Sort newest-first by version number, with date as a tiebreak. Build
+        # date is not a reliable version order (an older version can be rebuilt
+        # later), so version is primary; the natural key also keeps timestamp-less
+        # entries (e.g. GHCR chart artifacts) ordered dev.8 > dev.7 > ...
         group_data['versions'].sort(
-            key=lambda x: (x.get('last_updated') or '', natural_version_key(x.get('version'))),
+            key=lambda x: (version_sort_key(x.get('version')), x.get('last_updated') or ''),
             reverse=True,
         )
         latest = group_data['versions'][0]

@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-07-17 21:13",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.20-10.2 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-10.2 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-10.2 (x86_64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-10.2 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-17 06:38",
     "changes": [
       "New Chart (AppCo): milvus:5.0.24-48.1 (N/A)",
@@ -776,12 +785,6 @@
       "New Container (Registry): ai/containers/litellm:v1.88.1 (x86_64)",
       "New Container (Registry): ai/containers/litellm:v1.88.2 (x86_64)",
       "New Container (Registry): ai/containers/litellm:v1.89.0 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-10 04:06",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.23-43.1 (N/A)"
     ]
   }
 ]

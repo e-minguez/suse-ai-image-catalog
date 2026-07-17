@@ -21,16 +21,14 @@ logger = logging.getLogger(__name__)
 # Configuration: full GHCR repository references to track (no tag)
 # ─────────────────────────────────────────────────────────────────────────────
 GHCR_IMAGES = [
-    "ghcr.io/suse/suse-ai-operator",
-    "ghcr.io/suse/aif-operator",
-    "ghcr.io/suse/aif-ui",
     "ghcr.io/suse/chart/aif-operator",
     "ghcr.io/suse/chart/aif-ui",
     "ghcr.io/suse/chart/suse-ai-operator",
-    "ghcr.io/suse/suse-ai-opentelemetry-collector",
-    "ghcr.io/suse/suse-ai-lifecycle-manager",
     "ghcr.io/suse/chart/suse-ai-lifecycle-manager",
-    "ghcr.io/suse/suse-ai-observability-extension",
+    "ghcr.io/suse/aif-operator",
+    "ghcr.io/suse/aif-ui",
+    "ghcr.io/suse/suse-ai-operator",
+    "ghcr.io/suse/suse-ai-lifecycle-manager",
 ]
 
 OUTPUT_FILE = "data/ghcr_images.json"

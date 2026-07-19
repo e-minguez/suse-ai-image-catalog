@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-07-19 17:15",
+    "changes": [
+      "New Container (AppCo): ollama:0.21.2-11.64 (aarch64)",
+      "New Container (AppCo): ollama:0.21.2-11.64 (x86_64)",
+      "New Container (AppCo): open-webui:0.6.41-15.8 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-15.8 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.75 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.75 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.70 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.70 (x86_64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.15 (aarch64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.15 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.16 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.16 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.75 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.75 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.29 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.29 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.32 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.32 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-19 03:46",
     "changes": [
       "New Chart (AppCo): milvus:5.0.24-50.1 (N/A)"
@@ -204,33 +227,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.26 (x86_64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.29 (aarch64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.29 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-11 14:34",
-    "changes": [
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.10.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.10.1 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.10.2 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.11.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.11.1 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.11.2 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.12.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.12.1 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.13.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.13.1 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.14.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.14.1 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.15.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.15.1 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.15.2 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.16.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.17.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.7.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.8.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.9.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/enas-cnn-cifar10-cpu:v0.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/katib/pytorch-mnist-cpu:v0.19.0 (x86_64)"
     ]
   }
 ]

@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-07-20 21:36",
+    "changes": [
+      "Updated Container (Registry): ai/containers/kserve/art-explainer:latest (x86_64)",
+      "New Container (Registry): ai/containers/kserve/models-web-app:0.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/models-web-app:1.0.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/models-web-app:1.0.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/dashboard/access-management:v2.0.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/dashboard/dashboard:v2.0.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/dashboard/poddefaults-webhook:v2.0.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/dashboard/profile-controller:v2.0.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/controller:v0.3.10 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/controller:v0.3.11 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/server:v0.3.10 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/server:v0.3.11 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/storage-initializer:v0.3.10 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/storage-initializer:v0.3.11 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/ui:0.3.10 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/ui:0.3.11 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/ui:v0.3.10 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/ui:v0.3.11 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-api-server:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-cache-server:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-frontend:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-launcher:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-envoy:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-writer:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-persistence-agent:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-scheduled-workflow-controller:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-viewer-crd-controller:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-visualization-server:2.17.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/notebooks/jupyter-web-app:v1.11.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/notebooks/notebook-controller:v1.11.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/notebooks/pvcviewer-controller:v1.11.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/notebooks/tensorboard-controller:v1.11.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/notebooks/tensorboards-web-app:v1.11.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/notebooks/volumes-web-app:v1.11.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/dataset-initializer:v2.2.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/deepspeed-runtime:v2.2.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/mlx-runtime:v2.2.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/model-initializer:v2.2.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/torchtune-trainer:v2.2.1 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/trainer-controller-manager:v2.2.1 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11-slim (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11.15 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.12.13 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.13.14 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.14.6 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-20 18:25",
     "changes": [
       "New Chart (AppCo): suse-ai-observability-extension:2.0.0-9.1 (N/A)",
@@ -274,19 +325,6 @@
       "New Container (AppCo): milvus:2.6.20-8.16 (x86_64)",
       "New Container (AppCo): milvus:2.6.20-nvidia-8.16 (x86_64)",
       "New Container (Registry): ai/containers/python:3.12.5 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-12 17:55",
-    "changes": [
-      "New Container (AppCo): ollama:0.21.2-11.60 (aarch64)",
-      "New Container (AppCo): ollama:0.21.2-11.60 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.65 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.65 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.11 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.11 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.70 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.70 (x86_64)"
     ]
   }
 ]

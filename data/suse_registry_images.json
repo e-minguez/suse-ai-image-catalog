@@ -20155,7 +20155,30 @@
       "-m",
       "huggingfaceserver"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-huggingfaceserver-v0.19.0-gpu-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 221,
+      "critical": 12,
+      "high": 66,
+      "medium": 86,
+      "low": 57,
+      "scan_date": "2026-07-22 11:23",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-huggingfaceserver-v0.19.0-gpu-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-huggingfaceserver-v0.19.0-gpu-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/kserve-controller",

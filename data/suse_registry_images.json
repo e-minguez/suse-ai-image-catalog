@@ -18853,8 +18853,8 @@
     "image_name": "ai/containers/kserve/art-explainer:latest",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:48bad52d8c76f31345c90fe0ee12a5fd9a23a453ad156e91f874d5cb43c036d6",
-    "created": "2026-07-20 17:32",
+    "digest": "sha256:44906f6fd1d5382311227f33077b7223e05b94e4cbb33c99681d86c623c53f14",
+    "created": "2026-07-21 17:17",
     "labels": {},
     "entrypoint": [
       "python",
@@ -20137,6 +20137,25 @@
       ],
       "details_path": "vulns/ai-containers-kserve-huggingfaceserver-v0.19.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/huggingfaceserver",
+    "tag": "v0.19.0-gpu",
+    "image_name": "ai/containers/kserve/huggingfaceserver:v0.19.0-gpu",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:eb37878b39a8dbefdad2b098479e93c1652fc8e347f0d8ff46b5337720f73250",
+    "created": "2026-06-12 20:35",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "25.10"
+    },
+    "entrypoint": [
+      "python3",
+      "-m",
+      "huggingfaceserver"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve/kserve-controller",
@@ -43738,7 +43757,7 @@
     "image_name": "ai/containers/python:3.11",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:13f0881a239ca0d27fb8b2539536ace85f7d680a707bfaa178571e1dbfe85a91",
+    "digest": "sha256:c7220863385ee39fb6d822da81f4469d0cd33ff893d92ce94105e5c3f4b95fe2",
     "created": "2026-07-14 04:51",
     "labels": {},
     "entrypoint": null,
@@ -44409,7 +44428,7 @@
     "image_name": "ai/containers/python:3.11.15",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:13f0881a239ca0d27fb8b2539536ace85f7d680a707bfaa178571e1dbfe85a91",
+    "digest": "sha256:c7220863385ee39fb6d822da81f4469d0cd33ff893d92ce94105e5c3f4b95fe2",
     "created": "2026-07-14 04:51",
     "labels": {},
     "entrypoint": null,
@@ -45556,7 +45575,7 @@
     "image_name": "ai/containers/python:3.12.13",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:1a7dbae78e9568b95a8e2934719c4bf984d7ae319b3659ed129f59d8aca6d7a8",
+    "digest": "sha256:7ad6d21a25a94b2c00e685e82c2fd298de814353d9ee0e3f7f2cd4fca063df60",
     "created": "2026-07-14 04:48",
     "labels": {},
     "entrypoint": null,
@@ -48349,7 +48368,7 @@
     "image_name": "ai/containers/python:3.14.6",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:311ea5bb79f1a238ee9e38f8d5f09cb3b4b244575cf49e27cf365ea7e60f11d4",
+    "digest": "sha256:5f1cdbcab9a50594a79502dd73e885456d2a2fc31f1a1fa18484815b37ee9152",
     "created": "2026-07-14 04:42",
     "labels": {},
     "entrypoint": null,

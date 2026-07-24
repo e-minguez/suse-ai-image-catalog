@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-07-24 10:36",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.20-11.1 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-11.1 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-11.1 (x86_64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-11.1 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-24 03:42",
     "changes": [
       "New Container (AppCo): ollama:0.21.2-11.67 (aarch64)",
@@ -316,29 +325,6 @@
       "New Container (AppCo): milvus:2.6.20-nvidia-8.19 (aarch64)",
       "New Container (AppCo): milvus:2.6.20-8.19 (x86_64)",
       "New Container (AppCo): milvus:2.6.20-nvidia-8.19 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-15 06:34",
-    "changes": [
-      "New Container (AppCo): ollama:0.21.2-11.61 (aarch64)",
-      "New Container (AppCo): ollama:0.21.2-11.61 (x86_64)",
-      "New Container (AppCo): open-webui:0.6.41-15.3 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-15.3 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.71 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.71 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.66 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.66 (x86_64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.11 (aarch64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.11 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.13 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.13 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.71 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.71 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.27 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.27 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.30 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.30 (x86_64)"
     ]
   }
 ]

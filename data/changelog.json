@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-07-24 03:42",
+    "changes": [
+      "New Container (AppCo): ollama:0.21.2-11.67 (aarch64)",
+      "New Container (AppCo): ollama:0.21.2-11.67 (x86_64)",
+      "New Container (AppCo): open-webui:0.6.41-15.12 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-15.12 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.79 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.79 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.74 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.74 (x86_64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.18 (aarch64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.18 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.1-7.20 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.1-7.20 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.34 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.34 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.80 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.80 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.31 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.31 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.34 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.34 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-23 03:47",
     "changes": [
       "New Chart (AppCo): milvus:5.0.24-52.1 (N/A)"
@@ -314,12 +339,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.27 (x86_64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.30 (aarch64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.30 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-15 03:27",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.24-46.1 (N/A)"
     ]
   }
 ]

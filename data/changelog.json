@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-28 21:31",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.20-11.5 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-11.5 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-11.5 (x86_64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-11.5 (x86_64)",
+      "New Container (GHCR): suse/chart/aif-operator:2.1.0-dev.1 (N/A)",
+      "New Container (GHCR): suse/chart/aif-ui:2.1.0-dev.1 (N/A)",
+      "New Container (GHCR): suse/aif-operator:2.1.0-dev.1 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.1.0-dev.1-arm64 (arm64)",
+      "New Container (GHCR): suse/aif-ui:2.1.0-dev.1-amd64 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.1.0-dev.1 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-07-28 03:31",
     "changes": [
       "New Container (AppCo): milvus:2.6.20-11.4 (aarch64)",
@@ -314,32 +329,6 @@
       "New Container (AppCo): milvus:2.6.20-nvidia-10.2 (aarch64)",
       "New Container (AppCo): milvus:2.6.20-10.2 (x86_64)",
       "New Container (AppCo): milvus:2.6.20-nvidia-10.2 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-17 06:38",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.24-48.1 (N/A)",
-      "New Container (AppCo): ollama:0.21.2-11.63 (aarch64)",
-      "New Container (AppCo): ollama:0.21.2-11.63 (x86_64)",
-      "New Container (AppCo): open-webui:0.6.41-15.6 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-15.6 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.73 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.73 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.68 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.68 (x86_64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.13 (aarch64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.13 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.15 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.0.0-7.15 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.33 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.33 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.73 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.73 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.28 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.28 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.31 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.31 (x86_64)"
     ]
   }
 ]

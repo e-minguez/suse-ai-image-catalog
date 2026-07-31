@@ -18256,7 +18256,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 7956,
+      "critical": 46,
+      "high": 1619,
+      "medium": 4875,
+      "low": 1396,
+      "scan_date": "2026-07-31 13:54",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-aix-explainer-v0.10.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-aix-explainer-v0.10.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/aix-explainer",
@@ -18279,7 +18295,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 7857,
+      "critical": 46,
+      "high": 1588,
+      "medium": 4808,
+      "low": 1395,
+      "scan_date": "2026-07-31 13:50",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-aix-explainer-v0.10.1-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-aix-explainer-v0.10.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/aix-explainer",
@@ -18302,7 +18334,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 8576,
+      "critical": 55,
+      "high": 1777,
+      "medium": 5415,
+      "low": 1305,
+      "scan_date": "2026-07-31 13:47",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-aix-explainer-v0.10.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-aix-explainer-v0.10.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/aix-explainer",
@@ -18325,7 +18373,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 13915,
+      "critical": 346,
+      "high": 3431,
+      "medium": 7832,
+      "low": 2242,
+      "scan_date": "2026-07-31 14:03",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-aix-explainer-v0.7.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-aix-explainer-v0.7.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/aix-explainer",
@@ -18348,7 +18412,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 13512,
+      "critical": 344,
+      "high": 3320,
+      "medium": 7578,
+      "low": 2206,
+      "scan_date": "2026-07-31 14:00",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-aix-explainer-v0.8.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-aix-explainer-v0.8.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/aix-explainer",
@@ -18371,7 +18451,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 12716,
+      "critical": 306,
+      "high": 3124,
+      "medium": 7038,
+      "low": 2186,
+      "scan_date": "2026-07-31 13:57",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-aix-explainer-v0.9.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-aix-explainer-v0.9.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/alibi-explainer",
@@ -18799,7 +18895,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 13879,
+      "critical": 340,
+      "high": 3412,
+      "medium": 7824,
+      "low": 2239,
+      "scan_date": "2026-07-31 14:12",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-alibi-explainer-v0.7.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-alibi-explainer-v0.7.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/alibi-explainer",
@@ -18822,7 +18934,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 13238,
+      "critical": 337,
+      "high": 3233,
+      "medium": 7497,
+      "low": 2107,
+      "scan_date": "2026-07-31 14:10",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-alibi-explainer-v0.8.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-alibi-explainer-v0.8.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/alibi-explainer",
@@ -18845,7 +18973,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 12357,
+      "critical": 301,
+      "high": 3032,
+      "medium": 6878,
+      "low": 2084,
+      "scan_date": "2026-07-31 14:07",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-alibi-explainer-v0.9.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-alibi-explainer-v0.9.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",

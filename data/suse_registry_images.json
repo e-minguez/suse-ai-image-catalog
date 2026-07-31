@@ -44329,7 +44329,47 @@
         "format": "CycloneDX",
         "arch": "s390x"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 58316,
+      "critical": 1610,
+      "high": 12676,
+      "medium": 32829,
+      "low": 10905,
+      "scan_date": "2026-07-31 20:49",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.10-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.10-arm-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.10-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-python-3.11.10-arm64-vuln.json"
+        },
+        {
+          "arch": "386",
+          "path": "vulns/ai-containers-python-3.11.10-386-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-python-3.11.10-ppc64le-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-python-3.11.10-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.10-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -44380,7 +44420,47 @@
         "format": "CycloneDX",
         "arch": "s390x"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 54438,
+      "critical": 1603,
+      "high": 11584,
+      "medium": 30134,
+      "low": 10835,
+      "scan_date": "2026-07-31 20:40",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.11-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.11-arm-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.11-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-python-3.11.11-arm64-vuln.json"
+        },
+        {
+          "arch": "386",
+          "path": "vulns/ai-containers-python-3.11.11-386-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-python-3.11.11-ppc64le-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-python-3.11.11-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.11-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -44431,7 +44511,47 @@
         "format": "CycloneDX",
         "arch": "s390x"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 52064,
+      "critical": 1603,
+      "high": 11010,
+      "medium": 28545,
+      "low": 10624,
+      "scan_date": "2026-07-31 20:31",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.12-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.12-arm-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.12-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-python-3.11.12-arm64-vuln.json"
+        },
+        {
+          "arch": "386",
+          "path": "vulns/ai-containers-python-3.11.12-386-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-python-3.11.12-ppc64le-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-python-3.11.12-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.12-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -44487,7 +44607,51 @@
         "format": "CycloneDX",
         "arch": "s390x"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 60572,
+      "critical": 1888,
+      "high": 12127,
+      "medium": 32831,
+      "low": 13244,
+      "scan_date": "2026-07-31 20:21",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.11.13-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.13-arm-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.11.13-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-python-3.11.13-arm64-vuln.json"
+        },
+        {
+          "arch": "386",
+          "path": "vulns/ai-containers-python-3.11.13-386-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-python-3.11.13-ppc64le-vuln.json"
+        },
+        {
+          "arch": "riscv64",
+          "path": "vulns/ai-containers-python-3.11.13-riscv64-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-python-3.11.13-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.11.13-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",
@@ -45634,7 +45798,51 @@
         "format": "CycloneDX",
         "arch": "s390x"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 60540,
+      "critical": 1888,
+      "high": 12103,
+      "medium": 32823,
+      "low": 13244,
+      "scan_date": "2026-07-31 18:12",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-python-3.12.11-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.12.11-arm-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-python-3.12.11-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-python-3.12.11-arm64-vuln.json"
+        },
+        {
+          "arch": "386",
+          "path": "vulns/ai-containers-python-3.12.11-386-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-python-3.12.11-ppc64le-vuln.json"
+        },
+        {
+          "arch": "riscv64",
+          "path": "vulns/ai-containers-python-3.12.11-riscv64-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-python-3.12.11-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-python-3.12.11-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/python",

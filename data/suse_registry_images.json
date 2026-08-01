@@ -19984,7 +19984,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 13465,
+      "critical": 337,
+      "high": 3306,
+      "medium": 7623,
+      "low": 2135,
+      "scan_date": "2026-08-01 00:22",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.7.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.7.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -20007,7 +20023,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 13068,
+      "critical": 335,
+      "high": 3199,
+      "medium": 7371,
+      "low": 2099,
+      "scan_date": "2026-08-01 00:20",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.8.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.8.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -20030,7 +20062,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 12275,
+      "critical": 300,
+      "high": 3003,
+      "medium": 6831,
+      "low": 2079,
+      "scan_date": "2026-08-01 00:18",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-art-explainer-v0.9.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-art-explainer-v0.9.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/huggingfaceserver",
@@ -27391,7 +27439,27 @@
         "format": "CycloneDX",
         "arch": "arm64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 11043,
+      "critical": 44,
+      "high": 760,
+      "medium": 9013,
+      "low": 1222,
+      "scan_date": "2026-07-31 22:56",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-kubeflow-notebook-servers-rstudio-tidyverse-v1.10.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-kubeflow-notebook-servers-rstudio-tidyverse-v1.10.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-kubeflow-notebook-servers-rstudio-tidyverse-v1.10.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/kubeflow/notebook-servers/rstudio-tidyverse",
@@ -28904,7 +28972,27 @@
         "format": "CycloneDX",
         "arch": "arm64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 10561,
+      "critical": 44,
+      "high": 707,
+      "medium": 8685,
+      "low": 1125,
+      "scan_date": "2026-07-31 23:08",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-trainer-deepspeed-runtime-v2.1.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-trainer-deepspeed-runtime-v2.1.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-trainer-deepspeed-runtime-v2.1.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/trainer/deepspeed-runtime",
@@ -29029,7 +29117,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 5306,
+      "critical": 23,
+      "high": 360,
+      "medium": 4361,
+      "low": 562,
+      "scan_date": "2026-07-31 23:12",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-trainer-mlx-runtime-v2.1.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-trainer-mlx-runtime-v2.1.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/trainer/mlx-runtime",
@@ -52981,7 +53085,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 7576,
+      "critical": 21,
+      "high": 436,
+      "medium": 6358,
+      "low": 761,
+      "scan_date": "2026-08-01 00:00",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-tensorflow-tensorflow-2.14.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-tensorflow-tensorflow-2.14.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/tensorflow/tensorflow",
@@ -53005,7 +53125,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 7387,
+      "critical": 21,
+      "high": 416,
+      "medium": 6203,
+      "low": 747,
+      "scan_date": "2026-07-31 23:58",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-tensorflow-tensorflow-2.15.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-tensorflow-tensorflow-2.15.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/tensorflow/tensorflow",
@@ -53029,7 +53165,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 6962,
+      "critical": 21,
+      "high": 407,
+      "medium": 5842,
+      "low": 692,
+      "scan_date": "2026-07-31 23:56",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-tensorflow-tensorflow-2.16.1-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-tensorflow-tensorflow-2.16.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/tensorflow/tensorflow",
@@ -53053,7 +53205,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 6569,
+      "critical": 21,
+      "high": 389,
+      "medium": 5490,
+      "low": 669,
+      "scan_date": "2026-07-31 23:54",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-tensorflow-tensorflow-2.16.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-tensorflow-tensorflow-2.16.2-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/tensorflow/tensorflow",
@@ -53077,7 +53245,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 6559,
+      "critical": 21,
+      "high": 389,
+      "medium": 5481,
+      "low": 668,
+      "scan_date": "2026-07-31 23:53",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-tensorflow-tensorflow-2.17.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-tensorflow-tensorflow-2.17.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/tensorflow/tensorflow",
@@ -53101,7 +53285,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 6055,
+      "critical": 21,
+      "high": 377,
+      "medium": 5018,
+      "low": 639,
+      "scan_date": "2026-07-31 23:51",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-tensorflow-tensorflow-2.18.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-tensorflow-tensorflow-2.18.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/tensorflow/tensorflow",
@@ -53125,7 +53325,23 @@
         "format": "CycloneDX",
         "arch": "amd64"
       }
-    ]
+    ],
+    "vulnerabilities": {
+      "total": 5506,
+      "critical": 21,
+      "high": 364,
+      "medium": 4496,
+      "low": 625,
+      "scan_date": "2026-07-31 23:49",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-tensorflow-tensorflow-2.19.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-tensorflow-tensorflow-2.19.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/tensorflow/tensorflow",

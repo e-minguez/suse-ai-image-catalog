@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08-02 21:11",
+    "changes": [
+      "New Container (AppCo): mlflow:3.15.0-14.7 (aarch64)",
+      "New Container (AppCo): mlflow:3.15.0-14.7 (x86_64)",
+      "New Container (AppCo): mlflow:2.22.4-17.6 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-17.6 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-02 06:54",
     "changes": [
       "New Container (AppCo): ollama:0.21.2-11.70 (aarch64)",
@@ -227,15 +236,6 @@
       "Updated Container (Registry): ai/containers/python:3.11.15 (x86_64)",
       "Updated Container (Registry): ai/containers/python:3.12.13 (x86_64)",
       "Updated Container (Registry): ai/containers/python:3.14.6 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-21 17:54",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.20-10.5 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-10.5 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-10.5 (x86_64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-10.5 (x86_64)"
     ]
   }
 ]

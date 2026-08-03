@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-03 03:49",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.24-59.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-08-02 21:11",
     "changes": [
       "New Container (AppCo): mlflow:3.15.0-14.7 (aarch64)",
@@ -225,17 +231,6 @@
       "New Container (AppCo): milvus:2.6.20-10.6 (x86_64)",
       "New Container (AppCo): milvus:2.6.20-nvidia-10.6 (x86_64)",
       "New Chart (AppCo): milvus:5.0.24-51.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-07-22 03:43",
-    "changes": [
-      "Updated Container (Registry): ai/containers/kserve/art-explainer:latest (x86_64)",
-      "New Container (Registry): ai/containers/kserve/huggingfaceserver:v0.19.0-gpu (x86_64)",
-      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
-      "Updated Container (Registry): ai/containers/python:3.11.15 (x86_64)",
-      "Updated Container (Registry): ai/containers/python:3.12.13 (x86_64)",
-      "Updated Container (Registry): ai/containers/python:3.14.6 (x86_64)"
     ]
   }
 ]

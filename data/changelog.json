@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-08-03 18:11",
+    "changes": [
+      "New Chart (AppCo): suse-ai-observability-extension:2.1.0-11.1 (N/A)",
+      "Updated Container (Registry): ai/containers/python:3.13.14 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-03 03:49",
     "changes": [
       "New Chart (AppCo): milvus:5.0.24-59.1 (N/A)"
@@ -221,16 +228,6 @@
       "New Container (AppCo): mlflow:3.14.0-13.4 (x86_64)",
       "New Container (AppCo): mlflow:2.22.4-16.4 (aarch64)",
       "New Container (AppCo): mlflow:2.22.4-16.4 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-22 10:41",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.20-10.6 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-10.6 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-10.6 (x86_64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-10.6 (x86_64)",
-      "New Chart (AppCo): milvus:5.0.24-51.1 (N/A)"
     ]
   }
 ]

@@ -51462,7 +51462,39 @@
     "cmd": [
       "--config",
       "/otelcol/collector-config.yaml"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-suse-suse-ai-opentelemetry-collector-0.156.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-suse-suse-ai-opentelemetry-collector-0.156.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 58,
+      "critical": 2,
+      "high": 30,
+      "medium": 22,
+      "low": 2,
+      "scan_date": "2026-08-03 23:56",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-suse-suse-ai-opentelemetry-collector-0.156.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-suse-suse-ai-opentelemetry-collector-0.156.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-suse-suse-ai-opentelemetry-collector-0.156.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/suse-ai-opentelemetry-collector",

@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-08-10 21:14",
+    "changes": [
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/eventing/cmd/controller:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/eventing/cmd/mtping:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/eventing/cmd/webhook:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/net-istio/cmd/controller:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/net-istio/cmd/webhook:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/activator:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/autoscaler:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/controller:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/webhook:v1.23.0 (x86_64)",
+      "Updated Container (Registry): ai/containers/kserve/art-explainer:latest (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/controller:v0.3.12 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/controller:v0.3.13 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/controller:v0.3.14 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/server:v0.3.12 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/server:v0.3.13 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/server:v0.3.14 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/storage-initializer:v0.3.12 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/storage-initializer:v0.3.13 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/storage-initializer:v0.3.14 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/ui:0.3.12 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/ui:0.3.14 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/ui:v0.3.12 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/hub/ui:v0.3.14 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11-slim (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11.15 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.12.13 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.13.14 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.14.6 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-10 17:18",
     "changes": [
       "New Container (AppCo): open-webui:0.6.41-15.18 (aarch64)",
@@ -242,17 +277,6 @@
       "New Container (GHCR): suse/aif-ui:2.1.0-dev.1-arm64 (arm64)",
       "New Container (GHCR): suse/aif-ui:2.1.0-dev.1-amd64 (x86_64)",
       "New Container (GHCR): suse/aif-ui:2.1.0-dev.1 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-28 03:31",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.20-11.4 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.4 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-11.4 (x86_64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.4 (x86_64)",
-      "New Chart (AppCo): milvus:5.0.24-55.1 (N/A)",
-      "New Chart (AppCo): suse-ai-observability-extension:2.1.0-10.1 (N/A)"
     ]
   }
 ]

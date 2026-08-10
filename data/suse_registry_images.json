@@ -9693,6 +9693,20 @@
     }
   },
   {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2ddc326c4d780c27db5f9ebb0eff2e09eea1800eae9fb93d234c0e50ecc3be38",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/apiserver_receive_adapter"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller",
     "tag": "v1.20.0",
     "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller:v1.20.0",
@@ -10644,6 +10658,20 @@
       ],
       "details_path": "vulns/ai-containers-knative-releases-knative.dev-eventing-cmd-controller-v1.22.2-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:dd385d5632b8ce1a49c45421a3a11db91837c8fb12ea56c7ebde4f9aad2e825c",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/controller"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/mtping",
@@ -11603,6 +11631,20 @@
     }
   },
   {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/mtping",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/mtping:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2fc8713fb4807df0f5d8f9506d03c16c168eed61f19c04e04092266248bd0353",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/mtping"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook",
     "tag": "v1.20.0",
     "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook:v1.20.0",
@@ -12560,6 +12602,20 @@
     }
   },
   {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:3f6dfc52cfaf0b5a8e0c098f83f60eb237d3b8bfbbd4d0faea7c08fad98a1215",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/webhook"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/knative-releases/knative.dev/net-istio/cmd/controller",
     "tag": "v1.20.1",
     "image_name": "ai/containers/knative-releases/knative.dev/net-istio/cmd/controller:v1.20.1",
@@ -13365,6 +13421,22 @@
       ],
       "details_path": "vulns/ai-containers-knative-releases-knative.dev-net-istio-cmd-controller-v1.22.1-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/net-istio/cmd/controller",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/net-istio/cmd/controller:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:cf1530d3b625d247114f006e4902ba8c0f2a3196d1d7a6b7acbeb7d7db11d148",
+    "created": "2026-07-13 21:26",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-13T21:26:57Z"
+    },
+    "entrypoint": [
+      "/ko-app/controller"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/knative-releases/knative.dev/net-istio/cmd/webhook",
@@ -14192,6 +14264,22 @@
     }
   },
   {
+    "repository": "ai/containers/knative-releases/knative.dev/net-istio/cmd/webhook",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/net-istio/cmd/webhook:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:ac5c0458f32e353a635919ccd89fe77a7bf650c5354dd76c71e9316eff5de65d",
+    "created": "2026-07-13 21:26",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-13T21:26:57Z"
+    },
+    "entrypoint": [
+      "/ko-app/webhook"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/knative-releases/knative.dev/serving/cmd/activator",
     "tag": "v1.20.0",
     "image_name": "ai/containers/knative-releases/knative.dev/serving/cmd/activator:v1.20.0",
@@ -14940,6 +15028,22 @@
       ],
       "details_path": "vulns/ai-containers-knative-releases-knative.dev-serving-cmd-activator-v1.22.1-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/serving/cmd/activator",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/serving/cmd/activator:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:e5ab46f3b73fa2e3898fe47f6a3a0c2bd765596f4fb36ceb4c28c35d0a74b2e5",
+    "created": "2026-07-13 21:26",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-13T21:26:57Z"
+    },
+    "entrypoint": [
+      "/ko-app/activator"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/knative-releases/knative.dev/serving/cmd/autoscaler",
@@ -15692,6 +15796,22 @@
     }
   },
   {
+    "repository": "ai/containers/knative-releases/knative.dev/serving/cmd/autoscaler",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/serving/cmd/autoscaler:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:879da127b23db65d862cafa6b23fb987381d0e44150f0027d44e1f5aee83bde2",
+    "created": "2026-07-13 21:26",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-13T21:26:57Z"
+    },
+    "entrypoint": [
+      "/ko-app/autoscaler"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/knative-releases/knative.dev/serving/cmd/controller",
     "tag": "v1.20.0",
     "image_name": "ai/containers/knative-releases/knative.dev/serving/cmd/controller:v1.20.0",
@@ -16440,6 +16560,22 @@
       ],
       "details_path": "vulns/ai-containers-knative-releases-knative.dev-serving-cmd-controller-v1.22.1-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/serving/cmd/controller",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/serving/cmd/controller:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:ca5062ece0329d002a81940cf4268d7898866434d70049bb93f27d3a786d3292",
+    "created": "2026-07-13 21:26",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-13T21:26:57Z"
+    },
+    "entrypoint": [
+      "/ko-app/controller"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/knative-releases/knative.dev/serving/cmd/queue",
@@ -17958,6 +18094,22 @@
     }
   },
   {
+    "repository": "ai/containers/knative-releases/knative.dev/serving/cmd/webhook",
+    "tag": "v1.23.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/serving/cmd/webhook:v1.23.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:3846e9a416665c5b9ec2e4de246cfcb5c4ab0d01ba19348aa008caf30144b650",
+    "created": "2026-07-13 21:26",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-13T21:26:57Z"
+    },
+    "entrypoint": [
+      "/ko-app/webhook"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kserve/agent",
     "tag": "v0.16.0",
     "image_name": "ai/containers/kserve/agent:v0.16.0",
@@ -19123,8 +19275,8 @@
     "image_name": "ai/containers/kserve/art-explainer:latest",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:029637110f8f81a2a625b6496707b898776890f6dc6b5cc8449e78aaeb63ed9f",
-    "created": "2026-08-03 13:27",
+    "digest": "sha256:13b09f8f19a12ecb685c55639de1759d762d786f7305fbc25bb375b5555df780",
+    "created": "2026-08-10 19:17",
     "labels": {},
     "entrypoint": [
       "python",
@@ -23691,6 +23843,138 @@
   },
   {
     "repository": "ai/containers/kubeflow/hub/controller",
+    "tag": "v0.3.12",
+    "image_name": "ai/containers/kubeflow/hub/controller:v0.3.12",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:dd2755df8ade65305b30956a68983cc7f11c29635e887e20f6cca230cf2e6de2",
+    "created": "2026-07-13 14:32",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-06-30T05:29:15Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.44.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-07-13T14:28:18.332Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "be6d67c402777ce188532f9720b157cb806d451a",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "v0.3.12",
+      "release": "1782797275",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "9d52f7ccf5e43749249b95c398cdcb9020bc399d",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.8"
+    },
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/controller",
+    "tag": "v0.3.13",
+    "image_name": "ai/containers/kubeflow/hub/controller:v0.3.13",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2a281f80c00b12f1a8182d17649f93144089d6647918139e9a3c97e28f8eeb79",
+    "created": "2026-07-17 19:04",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-07-15T05:22:58Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.44.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-07-17T19:22:50.800Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "6133b516c11d9222b7ce033a7bca2558f9230c80",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "v0.3.13",
+      "release": "1784092902",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "16f88afee7519f22ef5135afbe7398092df3f543",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.8"
+    },
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/controller",
+    "tag": "v0.3.14",
+    "image_name": "ai/containers/kubeflow/hub/controller:v0.3.14",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:18237cead21631400014ee322ba078f006320c5527755ec098b746555ea9893c",
+    "created": "2026-07-17 19:04",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-07-15T05:22:58Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.44.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-07-17T20:34:36.113Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "4cc78036e8a8229fa723304c172c857a5e031d83",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "v0.3.14",
+      "release": "1784092902",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "16f88afee7519f22ef5135afbe7398092df3f543",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.8"
+    },
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/controller",
     "tag": "v0.3.9",
     "image_name": "ai/containers/kubeflow/hub/controller:v0.3.9",
     "architecture": "amd64",
@@ -23916,6 +24200,138 @@
       ],
       "details_path": "vulns/ai-containers-kubeflow-hub-server-v0.3.11-arm64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/server",
+    "tag": "v0.3.12",
+    "image_name": "ai/containers/kubeflow/hub/server:v0.3.12",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:8e274528d625a6becc6751f16efb2e8e0e5fcb1bc71ca8db1f94b8f380f70b29",
+    "created": "2026-07-13 14:32",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-06-30T05:29:15Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.44.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-07-13T14:30:37.986Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "be6d67c402777ce188532f9720b157cb806d451a",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "v0.3.12",
+      "release": "1782797275",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "9d52f7ccf5e43749249b95c398cdcb9020bc399d",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.8"
+    },
+    "entrypoint": [
+      "/model-registry"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/server",
+    "tag": "v0.3.13",
+    "image_name": "ai/containers/kubeflow/hub/server:v0.3.13",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:29e857759d72b274537f090ee9abcd7c91783aa258491d60ed5cd46fe401c1f2",
+    "created": "2026-07-17 19:26",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-07-15T05:22:58Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.44.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-07-17T19:25:14.956Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "6133b516c11d9222b7ce033a7bca2558f9230c80",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "v0.3.13",
+      "release": "1784092902",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "16f88afee7519f22ef5135afbe7398092df3f543",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.8"
+    },
+    "entrypoint": [
+      "/model-registry"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/server",
+    "tag": "v0.3.14",
+    "image_name": "ai/containers/kubeflow/hub/server:v0.3.14",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:7c8692ea6281038feb4d8b89cdf7e74cd45973f79fc7327be3d29e252c91cd40",
+    "created": "2026-07-17 20:38",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-07-15T05:22:58Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.44.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-07-17T20:36:43.231Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "4cc78036e8a8229fa723304c172c857a5e031d83",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "v0.3.14",
+      "release": "1784092902",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "16f88afee7519f22ef5135afbe7398092df3f543",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.8"
+    },
+    "entrypoint": [
+      "/model-registry"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kubeflow/hub/server",
@@ -24147,6 +24563,138 @@
   },
   {
     "repository": "ai/containers/kubeflow/hub/storage-initializer",
+    "tag": "v0.3.12",
+    "image_name": "ai/containers/kubeflow/hub/storage-initializer:v0.3.12",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:af77b3e22d28eca9151672b7e6aab8019a5de8f11ede2d805cc8dc531c109151",
+    "created": "2026-07-13 14:30",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-06-30T05:29:15Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.44.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-07-13T14:28:22.963Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "be6d67c402777ce188532f9720b157cb806d451a",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "v0.3.12",
+      "release": "1782797275",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "9d52f7ccf5e43749249b95c398cdcb9020bc399d",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.8"
+    },
+    "entrypoint": [
+      "/mr-storage-initializer"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/storage-initializer",
+    "tag": "v0.3.13",
+    "image_name": "ai/containers/kubeflow/hub/storage-initializer:v0.3.13",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:c7f0d3a840c1a4a1abb2801f3c13acb93e0e3cbe3de3d0e8cd9677c158691118",
+    "created": "2026-07-17 19:24",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-07-15T05:22:58Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.44.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-07-17T19:22:42.667Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "6133b516c11d9222b7ce033a7bca2558f9230c80",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "v0.3.13",
+      "release": "1784092902",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "16f88afee7519f22ef5135afbe7398092df3f543",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.8"
+    },
+    "entrypoint": [
+      "/mr-storage-initializer"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/storage-initializer",
+    "tag": "v0.3.14",
+    "image_name": "ai/containers/kubeflow/hub/storage-initializer:v0.3.14",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:7e7c30d770319e2ab91d4c2c8c1d660c6b51da32e2e711a88cf1ffc7f0e0074f",
+    "created": "2026-07-17 20:37",
+    "labels": {
+      "architecture": "x86_64",
+      "build-date": "2026-07-15T05:22:58Z",
+      "com.redhat.component": "ubi9-minimal-container",
+      "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+      "cpe": "cpe:/a:redhat:enterprise_linux:9::appstream",
+      "description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "distribution-scope": "public",
+      "io.buildah.version": "1.44.0",
+      "io.k8s.description": "The Universal Base Image Minimal is a stripped down image that uses microdnf as a package manager. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+      "io.k8s.display-name": "Red Hat Universal Base Image 9 Minimal",
+      "io.openshift.expose-services": "",
+      "io.openshift.tags": "minimal rhel9",
+      "maintainer": "Red Hat, Inc.",
+      "name": "ubi9/ubi-minimal",
+      "org.opencontainers.image.created": "2026-07-17T20:34:42.265Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "4cc78036e8a8229fa723304c172c857a5e031d83",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "v0.3.14",
+      "release": "1784092902",
+      "summary": "Provides the latest release of the minimal Red Hat Universal Base Image 9.",
+      "url": "https://catalog.redhat.com/en/search?searchType=containers",
+      "vcs-ref": "16f88afee7519f22ef5135afbe7398092df3f543",
+      "vcs-type": "git",
+      "vendor": "Red Hat, Inc.",
+      "version": "9.8"
+    },
+    "entrypoint": [
+      "/mr-storage-initializer"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/storage-initializer",
     "tag": "v0.3.9",
     "image_name": "ai/containers/kubeflow/hub/storage-initializer:v0.3.9",
     "architecture": "amd64",
@@ -24333,6 +24881,52 @@
   },
   {
     "repository": "ai/containers/kubeflow/hub/ui",
+    "tag": "0.3.12",
+    "image_name": "ai/containers/kubeflow/hub/ui:0.3.12",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:47eb1a2350d56c89a184bf698ebd7dca8024de6ae4cb659da6823f3c8e96d8c6",
+    "created": "2026-07-13 14:32",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-13T14:28:17.087Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "be6d67c402777ce188532f9720b157cb806d451a",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "0.3.12"
+    },
+    "entrypoint": [
+      "/bff"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/ui",
+    "tag": "0.3.14",
+    "image_name": "ai/containers/kubeflow/hub/ui:0.3.14",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:ede86e45c158713b0de2c79acc7e1001e746cbfdd0b0248e21d666347907db89",
+    "created": "2026-07-17 20:38",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-17T20:34:36.302Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "4cc78036e8a8229fa723304c172c857a5e031d83",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "0.3.14"
+    },
+    "entrypoint": [
+      "/bff"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/ui",
     "tag": "v0.3.10",
     "image_name": "ai/containers/kubeflow/hub/ui:v0.3.10",
     "architecture": "amd64",
@@ -24440,6 +25034,52 @@
       ],
       "details_path": "vulns/ai-containers-kubeflow-hub-ui-v0.3.11-arm64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/ui",
+    "tag": "v0.3.12",
+    "image_name": "ai/containers/kubeflow/hub/ui:v0.3.12",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:47eb1a2350d56c89a184bf698ebd7dca8024de6ae4cb659da6823f3c8e96d8c6",
+    "created": "2026-07-13 14:32",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-13T14:28:17.087Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "be6d67c402777ce188532f9720b157cb806d451a",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "0.3.12"
+    },
+    "entrypoint": [
+      "/bff"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/hub/ui",
+    "tag": "v0.3.14",
+    "image_name": "ai/containers/kubeflow/hub/ui:v0.3.14",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:ede86e45c158713b0de2c79acc7e1001e746cbfdd0b0248e21d666347907db89",
+    "created": "2026-07-17 20:38",
+    "labels": {
+      "org.opencontainers.image.created": "2026-07-17T20:34:36.302Z",
+      "org.opencontainers.image.description": "Model Registry provides a single pane of glass for ML model developers to index and manage models, versions, and ML artifacts metadata. It fills a gap between model experimentation and production activities. It provides a central interface for all stakeholders in the MLOps lifecycle to collaborate on ML models.",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "4cc78036e8a8229fa723304c172c857a5e031d83",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.title": "hub",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/hub",
+      "org.opencontainers.image.version": "0.3.14"
+    },
+    "entrypoint": [
+      "/bff"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kubeflow/hub/ui",
@@ -33113,7 +33753,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.92.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.92.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 38,
+      "critical": 0,
+      "high": 22,
+      "medium": 16,
+      "low": 0,
+      "scan_date": "2026-08-10 20:18",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.92.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.92.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.92.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -33140,7 +33812,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.93.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.93.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 34,
+      "critical": 0,
+      "high": 19,
+      "medium": 15,
+      "low": 0,
+      "scan_date": "2026-08-10 20:14",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.93.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.93.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.93.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -33167,7 +33871,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.93.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.93.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:11",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.93.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.93.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.93.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -33194,7 +33930,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.94.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.94.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:07",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.94.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.94.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.94.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -33221,7 +33989,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.94.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.94.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:04",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.94.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.94.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.94.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -33248,7 +34048,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.95.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.95.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:00",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.95.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.95.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.95.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -36716,7 +37548,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.92.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.92.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 38,
+      "critical": 0,
+      "high": 22,
+      "medium": 16,
+      "low": 0,
+      "scan_date": "2026-08-10 20:18",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.92.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.92.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.92.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -36743,7 +37607,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.93.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.93.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 34,
+      "critical": 0,
+      "high": 19,
+      "medium": 15,
+      "low": 0,
+      "scan_date": "2026-08-10 20:14",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.93.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.93.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.93.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -36770,7 +37666,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.93.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.93.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:11",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.93.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.93.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.93.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -36797,7 +37725,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.94.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.94.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:07",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.94.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.94.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.94.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -36824,7 +37784,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.94.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.94.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:04",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.94.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.94.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.94.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -36851,7 +37843,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.95.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.95.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:00",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.95.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.95.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.95.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -39749,7 +40773,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.92.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.92.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 38,
+      "critical": 0,
+      "high": 22,
+      "medium": 16,
+      "low": 0,
+      "scan_date": "2026-08-10 21:05",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.92.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.92.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.92.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -39776,7 +40832,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.93.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.93.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 36,
+      "critical": 0,
+      "high": 20,
+      "medium": 16,
+      "low": 0,
+      "scan_date": "2026-08-10 21:01",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.93.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.93.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.93.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -39803,7 +40891,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.93.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.93.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:58",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.93.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.93.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.93.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -39830,7 +40950,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.94.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.94.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:54",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.94.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.94.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.94.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -39857,7 +41009,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.94.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.94.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:51",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.94.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.94.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.94.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -39884,7 +41068,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.95.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.95.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:47",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.95.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.95.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.95.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -43401,7 +44617,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.92.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.92.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 38,
+      "critical": 0,
+      "high": 22,
+      "medium": 16,
+      "low": 0,
+      "scan_date": "2026-08-10 21:05",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.92.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.92.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.92.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -43428,7 +44676,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.93.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.93.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 36,
+      "critical": 0,
+      "high": 20,
+      "medium": 16,
+      "low": 0,
+      "scan_date": "2026-08-10 21:01",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.93.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.93.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.93.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -43455,7 +44735,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.93.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.93.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:58",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.93.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.93.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.93.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -43482,7 +44794,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.94.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.94.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:54",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.94.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.94.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.94.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -43509,7 +44853,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.94.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.94.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:51",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.94.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.94.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.94.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -43536,7 +44912,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.95.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.95.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 22,
+      "critical": 0,
+      "high": 10,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-08-10 20:47",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.95.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.95.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.95.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/ml_metadata_store_server",
@@ -44802,8 +46210,8 @@
     "image_name": "ai/containers/python:3.11",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:c7220863385ee39fb6d822da81f4469d0cd33ff893d92ce94105e5c3f4b95fe2",
-    "created": "2026-07-14 04:51",
+    "digest": "sha256:d0199e2a90bf7a206a485b115323a75bc946f30b463d704c5435a454aca084dd",
+    "created": "2026-08-05 03:59",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -44902,8 +46310,8 @@
     "image_name": "ai/containers/python:3.11-slim",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:db3ff2e1800a8581e2c48a27c3995339d47bdf046da21c7627accd3d51053a93",
-    "created": "2026-07-14 02:10",
+    "digest": "sha256:90744cff8f32887f075c47d747a173ff333e9e98801667af93c357fa9f5e28ff",
+    "created": "2026-08-05 01:12",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -45637,8 +47045,8 @@
     "image_name": "ai/containers/python:3.11.15",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:c7220863385ee39fb6d822da81f4469d0cd33ff893d92ce94105e5c3f4b95fe2",
-    "created": "2026-07-14 04:51",
+    "digest": "sha256:d0199e2a90bf7a206a485b115323a75bc946f30b463d704c5435a454aca084dd",
+    "created": "2026-08-05 03:59",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -46828,8 +48236,8 @@
     "image_name": "ai/containers/python:3.12.13",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:7ad6d21a25a94b2c00e685e82c2fd298de814353d9ee0e3f7f2cd4fca063df60",
-    "created": "2026-07-14 04:48",
+    "digest": "sha256:dd4fe98ab39f91e936f8e7e7a65a3ce59ecfb11e32f9a125b3132779920ba7f7",
+    "created": "2026-08-05 03:54",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -48196,8 +49604,8 @@
     "image_name": "ai/containers/python:3.13.14",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:6968f3db25671cbdd22d8053ffbe77fc9f0a51027bb04d17942262e709171dcb",
-    "created": "2026-07-14 04:47",
+    "digest": "sha256:36f5673ec01bd1001d7cbb8f12215101aa4ee5d70ddbbb72e01b2930d7c12f19",
+    "created": "2026-08-05 03:53",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -49621,8 +51029,8 @@
     "image_name": "ai/containers/python:3.14.6",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:5f1cdbcab9a50594a79502dd73e885456d2a2fc31f1a1fa18484815b37ee9152",
-    "created": "2026-07-14 04:42",
+    "digest": "sha256:51570a50616289f78f340811c34ca4384985f9e891819cbe7620f738d6ca8525",
+    "created": "2026-08-05 03:46",
     "labels": {},
     "entrypoint": null,
     "cmd": [

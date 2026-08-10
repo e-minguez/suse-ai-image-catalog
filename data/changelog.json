@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-08-10 17:18",
+    "changes": [
+      "New Container (AppCo): open-webui:0.6.41-15.18 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-15.18 (x86_64)",
+      "New Container (Registry): ai/containers/filebrowser/filebrowser:v2.63.19 (x86_64)",
+      "New Container (Registry): ai/containers/filebrowser/filebrowser:v2.63.20 (x86_64)",
+      "New Container (Registry): ai/containers/filebrowser/filebrowser:v2.63.21 (x86_64)",
+      "New Container (Registry): ai/containers/filebrowser/filebrowser:v2.63.22 (x86_64)",
+      "New Container (Registry): ai/containers/filebrowser/filebrowser:v2.63.23 (x86_64)",
+      "New Container (Registry): ai/containers/knative-releases/knative.dev/serving/cmd/queue:v1.23.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:1.92.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:1.93.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:1.93.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:1.94.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:1.94.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:1.95.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:v1.92.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:v1.93.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:v1.93.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:v1.94.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:v1.94.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:v1.95.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.92.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.93.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.93.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.94.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.94.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.95.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:v1.92.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:v1.93.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:v1.93.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:v1.94.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:v1.94.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:v1.95.0 (x86_64)",
+      "New Container (Registry): ai/containers/qdrant:v1.18.3 (x86_64)",
+      "New Container (Registry): ai/containers/qdrant:v1.18.3-gpu-nvidia (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-05 06:45",
     "changes": [
       "New Container (AppCo): ollama:0.21.2-11.72 (aarch64)",
@@ -214,24 +253,6 @@
       "New Container (AppCo): milvus:2.6.20-nvidia-11.4 (x86_64)",
       "New Chart (AppCo): milvus:5.0.24-55.1 (N/A)",
       "New Chart (AppCo): suse-ai-observability-extension:2.1.0-10.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-07-26 03:59",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.24-54.1 (N/A)",
-      "New Container (AppCo): open-webui:0.6.41-15.13 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-15.13 (x86_64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.19 (aarch64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.19 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.21 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.21 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.81 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.81 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.32 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.32 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.35 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.35 (x86_64)"
     ]
   }
 ]

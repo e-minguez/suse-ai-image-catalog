@@ -175,6 +175,212 @@
     }
   },
   {
+    "repository": "ai/charts/litellm",
+    "tag": "1.84.0",
+    "image_name": "ai/charts/litellm:1.84.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:b5996ac951c990c00c975c8f4987c0be0f4b6a4ad2e4fa74b8d584a99019eed5",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/postgresql:18.3-5.4",
+      "ai/containers/litellm-database:1.84.0",
+      "bci/bci-busybox"
+    ],
+    "vulnerabilities": {
+      "total": 376,
+      "critical": 4,
+      "high": 68,
+      "medium": 190,
+      "low": 106,
+      "scan_date": "2026-07-13 22:39",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.85.1",
+    "image_name": "ai/charts/litellm:1.85.1",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:63eabc7130c31c2d40eee2111a0980103969f59eb8ff558b8e4ee01351a350ce",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/postgresql:18.4-9.2",
+      "ai/containers/litellm-database:1.85.1",
+      "bci/bci-busybox"
+    ],
+    "vulnerabilities": {
+      "total": 376,
+      "critical": 4,
+      "high": 68,
+      "medium": 190,
+      "low": 106,
+      "scan_date": "2026-07-13 22:18",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.86.2",
+    "image_name": "ai/charts/litellm:1.86.2",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:6e71896f4355da40a85b831a0a19465af83a9c691f5a5dfe54796bd32a2de531",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "docker.io/bitnami/postgresql:16.2.0-debian-12-r6",
+      "ai/nvidia/containers/litellm-database:1.86.2",
+      "bci/bci-busybox"
+    ]
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.89.0",
+    "image_name": "ai/charts/litellm:1.89.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:5d0b767b98b06907e4613b41cd57ae89dc66106129f2c67cf2ceca8bd2feee84",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/postgresql:18.4-10.1",
+      "ai/containers/litellm-database:1.89.0",
+      "bci/bci-busybox"
+    ],
+    "vulnerabilities": {
+      "total": 237,
+      "critical": 0,
+      "high": 44,
+      "medium": 126,
+      "low": 62,
+      "scan_date": "2026-07-13 21:33",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.89.3",
+    "image_name": "ai/charts/litellm:1.89.3",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:2339185d6956686de99959d8abf9e6351d93354b72525a8f4d65ede8b9877f26",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/postgresql:18.4-10.1",
+      "ai/containers/litellm-database:1.89.3",
+      "bci/bci-busybox"
+    ],
+    "vulnerabilities": {
+      "total": 214,
+      "critical": 0,
+      "high": 54,
+      "medium": 97,
+      "low": 58,
+      "scan_date": "2026-07-20 22:43",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.90.0",
+    "image_name": "ai/charts/litellm:1.90.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:76bf63f1179594aa70fe596c20e84e6b931872861569918ec342b85174a8e4c8",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/postgresql:18.4-10.3",
+      "ai/containers/litellm-database:1.90.0",
+      "bci/bci-busybox"
+    ],
+    "vulnerabilities": {
+      "total": 146,
+      "critical": 0,
+      "high": 28,
+      "medium": 50,
+      "low": 60,
+      "scan_date": "2026-07-20 22:34",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.91.0",
+    "image_name": "ai/charts/litellm:1.91.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:5e380258960898ccc0a1cce150e50433797299e9b51167d849e5c672b1144539",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/postgresql:18.4-10.3",
+      "ai/containers/litellm-database:1.91.0",
+      "bci/bci-busybox"
+    ],
+    "vulnerabilities": {
+      "total": 32,
+      "critical": 0,
+      "high": 12,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-07-20 22:24",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.92.0",
+    "image_name": "ai/charts/litellm:1.92.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:fa5dd2c63510f93cdde0802c03aed8ea703ab1f7c9e6e329ffc2dc045abb0fdf",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/postgresql:18.4-10.4",
+      "ai/containers/litellm-database:1.92.0",
+      "bci/bci-busybox"
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 12,
+      "medium": 12,
+      "low": 0,
+      "scan_date": "2026-07-20 22:16",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
     "repository": "ai/charts/qdrant",
     "tag": "1.16.3",
     "image_name": "ai/charts/qdrant:1.16.3",
@@ -222,6 +428,58 @@
       "medium": 16,
       "low": 138,
       "scan_date": "2026-03-13 20:49",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/qdrant",
+    "tag": "1.18.0",
+    "image_name": "ai/charts/qdrant:1.18.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:bb7b3be355ffcc3156ddf81e6776bbfd6d78da8d9c17745f64843bfb94e353a4",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "ai/containers/qdrant:v1.18.0",
+      "bci/bci-base:latest"
+    ],
+    "vulnerabilities": {
+      "total": 498,
+      "critical": 6,
+      "high": 56,
+      "medium": 174,
+      "low": 206,
+      "scan_date": "2026-07-13 23:11",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/qdrant",
+    "tag": "1.18.2",
+    "image_name": "ai/charts/qdrant:1.18.2",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:f2b5dbe25fd7d7952f2e948c2c2da38c87a63a8423bb74b3880fcb298c69999c",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "ai/containers/qdrant:v1.18.2",
+      "bci/bci-base:latest"
+    ],
+    "vulnerabilities": {
+      "total": 454,
+      "critical": 6,
+      "high": 50,
+      "medium": 144,
+      "low": 198,
+      "scan_date": "2026-07-13 23:06",
       "source": "aggregated",
       "component_count": 1
     }
@@ -19365,6 +19623,20 @@
     }
   },
   {
+    "repository": "ai/containers/kserve/agent",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/agent:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:eaac98ad53fb4ad7e62203978578cca5ff8e240d898cadb8ee13d9b576cc3104",
+    "created": "2026-08-06 23:52",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/agent"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kserve/aix-explainer",
     "tag": "latest",
     "image_name": "ai/containers/kserve/aix-explainer:latest",
@@ -23476,6 +23748,20 @@
     }
   },
   {
+    "repository": "ai/containers/kserve/router",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/router:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:984987c5c83dd47f2609f4d6566afa2665ce5ae3045f3a3e82ddc9865a87834c",
+    "created": "2026-08-07 00:10",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/router"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kserve/sklearnserver",
     "tag": "v0.15.2",
     "image_name": "ai/containers/kserve/sklearnserver:v0.15.2",
@@ -23992,6 +24278,20 @@
       ],
       "details_path": "vulns/ai-containers-kserve-storage-initializer-v0.19.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/storage-initializer",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/storage-initializer:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:9bea2bfe436307698a8b0c4d99bc2cdd6935158aadf2709c147d145471fe76f9",
+    "created": "2026-08-06 23:54",
+    "labels": {},
+    "entrypoint": [
+      "/storage-initializer/scripts/initializer-entrypoint"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve/xgbserver",
@@ -53785,6 +54085,52 @@
       ],
       "details_path": "vulns/ai-containers-qdrant-v1.18.3-gpu-nvidia-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/qdrant",
+    "tag": "v1.19.0",
+    "image_name": "ai/containers/qdrant:v1.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:057ee3a8da769fe7310dd3537b4dc7583bf87a95ce8ac43c0af5a46bc580d1fc",
+    "created": "2026-08-04 12:30",
+    "labels": {
+      "org.opencontainers.image.description": "Official Qdrant image",
+      "org.opencontainers.image.documentation": "https://qdrant.com/docs",
+      "org.opencontainers.image.source": "https://github.com/qdrant/qdrant",
+      "org.opencontainers.image.title": "Qdrant",
+      "org.opencontainers.image.url": "https://qdrant.com/",
+      "org.opencontainers.image.vendor": "Qdrant",
+      "org.opencontainers.image.version": "v1.19.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "./entrypoint.sh"
+    ]
+  },
+  {
+    "repository": "ai/containers/qdrant",
+    "tag": "v1.19.0-gpu-nvidia",
+    "image_name": "ai/containers/qdrant:v1.19.0-gpu-nvidia",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:5bd101e0475649578f5d661a15f183a5f8813661a78f9257472bce8876021324",
+    "created": "2026-08-04 13:29",
+    "labels": {
+      "maintainer": "Qdrant Team <info@qdrant.tech>",
+      "org.opencontainers.image.description": "Official Qdrant image",
+      "org.opencontainers.image.documentation": "https://qdrant.com/docs",
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.source": "https://github.com/qdrant/qdrant",
+      "org.opencontainers.image.title": "Qdrant",
+      "org.opencontainers.image.url": "https://qdrant.com/",
+      "org.opencontainers.image.vendor": "Qdrant",
+      "org.opencontainers.image.version": "v1.19.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "./entrypoint.sh"
+    ]
   },
   {
     "repository": "ai/containers/router",

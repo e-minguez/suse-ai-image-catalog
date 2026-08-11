@@ -145,6 +145,22 @@
   },
   {
     "registry": "ghcr.io",
+    "repository": "suse/chart/aif-ui",
+    "tag": "2.1.0",
+    "image_name": "suse/chart/aif-ui:2.1.0",
+    "full_image_ref": "ghcr.io/suse/chart/aif-ui:2.1.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:43806525e7ebaeb0ed9bdb75b4cf3fd7e4004800698fa4ca178ff5c6d67d8011",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "sboms": [],
+    "vulnerabilities": {}
+  },
+  {
+    "registry": "ghcr.io",
     "repository": "suse/chart/suse-ai-operator",
     "tag": "0.1.0-dev.1",
     "image_name": "suse/chart/suse-ai-operator:0.1.0-dev.1",

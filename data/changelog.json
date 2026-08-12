@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-08-12 02:48",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.20-11.13 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-11.13 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-11.13 (x86_64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-11.13 (x86_64)",
+      "Updated Container (Registry): ai/containers/kserve/art-explainer:latest (x86_64)",
+      "New Container (Registry): ai/containers/kserve/art-explainer:v0.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/huggingfaceserver:v0.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/kserve-controller:v0.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/lgbserver:v0.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/paddleserver:v0.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/pmmlserver:v0.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/sklearnserver:v0.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/xgbserver:v0.20.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/dataset-initializer:v2.3.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/deepspeed-runtime:v2.3.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/mlx-runtime:v2.3.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/model-initializer:v2.3.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/torchtune-trainer:v2.3.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/trainer/trainer-controller-manager:v2.3.0 (x86_64)",
+      "New Container (Registry): ai/containers/python:3.14.7 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-11 21:10",
     "changes": [
       "New Chart (Registry): ai/charts/litellm:1.84.0 (N/A)",
@@ -281,15 +306,6 @@
     "date": "2026-07-30 03:06",
     "changes": [
       "New Chart (AppCo): milvus:5.0.24-57.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-07-29 06:49",
-    "changes": [
-      "New Container (AppCo): mlflow:3.14.0-14.3 (aarch64)",
-      "New Container (AppCo): mlflow:3.14.0-14.3 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-17.3 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-17.3 (x86_64)"
     ]
   }
 ]

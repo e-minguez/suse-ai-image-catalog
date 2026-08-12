@@ -19634,7 +19634,66 @@
     "entrypoint": [
       "/ko-app/agent"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-agent-v0.20.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-agent-v0.20.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-agent-v0.20.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-agent-v0.20.0-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-agent-v0.20.0-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 140,
+      "critical": 0,
+      "high": 85,
+      "medium": 40,
+      "low": 0,
+      "scan_date": "2026-08-12 01:40",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-agent-v0.20.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-kserve-agent-v0.20.0-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-agent-v0.20.0-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kserve-agent-v0.20.0-ppc64le-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-kserve-agent-v0.20.0-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-agent-v0.20.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/aix-explainer",
@@ -20437,8 +20496,8 @@
     "image_name": "ai/containers/kserve/art-explainer:latest",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:13b09f8f19a12ecb685c55639de1759d762d786f7305fbc25bb375b5555df780",
-    "created": "2026-08-10 19:17",
+    "digest": "sha256:584eb5d1a0bd390b760ac33c86c916ee2acf910526fd30cce450728423a5e238",
+    "created": "2026-08-11 18:20",
     "labels": {},
     "entrypoint": [
       "python",
@@ -21405,6 +21464,22 @@
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/art-explainer:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b6fdde012496328fd2289e804c03846a67a90702f90b8a80a7c9da3df8260e7d",
+    "created": "2026-08-06 15:45",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "artserver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/art-explainer",
     "tag": "v0.7.0",
     "image_name": "ai/containers/kserve/art-explainer:v0.7.0",
     "architecture": "amd64",
@@ -21813,6 +21888,24 @@
     }
   },
   {
+    "repository": "ai/containers/kserve/huggingfaceserver",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/huggingfaceserver:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:29ba44af2e2f10ef4ecf1eb5ac43401d822bba86b19049e97a2711d3e48c54ff",
+    "created": "2026-08-06 16:35",
+    "labels": {
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "python",
+      "-m",
+      "huggingfaceserver"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kserve/kserve-controller",
     "tag": "v0.16.0",
     "image_name": "ai/containers/kserve/kserve-controller:v0.16.0",
@@ -22178,6 +22271,20 @@
     }
   },
   {
+    "repository": "ai/containers/kserve/kserve-controller",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/kserve-controller:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:61850d24e78dba875b8c78215e3f9f9dbcec52340eeb18b293978dad1797f653",
+    "created": "2026-08-07 00:10",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kserve/lgbserver",
     "tag": "v0.15.2",
     "image_name": "ai/containers/kserve/lgbserver:v0.15.2",
@@ -22464,6 +22571,22 @@
       ],
       "details_path": "vulns/ai-containers-kserve-lgbserver-v0.19.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/lgbserver",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/lgbserver:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:cc590fc8e52492fb678cbcd934afaf8170e8e46fda819e3c73230ef6122cdfd8",
+    "created": "2026-08-06 15:45",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "lgbserver"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve/models-web-app",
@@ -23086,6 +23209,22 @@
     }
   },
   {
+    "repository": "ai/containers/kserve/paddleserver",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/paddleserver:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2ae763881fcd4bd79386aab0e381e3a713e7afcf7bbd235775c7b81134255e3d",
+    "created": "2026-08-06 15:46",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "paddleserver"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kserve/pmmlserver",
     "tag": "v0.15.2",
     "image_name": "ai/containers/kserve/pmmlserver:v0.15.2",
@@ -23381,6 +23520,24 @@
       ],
       "details_path": "vulns/ai-containers-kserve-pmmlserver-v0.19.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/pmmlserver",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/pmmlserver:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:fc567932c7210bd8a4b8fb2c675748256d4dfd4747137fa72e4cf0411b58f9cc",
+    "created": "2026-08-06 23:33",
+    "labels": {
+      "org.opencontainers.image.version": "24.04"
+    },
+    "entrypoint": [
+      "python3",
+      "-m",
+      "pmmlserver"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve/router",
@@ -23759,7 +23916,66 @@
     "entrypoint": [
       "/ko-app/router"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-router-v0.20.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-router-v0.20.0-arm-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-router-v0.20.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-router-v0.20.0-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-router-v0.20.0-s390x-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "s390x"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 140,
+      "critical": 0,
+      "high": 85,
+      "medium": 40,
+      "low": 0,
+      "scan_date": "2026-08-12 01:31",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-router-v0.20.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm",
+          "path": "vulns/ai-containers-kserve-router-v0.20.0-arm-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-router-v0.20.0-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kserve-router-v0.20.0-ppc64le-vuln.json"
+        },
+        {
+          "arch": "s390x",
+          "path": "vulns/ai-containers-kserve-router-v0.20.0-s390x-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-router-v0.20.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/sklearnserver",
@@ -24050,6 +24266,22 @@
     }
   },
   {
+    "repository": "ai/containers/kserve/sklearnserver",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/sklearnserver:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2838a5d73b8a9fe99148236a651c462b34178415796d71fd9fa6770ed58b774d",
+    "created": "2026-08-06 15:46",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "sklearnserver"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kserve/storage-initializer",
     "tag": "v0.16.0",
     "image_name": "ai/containers/kserve/storage-initializer:v0.16.0",
@@ -24291,7 +24523,39 @@
     "entrypoint": [
       "/storage-initializer/scripts/initializer-entrypoint"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-storage-initializer-v0.20.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kserve-storage-initializer-v0.20.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 542,
+      "critical": 12,
+      "high": 74,
+      "medium": 198,
+      "low": 228,
+      "scan_date": "2026-08-12 01:46",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kserve-storage-initializer-v0.20.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kserve-storage-initializer-v0.20.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kserve-storage-initializer-v0.20.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kserve/xgbserver",
@@ -24580,6 +24844,22 @@
       ],
       "details_path": "vulns/ai-containers-kserve-xgbserver-v0.19.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/xgbserver",
+    "tag": "v0.20.0",
+    "image_name": "ai/containers/kserve/xgbserver:v0.20.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:7c1a558dcd44b83e58899f1b7bd099818300e324217576104e63eda6041fecf6",
+    "created": "2026-08-06 23:35",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "xgbserver"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve-controller",
@@ -31317,6 +31597,22 @@
     }
   },
   {
+    "repository": "ai/containers/kubeflow/trainer/dataset-initializer",
+    "tag": "v2.3.0",
+    "image_name": "ai/containers/kubeflow/trainer/dataset-initializer:v2.3.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:9ad1644b2cafcc40b642c1670ec47c4680d507e8bb17936267100bd18b0c985e",
+    "created": "2026-08-07 01:38",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "pkg.initializers.dataset"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kubeflow/trainer/deepspeed-runtime",
     "tag": "v2.1.0",
     "image_name": "ai/containers/kubeflow/trainer/deepspeed-runtime:v2.1.0",
@@ -31467,6 +31763,23 @@
     }
   },
   {
+    "repository": "ai/containers/kubeflow/trainer/deepspeed-runtime",
+    "tag": "v2.3.0",
+    "image_name": "ai/containers/kubeflow/trainer/deepspeed-runtime:v2.3.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:64d99de223564f79a2722871b170cb6ae38ba593ae865ae90036ce134e43033e",
+    "created": "2026-08-07 01:44",
+    "labels": {
+      "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/opt/nvidia/nvidia_entrypoint.sh"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kubeflow/trainer/mlx-runtime",
     "tag": "v2.1.0",
     "image_name": "ai/containers/kubeflow/trainer/mlx-runtime:v2.1.0",
@@ -31588,6 +31901,23 @@
       ],
       "details_path": "vulns/ai-containers-kubeflow-trainer-mlx-runtime-v2.2.1-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kubeflow/trainer/mlx-runtime",
+    "tag": "v2.3.0",
+    "image_name": "ai/containers/kubeflow/trainer/mlx-runtime:v2.3.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:3d1f3ff1483752e0ebdffc29eaca9d486ec16b003e0d455c1f3c91e6d5ce12a1",
+    "created": "2026-08-07 01:41",
+    "labels": {
+      "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "/opt/nvidia/nvidia_entrypoint.sh"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kubeflow/trainer/model-initializer",
@@ -31732,6 +32062,22 @@
       ],
       "details_path": "vulns/ai-containers-kubeflow-trainer-model-initializer-v2.2.1-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kubeflow/trainer/model-initializer",
+    "tag": "v2.3.0",
+    "image_name": "ai/containers/kubeflow/trainer/model-initializer:v2.3.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:d2c77c70b77872b73ac042e3c8e42d02ab64b2002ef7973aa12ee43dab228dbb",
+    "created": "2026-08-07 02:04",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "pkg.initializers.model"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kubeflow/trainer/torchtune-trainer",
@@ -31882,6 +32228,24 @@
       ],
       "details_path": "vulns/ai-containers-kubeflow-trainer-torchtune-trainer-v2.2.1-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kubeflow/trainer/torchtune-trainer",
+    "tag": "v2.3.0",
+    "image_name": "ai/containers/kubeflow/trainer/torchtune-trainer:v2.3.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:efbc2741643031228a07a78067edd0812005df999016395385c98131a0d47cbc",
+    "created": "2026-08-07 01:40",
+    "labels": {
+      "com.nvidia.volumes.needed": "nvidia_driver",
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/bash"
+    ]
   },
   {
     "repository": "ai/containers/kubeflow/trainer/trainer-controller-manager",
@@ -32047,6 +32411,20 @@
       ],
       "details_path": "vulns/ai-containers-kubeflow-trainer-trainer-controller-manager-v2.2.1-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kubeflow/trainer/trainer-controller-manager",
+    "tag": "v2.3.0",
+    "image_name": "ai/containers/kubeflow/trainer/trainer-controller-manager:v2.3.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:298696e912c26a0ae13dc1c0ef55ec0d4f6d5feeb9cf5e82fdc8500a65b2b5fc",
+    "created": "2026-08-07 02:18",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -52748,6 +53126,20 @@
     }
   },
   {
+    "repository": "ai/containers/python",
+    "tag": "3.14.7",
+    "image_name": "ai/containers/python:3.14.7",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b5998102f95c4b44edf1e7cb5cecbe1f49e0bf054f345c1db5b854e166e6e17a",
+    "created": "2026-08-05 16:33",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "python3"
+    ]
+  },
+  {
     "repository": "ai/containers/pytorch",
     "tag": "2.11.0-cuda12.8-cudnn9-runtime",
     "image_name": "ai/containers/pytorch:2.11.0-cuda12.8-cudnn9-runtime",
@@ -54106,7 +54498,39 @@
     "entrypoint": null,
     "cmd": [
       "./entrypoint.sh"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-qdrant-v1.19.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-qdrant-v1.19.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 366,
+      "critical": 8,
+      "high": 44,
+      "medium": 112,
+      "low": 136,
+      "scan_date": "2026-08-12 01:06",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.19.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-qdrant-v1.19.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.19.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/qdrant",
@@ -54130,7 +54554,30 @@
     "entrypoint": null,
     "cmd": [
       "./entrypoint.sh"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-qdrant-v1.19.0-gpu-nvidia-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 368,
+      "critical": 0,
+      "high": 8,
+      "medium": 256,
+      "low": 104,
+      "scan_date": "2026-08-12 01:03",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-qdrant-v1.19.0-gpu-nvidia-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-qdrant-v1.19.0-gpu-nvidia-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/router",

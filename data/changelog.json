@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-12 05:54",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.24-62.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-08-12 02:48",
     "changes": [
       "New Container (AppCo): milvus:2.6.20-11.13 (aarch64)",
@@ -300,12 +306,6 @@
       "New Container (GHCR): suse/aif-ui:2.1.0-rc.1-amd64 (x86_64)",
       "New Container (GHCR): suse/aif-ui:2.1.0-rc.1-arm64 (arm64)",
       "New Container (GHCR): suse/aif-ui:2.1.0-rc.1 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-30 03:06",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.24-57.1 (N/A)"
     ]
   }
 ]

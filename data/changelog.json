@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08-13 02:42",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.20-11.15 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-11.15 (aarch64)",
+      "New Container (AppCo): milvus:2.6.20-11.15 (x86_64)",
+      "New Container (AppCo): milvus:2.6.20-nvidia-11.15 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-12 05:54",
     "changes": [
       "New Chart (AppCo): milvus:5.0.24-62.1 (N/A)"
@@ -277,35 +286,6 @@
       "New Container (AppCo): mlflow:3.15.0-14.5 (x86_64)",
       "New Container (AppCo): mlflow:2.22.4-17.4 (aarch64)",
       "New Container (AppCo): mlflow:2.22.4-17.4 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-07-30 21:29",
-    "changes": [
-      "New Container (AppCo): ollama:0.21.2-11.69 (aarch64)",
-      "New Container (AppCo): ollama:0.21.2-11.69 (x86_64)",
-      "New Container (AppCo): open-webui:0.6.41-15.15 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-15.15 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.83 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.83 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.77 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.77 (x86_64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.22 (aarch64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.22 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.25 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.25 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.83 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.83 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.34 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.34 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.37 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.37 (x86_64)",
-      "New Container (GHCR): suse/chart/aif-operator:2.1.0-rc.1 (N/A)",
-      "New Container (GHCR): suse/chart/aif-ui:2.1.0-rc.1 (N/A)",
-      "New Container (GHCR): suse/aif-operator:2.1.0-rc.1 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.1.0-rc.1-amd64 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.1.0-rc.1-arm64 (arm64)",
-      "New Container (GHCR): suse/aif-ui:2.1.0-rc.1 (x86_64)"
     ]
   }
 ]

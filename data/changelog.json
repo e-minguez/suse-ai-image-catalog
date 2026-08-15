@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-15 04:52",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.24-64.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-08-14 13:36",
     "changes": [
       "New Container (AppCo): ollama:0.21.2-11.75 (aarch64)",
@@ -288,12 +294,6 @@
     "changes": [
       "New Chart (AppCo): suse-ai-observability-extension:2.1.0-11.1 (N/A)",
       "Updated Container (Registry): ai/containers/python:3.13.14 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-03 03:49",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.24-59.1 (N/A)"
     ]
   }
 ]

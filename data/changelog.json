@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-18 16:48",
+    "changes": [
+      "New Container (AppCo): ollama:0.21.2-11.76 (aarch64)",
+      "New Container (AppCo): ollama:0.21.2-11.76 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.29 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.29 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.35 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.35 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-15 04:52",
     "changes": [
       "New Chart (AppCo): milvus:5.0.24-64.1 (N/A)"
@@ -287,13 +298,6 @@
       "New Container (AppCo): mlflow:2.22.4-17.7 (x86_64)",
       "Updated Container (Registry): ai/containers/kserve/art-explainer:latest (x86_64)",
       "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:0.156.0 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-03 18:11",
-    "changes": [
-      "New Chart (AppCo): suse-ai-observability-extension:2.1.0-11.1 (N/A)",
-      "Updated Container (Registry): ai/containers/python:3.13.14 (x86_64)"
     ]
   }
 ]

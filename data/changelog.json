@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-21 01:58",
+    "changes": [
+      "New Container (AppCo): open-webui:0.6.41-15.22 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-15.22 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.89 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.89 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.83 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.83 (x86_64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.28 (aarch64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.28 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.89 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.89 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.38 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.38 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.41 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.41 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-20 04:58",
     "changes": [
       "New Container (AppCo): milvus:2.6.20-11.22 (aarch64)",
@@ -288,13 +307,6 @@
       "New Container (GHCR): suse/aif-ui:2.1.0-arm64 (arm64)",
       "New Container (GHCR): suse/aif-ui:2.1.0-amd64 (x86_64)",
       "New Container (GHCR): suse/aif-ui:2.1.0 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-04 10:57",
-    "changes": [
-      "New Container (AppCo): mlflow:3.15.1-14.9 (aarch64)",
-      "New Container (AppCo): mlflow:3.15.1-14.9 (x86_64)"
     ]
   }
 ]

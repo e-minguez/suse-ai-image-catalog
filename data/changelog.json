@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-08-23 16:49",
+    "changes": [
+      "New Container (AppCo): ollama:0.32.14-11.78 (aarch64)",
+      "New Container (AppCo): ollama:0.32.14-11.78 (x86_64)",
+      "New Container (AppCo): open-webui:0.6.41-15.23 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-15.23 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.90 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.90 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.84 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.84 (x86_64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.30 (aarch64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.30 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.31 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.31 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.37 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.37 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.90 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.90 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.40 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.40 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.42 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.42 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-23 05:00",
     "changes": [
       "New Chart (AppCo): milvus:5.0.24-67.1 (N/A)"
@@ -190,31 +215,6 @@
     "date": "2026-08-12 05:54",
     "changes": [
       "New Chart (AppCo): milvus:5.0.24-62.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-08-12 02:48",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.20-11.13 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.13 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-11.13 (x86_64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.13 (x86_64)",
-      "Updated Container (Registry): ai/containers/kserve/art-explainer:latest (x86_64)",
-      "New Container (Registry): ai/containers/kserve/art-explainer:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/huggingfaceserver:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/kserve-controller:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/lgbserver:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/paddleserver:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/pmmlserver:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/sklearnserver:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/xgbserver:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/trainer/dataset-initializer:v2.3.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/trainer/deepspeed-runtime:v2.3.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/trainer/mlx-runtime:v2.3.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/trainer/model-initializer:v2.3.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/trainer/torchtune-trainer:v2.3.0 (x86_64)",
-      "New Container (Registry): ai/containers/kubeflow/trainer/trainer-controller-manager:v2.3.0 (x86_64)",
-      "New Container (Registry): ai/containers/python:3.14.7 (x86_64)"
     ]
   }
 ]

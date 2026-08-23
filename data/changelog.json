@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-23 05:00",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.24-67.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-08-22 13:04",
     "changes": [
       "New Container (AppCo): mlflow:3.15.1-14.14 (aarch64)",
@@ -209,27 +215,6 @@
       "New Container (Registry): ai/containers/kubeflow/trainer/torchtune-trainer:v2.3.0 (x86_64)",
       "New Container (Registry): ai/containers/kubeflow/trainer/trainer-controller-manager:v2.3.0 (x86_64)",
       "New Container (Registry): ai/containers/python:3.14.7 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-11 21:10",
-    "changes": [
-      "New Chart (Registry): ai/charts/litellm:1.84.0 (N/A)",
-      "New Chart (Registry): ai/charts/litellm:1.85.1 (N/A)",
-      "New Chart (Registry): ai/charts/litellm:1.86.2 (N/A)",
-      "New Chart (Registry): ai/charts/litellm:1.89.0 (N/A)",
-      "New Chart (Registry): ai/charts/litellm:1.89.3 (N/A)",
-      "New Chart (Registry): ai/charts/litellm:1.90.0 (N/A)",
-      "New Chart (Registry): ai/charts/litellm:1.91.0 (N/A)",
-      "New Chart (Registry): ai/charts/litellm:1.92.0 (N/A)",
-      "New Chart (Registry): ai/charts/qdrant:1.18.0 (N/A)",
-      "New Chart (Registry): ai/charts/qdrant:1.18.2 (N/A)",
-      "New Container (Registry): ai/containers/kserve/agent:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/router:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/kserve/storage-initializer:v0.20.0 (x86_64)",
-      "New Container (Registry): ai/containers/qdrant:v1.19.0 (x86_64)",
-      "New Container (Registry): ai/containers/qdrant:v1.19.0-gpu-nvidia (x86_64)",
-      "New Container (GHCR): suse/chart/aif-ui:2.1.0 (N/A)"
     ]
   }
 ]

@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-08-25 13:16",
+    "changes": [
+      "New Container (Registry): ai/containers/litellm:1.95.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:1.96.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:1.96.2 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:1.97.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:sha256-4bc4fe1731e798dbdae022eca14a414c2d8d449f1a241dd98ade2559a980a17d (N/A)",
+      "New Container (Registry): ai/containers/litellm:sha256-f2f77179c0c3e342906da3c06c4d5f77434b2fed098d1c23fbb12aac886e72ac (N/A)",
+      "New Container (Registry): ai/containers/litellm:v1.95.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:v1.96.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:v1.96.2 (x86_64)",
+      "New Container (Registry): ai/containers/litellm:v1.97.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.95.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.96.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.96.2 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:1.97.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:sha256-0433844d0035ff72d75339bbb5ccb5942662958ba237e5c4c4b0696ecb2eef49 (N/A)",
+      "New Container (Registry): ai/containers/litellm-database:sha256-ec848ed84f5240e110c334170a3f0a14c831f016aafb977190f64049076ec96c (N/A)",
+      "New Container (Registry): ai/containers/litellm-database:v1.95.1 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:v1.96.0 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:v1.96.2 (x86_64)",
+      "New Container (Registry): ai/containers/litellm-database:v1.97.0 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-25 01:54",
     "changes": [
       "New Container (AppCo): milvus:2.6.21-11.24 (aarch64)",
@@ -209,15 +234,6 @@
       "New Container (AppCo): milvus:2.6.20-nvidia-11.16 (aarch64)",
       "New Container (AppCo): milvus:2.6.20-11.16 (x86_64)",
       "New Container (AppCo): milvus:2.6.20-nvidia-11.16 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-13 02:42",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.20-11.15 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.15 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-11.15 (x86_64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.15 (x86_64)"
     ]
   }
 ]

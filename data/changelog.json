@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-25 16:59",
+    "changes": [
+      "New Chart (Registry): ai/charts/qdrant:1.19.0 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-2fae5e063cbfaaea638d051b7fcc9677d19c083d5ca7fc644cf23c6503699c3d (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-32b0ad1cf10b43fdb745f6bdfd3212efd417274192dc105a2ed7739b1e97fd91 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-34194d102da001b7b1a5d1798827181744dbcf1a2344e61f9487dcdb1e4ae6e6 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-5ec60aafe3dbe9869f38f7d383f7bd5f986a9d4a2037648a21921fd39b119733 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-6a34dad0cdd3472a45155ea5a3610ba92aaf57636f00a8df49bbef8499251687 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-7373086e570ae465092e215322ec96ba6800c9c00a513e1b5be29c5c220ec47e (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-88aa19b80d7529d8378897bac447e948ce46feb2a2f96803bdf0373cd728967f (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-8a1f12c0ee6256a70d4e59081637d60541457d6814623837f6c675b22cb2cf60 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-acc3ba8c5876110f593435817a6ffa15034a7d2ffb1f5adf97822164c5e7880b (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-e1e7061b9b2fa76a48cc74f478a3594026e20338f2abeeedf11e95d3f121a011 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:sha256-efa114ecd6c9415a764a77a7ab0a0fb33b648de6bd9051e8a2bc98b172fce122 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-289f179 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-31da2d6 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-378a9e6 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-3a3a1da (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-4445c12 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-52e41d5 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-5c0e763 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-77bd5cd (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-800bd77 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-8c29c7b (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-8e41c03 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-9121e6a (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-93c5489 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-9e12c68 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-b9cb87e (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-bde9c20 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-c77ee3f (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-d022585 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-d104c19 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-d6eb98e (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/training-v1/training-operator:v1-f58e893 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11-slim (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.14.7 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-25 13:16",
     "changes": [
       "New Container (Registry): ai/containers/litellm:1.95.1 (x86_64)",
@@ -225,15 +266,6 @@
       "New Container (AppCo): mlflow:3.15.1-14.12 (x86_64)",
       "New Container (AppCo): mlflow:2.22.4-17.10 (aarch64)",
       "New Container (AppCo): mlflow:2.22.4-17.10 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-13 13:38",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.20-11.16 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.16 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-11.16 (x86_64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.16 (x86_64)"
     ]
   }
 ]

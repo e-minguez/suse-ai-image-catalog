@@ -20522,8 +20522,8 @@
     "image_name": "ai/containers/kserve/art-explainer:latest",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:584eb5d1a0bd390b760ac33c86c916ee2acf910526fd30cce450728423a5e238",
-    "created": "2026-08-11 18:20",
+    "digest": "sha256:b49ec191108350510b6820f19271cd4ce7b8ef7bd6eb273a52248c0b0f3eb561",
+    "created": "2026-08-25 03:11",
     "labels": {},
     "entrypoint": [
       "python",
@@ -20563,6 +20563,30 @@
       ],
       "details_path": "vulns/ai-containers-kserve-art-explainer-latest-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/art-explainer",
+    "tag": "sha256-17bec81d82c8386c2cffaf3d93bfcff382fa6664dc7d7b0dc6172be5acac51de",
+    "image_name": "ai/containers/kserve/art-explainer:sha256-17bec81d82c8386c2cffaf3d93bfcff382fa6664dc7d7b0dc6172be5acac51de",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:c4fddd9e638cef28f67f396370b0e8d8b880c990a44a335ab8c61c373e9d82cb",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/art-explainer",
+    "tag": "sha256-4ff912dedbc6e4676e6df20fcc19409afde0ac8524cc347be94f9ff94fad6540",
+    "image_name": "ai/containers/kserve/art-explainer:sha256-4ff912dedbc6e4676e6df20fcc19409afde0ac8524cc347be94f9ff94fad6540",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:202208477a9a78fff938e1067d60ed592d15e64d85ea9a5799da8103b9d75855",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve/art-explainer",
@@ -37009,7 +37033,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.95.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.95.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 17:26",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.95.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.95.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.95.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -37036,7 +37092,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.96.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.96.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 17:22",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.96.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.96.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.96.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -37063,7 +37151,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.96.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.96.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 20,
+      "critical": 0,
+      "high": 10,
+      "medium": 4,
+      "low": 0,
+      "scan_date": "2026-08-25 17:19",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.96.2-arm64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.96.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.96.2-arm64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -37090,7 +37210,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-1.97.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-1.97.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 17:15",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-1.97.0-arm64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-1.97.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-1.97.0-arm64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -40936,7 +41088,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.95.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.95.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 17:26",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.95.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.95.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.95.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -40963,7 +41147,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.96.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.96.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 17:22",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.96.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.96.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.96.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -40990,7 +41206,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.96.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.96.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 20,
+      "critical": 0,
+      "high": 10,
+      "medium": 4,
+      "low": 0,
+      "scan_date": "2026-08-25 17:19",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.96.2-arm64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.96.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.96.2-arm64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm",
@@ -41017,7 +41265,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-v1.97.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-v1.97.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 17:15",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-v1.97.0-arm64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-v1.97.0-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-v1.97.0-arm64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -44269,7 +44549,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.95.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.95.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 18:10",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.95.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.95.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.95.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -44296,7 +44608,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.96.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.96.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 18:06",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.96.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.96.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.96.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -44323,7 +44667,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.96.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.96.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 20,
+      "critical": 0,
+      "high": 10,
+      "medium": 4,
+      "low": 0,
+      "scan_date": "2026-08-25 18:02",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.96.2-arm64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.96.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.96.2-arm64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -44350,7 +44726,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-1.97.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-1.97.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 17:59",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-1.97.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-1.97.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-1.97.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -48245,7 +48653,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.95.1-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.95.1-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 18:10",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.95.1-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.95.1-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.95.1-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -48272,7 +48712,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.96.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.96.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 18:06",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.96.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.96.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.96.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -48299,7 +48771,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.96.2-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.96.2-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 20,
+      "critical": 0,
+      "high": 10,
+      "medium": 4,
+      "low": 0,
+      "scan_date": "2026-08-25 18:02",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.96.2-arm64-vuln.json"
+        },
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.96.2-amd64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.96.2-arm64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/litellm-database",
@@ -48326,7 +48830,39 @@
     "cmd": [
       "--port",
       "4000"
-    ]
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.97.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-litellm-database-v1.97.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 24,
+      "critical": 0,
+      "high": 10,
+      "medium": 8,
+      "low": 0,
+      "scan_date": "2026-08-25 17:59",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-litellm-database-v1.97.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-litellm-database-v1.97.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-litellm-database-v1.97.0-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/ml_metadata_store_server",

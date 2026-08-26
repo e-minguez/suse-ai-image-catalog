@@ -33086,7 +33086,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-289f179-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-289f179-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-289f179-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "2026-08-26 01:15",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-289f179-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-289f179-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-289f179-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-289f179-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33100,7 +33141,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-31da2d6-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-31da2d6-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-31da2d6-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 198,
+      "critical": 3,
+      "high": 84,
+      "medium": 102,
+      "low": 6,
+      "scan_date": "2026-08-26 01:10",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-31da2d6-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-31da2d6-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-31da2d6-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-31da2d6-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33114,7 +33196,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-378a9e6-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-378a9e6-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-378a9e6-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 195,
+      "critical": 3,
+      "high": 84,
+      "medium": 99,
+      "low": 6,
+      "scan_date": "2026-08-26 01:05",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-378a9e6-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-378a9e6-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-378a9e6-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-378a9e6-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33128,7 +33251,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-3a3a1da-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-3a3a1da-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-3a3a1da-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "2026-08-26 01:00",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-3a3a1da-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-3a3a1da-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-3a3a1da-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-3a3a1da-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33197,7 +33361,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-4445c12-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-4445c12-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-4445c12-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "2026-08-26 00:55",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-4445c12-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-4445c12-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-4445c12-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-4445c12-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33211,7 +33416,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-52e41d5-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-52e41d5-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-52e41d5-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 186,
+      "critical": 3,
+      "high": 84,
+      "medium": 90,
+      "low": 6,
+      "scan_date": "2026-08-26 00:52",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-52e41d5-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-52e41d5-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-52e41d5-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-52e41d5-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33225,7 +33471,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-5c0e763-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-5c0e763-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-5c0e763-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 198,
+      "critical": 3,
+      "high": 84,
+      "medium": 102,
+      "low": 6,
+      "scan_date": "2026-08-26 00:48",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-5c0e763-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-5c0e763-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-5c0e763-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-5c0e763-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33239,7 +33526,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-77bd5cd-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-77bd5cd-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-77bd5cd-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 198,
+      "critical": 3,
+      "high": 84,
+      "medium": 102,
+      "low": 6,
+      "scan_date": "2026-08-26 00:43",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-77bd5cd-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-77bd5cd-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-77bd5cd-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-77bd5cd-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33253,7 +33581,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-800bd77-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-800bd77-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-800bd77-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 186,
+      "critical": 3,
+      "high": 84,
+      "medium": 90,
+      "low": 6,
+      "scan_date": "2026-08-26 00:39",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-800bd77-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-800bd77-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-800bd77-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-800bd77-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33267,7 +33636,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-8c29c7b-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-8c29c7b-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-8c29c7b-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 186,
+      "critical": 3,
+      "high": 84,
+      "medium": 90,
+      "low": 6,
+      "scan_date": "2026-08-26 00:34",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-8c29c7b-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-8c29c7b-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-8c29c7b-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-8c29c7b-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33281,7 +33691,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-8e41c03-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-8e41c03-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-8e41c03-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 180,
+      "critical": 3,
+      "high": 84,
+      "medium": 84,
+      "low": 6,
+      "scan_date": "2026-08-26 00:29",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-8e41c03-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-8e41c03-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-8e41c03-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-8e41c03-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33295,7 +33746,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-9121e6a-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-9121e6a-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-9121e6a-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 180,
+      "critical": 3,
+      "high": 84,
+      "medium": 84,
+      "low": 6,
+      "scan_date": "2026-08-26 00:25",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-9121e6a-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-9121e6a-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-9121e6a-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-9121e6a-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33309,7 +33801,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-93c5489-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-93c5489-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-93c5489-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "2026-08-26 00:20",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-93c5489-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-93c5489-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-93c5489-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-93c5489-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33323,7 +33856,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-9e12c68-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-9e12c68-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-9e12c68-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 180,
+      "critical": 3,
+      "high": 84,
+      "medium": 84,
+      "low": 6,
+      "scan_date": "2026-08-26 00:16",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-9e12c68-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-9e12c68-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-9e12c68-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-9e12c68-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33337,7 +33911,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-b9cb87e-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-b9cb87e-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-b9cb87e-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 195,
+      "critical": 3,
+      "high": 84,
+      "medium": 99,
+      "low": 6,
+      "scan_date": "2026-08-26 00:11",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-b9cb87e-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-b9cb87e-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-b9cb87e-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-b9cb87e-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33351,7 +33966,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-bde9c20-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-bde9c20-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-bde9c20-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 195,
+      "critical": 3,
+      "high": 84,
+      "medium": 99,
+      "low": 6,
+      "scan_date": "2026-08-26 00:06",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-bde9c20-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-bde9c20-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-bde9c20-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-bde9c20-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33365,7 +34021,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-c77ee3f-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-c77ee3f-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-c77ee3f-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 186,
+      "critical": 3,
+      "high": 84,
+      "medium": 90,
+      "low": 6,
+      "scan_date": "2026-08-26 00:02",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-c77ee3f-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-c77ee3f-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-c77ee3f-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-c77ee3f-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33379,7 +34076,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-d022585-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-d022585-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-d022585-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 195,
+      "critical": 3,
+      "high": 84,
+      "medium": 99,
+      "low": 6,
+      "scan_date": "2026-08-25 23:57",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d022585-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d022585-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d022585-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d022585-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33393,7 +34131,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-d104c19-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-d104c19-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-d104c19-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 186,
+      "critical": 3,
+      "high": 84,
+      "medium": 90,
+      "low": 6,
+      "scan_date": "2026-08-25 23:53",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d104c19-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d104c19-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d104c19-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d104c19-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33407,7 +34186,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-d6eb98e-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-d6eb98e-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-d6eb98e-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 186,
+      "critical": 3,
+      "high": 84,
+      "medium": 90,
+      "low": 6,
+      "scan_date": "2026-08-25 23:48",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d6eb98e-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d6eb98e-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d6eb98e-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-d6eb98e-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflow/training-v1/training-operator",
@@ -33421,7 +34241,48 @@
     "entrypoint": [
       "/manager"
     ],
-    "cmd": null
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-f58e893-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-f58e893-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-training-v1-training-operator-v1-f58e893-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 195,
+      "critical": 3,
+      "high": 84,
+      "medium": 99,
+      "low": 6,
+      "scan_date": "2026-08-25 23:44",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-f58e893-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-f58e893-arm64-vuln.json"
+        },
+        {
+          "arch": "ppc64le",
+          "path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-f58e893-ppc64le-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-training-v1-training-operator-v1-f58e893-amd64-vuln.json"
+    }
   },
   {
     "repository": "ai/containers/kubeflowkatib/enas-cnn-cifar10-cpu",

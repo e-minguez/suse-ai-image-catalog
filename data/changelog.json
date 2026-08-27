@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-08-27 09:10",
+    "changes": [
+      "New Container (AppCo): mlflow:3.15.2-14.17 (aarch64)",
+      "New Container (AppCo): mlflow:3.15.2-14.17 (x86_64)",
+      "New Container (AppCo): ollama:0.32.14-11.79 (aarch64)",
+      "New Container (AppCo): ollama:0.32.14-11.79 (x86_64)",
+      "New Container (AppCo): open-webui:0.6.41-15.24 (aarch64)",
+      "New Container (AppCo): open-webui:0.6.41-15.24 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.91 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.91 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.85 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.85 (x86_64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.31 (aarch64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.31 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.91 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.91 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.41 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.41 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.43 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.43 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-26 23:33",
     "changes": [
       "New Container (GHCR): suse/chart/aif-operator:2.2.0-dev.3 (N/A)",
@@ -241,17 +264,6 @@
       "New Container (AppCo): mlflow:3.15.1-14.13 (x86_64)",
       "New Container (AppCo): mlflow:2.22.4-17.11 (aarch64)",
       "New Container (AppCo): mlflow:2.22.4-17.11 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-18 16:48",
-    "changes": [
-      "New Container (AppCo): ollama:0.21.2-11.76 (aarch64)",
-      "New Container (AppCo): ollama:0.21.2-11.76 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.29 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.29 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.35 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.35 (x86_64)"
     ]
   }
 ]

@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-28 22:27",
+    "changes": [
+      "New Container (GHCR): suse/chart/aif-operator:2.2.0-dev.4 (N/A)",
+      "New Container (GHCR): suse/chart/aif-ui:2.2.0-dev.4 (N/A)",
+      "New Container (GHCR): suse/aif-operator:2.2.0-dev.4 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.2.0-dev.4-arm64 (arm64)",
+      "New Container (GHCR): suse/aif-ui:2.2.0-dev.4-amd64 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.2.0-dev.4 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-08-28 11:20",
     "changes": [
       "New Container (AppCo): milvus:2.6.22-11.28 (aarch64)",
@@ -259,15 +270,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.38 (x86_64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.41 (aarch64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.41 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-20 04:58",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.20-11.22 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.22 (aarch64)",
-      "New Container (AppCo): milvus:2.6.20-11.22 (x86_64)",
-      "New Container (AppCo): milvus:2.6.20-nvidia-11.22 (x86_64)"
     ]
   }
 ]

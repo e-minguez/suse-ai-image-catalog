@@ -7823,27 +7823,27 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.8.0-15.26",
+    "image_name": "open-webui:0.8.0-15.27",
     "version": "0.8.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:f9d9b76ca8a4b44b16d5395fcd8905595a660dd5ba17394c3d0fbd6e568305f1",
-    "last_updated": "2026-08-31 18:17",
+    "digest": "SHA256:f53bdb632c8d6646def27d4d28407d01df558ca910ecca665ded8bcf812a250b",
+    "last_updated": "2026-09-01 12:23",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.8.0-15.26.aarch64.cdx.json"
+        "filename": "open-webui-0.8.0-15.27.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:000de3127554a901e9b753aae65983ddd238dce9bf03cd7763c6477c1f26a244",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-60.7",
-      "org.opencontainers.image.created": "2026-08-31T17:19:00.111583280Z",
+      "org.opencontainers.image.created": "2026-09-01T11:54:21.967734080Z",
       "org.opencontainers.image.description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.",
-      "org.opencontainers.image.ref.name": "0.8.0-15.26",
+      "org.opencontainers.image.ref.name": "0.8.0-15.27",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-container/09d2c96d4175f063abfe469ae0d93293/",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
@@ -7858,34 +7858,34 @@
       "medium": 9,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/f9d9b76ca8a4b44b16d5395fcd8905595a660dd5ba17394c3d0fbd6e568305f1"
+      "artifact_url": "https://apps.rancher.io/artifacts/f53bdb632c8d6646def27d4d28407d01df558ca910ecca665ded8bcf812a250b"
     }
   },
   {
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.8.0-15.26",
+    "image_name": "open-webui:0.8.0-15.27",
     "version": "0.8.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:a355c5b6f209a66f539ca1c2450c39fa6a8b58576c41c613bb48c44a323d94aa",
-    "last_updated": "2026-08-31 18:17",
+    "digest": "SHA256:229aabb0b49302b8bffd9dca94977c3d518a9bed96ec2949ed5e2c7906db29d0",
+    "last_updated": "2026-09-01 12:23",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.8.0-15.26.x86_64.cdx.json"
+        "filename": "open-webui-0.8.0-15.27.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:4cdcad941236068fdf4cac1f3008600d478ebbf78236677452a662ae1f3fe792",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-60.7",
-      "org.opencontainers.image.created": "2026-08-31T17:19:13.092389883Z",
+      "org.opencontainers.image.created": "2026-09-01T11:34:47.983189775Z",
       "org.opencontainers.image.description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.",
-      "org.opencontainers.image.ref.name": "0.8.0-15.26",
+      "org.opencontainers.image.ref.name": "0.8.0-15.27",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-container/09d2c96d4175f063abfe469ae0d93293/",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
@@ -7900,7 +7900,7 @@
       "medium": 9,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/a355c5b6f209a66f539ca1c2450c39fa6a8b58576c41c613bb48c44a323d94aa"
+      "artifact_url": "https://apps.rancher.io/artifacts/229aabb0b49302b8bffd9dca94977c3d518a9bed96ec2949ed5e2c7906db29d0"
     }
   },
   {

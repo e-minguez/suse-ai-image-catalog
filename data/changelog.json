@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-06 18:27",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.23-11.33 (aarch64)",
+      "New Container (AppCo): milvus:2.6.23-nvidia-11.33 (aarch64)",
+      "New Container (AppCo): milvus:2.6.23-11.33 (x86_64)",
+      "New Container (AppCo): milvus:2.6.23-nvidia-11.33 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-05 12:03",
     "changes": [
       "New Container (AppCo): ollama:0.32.14-11.81 (aarch64)",
@@ -274,31 +283,6 @@
       "New Container (AppCo): milvus:2.6.21-nvidia-11.24 (aarch64)",
       "New Container (AppCo): milvus:2.6.21-11.24 (x86_64)",
       "New Container (AppCo): milvus:2.6.21-nvidia-11.24 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-23 16:49",
-    "changes": [
-      "New Container (AppCo): ollama:0.32.14-11.78 (aarch64)",
-      "New Container (AppCo): ollama:0.32.14-11.78 (x86_64)",
-      "New Container (AppCo): open-webui:0.6.41-15.23 (aarch64)",
-      "New Container (AppCo): open-webui:0.6.41-15.23 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.90 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.90 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.84 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.84 (x86_64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.30 (aarch64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.30 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.31 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.31 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.37 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.37 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.90 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.90 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.40 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.40 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.42 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.42 (x86_64)"
     ]
   }
 ]

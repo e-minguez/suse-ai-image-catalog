@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-07 04:27",
+    "changes": [
+      "New Container (AppCo): mlflow:3.16.0-14.22 (aarch64)",
+      "New Container (AppCo): mlflow:3.16.0-14.22 (x86_64)",
+      "New Container (AppCo): mlflow:2.22.4-17.17 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-17.17 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-06 18:27",
     "changes": [
       "New Container (AppCo): milvus:2.6.23-11.33 (aarch64)",
@@ -274,15 +283,6 @@
       "New Container (Registry): ai/containers/litellm-database:v1.96.0 (x86_64)",
       "New Container (Registry): ai/containers/litellm-database:v1.96.2 (x86_64)",
       "New Container (Registry): ai/containers/litellm-database:v1.97.0 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-25 01:54",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.21-11.24 (aarch64)",
-      "New Container (AppCo): milvus:2.6.21-nvidia-11.24 (aarch64)",
-      "New Container (AppCo): milvus:2.6.21-11.24 (x86_64)",
-      "New Container (AppCo): milvus:2.6.21-nvidia-11.24 (x86_64)"
     ]
   }
 ]

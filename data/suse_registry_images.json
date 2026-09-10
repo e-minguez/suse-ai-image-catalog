@@ -13,6 +13,19 @@
     "chart_images": []
   },
   {
+    "repository": "ai/charts/kubeflow",
+    "tag": "0.4.0",
+    "image_name": "ai/charts/kubeflow:0.4.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:221da473b5473ccddd6419d98bb96b571e1a91f7a9fe8bb05f2fc474192c834e",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": []
+  },
+  {
     "repository": "ai/charts/litellm",
     "tag": "0.1.836",
     "image_name": "ai/charts/litellm:0.1.836",

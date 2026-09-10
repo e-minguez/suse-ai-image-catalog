@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-10 19:20",
+    "changes": [
+      "New Chart (Registry): ai/charts/kubeflow:0.4.0 (N/A)"
+    ]
+  },
+  {
     "date": "2026-09-10 04:28",
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-69.1 (N/A)"
@@ -250,13 +256,6 @@
       "New Container (GHCR): suse/aif-ui:2.2.0-dev.3-arm64 (arm64)",
       "New Container (GHCR): suse/aif-ui:2.2.0-dev.3-amd64 (x86_64)",
       "New Container (GHCR): suse/aif-ui:2.2.0-dev.3 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-26 13:18",
-    "changes": [
-      "New Container (AppCo): mlflow:3.15.1-14.16 (aarch64)",
-      "New Container (AppCo): mlflow:3.15.1-14.16 (x86_64)"
     ]
   }
 ]

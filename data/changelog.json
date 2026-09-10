@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-09-10 22:46",
+    "changes": [
+      "New Container (Registry): ai/containers/kserve/art-explainer:sha256-0d57437ce3fd5a9a71997eb435a516790b4a9a87f4b20ebe5fe230b4e437730a (N/A)",
+      "New Container (Registry): ai/containers/kserve/art-explainer:sha256-35ed44653dd2e8b760ba72369838f5c6eb2fefb41520152ecc03eed4456f95b4 (N/A)",
+      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11-slim (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.14.7 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-10 19:20",
     "changes": [
       "New Chart (Registry): ai/charts/kubeflow:0.4.0 (N/A)"
@@ -245,17 +255,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.41 (x86_64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.43 (aarch64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.43 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-08-26 23:33",
-    "changes": [
-      "New Container (GHCR): suse/chart/aif-operator:2.2.0-dev.3 (N/A)",
-      "New Container (GHCR): suse/chart/aif-ui:2.2.0-dev.3 (N/A)",
-      "New Container (GHCR): suse/aif-operator:2.2.0-dev.3 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.2.0-dev.3-arm64 (arm64)",
-      "New Container (GHCR): suse/aif-ui:2.2.0-dev.3-amd64 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.2.0-dev.3 (x86_64)"
     ]
   }
 ]

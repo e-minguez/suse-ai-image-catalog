@@ -567,20 +567,20 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:5.0.25-69.1",
+    "image_name": "milvus:5.0.25-70.1",
     "version": "2.6.21",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:af298911f404827e2f79c6cc5c5cce7bd2bbce8aab02e7549ce03c59177c83bf",
-    "last_updated": "2026-09-10 01:08",
+    "digest": "SHA256:80311c2441ae607aa39c23e2a383ff344ad1a40338b0379607dc7129fa48c42d",
+    "last_updated": "2026-09-11 15:47",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/apache-kafka:4.3.1-4.15",
-      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.19",
-      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.19",
+      "dp.apps.rancher.io/containers/apache-kafka:4.3.1-4.17",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.25",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.25",
       "dp.apps.rancher.io/containers/etcd:3.7.1-1.8",
       "dp.apps.rancher.io/containers/heaptrack:1.3.0-10.2",
       "dp.apps.rancher.io/containers/milvus:2.6.21-11.24",
@@ -596,7 +596,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 8,
-      "artifact_url": "https://apps.rancher.io/artifacts/af298911f404827e2f79c6cc5c5cce7bd2bbce8aab02e7549ce03c59177c83bf"
+      "artifact_url": "https://apps.rancher.io/artifacts/80311c2441ae607aa39c23e2a383ff344ad1a40338b0379607dc7129fa48c42d"
     }
   },
   {

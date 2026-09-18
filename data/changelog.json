@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-09-18 19:13",
+    "changes": [
+      "New Container (AppCo): mlflow:3.16.1-15.3 (aarch64)",
+      "New Container (AppCo): mlflow:3.16.1-15.3 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-18 13:06",
     "changes": [
       "New Container (AppCo): milvus:2.6.24-12.3 (aarch64)",
@@ -257,13 +264,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.44 (x86_64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.46 (aarch64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.46 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-09-04 19:08",
-    "changes": [
-      "New Container (AppCo): mlflow:3.16.0-14.21 (aarch64)",
-      "New Container (AppCo): mlflow:3.16.0-14.21 (x86_64)"
     ]
   }
 ]

@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-09-19 22:33",
+    "changes": [
+      "New Container (AppCo): ollama:0.32.14-11.95 (aarch64)",
+      "New Container (AppCo): ollama:0.32.14-11.95 (x86_64)",
+      "New Container (AppCo): open-webui:0.8.0-15.45 (aarch64)",
+      "New Container (AppCo): open-webui:0.8.0-15.45 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.109 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.109 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.102 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.102 (x86_64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.45 (aarch64)",
+      "New Container (AppCo): pytorch:2.10.0-nvidia-2.45 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.43 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.43 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.45 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.45 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.108 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.108 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.52 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.52 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.54 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.54 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-19 04:28",
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-73.1 (N/A)"
@@ -238,15 +263,6 @@
       "New Container (AppCo): mlflow:3.16.0-14.22 (x86_64)",
       "New Container (AppCo): mlflow:2.22.4-17.17 (aarch64)",
       "New Container (AppCo): mlflow:2.22.4-17.17 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-09-06 18:27",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.23-11.33 (aarch64)",
-      "New Container (AppCo): milvus:2.6.23-nvidia-11.33 (aarch64)",
-      "New Container (AppCo): milvus:2.6.23-11.33 (x86_64)",
-      "New Container (AppCo): milvus:2.6.23-nvidia-11.33 (x86_64)"
     ]
   }
 ]

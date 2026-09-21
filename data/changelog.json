@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-09-21 15:16",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.24-13.1 (aarch64)",
+      "New Container (AppCo): milvus:2.6.24-nvidia-13.1 (aarch64)",
+      "New Container (AppCo): milvus:2.6.24-13.1 (x86_64)",
+      "New Container (AppCo): milvus:2.6.24-nvidia-13.1 (x86_64)",
+      "New Chart (AppCo): milvus:5.0.25-75.1 (N/A)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.44 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.44 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-19 22:33",
     "changes": [
       "New Container (AppCo): ollama:0.32.14-11.95 (aarch64)",
@@ -254,15 +266,6 @@
       "New Container (AppCo): milvus:2.6.23-nvidia-11.34 (aarch64)",
       "New Container (AppCo): milvus:2.6.23-11.34 (x86_64)",
       "New Container (AppCo): milvus:2.6.23-nvidia-11.34 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-09-07 04:27",
-    "changes": [
-      "New Container (AppCo): mlflow:3.16.0-14.22 (aarch64)",
-      "New Container (AppCo): mlflow:3.16.0-14.22 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-17.17 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-17.17 (x86_64)"
     ]
   }
 ]

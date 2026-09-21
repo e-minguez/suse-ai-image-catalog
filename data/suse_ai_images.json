@@ -3285,33 +3285,33 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "heaptrack",
-    "image_name": "heaptrack:1.3.0-10.2",
+    "image_name": "heaptrack:1.3.0-12.1",
     "version": "1.3.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:a4e9ceebe9f8d335a1a617ea52df86811f2cf732758baafc55b06ea5a936c4c7",
-    "last_updated": "2026-09-08 15:36",
+    "digest": "SHA256:58757497a21fb11e37ac7206c3b518926f5280475653fb6511b601c9e10f6513",
+    "last_updated": "2026-09-21 19:06",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "heaptrack-1.3.0-10.2.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "heaptrack-1.3.0-12.1.aarch64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "heaptrack-1.3.0-10.2.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "heaptrack-1.3.0-12.1.aarch64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "heaptrack-1",
-      "org.opencontainers.image.base.digest": "sha256:000de3127554a901e9b753aae65983ddd238dce9bf03cd7763c6477c1f26a244",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-60.7",
-      "org.opencontainers.image.created": "2026-09-08T01:09:20.492948440Z",
+      "org.opencontainers.image.base.digest": "sha256:6495baba73d52b126e455c5e82f888d3f003ca8407e89e412944772519fae9af",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
+      "org.opencontainers.image.created": "2026-09-21T08:24:30.949724760Z",
       "org.opencontainers.image.description": "Heaptrack traces all memory allocations and annotates these events with stack traces.",
-      "org.opencontainers.image.ref.name": "1.3.0-10.2",
+      "org.opencontainers.image.ref.name": "1.3.0-12.1",
       "org.opencontainers.image.title": "Heaptrack",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -3325,40 +3325,40 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/a4e9ceebe9f8d335a1a617ea52df86811f2cf732758baafc55b06ea5a936c4c7"
+      "artifact_url": "https://apps.rancher.io/artifacts/58757497a21fb11e37ac7206c3b518926f5280475653fb6511b601c9e10f6513"
     }
   },
   {
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "heaptrack",
-    "image_name": "heaptrack:1.3.0-10.2",
+    "image_name": "heaptrack:1.3.0-12.1",
     "version": "1.3.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:208a2fe78690fcca478bab27f137f974458a48e96f3801aa0f3cc2af32942f47",
-    "last_updated": "2026-09-08 15:36",
+    "digest": "SHA256:c8bb23fe8860d1e20b39450e07484de68cf5311b9c5684168b3ece8be6b5d08d",
+    "last_updated": "2026-09-21 19:06",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "heaptrack-1.3.0-10.2.x86_64.spdx.json"
+        "filename": "heaptrack-1.3.0-12.1.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "heaptrack-1.3.0-10.2.x86_64.cdx.json"
+        "filename": "heaptrack-1.3.0-12.1.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "heaptrack-1",
-      "org.opencontainers.image.base.digest": "sha256:4cdcad941236068fdf4cac1f3008600d478ebbf78236677452a662ae1f3fe792",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-60.7",
-      "org.opencontainers.image.created": "2026-09-07T21:44:12.362805220Z",
+      "org.opencontainers.image.base.digest": "sha256:52cd5d552529b8f05d86496cc7452e74d338a8542fff899a25617e783fa4bd6c",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
+      "org.opencontainers.image.created": "2026-09-21T07:56:13.481807543Z",
       "org.opencontainers.image.description": "Heaptrack traces all memory allocations and annotates these events with stack traces.",
-      "org.opencontainers.image.ref.name": "1.3.0-10.2",
+      "org.opencontainers.image.ref.name": "1.3.0-12.1",
       "org.opencontainers.image.title": "Heaptrack",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -3372,40 +3372,40 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/208a2fe78690fcca478bab27f137f974458a48e96f3801aa0f3cc2af32942f47"
+      "artifact_url": "https://apps.rancher.io/artifacts/c8bb23fe8860d1e20b39450e07484de68cf5311b9c5684168b3ece8be6b5d08d"
     }
   },
   {
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.16.1-15.3",
+    "image_name": "mlflow:3.16.1-16.1",
     "version": "3.16.1",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:f6dc38d3e0b95a4eab0c0cffe3cbbb939616f9267f699a5d7d9365bb5ac9e5c1",
-    "last_updated": "2026-09-18 14:02",
+    "digest": "SHA256:d8e3802cd8cec11bfec9bf442b6024c2f6291ca30fe28548207e98633e7087cd",
+    "last_updated": "2026-09-21 19:14",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-3.16.1-15.3.aarch64.spdx.json"
+        "filename": "mlflow-3.16.1-16.1.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-3.16.1-15.3.aarch64.cdx.json"
+        "filename": "mlflow-3.16.1-16.1.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-3",
-      "org.opencontainers.image.base.digest": "sha256:4e71c3fa65f19834382d7065aaec73efc4b1caa7e82c1dc7815a90769b89cf26",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.7",
-      "org.opencontainers.image.created": "2026-09-18T01:32:54.770607400Z",
+      "org.opencontainers.image.base.digest": "sha256:6495baba73d52b126e455c5e82f888d3f003ca8407e89e412944772519fae9af",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
+      "org.opencontainers.image.created": "2026-09-21T08:28:51.633806480Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.16.1-15.3",
+      "org.opencontainers.image.ref.name": "3.16.1-16.1",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -3419,40 +3419,40 @@
       "medium": 1,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/f6dc38d3e0b95a4eab0c0cffe3cbbb939616f9267f699a5d7d9365bb5ac9e5c1"
+      "artifact_url": "https://apps.rancher.io/artifacts/d8e3802cd8cec11bfec9bf442b6024c2f6291ca30fe28548207e98633e7087cd"
     }
   },
   {
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.16.1-15.3",
+    "image_name": "mlflow:3.16.1-16.1",
     "version": "3.16.1",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:c5e0d4685cf3fca2e1c4f9b3aa9db3b9e534f4b68fa02495f504da356868533a",
-    "last_updated": "2026-09-18 14:02",
+    "digest": "SHA256:6fe5d34cda14598abee3aae80d24b3781465d0d4bfbe489d80fa52fa914d450a",
+    "last_updated": "2026-09-21 19:14",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-3.16.1-15.3.x86_64.cdx.json"
+        "filename": "mlflow-3.16.1-16.1.x86_64.cdx.json"
       },
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-3.16.1-15.3.x86_64.spdx.json"
+        "filename": "mlflow-3.16.1-16.1.x86_64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-3",
-      "org.opencontainers.image.base.digest": "sha256:801635b640d9ebe4cae37b0dba77b24cc2957e9a3d2b207373a8084d2860d955",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.7",
-      "org.opencontainers.image.created": "2026-09-17T18:45:04.114168520Z",
+      "org.opencontainers.image.base.digest": "sha256:52cd5d552529b8f05d86496cc7452e74d338a8542fff899a25617e783fa4bd6c",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
+      "org.opencontainers.image.created": "2026-09-21T07:59:13.172974999Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.16.1-15.3",
+      "org.opencontainers.image.ref.name": "3.16.1-16.1",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -3466,7 +3466,7 @@
       "medium": 1,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/c5e0d4685cf3fca2e1c4f9b3aa9db3b9e534f4b68fa02495f504da356868533a"
+      "artifact_url": "https://apps.rancher.io/artifacts/6fe5d34cda14598abee3aae80d24b3781465d0d4bfbe489d80fa52fa914d450a"
     }
   },
   {
@@ -5991,33 +5991,33 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:2.22.4-17.19",
+    "image_name": "mlflow:2.22.4-19.1",
     "version": "2.22.4",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:44437ef04f849f7a5d311f8e23a1dbc11ed4a5f918dca8032c10e4cb5f494e16",
-    "last_updated": "2026-09-14 08:18",
+    "digest": "SHA256:ee2aaebb25a0c7bc4caff6b02864c930f09316279aed81fb3b6421cac4c1ce26",
+    "last_updated": "2026-09-21 19:14",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-2.22.4-17.19.aarch64.spdx.json"
+        "filename": "mlflow-2.22.4-19.1.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-2.22.4-17.19.aarch64.cdx.json"
+        "filename": "mlflow-2.22.4-19.1.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-2",
-      "org.opencontainers.image.base.digest": "sha256:000de3127554a901e9b753aae65983ddd238dce9bf03cd7763c6477c1f26a244",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-60.7",
-      "org.opencontainers.image.created": "2026-09-14T07:41:18.222509440Z",
+      "org.opencontainers.image.base.digest": "sha256:6495baba73d52b126e455c5e82f888d3f003ca8407e89e412944772519fae9af",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
+      "org.opencontainers.image.created": "2026-09-21T08:28:50.589300840Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "2.22.4-17.19",
+      "org.opencontainers.image.ref.name": "2.22.4-19.1",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -6031,40 +6031,40 @@
       "medium": 13,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/44437ef04f849f7a5d311f8e23a1dbc11ed4a5f918dca8032c10e4cb5f494e16"
+      "artifact_url": "https://apps.rancher.io/artifacts/ee2aaebb25a0c7bc4caff6b02864c930f09316279aed81fb3b6421cac4c1ce26"
     }
   },
   {
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:2.22.4-17.19",
+    "image_name": "mlflow:2.22.4-19.1",
     "version": "2.22.4",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:a36ef4089f269e37562d56d246482b03e4ebbe55ecb40b08e2d678929c552044",
-    "last_updated": "2026-09-14 08:18",
+    "digest": "SHA256:36bdd7bd5cdd4d9abea5204f8076337d6cf9622b06192ecadf0dd6b8659ee8fa",
+    "last_updated": "2026-09-21 19:14",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "mlflow-2.22.4-17.19.x86_64.cdx.json"
+        "format": "SPDX",
+        "filename": "mlflow-2.22.4-19.1.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "mlflow-2.22.4-17.19.x86_64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "mlflow-2.22.4-19.1.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-2",
-      "org.opencontainers.image.base.digest": "sha256:4cdcad941236068fdf4cac1f3008600d478ebbf78236677452a662ae1f3fe792",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-60.7",
-      "org.opencontainers.image.created": "2026-09-14T07:41:47.034952415Z",
+      "org.opencontainers.image.base.digest": "sha256:52cd5d552529b8f05d86496cc7452e74d338a8542fff899a25617e783fa4bd6c",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
+      "org.opencontainers.image.created": "2026-09-21T07:59:05.284533257Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "2.22.4-17.19",
+      "org.opencontainers.image.ref.name": "2.22.4-19.1",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -6078,7 +6078,7 @@
       "medium": 13,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/a36ef4089f269e37562d56d246482b03e4ebbe55ecb40b08e2d678929c552044"
+      "artifact_url": "https://apps.rancher.io/artifacts/36bdd7bd5cdd4d9abea5204f8076337d6cf9622b06192ecadf0dd6b8659ee8fa"
     }
   },
   {

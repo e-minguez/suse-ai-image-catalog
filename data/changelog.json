@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-09-22 19:55",
+    "changes": [
+      "New Container (AppCo): mlflow:2.22.4-19.2 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-19.2 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-22 04:43",
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-76.1 (N/A)"
@@ -232,37 +239,6 @@
       "New Container (AppCo): milvus:2.6.23-11.36 (x86_64)",
       "New Container (AppCo): milvus:2.6.23-nvidia-11.36 (x86_64)",
       "New Chart (AppCo): milvus:5.0.25-68.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-09-09 13:03",
-    "changes": [
-      "New Container (AppCo): ollama:0.32.14-11.85 (aarch64)",
-      "New Container (AppCo): ollama:0.32.14-11.85 (x86_64)",
-      "New Container (AppCo): open-webui:0.8.0-15.33 (aarch64)",
-      "New Container (AppCo): open-webui:0.8.0-15.33 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.98 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.98 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.92 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.92 (x86_64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.36 (aarch64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.36 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.36 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.36 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.39 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.39 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.98 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.98 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.46 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.46 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.48 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.48 (x86_64)",
-      "New Container (GHCR): suse/chart/aif-operator:2.3.0-dev.1 (N/A)",
-      "New Container (GHCR): suse/chart/aif-ui:2.3.0-dev.1 (N/A)",
-      "New Container (GHCR): suse/aif-operator:2.3.0-dev.1 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.3.0-dev.1-arm64 (arm64)",
-      "New Container (GHCR): suse/aif-ui:2.3.0-dev.1-amd64 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.3.0-dev.1 (x86_64)"
     ]
   }
 ]

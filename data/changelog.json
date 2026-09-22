@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-22 04:43",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.25-76.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-09-21 20:33",
     "changes": [
       "New Container (AppCo): heaptrack:1.3.0-12.1 (aarch64)",
@@ -257,17 +263,6 @@
       "New Container (GHCR): suse/aif-ui:2.3.0-dev.1-arm64 (arm64)",
       "New Container (GHCR): suse/aif-ui:2.3.0-dev.1-amd64 (x86_64)",
       "New Container (GHCR): suse/aif-ui:2.3.0-dev.1 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-09-08 19:37",
-    "changes": [
-      "New Container (AppCo): heaptrack:1.3.0-10.2 (aarch64)",
-      "New Container (AppCo): heaptrack:1.3.0-10.2 (x86_64)",
-      "New Container (AppCo): mlflow:3.16.0-14.23 (aarch64)",
-      "New Container (AppCo): mlflow:3.16.0-14.23 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-17.18 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-17.18 (x86_64)"
     ]
   }
 ]

@@ -12190,32 +12190,32 @@
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-vllm-openai",
-    "image_name": "lmcache-vllm-openai:0.3.9-4.52",
+    "image_name": "lmcache-vllm-openai:0.3.9-4.53",
     "version": "0.3.9",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:0de914ca3ea8e8c593e687ddfc6335e52f5181655627a0da1d1fa8a3dfb9e338",
-    "last_updated": "2026-09-19 19:48",
+    "digest": "SHA256:7763e98dedfc52a04faae6051c952013f2a88e73ccb72e2d66e6de934f23bf70",
+    "last_updated": "2026-09-23 05:51",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "lmcache-vllm-openai-0.3.9-4.52.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "lmcache-vllm-openai-0.3.9-4.53.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "lmcache-vllm-openai-0.3.9-4.52.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "lmcache-vllm-openai-0.3.9-4.53.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:6495baba73d52b126e455c5e82f888d3f003ca8407e89e412944772519fae9af",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
-      "org.opencontainers.image.created": "2026-09-19T18:50:22.530801120Z",
+      "org.opencontainers.image.created": "2026-09-23T04:58:03.870284600Z",
       "org.opencontainers.image.description": "A high-throughput, memory-efficient inference and serving engine for LLMs with integrated key-value cache reuse across requests.",
-      "org.opencontainers.image.ref.name": "0.3.9-4.52",
+      "org.opencontainers.image.ref.name": "0.3.9-4.53",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/lmcache-vllm-openai-container/cdcbde73f3351a24140d7469f5ae5b2b/",
       "org.opencontainers.image.title": "LMCache vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm",
@@ -12230,39 +12230,39 @@
       "medium": 4,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/0de914ca3ea8e8c593e687ddfc6335e52f5181655627a0da1d1fa8a3dfb9e338"
+      "artifact_url": "https://apps.rancher.io/artifacts/7763e98dedfc52a04faae6051c952013f2a88e73ccb72e2d66e6de934f23bf70"
     }
   },
   {
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-vllm-openai",
-    "image_name": "lmcache-vllm-openai:0.3.9-4.52",
+    "image_name": "lmcache-vllm-openai:0.3.9-4.53",
     "version": "0.3.9",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:9979219db3140eab31a54e900f755b31db0cd933a09ee1cfb689054393ec49f6",
-    "last_updated": "2026-09-19 19:48",
+    "digest": "SHA256:973cefab313cdcbf5d4908c3fc1d85e06d06f7e338fb7415b15733d7d9073d10",
+    "last_updated": "2026-09-23 05:51",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "lmcache-vllm-openai-0.3.9-4.52.x86_64.cdx.json"
+        "format": "SPDX",
+        "filename": "lmcache-vllm-openai-0.3.9-4.53.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "lmcache-vllm-openai-0.3.9-4.52.x86_64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "lmcache-vllm-openai-0.3.9-4.53.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:52cd5d552529b8f05d86496cc7452e74d338a8542fff899a25617e783fa4bd6c",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
-      "org.opencontainers.image.created": "2026-09-18T18:33:11.062790283Z",
+      "org.opencontainers.image.created": "2026-09-23T04:57:58.337699467Z",
       "org.opencontainers.image.description": "A high-throughput, memory-efficient inference and serving engine for LLMs with integrated key-value cache reuse across requests.",
-      "org.opencontainers.image.ref.name": "0.3.9-4.52",
+      "org.opencontainers.image.ref.name": "0.3.9-4.53",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/lmcache-vllm-openai-container/cdcbde73f3351a24140d7469f5ae5b2b/",
       "org.opencontainers.image.title": "LMCache vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm",
@@ -12277,7 +12277,7 @@
       "medium": 4,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/9979219db3140eab31a54e900f755b31db0cd933a09ee1cfb689054393ec49f6"
+      "artifact_url": "https://apps.rancher.io/artifacts/973cefab313cdcbf5d4908c3fc1d85e06d06f7e338fb7415b15733d7d9073d10"
     }
   },
   {

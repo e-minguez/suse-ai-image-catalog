@@ -59641,5 +59641,19 @@
       ],
       "details_path": "vulns/ai-containers-xgbserver-v0.15.2-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/hello-world",
+    "tag": "latest",
+    "image_name": "ai/hello-world:latest",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2771e37a12b7bcb2902456ecf3f29bf9ee11ec348e66e8eb322d9780ad7fc2df",
+    "created": "2025-08-08 19:05",
+    "labels": {},
+    "entrypoint": null,
+    "cmd": [
+      "/hello"
+    ]
   }
 ]

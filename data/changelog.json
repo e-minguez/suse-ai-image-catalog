@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-24 04:37",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.25-78.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-09-23 13:43",
     "changes": [
       "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.53 (aarch64)",
@@ -231,12 +237,6 @@
       "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
       "Updated Container (Registry): ai/containers/python:3.11-slim (x86_64)",
       "Updated Container (Registry): ai/containers/python:3.14.7 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-09-10 19:20",
-    "changes": [
-      "New Chart (Registry): ai/charts/kubeflow:0.4.0 (N/A)"
     ]
   }
 ]

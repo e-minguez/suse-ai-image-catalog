@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-09-25 20:07",
+    "changes": [
+      "New Container (AppCo): ollama:0.34.4-11.96 (aarch64)",
+      "New Container (AppCo): ollama:0.34.4-11.96 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-25 13:44",
     "changes": [
       "New Container (GHCR): suse/chart/aif-operator:2.3.0-dev.3 (N/A)",
@@ -228,16 +235,6 @@
       "New Container (GHCR): suse/aif-ui:2.3.0-dev.2-arm64 (arm64)",
       "New Container (GHCR): suse/aif-ui:2.3.0-dev.2-amd64 (x86_64)",
       "New Container (GHCR): suse/aif-ui:2.3.0-dev.2 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-09-11 04:28",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.23-11.37 (aarch64)",
-      "New Container (AppCo): milvus:2.6.23-nvidia-11.37 (aarch64)",
-      "New Container (AppCo): milvus:2.6.23-11.37 (x86_64)",
-      "New Container (AppCo): milvus:2.6.23-nvidia-11.37 (x86_64)",
-      "New Chart (Registry): ai/charts/kubeflow:0.4.1 (N/A)"
     ]
   }
 ]

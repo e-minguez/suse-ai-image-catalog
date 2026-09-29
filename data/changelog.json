@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-29 00:29",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.24-13.2 (aarch64)",
+      "New Container (AppCo): milvus:2.6.24-nvidia-13.2 (aarch64)",
+      "New Container (AppCo): milvus:2.6.24-13.2 (x86_64)",
+      "New Container (AppCo): milvus:2.6.24-nvidia-13.2 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-25 20:07",
     "changes": [
       "New Container (AppCo): ollama:0.34.4-11.96 (aarch64)",
@@ -223,18 +232,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.47 (x86_64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.49 (aarch64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.49 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-09-11 19:18",
-    "changes": [
-      "New Chart (AppCo): milvus:5.0.25-70.1 (N/A)",
-      "New Container (GHCR): suse/chart/aif-operator:2.3.0-dev.2 (N/A)",
-      "New Container (GHCR): suse/chart/aif-ui:2.3.0-dev.2 (N/A)",
-      "New Container (GHCR): suse/aif-operator:2.3.0-dev.2 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.3.0-dev.2-arm64 (arm64)",
-      "New Container (GHCR): suse/aif-ui:2.3.0-dev.2-amd64 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.3.0-dev.2 (x86_64)"
     ]
   }
 ]

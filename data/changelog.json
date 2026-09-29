@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-09-29 10:43",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.25-79.1 (N/A)",
+      "New Container (AppCo): mlflow:3.16.1-16.2 (aarch64)",
+      "New Container (AppCo): mlflow:3.16.1-16.2 (x86_64)",
+      "New Container (AppCo): mlflow:2.22.4-19.3 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-19.3 (x86_64)",
+      "New Container (AppCo): pytorch:2.14.0-nvidia-1.1 (aarch64)",
+      "New Container (AppCo): pytorch:2.14.0-nvidia-1.1 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-29 00:29",
     "changes": [
       "New Container (AppCo): milvus:2.6.24-13.2 (aarch64)",
@@ -207,31 +219,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.48 (x86_64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.50 (aarch64)",
       "New Container (AppCo): vllm-openai:0.19.0-5.50 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-09-13 04:42",
-    "changes": [
-      "New Container (AppCo): ollama:0.32.14-11.90 (aarch64)",
-      "New Container (AppCo): ollama:0.32.14-11.90 (x86_64)",
-      "New Container (AppCo): open-webui:0.8.0-15.39 (aarch64)",
-      "New Container (AppCo): open-webui:0.8.0-15.39 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.104 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.104 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.97 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.97 (x86_64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.39 (aarch64)",
-      "New Container (AppCo): pytorch:2.10.0-nvidia-2.39 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.40 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:2.1.0-7.40 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.42 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.42 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.103 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.103 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.47 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.47 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.49 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.19.0-5.49 (x86_64)"
     ]
   }
 ]

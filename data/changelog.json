@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-02 14:49",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.25-13.5 (aarch64)",
+      "New Container (AppCo): milvus:2.6.25-nvidia-13.5 (aarch64)",
+      "New Container (AppCo): milvus:2.6.25-13.5 (x86_64)",
+      "New Container (AppCo): milvus:2.6.25-nvidia-13.5 (x86_64)",
+      "New Container (AppCo): ollama:0.34.4-11.97 (aarch64)",
+      "New Container (AppCo): ollama:0.34.4-11.97 (x86_64)",
+      "New Container (AppCo): open-webui:0.8.0-15.48 (aarch64)",
+      "New Container (AppCo): open-webui:0.8.0-15.48 (x86_64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.110 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.110 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.103 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.103 (x86_64)",
+      "New Container (AppCo): pytorch:2.14.0-nvidia-2.2 (aarch64)",
+      "New Container (AppCo): pytorch:2.14.0-nvidia-2.2 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.2.0-7.46 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:2.2.0-7.46 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.110 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.10-3.110 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.54 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.3.9-4.54 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.55 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.19.0-5.55 (x86_64)",
+      "New Container (GHCR): suse/chart/aif-operator:2.3.0-rc.1 (N/A)",
+      "New Container (GHCR): suse/chart/aif-ui:2.3.0-rc.1 (N/A)",
+      "New Container (GHCR): suse/aif-operator:2.3.0-rc.1 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.3.0-rc.1-amd64 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.3.0-rc.1-arm64 (arm64)",
+      "New Container (GHCR): suse/aif-ui:2.3.0-rc.1 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-09-30 05:31",
     "changes": [
       "New Container (AppCo): milvus:2.6.25-13.3 (aarch64)",
@@ -182,15 +215,6 @@
       "New Container (AppCo): milvus:2.6.24-11.39 (x86_64)",
       "New Container (AppCo): milvus:2.6.24-nvidia-11.39 (x86_64)",
       "New Chart (AppCo): milvus:5.0.25-71.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-09-15 23:03",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.24-11.38 (aarch64)",
-      "New Container (AppCo): milvus:2.6.24-nvidia-11.38 (aarch64)",
-      "New Container (AppCo): milvus:2.6.24-11.38 (x86_64)",
-      "New Container (AppCo): milvus:2.6.24-nvidia-11.38 (x86_64)"
     ]
   }
 ]

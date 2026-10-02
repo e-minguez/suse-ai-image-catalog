@@ -10505,6 +10505,35 @@
     "application": "suse-ai-observability-extension",
     "app_logo_url": "https://apps.rancher.io/logos/suse-ai-observability-extension.png",
     "component": "suse-ai-observability-extension",
+    "image_name": "suse-ai-observability-extension:2.2.0-12.1",
+    "version": "2.2.0",
+    "packaging_format": "HELM_CHART",
+    "architecture": null,
+    "os_family": null,
+    "os_version": null,
+    "digest": "SHA256:41730bf313b6652264e37200dfa4e36c1b9b2cecd3bcb32ec186dd2a9ce01f71",
+    "last_updated": "2026-10-02 20:16",
+    "sboms": [],
+    "labels": {},
+    "chart_images": [
+      "dp.apps.rancher.io/containers/suse-ai-observability-extension-setup:2.2.0-7.46"
+    ],
+    "vulnerabilities": {
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "",
+      "source": "aggregated_appco_images",
+      "component_count": 1,
+      "artifact_url": "https://apps.rancher.io/artifacts/41730bf313b6652264e37200dfa4e36c1b9b2cecd3bcb32ec186dd2a9ce01f71"
+    }
+  },
+  {
+    "application": "suse-ai-observability-extension",
+    "app_logo_url": "https://apps.rancher.io/logos/suse-ai-observability-extension.png",
+    "component": "suse-ai-observability-extension",
     "image_name": "suse-ai-observability-extension:2.1.0-11.1",
     "version": "2.1.0",
     "packaging_format": "HELM_CHART",

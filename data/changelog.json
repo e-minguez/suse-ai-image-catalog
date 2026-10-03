@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-03 05:12",
+    "changes": [
+      "New Chart (AppCo): pytorch:0.4.0-3.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-10-02 20:46",
     "changes": [
       "New Chart (AppCo): suse-ai-observability-extension:2.2.0-12.1 (N/A)",
@@ -214,15 +220,6 @@
       "New Container (AppCo): milvus:2.6.24-12.3 (x86_64)",
       "New Container (AppCo): milvus:2.6.24-nvidia-12.3 (x86_64)",
       "New Chart (AppCo): milvus:5.0.25-72.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-09-17 13:30",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.24-12.1 (aarch64)",
-      "New Container (AppCo): milvus:2.6.24-nvidia-12.1 (aarch64)",
-      "New Container (AppCo): milvus:2.6.24-12.1 (x86_64)",
-      "New Container (AppCo): milvus:2.6.24-nvidia-12.1 (x86_64)"
     ]
   }
 ]

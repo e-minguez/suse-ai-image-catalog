@@ -9730,18 +9730,18 @@
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:0.4.0-3.1",
+    "image_name": "pytorch:0.4.0-4.1",
     "version": "2.14.0",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:70d770e328b12cb97b0c6d6ceb449060f5cb88b458450c75033620aee796f3c4",
-    "last_updated": "2026-10-03 00:55",
+    "digest": "SHA256:84007430da3a579ae81273b68bb2871572169bba4bf74de8cb4fa35f69e7bc5f",
+    "last_updated": "2026-10-07 00:58",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/pytorch:2.14.0-nvidia-2.2"
+      "dp.apps.rancher.io/containers/pytorch:2.14.0-nvidia-2.3"
     ],
     "vulnerabilities": {
       "total": 0,
@@ -9752,7 +9752,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 1,
-      "artifact_url": "https://apps.rancher.io/artifacts/70d770e328b12cb97b0c6d6ceb449060f5cb88b458450c75033620aee796f3c4"
+      "artifact_url": "https://apps.rancher.io/artifacts/84007430da3a579ae81273b68bb2871572169bba4bf74de8cb4fa35f69e7bc5f"
     }
   },
   {

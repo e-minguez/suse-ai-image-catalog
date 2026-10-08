@@ -943,18 +943,18 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:5.0.25-82.1",
+    "image_name": "milvus:5.0.25-83.1",
     "version": "2.6.21",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:16122a3665c3dff4865903734e6499d161657e8290fc7ae387d26995199e1415",
-    "last_updated": "2026-10-06 02:29",
+    "digest": "SHA256:dc2b8033ab00c7e09af289920c0cd93cbfd60a8d40d2b81dc6b73a68d23163e2",
+    "last_updated": "2026-10-08 01:32",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/apache-kafka:4.3.1-6.8",
+      "dp.apps.rancher.io/containers/apache-kafka:4.3.1-6.9",
       "dp.apps.rancher.io/containers/bci-busybox:15.7-25.30",
       "dp.apps.rancher.io/containers/bci-busybox:15.7-25.30",
       "dp.apps.rancher.io/containers/etcd:3.7.2-3.3",
@@ -972,7 +972,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 8,
-      "artifact_url": "https://apps.rancher.io/artifacts/16122a3665c3dff4865903734e6499d161657e8290fc7ae387d26995199e1415"
+      "artifact_url": "https://apps.rancher.io/artifacts/dc2b8033ab00c7e09af289920c0cd93cbfd60a8d40d2b81dc6b73a68d23163e2"
     }
   },
   {
@@ -3561,6 +3561,100 @@
       "low": 0,
       "source": "apps.rancher.io",
       "artifact_url": "https://apps.rancher.io/artifacts/c8bb23fe8860d1e20b39450e07484de68cf5311b9c5684168b3ece8be6b5d08d"
+    }
+  },
+  {
+    "application": "mlflow",
+    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
+    "component": "mlflow",
+    "image_name": "mlflow:3.17.0-16.5",
+    "version": "3.17.0",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:58a6d47eb6128b33168ef3643a173089c679ac58570fad8832c36d5a12553d75",
+    "last_updated": "2026-10-07 22:42",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "mlflow-3.17.0-16.5.aarch64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "mlflow-3.17.0-16.5.aarch64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "mlflow-3",
+      "org.opencontainers.image.base.digest": "sha256:6495baba73d52b126e455c5e82f888d3f003ca8407e89e412944772519fae9af",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
+      "org.opencontainers.image.created": "2026-10-07T14:22:57.675808600Z",
+      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
+      "org.opencontainers.image.ref.name": "3.17.0-16.5",
+      "org.opencontainers.image.title": "MLflow",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "3.17.0"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 6,
+      "critical": 0,
+      "high": 4,
+      "medium": 2,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/58a6d47eb6128b33168ef3643a173089c679ac58570fad8832c36d5a12553d75"
+    }
+  },
+  {
+    "application": "mlflow",
+    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
+    "component": "mlflow",
+    "image_name": "mlflow:3.17.0-16.5",
+    "version": "3.17.0",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:38ce6913df60f7abf3bd7124cac6ec09cd986e259e7314365421b1dc9d2fd0e3",
+    "last_updated": "2026-10-07 22:42",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "mlflow-3.17.0-16.5.x86_64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "mlflow-3.17.0-16.5.x86_64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "mlflow-3",
+      "org.opencontainers.image.base.digest": "sha256:52cd5d552529b8f05d86496cc7452e74d338a8542fff899a25617e783fa4bd6c",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
+      "org.opencontainers.image.created": "2026-10-07T14:22:56.823638097Z",
+      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
+      "org.opencontainers.image.ref.name": "3.17.0-16.5",
+      "org.opencontainers.image.title": "MLflow",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "3.17.0"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 6,
+      "critical": 0,
+      "high": 4,
+      "medium": 2,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/38ce6913df60f7abf3bd7124cac6ec09cd986e259e7314365421b1dc9d2fd0e3"
     }
   },
   {
@@ -9730,18 +9824,18 @@
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:0.4.0-4.1",
+    "image_name": "pytorch:0.4.0-5.1",
     "version": "2.14.0",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:84007430da3a579ae81273b68bb2871572169bba4bf74de8cb4fa35f69e7bc5f",
-    "last_updated": "2026-10-07 00:58",
+    "digest": "SHA256:0221e20b1dd6e3e0d07ac80e95b2dc95237c91de845dd538ca59a725417ead55",
+    "last_updated": "2026-10-08 01:09",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/pytorch:2.14.0-nvidia-2.3"
+      "dp.apps.rancher.io/containers/pytorch:2.14.0-nvidia-2.4"
     ],
     "vulnerabilities": {
       "total": 0,
@@ -9752,7 +9846,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 1,
-      "artifact_url": "https://apps.rancher.io/artifacts/84007430da3a579ae81273b68bb2871572169bba4bf74de8cb4fa35f69e7bc5f"
+      "artifact_url": "https://apps.rancher.io/artifacts/0221e20b1dd6e3e0d07ac80e95b2dc95237c91de845dd538ca59a725417ead55"
     }
   },
   {

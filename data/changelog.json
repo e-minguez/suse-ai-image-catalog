@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-08 05:54",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.25-83.1 (N/A)",
+      "New Container (AppCo): mlflow:3.17.0-16.5 (aarch64)",
+      "New Container (AppCo): mlflow:3.17.0-16.5 (x86_64)",
+      "New Chart (AppCo): pytorch:0.4.0-5.1 (N/A)",
+      "New Container (GHCR): suse/chart/aif-operator:2.3.0 (N/A)",
+      "New Container (GHCR): suse/chart/aif-ui:2.3.0 (N/A)",
+      "Updated Container (GHCR): suse/aif-operator:latest (x86_64)",
+      "New Container (GHCR): suse/aif-operator:2.3.0 (x86_64)",
+      "Updated Container (GHCR): suse/aif-ui:latest (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.3.0-amd64 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.3.0-arm64 (arm64)",
+      "New Container (GHCR): suse/aif-ui:2.3.0 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-10-07 21:26",
     "changes": [
       "New Container (GHCR): suse/chart/aif-operator:2.3.0-rc.5 (N/A)",
@@ -194,13 +211,6 @@
     "date": "2026-09-23 04:41",
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-77.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-09-22 19:55",
-    "changes": [
-      "New Container (AppCo): mlflow:2.22.4-19.2 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-19.2 (x86_64)"
     ]
   }
 ]

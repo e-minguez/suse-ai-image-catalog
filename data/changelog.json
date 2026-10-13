@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-13 02:07",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.25-13.8 (aarch64)",
+      "New Container (AppCo): milvus:2.6.25-nvidia-13.8 (aarch64)",
+      "New Container (AppCo): milvus:2.6.25-13.8 (x86_64)",
+      "New Container (AppCo): milvus:2.6.25-nvidia-13.8 (x86_64)",
+      "New Chart (AppCo): pytorch:0.4.0-7.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-10-12 17:56",
     "changes": [
       "New Container (AppCo): pytorch:2.14.0-nvidia-2.6 (aarch64)",
@@ -211,13 +221,6 @@
       "New Container (AppCo): milvus:2.6.24-nvidia-13.2 (aarch64)",
       "New Container (AppCo): milvus:2.6.24-13.2 (x86_64)",
       "New Container (AppCo): milvus:2.6.24-nvidia-13.2 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-09-25 20:07",
-    "changes": [
-      "New Container (AppCo): ollama:0.34.4-11.96 (aarch64)",
-      "New Container (AppCo): ollama:0.34.4-11.96 (x86_64)"
     ]
   }
 ]

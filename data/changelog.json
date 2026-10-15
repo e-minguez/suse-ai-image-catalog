@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-10-15 20:03",
+    "changes": [
+      "New Container (AppCo): heaptrack:1.3.0-13.1 (aarch64)",
+      "New Container (AppCo): heaptrack:1.3.0-13.1 (x86_64)",
+      "New Container (AppCo): mlflow:3.17.1-17.1 (aarch64)",
+      "New Container (AppCo): mlflow:3.17.1-17.1 (x86_64)",
+      "New Container (AppCo): mlflow:2.22.4-20.1 (aarch64)",
+      "New Container (AppCo): mlflow:2.22.4-20.1 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-10-15 04:32",
     "changes": [
       "New Container (AppCo): milvus:2.6.25-14.1 (aarch64)",
@@ -174,12 +185,6 @@
       "New Container (AppCo): mlflow:3.16.1-16.4 (x86_64)",
       "New Container (AppCo): mlflow:2.22.4-19.5 (aarch64)",
       "New Container (AppCo): mlflow:2.22.4-19.5 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-10-03 05:12",
-    "changes": [
-      "New Chart (AppCo): pytorch:0.4.0-3.1 (N/A)"
     ]
   }
 ]

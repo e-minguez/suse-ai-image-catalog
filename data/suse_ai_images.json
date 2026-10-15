@@ -3,33 +3,33 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.25-13.9",
+    "image_name": "milvus:2.6.25-14.1",
     "version": "2.6.25",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:03b484450ff5d7823fbb74b2044e636c60824fcab1b929e76dc8082fb152bc08",
-    "last_updated": "2026-10-13 20:11",
+    "digest": "SHA256:2cb1026238222de16d44ac87844e6dfedbabb2ae9f399092ce3f2f2e86dd2d4c",
+    "last_updated": "2026-10-14 23:33",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.25-13.9.aarch64.spdx.json"
+        "filename": "milvus-2.6.25-14.1.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "milvus-2.6.25-13.9.aarch64.cdx.json"
+        "filename": "milvus-2.6.25-14.1.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6",
-      "org.opencontainers.image.base.digest": "sha256:6495baba73d52b126e455c5e82f888d3f003ca8407e89e412944772519fae9af",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
-      "org.opencontainers.image.created": "2026-10-13T18:38:35.937306720Z",
+      "org.opencontainers.image.base.digest": "sha256:b248f858451855743d9acced6f8ef9908eb2e47a790fe6b4cefed93c259b09c6",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-14T20:47:46.220287480Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.25-13.9",
+      "org.opencontainers.image.ref.name": "2.6.25-14.1",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -43,40 +43,40 @@
       "medium": 14,
       "low": 6,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/03b484450ff5d7823fbb74b2044e636c60824fcab1b929e76dc8082fb152bc08"
+      "artifact_url": "https://apps.rancher.io/artifacts/2cb1026238222de16d44ac87844e6dfedbabb2ae9f399092ce3f2f2e86dd2d4c"
     }
   },
   {
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.25-nvidia-13.9",
+    "image_name": "milvus:2.6.25-nvidia-14.1",
     "version": "2.6.25",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:c88fb99cf35a26debb33ddc00d383c0bb32d836a18351f10b4ce06caedffa4d4",
-    "last_updated": "2026-10-13 20:11",
+    "digest": "SHA256:d6f89fa5a6210181df47bf1a936643fac847d42a8964550106c3e642e2bcad66",
+    "last_updated": "2026-10-14 23:33",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.25-nvidia-13.9.aarch64.spdx.json"
+        "filename": "milvus-2.6.25-nvidia-14.1.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "milvus-2.6.25-nvidia-13.9.aarch64.cdx.json"
+        "filename": "milvus-2.6.25-nvidia-14.1.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6-nvidia",
-      "org.opencontainers.image.base.digest": "sha256:6495baba73d52b126e455c5e82f888d3f003ca8407e89e412944772519fae9af",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
-      "org.opencontainers.image.created": "2026-10-13T19:54:30.687425360Z",
+      "org.opencontainers.image.base.digest": "sha256:b248f858451855743d9acced6f8ef9908eb2e47a790fe6b4cefed93c259b09c6",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-14T23:11:35.526782880Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.25-nvidia-13.9",
+      "org.opencontainers.image.ref.name": "2.6.25-nvidia-14.1",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -90,40 +90,40 @@
       "medium": 14,
       "low": 6,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/c88fb99cf35a26debb33ddc00d383c0bb32d836a18351f10b4ce06caedffa4d4"
+      "artifact_url": "https://apps.rancher.io/artifacts/d6f89fa5a6210181df47bf1a936643fac847d42a8964550106c3e642e2bcad66"
     }
   },
   {
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.25-13.9",
+    "image_name": "milvus:2.6.25-14.1",
     "version": "2.6.25",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:2482f4619c9fc8498d60e00a86cae8264e25ed325c5cd006847c069e02744293",
-    "last_updated": "2026-10-13 20:11",
+    "digest": "SHA256:ed469988ab55f2c2e1d75157e288feccc356f0b67226a35e71ce125c6704388c",
+    "last_updated": "2026-10-14 23:33",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.25-13.9.x86_64.spdx.json"
+        "filename": "milvus-2.6.25-14.1.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "milvus-2.6.25-13.9.x86_64.cdx.json"
+        "filename": "milvus-2.6.25-14.1.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6",
-      "org.opencontainers.image.base.digest": "sha256:52cd5d552529b8f05d86496cc7452e74d338a8542fff899a25617e783fa4bd6c",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
-      "org.opencontainers.image.created": "2026-10-13T19:30:50.222536530Z",
+      "org.opencontainers.image.base.digest": "sha256:21dfe702c6b94e9309a4fd32e9cb790566d66dc2a0f4f117d60fe7a1a4d63600",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-14T20:48:07.150238879Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.25-13.9",
+      "org.opencontainers.image.ref.name": "2.6.25-14.1",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -137,40 +137,40 @@
       "medium": 14,
       "low": 6,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/2482f4619c9fc8498d60e00a86cae8264e25ed325c5cd006847c069e02744293"
+      "artifact_url": "https://apps.rancher.io/artifacts/ed469988ab55f2c2e1d75157e288feccc356f0b67226a35e71ce125c6704388c"
     }
   },
   {
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.25-nvidia-13.9",
+    "image_name": "milvus:2.6.25-nvidia-14.1",
     "version": "2.6.25",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:fd8e2a9a6c43ea41d6537734a9810ea528b15b1f37fb678393f3238bcae67d72",
-    "last_updated": "2026-10-13 20:11",
+    "digest": "SHA256:eb518d720142e72cc7620a944184a13a1481de287dbcf51bb198790ce0b3b1d1",
+    "last_updated": "2026-10-14 23:33",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.25-nvidia-13.9.x86_64.spdx.json"
+        "filename": "milvus-2.6.25-nvidia-14.1.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "milvus-2.6.25-nvidia-13.9.x86_64.cdx.json"
+        "filename": "milvus-2.6.25-nvidia-14.1.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6-nvidia",
-      "org.opencontainers.image.base.digest": "sha256:52cd5d552529b8f05d86496cc7452e74d338a8542fff899a25617e783fa4bd6c",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
-      "org.opencontainers.image.created": "2026-10-13T19:15:38.911758377Z",
+      "org.opencontainers.image.base.digest": "sha256:21dfe702c6b94e9309a4fd32e9cb790566d66dc2a0f4f117d60fe7a1a4d63600",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-14T20:48:19.216216557Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.25-nvidia-13.9",
+      "org.opencontainers.image.ref.name": "2.6.25-nvidia-14.1",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -184,7 +184,7 @@
       "medium": 14,
       "low": 6,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/fd8e2a9a6c43ea41d6537734a9810ea528b15b1f37fb678393f3238bcae67d72"
+      "artifact_url": "https://apps.rancher.io/artifacts/eb518d720142e72cc7620a944184a13a1481de287dbcf51bb198790ce0b3b1d1"
     }
   },
   {
@@ -943,20 +943,20 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:5.0.25-84.1",
+    "image_name": "milvus:5.0.25-85.1",
     "version": "2.6.21",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:5da57f13a3cab998e6fbd4b6e283f75c170eb4636f8d1e8ccfc185712df66d5f",
-    "last_updated": "2026-10-09 05:04",
+    "digest": "SHA256:fcda8f936b828e9e648f5427a3da009c09a1ff92f6bf4390f6b3a805ba528433",
+    "last_updated": "2026-10-15 02:22",
     "sboms": [],
     "labels": {},
     "chart_images": [
       "dp.apps.rancher.io/containers/apache-kafka:4.3.1-6.9",
-      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.30",
-      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.30",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.35",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.35",
       "dp.apps.rancher.io/containers/etcd:3.7.2-3.4",
       "dp.apps.rancher.io/containers/heaptrack:1.3.0-12.1",
       "dp.apps.rancher.io/containers/milvus:2.6.21-11.24",
@@ -964,15 +964,15 @@
       "dp.apps.rancher.io/containers/minio:0.20251015.172955-19.3"
     ],
     "vulnerabilities": {
-      "total": 154,
+      "total": 190,
       "critical": 3,
-      "high": 81,
-      "medium": 52,
-      "low": 11,
+      "high": 88,
+      "medium": 66,
+      "low": 12,
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 8,
-      "artifact_url": "https://apps.rancher.io/artifacts/5da57f13a3cab998e6fbd4b6e283f75c170eb4636f8d1e8ccfc185712df66d5f"
+      "artifact_url": "https://apps.rancher.io/artifacts/fcda8f936b828e9e648f5427a3da009c09a1ff92f6bf4390f6b3a805ba528433"
     }
   },
   {
@@ -9824,33 +9824,33 @@
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:2.14.1-nvidia-2.9",
+    "image_name": "pytorch:2.14.1-nvidia-3.1",
     "version": "2.14.1",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:9bb1ffd95016338ed929ac27a1dbe33611fcc7e58ea6096aec6529dbd2e052b3",
-    "last_updated": "2026-10-14 11:29",
+    "digest": "SHA256:26c1a2f22a44e2b87508442bcc89abc07fd08773695f0ea7497a181c42ab69b5",
+    "last_updated": "2026-10-14 20:32",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "pytorch-2.14.1-nvidia-2.9.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "pytorch-2.14.1-nvidia-3.1.aarch64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "pytorch-2.14.1-nvidia-2.9.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "pytorch-2.14.1-nvidia-3.1.aarch64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "pytorch-2",
-      "org.opencontainers.image.base.digest": "sha256:6495baba73d52b126e455c5e82f888d3f003ca8407e89e412944772519fae9af",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
-      "org.opencontainers.image.created": "2026-10-14T10:37:00.604633320Z",
+      "org.opencontainers.image.base.digest": "sha256:b248f858451855743d9acced6f8ef9908eb2e47a790fe6b4cefed93c259b09c6",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-14T20:01:24.858981640Z",
       "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
-      "org.opencontainers.image.ref.name": "2.14.1-nvidia-2.9",
+      "org.opencontainers.image.ref.name": "2.14.1-nvidia-3.1",
       "org.opencontainers.image.title": "PyTorch",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -9864,40 +9864,40 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/9bb1ffd95016338ed929ac27a1dbe33611fcc7e58ea6096aec6529dbd2e052b3"
+      "artifact_url": "https://apps.rancher.io/artifacts/26c1a2f22a44e2b87508442bcc89abc07fd08773695f0ea7497a181c42ab69b5"
     }
   },
   {
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:2.14.1-nvidia-2.9",
+    "image_name": "pytorch:2.14.1-nvidia-3.1",
     "version": "2.14.1",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:2ac0044c3e93bdef16e5e10d323dcaf89e6af1884507914876344d0f394243c3",
-    "last_updated": "2026-10-14 11:29",
+    "digest": "SHA256:d2a59b21f134e728e10129718956369b7742a667b24d087201cd0ce3f905815f",
+    "last_updated": "2026-10-14 20:32",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "pytorch-2.14.1-nvidia-2.9.x86_64.spdx.json"
+        "filename": "pytorch-2.14.1-nvidia-3.1.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "pytorch-2.14.1-nvidia-2.9.x86_64.cdx.json"
+        "filename": "pytorch-2.14.1-nvidia-3.1.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "pytorch-2",
-      "org.opencontainers.image.base.digest": "sha256:52cd5d552529b8f05d86496cc7452e74d338a8542fff899a25617e783fa4bd6c",
-      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.11",
-      "org.opencontainers.image.created": "2026-10-14T11:04:43.007989788Z",
+      "org.opencontainers.image.base.digest": "sha256:21dfe702c6b94e9309a4fd32e9cb790566d66dc2a0f4f117d60fe7a1a4d63600",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-14T20:01:18.714173960Z",
       "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
-      "org.opencontainers.image.ref.name": "2.14.1-nvidia-2.9",
+      "org.opencontainers.image.ref.name": "2.14.1-nvidia-3.1",
       "org.opencontainers.image.title": "PyTorch",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -9911,7 +9911,7 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/2ac0044c3e93bdef16e5e10d323dcaf89e6af1884507914876344d0f394243c3"
+      "artifact_url": "https://apps.rancher.io/artifacts/d2a59b21f134e728e10129718956369b7742a667b24d087201cd0ce3f905815f"
     }
   },
   {

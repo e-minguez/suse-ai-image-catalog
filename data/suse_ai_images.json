@@ -9824,33 +9824,33 @@
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:2.14.1-nvidia-3.1",
+    "image_name": "pytorch:2.14.1-nvidia-4.2",
     "version": "2.14.1",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:26c1a2f22a44e2b87508442bcc89abc07fd08773695f0ea7497a181c42ab69b5",
-    "last_updated": "2026-10-14 20:32",
+    "digest": "SHA256:150bdc3383941bdecba60fc6e832c7b8f00c709117f0a14745e38ad9b34f754b",
+    "last_updated": "2026-10-18 21:28",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "pytorch-2.14.1-nvidia-3.1.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "pytorch-2.14.1-nvidia-4.2.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "pytorch-2.14.1-nvidia-3.1.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "pytorch-2.14.1-nvidia-4.2.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "pytorch-2",
       "org.opencontainers.image.base.digest": "sha256:b248f858451855743d9acced6f8ef9908eb2e47a790fe6b4cefed93c259b09c6",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
-      "org.opencontainers.image.created": "2026-10-14T20:01:24.858981640Z",
+      "org.opencontainers.image.created": "2026-10-18T20:42:04.762910360Z",
       "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
-      "org.opencontainers.image.ref.name": "2.14.1-nvidia-3.1",
+      "org.opencontainers.image.ref.name": "2.14.1-nvidia-4.2",
       "org.opencontainers.image.title": "PyTorch",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -9864,40 +9864,40 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/26c1a2f22a44e2b87508442bcc89abc07fd08773695f0ea7497a181c42ab69b5"
+      "artifact_url": "https://apps.rancher.io/artifacts/150bdc3383941bdecba60fc6e832c7b8f00c709117f0a14745e38ad9b34f754b"
     }
   },
   {
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:2.14.1-nvidia-3.1",
+    "image_name": "pytorch:2.14.1-nvidia-4.2",
     "version": "2.14.1",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:d2a59b21f134e728e10129718956369b7742a667b24d087201cd0ce3f905815f",
-    "last_updated": "2026-10-14 20:32",
+    "digest": "SHA256:0cd4a6166bdfabe0c0fc16859461481cc06b4a39248d1b63c5c58cf0ff3ca273",
+    "last_updated": "2026-10-18 21:28",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "pytorch-2.14.1-nvidia-3.1.x86_64.spdx.json"
+        "filename": "pytorch-2.14.1-nvidia-4.2.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "pytorch-2.14.1-nvidia-3.1.x86_64.cdx.json"
+        "filename": "pytorch-2.14.1-nvidia-4.2.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "pytorch-2",
       "org.opencontainers.image.base.digest": "sha256:21dfe702c6b94e9309a4fd32e9cb790566d66dc2a0f4f117d60fe7a1a4d63600",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
-      "org.opencontainers.image.created": "2026-10-14T20:01:18.714173960Z",
+      "org.opencontainers.image.created": "2026-10-18T21:05:37.153384757Z",
       "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
-      "org.opencontainers.image.ref.name": "2.14.1-nvidia-3.1",
+      "org.opencontainers.image.ref.name": "2.14.1-nvidia-4.2",
       "org.opencontainers.image.title": "PyTorch",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -9911,7 +9911,7 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/d2a59b21f134e728e10129718956369b7742a667b24d087201cd0ce3f905815f"
+      "artifact_url": "https://apps.rancher.io/artifacts/0cd4a6166bdfabe0c0fc16859461481cc06b4a39248d1b63c5c58cf0ff3ca273"
     }
   },
   {

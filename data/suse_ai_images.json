@@ -7385,6 +7385,100 @@
     "application": "ollama",
     "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
     "component": "ollama",
+    "image_name": "ollama:0.40.5-nvidia-1.1",
+    "version": "0.40.5",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:ae4101e37c3cc00ff6816f22147d2a7ad3cab247c5f4b6a1e2091f6450e62ac0",
+    "last_updated": "2026-10-21 01:17",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "ollama-0.40.5-nvidia-1.1.aarch64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "ollama-0.40.5-nvidia-1.1.aarch64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "ollama-0",
+      "org.opencontainers.image.base.digest": "sha256:b248f858451855743d9acced6f8ef9908eb2e47a790fe6b4cefed93c259b09c6",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-21T01:04:17.545462000Z",
+      "org.opencontainers.image.description": "Ollama is an open-source platform for running and managing large language models (LLMs) locally, providing a CLI and REST API for model inference, deployment, and integration into AI-powered applications.",
+      "org.opencontainers.image.ref.name": "0.40.5-nvidia-1.1",
+      "org.opencontainers.image.title": "Ollama",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "0.40.5"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 47,
+      "critical": 0,
+      "high": 23,
+      "medium": 22,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/ae4101e37c3cc00ff6816f22147d2a7ad3cab247c5f4b6a1e2091f6450e62ac0"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
+    "image_name": "ollama:0.40.5-nvidia-1.1",
+    "version": "0.40.5",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:dd19fb8d6293fc04ddf67b14e8e4e93e79f580a3e6487d6e55b59e9c1f0af125",
+    "last_updated": "2026-10-21 01:17",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "ollama-0.40.5-nvidia-1.1.x86_64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "ollama-0.40.5-nvidia-1.1.x86_64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "ollama-0",
+      "org.opencontainers.image.base.digest": "sha256:21dfe702c6b94e9309a4fd32e9cb790566d66dc2a0f4f117d60fe7a1a4d63600",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-20T22:40:51.707990259Z",
+      "org.opencontainers.image.description": "Ollama is an open-source platform for running and managing large language models (LLMs) locally, providing a CLI and REST API for model inference, deployment, and integration into AI-powered applications.",
+      "org.opencontainers.image.ref.name": "0.40.5-nvidia-1.1",
+      "org.opencontainers.image.title": "Ollama",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "0.40.5"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 47,
+      "critical": 0,
+      "high": 23,
+      "medium": 22,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/dd19fb8d6293fc04ddf67b14e8e4e93e79f580a3e6487d6e55b59e9c1f0af125"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
     "image_name": "ollama:0.40.3-11.101",
     "version": "0.40.3",
     "packaging_format": "CONTAINER",
@@ -9918,33 +10012,33 @@
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:2.14.1-nvidia-4.2",
+    "image_name": "pytorch:2.14.1-nvidia-4.3",
     "version": "2.14.1",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:150bdc3383941bdecba60fc6e832c7b8f00c709117f0a14745e38ad9b34f754b",
-    "last_updated": "2026-10-18 21:28",
+    "digest": "SHA256:46eed239ead4314c5aa1512654489823cad3cefaa727c2818ea4f2be38fbe952",
+    "last_updated": "2026-10-21 01:17",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "pytorch-2.14.1-nvidia-4.2.aarch64.spdx.json"
+        "filename": "pytorch-2.14.1-nvidia-4.3.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "pytorch-2.14.1-nvidia-4.2.aarch64.cdx.json"
+        "filename": "pytorch-2.14.1-nvidia-4.3.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "pytorch-2",
       "org.opencontainers.image.base.digest": "sha256:b248f858451855743d9acced6f8ef9908eb2e47a790fe6b4cefed93c259b09c6",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
-      "org.opencontainers.image.created": "2026-10-18T20:42:04.762910360Z",
+      "org.opencontainers.image.created": "2026-10-20T22:13:16.647210480Z",
       "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
-      "org.opencontainers.image.ref.name": "2.14.1-nvidia-4.2",
+      "org.opencontainers.image.ref.name": "2.14.1-nvidia-4.3",
       "org.opencontainers.image.title": "PyTorch",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -9958,40 +10052,40 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/150bdc3383941bdecba60fc6e832c7b8f00c709117f0a14745e38ad9b34f754b"
+      "artifact_url": "https://apps.rancher.io/artifacts/46eed239ead4314c5aa1512654489823cad3cefaa727c2818ea4f2be38fbe952"
     }
   },
   {
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:2.14.1-nvidia-4.2",
+    "image_name": "pytorch:2.14.1-nvidia-4.3",
     "version": "2.14.1",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:0cd4a6166bdfabe0c0fc16859461481cc06b4a39248d1b63c5c58cf0ff3ca273",
-    "last_updated": "2026-10-18 21:28",
+    "digest": "SHA256:3f18e0ebb56d568e94ca9f3cadf58a833a7c8303b823153d9da0a1f3c6992350",
+    "last_updated": "2026-10-21 01:17",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "pytorch-2.14.1-nvidia-4.2.x86_64.spdx.json"
+        "filename": "pytorch-2.14.1-nvidia-4.3.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "pytorch-2.14.1-nvidia-4.2.x86_64.cdx.json"
+        "filename": "pytorch-2.14.1-nvidia-4.3.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "pytorch-2",
       "org.opencontainers.image.base.digest": "sha256:21dfe702c6b94e9309a4fd32e9cb790566d66dc2a0f4f117d60fe7a1a4d63600",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
-      "org.opencontainers.image.created": "2026-10-18T21:05:37.153384757Z",
+      "org.opencontainers.image.created": "2026-10-20T17:58:28.678456501Z",
       "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
-      "org.opencontainers.image.ref.name": "2.14.1-nvidia-4.2",
+      "org.opencontainers.image.ref.name": "2.14.1-nvidia-4.3",
       "org.opencontainers.image.title": "PyTorch",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -10005,7 +10099,7 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/0cd4a6166bdfabe0c0fc16859461481cc06b4a39248d1b63c5c58cf0ff3ca273"
+      "artifact_url": "https://apps.rancher.io/artifacts/3f18e0ebb56d568e94ca9f3cadf58a833a7c8303b823153d9da0a1f3c6992350"
     }
   },
   {

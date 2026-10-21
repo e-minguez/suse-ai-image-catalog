@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-21 04:37",
+    "changes": [
+      "New Container (AppCo): ollama:0.40.5-nvidia-1.1 (aarch64)",
+      "New Container (AppCo): ollama:0.40.5-nvidia-1.1 (x86_64)",
+      "New Container (AppCo): pytorch:2.14.1-nvidia-4.3 (aarch64)",
+      "New Container (AppCo): pytorch:2.14.1-nvidia-4.3 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-10-19 21:11",
     "changes": [
       "New Container (GHCR): suse/chart/aif-operator:2.3.1 (N/A)",
@@ -212,13 +221,6 @@
       "New Container (GHCR): suse/aif-ui:2.3.0-rc.5-amd64 (x86_64)",
       "New Container (GHCR): suse/aif-ui:2.3.0-rc.5-arm64 (arm64)",
       "New Container (GHCR): suse/aif-ui:2.3.0-rc.5 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-10-07 15:42",
-    "changes": [
-      "New Container (AppCo): pytorch:2.14.0-nvidia-2.4 (aarch64)",
-      "New Container (AppCo): pytorch:2.14.0-nvidia-2.4 (x86_64)"
     ]
   }
 ]

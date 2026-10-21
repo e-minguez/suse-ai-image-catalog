@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-21 13:52",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.25-14.5 (aarch64)",
+      "New Container (AppCo): milvus:2.6.25-nvidia-14.5 (aarch64)",
+      "New Container (AppCo): milvus:2.6.25-14.5 (x86_64)",
+      "New Container (AppCo): milvus:2.6.25-nvidia-14.5 (x86_64)",
+      "New Chart (AppCo): milvus:5.0.25-87.1 (N/A)",
+      "New Container (AppCo): ollama:0.40.6-nvidia-1.2 (aarch64)",
+      "New Container (AppCo): ollama:0.40.6-nvidia-1.2 (x86_64)",
+      "New Chart (AppCo): ollama:1.89.0-1.1 (N/A)",
+      "New Container (AppCo): pytorch:2.14.1-nvidia-4.4 (aarch64)",
+      "New Container (AppCo): pytorch:2.14.1-nvidia-4.4 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-10-21 04:37",
     "changes": [
       "New Container (AppCo): ollama:0.40.5-nvidia-1.1 (aarch64)",
@@ -210,17 +225,6 @@
       "New Container (GHCR): suse/aif-ui:2.3.0-amd64 (x86_64)",
       "New Container (GHCR): suse/aif-ui:2.3.0-arm64 (arm64)",
       "New Container (GHCR): suse/aif-ui:2.3.0 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-10-07 21:26",
-    "changes": [
-      "New Container (GHCR): suse/chart/aif-operator:2.3.0-rc.5 (N/A)",
-      "New Container (GHCR): suse/chart/aif-ui:2.3.0-rc.5 (N/A)",
-      "New Container (GHCR): suse/aif-operator:2.3.0-rc.5 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.3.0-rc.5-amd64 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.3.0-rc.5-arm64 (arm64)",
-      "New Container (GHCR): suse/aif-ui:2.3.0-rc.5 (x86_64)"
     ]
   }
 ]

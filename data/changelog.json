@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-23 23:16",
+    "changes": [
+      "New Container (AppCo): ollama:0.40.10-nvidia-1.9 (aarch64)",
+      "New Container (AppCo): ollama:0.40.10-nvidia-1.9 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-10-23 13:33",
     "changes": [
       "New Container (AppCo): mlflow:3.17.2-17.4 (aarch64)",
@@ -208,16 +215,6 @@
       "New Container (AppCo): mlflow:2.22.4-19.7 (x86_64)",
       "New Container (AppCo): pytorch:2.14.0-nvidia-2.7 (aarch64)",
       "New Container (AppCo): pytorch:2.14.0-nvidia-2.7 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-10-13 02:07",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.25-13.8 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-13.8 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-13.8 (x86_64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-13.8 (x86_64)",
-      "New Chart (AppCo): pytorch:0.4.0-7.1 (N/A)"
     ]
   }
 ]

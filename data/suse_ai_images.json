@@ -3567,6 +3567,100 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
+    "image_name": "mlflow:3.17.2-17.4",
+    "version": "3.17.2",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:2cf21e747c644ac357a6a105b318ea334660a86d817e48e844ec98e5b254f06e",
+    "last_updated": "2026-10-23 05:36",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "mlflow-3.17.2-17.4.aarch64.cdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "mlflow-3.17.2-17.4.aarch64.spdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "mlflow-3",
+      "org.opencontainers.image.base.digest": "sha256:b248f858451855743d9acced6f8ef9908eb2e47a790fe6b4cefed93c259b09c6",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-21T14:45:45.457691480Z",
+      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
+      "org.opencontainers.image.ref.name": "3.17.2-17.4",
+      "org.opencontainers.image.title": "MLflow",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "3.17.2"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 6,
+      "critical": 0,
+      "high": 4,
+      "medium": 2,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/2cf21e747c644ac357a6a105b318ea334660a86d817e48e844ec98e5b254f06e"
+    }
+  },
+  {
+    "application": "mlflow",
+    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
+    "component": "mlflow",
+    "image_name": "mlflow:3.17.2-17.4",
+    "version": "3.17.2",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:b3f26584559548dccd6ad78954489dd691605a4dfd76e3fe825fbbb713ad9d6a",
+    "last_updated": "2026-10-23 05:36",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "mlflow-3.17.2-17.4.x86_64.cdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "mlflow-3.17.2-17.4.x86_64.spdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "mlflow-3",
+      "org.opencontainers.image.base.digest": "sha256:21dfe702c6b94e9309a4fd32e9cb790566d66dc2a0f4f117d60fe7a1a4d63600",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-21T16:18:18.056891200Z",
+      "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
+      "org.opencontainers.image.ref.name": "3.17.2-17.4",
+      "org.opencontainers.image.title": "MLflow",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "3.17.2"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 6,
+      "critical": 0,
+      "high": 4,
+      "medium": 2,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/b3f26584559548dccd6ad78954489dd691605a4dfd76e3fe825fbbb713ad9d6a"
+    }
+  },
+  {
+    "application": "mlflow",
+    "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
+    "component": "mlflow",
     "image_name": "mlflow:3.17.1-17.2",
     "version": "3.17.1",
     "packaging_format": "CONTAINER",
@@ -6367,33 +6461,33 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:2.22.4-20.1",
+    "image_name": "mlflow:2.22.4-20.4",
     "version": "2.22.4",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:fcdbb41ff65fe3735ca9ae8b9932af4b642275d0cb6d1573151bb535af69083b",
-    "last_updated": "2026-10-15 16:58",
+    "digest": "SHA256:3dd82af8ab5a876259aaa4c09fd208d803b9604118df813b8001e0bc6294db48",
+    "last_updated": "2026-10-23 05:36",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-2.22.4-20.1.aarch64.spdx.json"
+        "filename": "mlflow-2.22.4-20.4.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-2.22.4-20.1.aarch64.cdx.json"
+        "filename": "mlflow-2.22.4-20.4.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-2",
       "org.opencontainers.image.base.digest": "sha256:b248f858451855743d9acced6f8ef9908eb2e47a790fe6b4cefed93c259b09c6",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
-      "org.opencontainers.image.created": "2026-10-14T21:48:37.573469400Z",
+      "org.opencontainers.image.created": "2026-10-22T06:09:58.246492640Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "2.22.4-20.1",
+      "org.opencontainers.image.ref.name": "2.22.4-20.4",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -6401,46 +6495,46 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 65,
-      "critical": 8,
-      "high": 38,
-      "medium": 17,
+      "total": 94,
+      "critical": 12,
+      "high": 54,
+      "medium": 26,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/fcdbb41ff65fe3735ca9ae8b9932af4b642275d0cb6d1573151bb535af69083b"
+      "artifact_url": "https://apps.rancher.io/artifacts/3dd82af8ab5a876259aaa4c09fd208d803b9604118df813b8001e0bc6294db48"
     }
   },
   {
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:2.22.4-20.1",
+    "image_name": "mlflow:2.22.4-20.4",
     "version": "2.22.4",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:c6cb360c3fc2002a61d17fd0e973c69a2fd43a92c1965c5dd0b0c7ffd9481a3d",
-    "last_updated": "2026-10-15 16:58",
+    "digest": "SHA256:d41df5c6b687f4553e429163cca7e93ec2265e9a6635676786c9df2edb9555d4",
+    "last_updated": "2026-10-23 05:36",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "mlflow-2.22.4-20.1.x86_64.cdx.json"
+        "format": "SPDX",
+        "filename": "mlflow-2.22.4-20.4.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "mlflow-2.22.4-20.1.x86_64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "mlflow-2.22.4-20.4.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-2",
       "org.opencontainers.image.base.digest": "sha256:21dfe702c6b94e9309a4fd32e9cb790566d66dc2a0f4f117d60fe7a1a4d63600",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
-      "org.opencontainers.image.created": "2026-10-14T21:17:57.994532676Z",
+      "org.opencontainers.image.created": "2026-10-21T16:46:36.581380259Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "2.22.4-20.1",
+      "org.opencontainers.image.ref.name": "2.22.4-20.4",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -6448,13 +6542,13 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 65,
-      "critical": 8,
-      "high": 38,
-      "medium": 17,
+      "total": 75,
+      "critical": 10,
+      "high": 44,
+      "medium": 19,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/c6cb360c3fc2002a61d17fd0e973c69a2fd43a92c1965c5dd0b0c7ffd9481a3d"
+      "artifact_url": "https://apps.rancher.io/artifacts/d41df5c6b687f4553e429163cca7e93ec2265e9a6635676786c9df2edb9555d4"
     }
   },
   {
@@ -7379,6 +7473,129 @@
       "low": 6,
       "source": "apps.rancher.io",
       "artifact_url": "https://apps.rancher.io/artifacts/b2549192a08b3e50c3c760ad79c4542b84f14fc0a42c40bcc6f73d653aa98808"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
+    "image_name": "ollama:0.40.9-nvidia-1.8",
+    "version": "0.40.9",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:3d44564ef46ed8e2a2e30fef6b44e49ce48d93f4fc7e84067403f0aa76ea0352",
+    "last_updated": "2026-10-23 08:51",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "ollama-0.40.9-nvidia-1.8.aarch64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "ollama-0.40.9-nvidia-1.8.aarch64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "ollama-0",
+      "org.opencontainers.image.base.digest": "sha256:b248f858451855743d9acced6f8ef9908eb2e47a790fe6b4cefed93c259b09c6",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-23T08:43:50.168703600Z",
+      "org.opencontainers.image.description": "Ollama is an open-source platform for running and managing large language models (LLMs) locally, providing a CLI and REST API for model inference, deployment, and integration into AI-powered applications.",
+      "org.opencontainers.image.ref.name": "0.40.9-nvidia-1.8",
+      "org.opencontainers.image.title": "Ollama",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "0.40.9"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 1,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/3d44564ef46ed8e2a2e30fef6b44e49ce48d93f4fc7e84067403f0aa76ea0352"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
+    "image_name": "ollama:0.40.9-nvidia-1.8",
+    "version": "0.40.9",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:deab490cb7701c0d2776194dcf01ab65b8eb84e99ff914be2ced6c579071ac24",
+    "last_updated": "2026-10-23 08:51",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "ollama-0.40.9-nvidia-1.8.x86_64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "ollama-0.40.9-nvidia-1.8.x86_64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "ollama-0",
+      "org.opencontainers.image.base.digest": "sha256:21dfe702c6b94e9309a4fd32e9cb790566d66dc2a0f4f117d60fe7a1a4d63600",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.16",
+      "org.opencontainers.image.created": "2026-10-23T08:29:32.542843270Z",
+      "org.opencontainers.image.description": "Ollama is an open-source platform for running and managing large language models (LLMs) locally, providing a CLI and REST API for model inference, deployment, and integration into AI-powered applications.",
+      "org.opencontainers.image.ref.name": "0.40.9-nvidia-1.8",
+      "org.opencontainers.image.title": "Ollama",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "0.40.9"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 1,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/deab490cb7701c0d2776194dcf01ab65b8eb84e99ff914be2ced6c579071ac24"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
+    "image_name": "ollama:1.91.0-3.1",
+    "version": "0.40.9",
+    "packaging_format": "HELM_CHART",
+    "architecture": null,
+    "os_family": null,
+    "os_version": null,
+    "digest": "SHA256:aa1e3acafeda9bc41a1f876fbeaf8307abca9857089a933369385433d15fa554",
+    "last_updated": "2026-10-23 10:24",
+    "sboms": [],
+    "labels": {},
+    "chart_images": [
+      "dp.apps.rancher.io/containers/ollama:0.40.9-nvidia-1.8"
+    ],
+    "vulnerabilities": {
+      "total": 1,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "",
+      "source": "aggregated_appco_images",
+      "component_count": 1,
+      "artifact_url": "https://apps.rancher.io/artifacts/aa1e3acafeda9bc41a1f876fbeaf8307abca9857089a933369385433d15fa554"
     }
   },
   {

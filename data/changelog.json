@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-25 04:38",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.25-89.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-10-24 18:57",
     "changes": [
       "New Container (AppCo): heaptrack:1.3.0-14.1 (aarch64)",
@@ -210,15 +216,6 @@
     "date": "2026-10-14 04:48",
     "changes": [
       "New Chart (AppCo): pytorch:0.4.0-8.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-10-13 23:55",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.25-13.9 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-13.9 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-13.9 (x86_64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-13.9 (x86_64)"
     ]
   }
 ]

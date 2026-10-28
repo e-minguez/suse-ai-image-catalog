@@ -7551,6 +7551,35 @@
     "application": "ollama",
     "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
     "component": "ollama",
+    "image_name": "ollama:1.93.0-5.1",
+    "version": "0.40.12",
+    "packaging_format": "HELM_CHART",
+    "architecture": null,
+    "os_family": null,
+    "os_version": null,
+    "digest": "SHA256:e75cbc76af24585523c2eaf9a9e3e705ef0c6056f91ac731642d941af277a2e1",
+    "last_updated": "2026-10-28 14:51",
+    "sboms": [],
+    "labels": {},
+    "chart_images": [
+      "dp.apps.rancher.io/containers/ollama:0.40.12-nvidia-2.4"
+    ],
+    "vulnerabilities": {
+      "total": 3,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "scan_date": "",
+      "source": "aggregated_appco_images",
+      "component_count": 1,
+      "artifact_url": "https://apps.rancher.io/artifacts/e75cbc76af24585523c2eaf9a9e3e705ef0c6056f91ac731642d941af277a2e1"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
     "image_name": "ollama:0.40.11-nvidia-2.3",
     "version": "0.40.11",
     "packaging_format": "CONTAINER",

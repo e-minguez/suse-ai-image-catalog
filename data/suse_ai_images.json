@@ -14251,33 +14251,33 @@
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-vllm-openai",
-    "image_name": "lmcache-vllm-openai:0.5.6-nvidia-1.4",
+    "image_name": "lmcache-vllm-openai:0.5.6-nvidia-1.5",
     "version": "0.5.6",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:b5b41e7568a57df47dbe3c14cbe9b221dd5ca8230d9cf73d0d914741d676406d",
-    "last_updated": "2026-10-29 20:29",
+    "digest": "SHA256:6f2a0958d2fd22abb729a94b8cbe00e3da7f82ab6074a90c3e2c51b7304dabe7",
+    "last_updated": "2026-10-30 12:03",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.4.aarch64.spdx.json"
+        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.5.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.4.aarch64.cdx.json"
+        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.5.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "lmcache-0-vllm-openai",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-10-29T16:50:39.158388120Z",
+      "org.opencontainers.image.created": "2026-10-30T11:06:58.778742960Z",
       "org.opencontainers.image.description": "vLLM is a high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs). The vLLM OpenAI compatible server provides an HTTP server that implements several of OpenAI's APIs, such as the Completions API, Chat Completions API, and more. Combined with LMCache, a modular KV cache layer for LLM inference, it allows for workloads where long prompts, conversation history, and retrieved content to be reused across requests.",
-      "org.opencontainers.image.ref.name": "0.5.6-nvidia-1.4",
+      "org.opencontainers.image.ref.name": "0.5.6-nvidia-1.5",
       "org.opencontainers.image.title": "LMCache vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm-stack",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -14291,40 +14291,40 @@
       "medium": 13,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/b5b41e7568a57df47dbe3c14cbe9b221dd5ca8230d9cf73d0d914741d676406d"
+      "artifact_url": "https://apps.rancher.io/artifacts/6f2a0958d2fd22abb729a94b8cbe00e3da7f82ab6074a90c3e2c51b7304dabe7"
     }
   },
   {
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-vllm-openai",
-    "image_name": "lmcache-vllm-openai:0.5.6-nvidia-1.4",
+    "image_name": "lmcache-vllm-openai:0.5.6-nvidia-1.5",
     "version": "0.5.6",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:7aa4b73879b34f38a2a1f871fa399ec75d5bfdec1806318d4cb8d1cd922a55b3",
-    "last_updated": "2026-10-29 20:29",
+    "digest": "SHA256:57d08e83ab404f62ddb8e841fec4b19838c998a02b04caf56907dad4592afaa7",
+    "last_updated": "2026-10-30 12:03",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.4.x86_64.spdx.json"
+        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.5.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.4.x86_64.cdx.json"
+        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.5.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "lmcache-0-vllm-openai",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-10-29T17:49:03.278702209Z",
+      "org.opencontainers.image.created": "2026-10-30T09:59:49.799054909Z",
       "org.opencontainers.image.description": "vLLM is a high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs). The vLLM OpenAI compatible server provides an HTTP server that implements several of OpenAI's APIs, such as the Completions API, Chat Completions API, and more. Combined with LMCache, a modular KV cache layer for LLM inference, it allows for workloads where long prompts, conversation history, and retrieved content to be reused across requests.",
-      "org.opencontainers.image.ref.name": "0.5.6-nvidia-1.4",
+      "org.opencontainers.image.ref.name": "0.5.6-nvidia-1.5",
       "org.opencontainers.image.title": "LMCache vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm-stack",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -14338,7 +14338,7 @@
       "medium": 13,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/7aa4b73879b34f38a2a1f871fa399ec75d5bfdec1806318d4cb8d1cd922a55b3"
+      "artifact_url": "https://apps.rancher.io/artifacts/57d08e83ab404f62ddb8e841fec4b19838c998a02b04caf56907dad4592afaa7"
     }
   },
   {

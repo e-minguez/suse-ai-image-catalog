@@ -10981,6 +10981,100 @@
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
+    "image_name": "pytorch:2.15.0-nvidia-5.4",
+    "version": "2.15.0",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:556fdcc53008f2a4176083c1b04e090f6d784cda2ff98d9f3bb90030fbc33896",
+    "last_updated": "2026-10-31 11:13",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "pytorch-2.15.0-nvidia-5.4.aarch64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "pytorch-2.15.0-nvidia-5.4.aarch64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "pytorch-2",
+      "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
+      "org.opencontainers.image.created": "2026-10-31T10:48:30.493778000Z",
+      "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
+      "org.opencontainers.image.ref.name": "2.15.0-nvidia-5.4",
+      "org.opencontainers.image.title": "PyTorch",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "2.15.0"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/556fdcc53008f2a4176083c1b04e090f6d784cda2ff98d9f3bb90030fbc33896"
+    }
+  },
+  {
+    "application": "pytorch",
+    "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
+    "component": "pytorch",
+    "image_name": "pytorch:2.15.0-nvidia-5.4",
+    "version": "2.15.0",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:630208680caae2d518ac32ba3dc4e47f4f1b7f824fdc13cee25992aae349a1b8",
+    "last_updated": "2026-10-31 11:13",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "pytorch-2.15.0-nvidia-5.4.x86_64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "pytorch-2.15.0-nvidia-5.4.x86_64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "pytorch-2",
+      "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
+      "org.opencontainers.image.created": "2026-10-31T10:48:08.476426008Z",
+      "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
+      "org.opencontainers.image.ref.name": "2.15.0-nvidia-5.4",
+      "org.opencontainers.image.title": "PyTorch",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "2.15.0"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/630208680caae2d518ac32ba3dc4e47f4f1b7f824fdc13cee25992aae349a1b8"
+    }
+  },
+  {
+    "application": "pytorch",
+    "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
+    "component": "pytorch",
     "image_name": "pytorch:2.14.1-nvidia-5.3",
     "version": "2.14.1",
     "packaging_format": "CONTAINER",

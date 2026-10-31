@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-31 14:45",
+    "changes": [
+      "New Container (AppCo): pytorch:2.15.0-nvidia-5.4 (aarch64)",
+      "New Container (AppCo): pytorch:2.15.0-nvidia-5.4 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-10-31 05:31",
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-91.1 (N/A)"
@@ -341,15 +348,6 @@
     "date": "2026-10-23 04:40",
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-88.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-10-22 20:05",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.25-14.8 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-14.8 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-14.8 (x86_64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-14.8 (x86_64)"
     ]
   }
 ]

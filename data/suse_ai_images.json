@@ -10726,32 +10726,32 @@
     "application": "open-webui-mcpo",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-mcpo.png",
     "component": "open-webui-mcpo",
-    "image_name": "open-webui-mcpo:0.0.17-2.125",
+    "image_name": "open-webui-mcpo:0.0.17-2.126",
     "version": "0.0.17",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:87dc653bd3769b0e94344c28ede6e41c8b2bf18da1f6128a55975ede4207656d",
-    "last_updated": "2026-11-02 18:52",
+    "digest": "SHA256:4fbe51befba8d601127ecb29e4c5c28e28271e0c1b19f57d86601b3c8d0f5c37",
+    "last_updated": "2026-11-03 12:48",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-mcpo-0.0.17-2.125.aarch64.spdx.json"
+        "filename": "open-webui-mcpo-0.0.17-2.126.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-mcpo-0.0.17-2.125.aarch64.cdx.json"
+        "filename": "open-webui-mcpo-0.0.17-2.126.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-02T17:07:14.022106320Z",
+      "org.opencontainers.image.created": "2026-11-03T09:33:20.794570440Z",
       "org.opencontainers.image.description": "A simple, secure MCP-to-OpenAPI proxy server.",
-      "org.opencontainers.image.ref.name": "0.0.17-2.125",
+      "org.opencontainers.image.ref.name": "0.0.17-2.126",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-mcpo-container/6f87acef9dedf5ee9f5fe01d17b00bee/",
       "org.opencontainers.image.title": "Open WebUI mcpo",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-mcpo",
@@ -10766,39 +10766,39 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/87dc653bd3769b0e94344c28ede6e41c8b2bf18da1f6128a55975ede4207656d"
+      "artifact_url": "https://apps.rancher.io/artifacts/4fbe51befba8d601127ecb29e4c5c28e28271e0c1b19f57d86601b3c8d0f5c37"
     }
   },
   {
     "application": "open-webui-mcpo",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-mcpo.png",
     "component": "open-webui-mcpo",
-    "image_name": "open-webui-mcpo:0.0.17-2.125",
+    "image_name": "open-webui-mcpo:0.0.17-2.126",
     "version": "0.0.17",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:4c9952afa88c6284006b223b7ad3800710d7ba163c982e84fd957b3c17cf2f2b",
-    "last_updated": "2026-11-02 18:52",
+    "digest": "SHA256:1c8b4e4db31c0bb734946b3ee84fed47b2de0fe4d18f431f7f7cf1ea9d28f6c1",
+    "last_updated": "2026-11-03 12:48",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "open-webui-mcpo-0.0.17-2.125.x86_64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "open-webui-mcpo-0.0.17-2.126.x86_64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "open-webui-mcpo-0.0.17-2.125.x86_64.cdx.json"
+        "format": "SPDX",
+        "filename": "open-webui-mcpo-0.0.17-2.126.x86_64.spdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-02T17:18:14.762255137Z",
+      "org.opencontainers.image.created": "2026-11-03T09:23:41.833046261Z",
       "org.opencontainers.image.description": "A simple, secure MCP-to-OpenAPI proxy server.",
-      "org.opencontainers.image.ref.name": "0.0.17-2.125",
+      "org.opencontainers.image.ref.name": "0.0.17-2.126",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-mcpo-container/6f87acef9dedf5ee9f5fe01d17b00bee/",
       "org.opencontainers.image.title": "Open WebUI mcpo",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-mcpo",
@@ -10813,7 +10813,7 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/4c9952afa88c6284006b223b7ad3800710d7ba163c982e84fd957b3c17cf2f2b"
+      "artifact_url": "https://apps.rancher.io/artifacts/1c8b4e4db31c0bb734946b3ee84fed47b2de0fe4d18f431f7f7cf1ea9d28f6c1"
     }
   },
   {
@@ -10865,32 +10865,32 @@
     "application": "open-webui-pipelines",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-pipelines.png",
     "component": "open-webui-pipelines",
-    "image_name": "open-webui-pipelines:0.20250819.030501-8.118",
+    "image_name": "open-webui-pipelines:0.20250819.030501-8.119",
     "version": "0.20250819.030501",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:3ab8a32b6e056c9602e6f3ec76857cec06e5a86f962b31eea97aee54d615f3bd",
-    "last_updated": "2026-10-30 01:05",
+    "digest": "SHA256:e60d5789079a19178da8b89ec22c991823d58ae648fec17e10347c517f4eb51f",
+    "last_updated": "2026-11-03 12:48",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.118.aarch64.spdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.119.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.118.aarch64.cdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.119.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-10-29T23:56:22.860979640Z",
+      "org.opencontainers.image.created": "2026-11-03T10:46:59.863128480Z",
       "org.opencontainers.image.description": "Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs and much more! Easily extend functionalities, integrate unique logic, and create dynamic workflows with just a few lines of code.",
-      "org.opencontainers.image.ref.name": "0.20250819.030501-8.118",
+      "org.opencontainers.image.ref.name": "0.20250819.030501-8.119",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-pipelines-container/72a8c152a1f5f742ec21b2560d6dfcfd/",
       "org.opencontainers.image.title": "Open WebUI Pipelines",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-pipelines",
@@ -10899,45 +10899,45 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 121,
-      "critical": 4,
-      "high": 42,
-      "medium": 49,
-      "low": 26,
+      "total": 16,
+      "critical": 0,
+      "high": 6,
+      "medium": 9,
+      "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/3ab8a32b6e056c9602e6f3ec76857cec06e5a86f962b31eea97aee54d615f3bd"
+      "artifact_url": "https://apps.rancher.io/artifacts/e60d5789079a19178da8b89ec22c991823d58ae648fec17e10347c517f4eb51f"
     }
   },
   {
     "application": "open-webui-pipelines",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-pipelines.png",
     "component": "open-webui-pipelines",
-    "image_name": "open-webui-pipelines:0.20250819.030501-8.118",
+    "image_name": "open-webui-pipelines:0.20250819.030501-8.119",
     "version": "0.20250819.030501",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:cfa366c4f4d09c1cf0373a916f308da96cb5959d2c398c3674af506c3ab2d50b",
-    "last_updated": "2026-10-30 01:05",
+    "digest": "SHA256:dbacdb8fde7549eb3a711e8115181072cc7b370259a0a9823dffcef67a2ae5ff",
+    "last_updated": "2026-11-03 12:48",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.118.x86_64.spdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.119.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.118.x86_64.cdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.119.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-10-29T20:13:14.616100835Z",
+      "org.opencontainers.image.created": "2026-11-03T08:57:42.906770954Z",
       "org.opencontainers.image.description": "Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs and much more! Easily extend functionalities, integrate unique logic, and create dynamic workflows with just a few lines of code.",
-      "org.opencontainers.image.ref.name": "0.20250819.030501-8.118",
+      "org.opencontainers.image.ref.name": "0.20250819.030501-8.119",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-pipelines-container/72a8c152a1f5f742ec21b2560d6dfcfd/",
       "org.opencontainers.image.title": "Open WebUI Pipelines",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-pipelines",
@@ -10946,13 +10946,13 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 121,
-      "critical": 4,
-      "high": 42,
-      "medium": 49,
-      "low": 26,
+      "total": 16,
+      "critical": 0,
+      "high": 6,
+      "medium": 9,
+      "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/cfa366c4f4d09c1cf0373a916f308da96cb5959d2c398c3674af506c3ab2d50b"
+      "artifact_url": "https://apps.rancher.io/artifacts/dbacdb8fde7549eb3a711e8115181072cc7b370259a0a9823dffcef67a2ae5ff"
     }
   },
   {

@@ -1030,6 +1030,262 @@
     }
   },
   {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "4.47",
+    "image_name": "ai/containers/chrislusf/seaweedfs:4.47",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:ce9e796f1fe6f06968f4c04bdaf8f678dad9c8acdfef3d244133d71bfa6bf882",
+    "created": "2026-09-14 02:32",
+    "labels": {
+      "author": "Chris Lu",
+      "org.opencontainers.image.created": "2026-09-14T02:29:16.678Z",
+      "org.opencontainers.image.description": "SeaweedFS is a distributed storage system for blobs, objects, files, and data lake, to store and serve billions of files fast!",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "c5073360007d28385a33426a42ac3e4ec504c5a3",
+      "org.opencontainers.image.source": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.title": "seaweedfs",
+      "org.opencontainers.image.url": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.vendor": "Chris Lu",
+      "org.opencontainers.image.version": "4.47"
+    },
+    "entrypoint": [
+      "/entrypoint.sh"
+    ],
+    "cmd": [
+      "mini",
+      "-dir=/data"
+    ]
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "4.48",
+    "image_name": "ai/containers/chrislusf/seaweedfs:4.48",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4e61d15fd35994cb1e43e1e553dff106794841fd9a99ade2fc8c8bfce4d7872d",
+    "created": "2026-09-28 18:41",
+    "labels": {
+      "author": "Chris Lu",
+      "org.opencontainers.image.created": "2026-09-28T18:38:00.259Z",
+      "org.opencontainers.image.description": "SeaweedFS is a distributed storage system for blobs, objects, files, and data lake, to store and serve billions of files fast!",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "530be3e37337488ecc34d58441e0bc476e121c93",
+      "org.opencontainers.image.source": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.title": "seaweedfs",
+      "org.opencontainers.image.url": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.vendor": "Chris Lu",
+      "org.opencontainers.image.version": "4.48"
+    },
+    "entrypoint": [
+      "/entrypoint.sh"
+    ],
+    "cmd": [
+      "mini",
+      "-dir=/data"
+    ]
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "4.50",
+    "image_name": "ai/containers/chrislusf/seaweedfs:4.50",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:c2658820e763294a9e9de7b36c81e59b879e3459148351aee4e31a126ca64860",
+    "created": "2026-10-25 04:15",
+    "labels": {
+      "author": "Chris Lu",
+      "org.opencontainers.image.created": "2026-10-25T04:12:48.332Z",
+      "org.opencontainers.image.description": "SeaweedFS is a distributed storage system for blobs, objects, files, and data lake, to store and serve billions of files fast!",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "ec8f9793502c59ce3381cc4151bfc0806afd92e8",
+      "org.opencontainers.image.source": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.title": "seaweedfs",
+      "org.opencontainers.image.url": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.vendor": "Chris Lu",
+      "org.opencontainers.image.version": "4.50"
+    },
+    "entrypoint": [
+      "/entrypoint.sh"
+    ],
+    "cmd": [
+      "mini",
+      "-dir=/data"
+    ]
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "4.51",
+    "image_name": "ai/containers/chrislusf/seaweedfs:4.51",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:f7a49e3f3972ebed5be2ed4befa4a0c68eb7bdddba6e692d42729ceb545134b8",
+    "created": "2026-10-26 05:01",
+    "labels": {
+      "author": "Chris Lu",
+      "org.opencontainers.image.created": "2026-10-26T04:58:04.533Z",
+      "org.opencontainers.image.description": "SeaweedFS is a distributed storage system for blobs, objects, files, and data lake, to store and serve billions of files fast!",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "ffa87c25fdf587178b1521ad87f2a4a72a02e584",
+      "org.opencontainers.image.source": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.title": "seaweedfs",
+      "org.opencontainers.image.url": "https://github.com/seaweedfs/seaweedfs",
+      "org.opencontainers.image.vendor": "Chris Lu",
+      "org.opencontainers.image.version": "4.51"
+    },
+    "entrypoint": [
+      "/entrypoint.sh"
+    ],
+    "cmd": [
+      "mini",
+      "-dir=/data"
+    ]
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-091c1b81380487662ad418f8679a9aaf794ca1a0981048b92fee65cd154710ce",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-091c1b81380487662ad418f8679a9aaf794ca1a0981048b92fee65cd154710ce",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:905dc2894401b137a9433ebdb5a8477b0e84f2563aa9b995e1ee0106e59663fb",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-2248f1893d796da05f83a0b66621bff661b11de0bf4e4126557c1e9264976aa3",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-2248f1893d796da05f83a0b66621bff661b11de0bf4e4126557c1e9264976aa3",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:245b42396fa4477934314d2a79c684706be929007528c01d8a8120f4d7aa6b92",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-25c942abcdc2c767e9b57a87a90085958ead0615c028443d83a90f89e7da8a6d",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-25c942abcdc2c767e9b57a87a90085958ead0615c028443d83a90f89e7da8a6d",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:366c9a7b06782d711bdcc60746c9a581b4bb04aa47e478d8be6f7292014bd173",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-2837d18b13668b972b677a419f0271fd15d5620d6064b4820c1116f08d1e92ef",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-2837d18b13668b972b677a419f0271fd15d5620d6064b4820c1116f08d1e92ef",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:93cfeb6b425a4d8aace73e522077bf58b6b5a58e6159f38e9c62ea4fbac932b4",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-3a522c379599e163433a636e75022630848b63a74f08ea37bf06f8d776e9a707",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-3a522c379599e163433a636e75022630848b63a74f08ea37bf06f8d776e9a707",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:95d827c5a8e711820a0591a48741a3404c949d87b611a95cf4a1f6b217153e53",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-4fb2dac750c1851eed2b37afb4edc9be81c9a676744552415df3a702e426b6ef",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-4fb2dac750c1851eed2b37afb4edc9be81c9a676744552415df3a702e426b6ef",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:61ba50f01fc19145d5d0787d1738d10da7c801961d28bad6c255a736f06c8a1c",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-5ad6c570f27da8d2780469b55039fe1156fe8635d6e7329e8fe44478319c7eac",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-5ad6c570f27da8d2780469b55039fe1156fe8635d6e7329e8fe44478319c7eac",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:82c0ac0b3dc13541d834c03ce794de07c4128b412970a43984b241b8ea171449",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-5becf24a66e984f95c5b6dace3c4b7498cd7a81a65ba63d49e06fb3a07525b01",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-5becf24a66e984f95c5b6dace3c4b7498cd7a81a65ba63d49e06fb3a07525b01",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:20b4b9ee4fcc7e284847d906478c1669e9eb1ebc87bf72d5333ea683a2cc46dc",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-7e68a388de0806ed8d96f30cb7e927182a3d80d42920cb87d97d23311a7a1a77",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-7e68a388de0806ed8d96f30cb7e927182a3d80d42920cb87d97d23311a7a1a77",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:c759e6e0e1ed0b3087b4b0eb3b5d98fa5f013a75e88b00d5aa055e272b87aa59",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-a9f6a92567a1e66d6f813fdd60a88a0f92ddc68f98d8f0bb570f938645f60747",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-a9f6a92567a1e66d6f813fdd60a88a0f92ddc68f98d8f0bb570f938645f60747",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:b8c9e88e60a290bb0d0526911e38802ff3ae37d0f419507bdba2e1f374411996",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-b2e51562743be5637381a82eeeee4872eb2f86994b723d25a1bbd171855fe18d",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-b2e51562743be5637381a82eeeee4872eb2f86994b723d25a1bbd171855fe18d",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:0e916cf9b1cda0f320894656e2ba05f4f9a1919084d8571e6ccd6582f4eaa0ef",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/chrislusf/seaweedfs",
+    "tag": "sha256-fa2ecb00b0c82f0b3e5d0d3db79025722a7ffcf8a5a4877c33e7d2645d01cd3f",
+    "image_name": "ai/containers/chrislusf/seaweedfs:sha256-fa2ecb00b0c82f0b3e5d0d3db79025722a7ffcf8a5a4877c33e7d2645d01cd3f",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:47652fd03146f575e5e1ed4acbffaa8d1c37c6dee245ad3e8ad032ff60be575b",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/earlystopping-medianstop",
     "tag": "v0.19.0",
     "image_name": "ai/containers/earlystopping-medianstop:v0.19.0",
@@ -8522,6 +8778,20 @@
     }
   },
   {
+    "repository": "ai/containers/jobset/jobset",
+    "tag": "v0.13.0",
+    "image_name": "ai/containers/jobset/jobset:v0.13.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:c9bc37f8e09515078e0ed270a3fffb9a1ae434d7fd325092769072732b2116bd",
+    "created": "2026-10-12 19:01",
+    "labels": {},
+    "entrypoint": [
+      "/manager"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/jupyter-web-app",
     "tag": "v1.10.0",
     "image_name": "ai/containers/jupyter-web-app:v1.10.0",
@@ -10290,6 +10560,34 @@
     }
   },
   {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter",
+    "tag": "v1.23.1",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:v1.23.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4d0d21e62bb7ed0235efa88cfc99e019e54728e64d8e8b9a82139f8367ef4881",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/apiserver_receive_adapter"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter",
+    "tag": "v1.24.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:v1.24.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0c553761a4b6553186bce7e39a5cdb225093e428393c5c4ee0ae724d83169941",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/apiserver_receive_adapter"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller",
     "tag": "v1.20.0",
     "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller:v1.20.0",
@@ -11323,6 +11621,34 @@
       ],
       "details_path": "vulns/ai-containers-knative-releases-knative.dev-eventing-cmd-controller-v1.23.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller",
+    "tag": "v1.23.1",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller:v1.23.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:1564af0477c20e7dd18d86d017a2ec39b05ba5356a42e7ca04491bf82f3a948d",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/controller"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller",
+    "tag": "v1.24.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/controller:v1.24.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:2a411f7ce81ebd483071e2b85af99e9ee62a8e8fee049c32a0a52c9ce2819ec4",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/controller"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/mtping",
@@ -12364,6 +12690,34 @@
     }
   },
   {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/mtping",
+    "tag": "v1.23.1",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/mtping:v1.23.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:67d5107af5a232e08c2085a3a97dc32685581452a29a1f4c9737f3b2993a5380",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/mtping"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/mtping",
+    "tag": "v1.24.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/mtping:v1.24.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:14aa2fec23011c08c3ed5a9e6db99b171f49a7744685a0a85ed9313dd168c045",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/mtping"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook",
     "tag": "v1.20.0",
     "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook:v1.20.0",
@@ -13401,6 +13755,34 @@
       ],
       "details_path": "vulns/ai-containers-knative-releases-knative.dev-eventing-cmd-webhook-v1.23.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook",
+    "tag": "v1.23.1",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook:v1.23.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:e704da77e122296cae8dd94cd3382e2684bb73461d39206a662d21f7778890f0",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/webhook"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook",
+    "tag": "v1.24.0",
+    "image_name": "ai/containers/knative-releases/knative.dev/eventing/cmd/webhook:v1.24.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:6537c9764d04372abdef88d576ee44bf718b83b55e5b07375710ea0e215633fe",
+    "created": "1970-01-01 00:00",
+    "labels": {},
+    "entrypoint": [
+      "/ko-app/webhook"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/knative-releases/knative.dev/net-istio/cmd/controller",
@@ -19935,6 +20317,18 @@
   },
   {
     "repository": "ai/containers/kserve/huggingfaceserver",
+    "tag": "sha256-272a0ae4fe2735cf18c00f2bdb1770a4dd5b57be90b519cc46525f151e4d47ab",
+    "image_name": "ai/containers/kserve/huggingfaceserver:sha256-272a0ae4fe2735cf18c00f2bdb1770a4dd5b57be90b519cc46525f151e4d47ab",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:b2d9d1733d7d61acd2713ec9335a6cfe76eac88b36fec1df2516a9da909d0a4e",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/huggingfaceserver",
     "tag": "v0.16.0",
     "image_name": "ai/containers/kserve/huggingfaceserver:v0.16.0",
     "architecture": "amd64",
@@ -20265,6 +20659,24 @@
       ],
       "details_path": "vulns/ai-containers-kserve-huggingfaceserver-v0.20.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/huggingfaceserver",
+    "tag": "v0.21.0",
+    "image_name": "ai/containers/kserve/huggingfaceserver:v0.21.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:239cde26acfc2825387a80482c04d8fd3fe593c1da050e374ea9c5a7b88ab826",
+    "created": "2026-09-24 21:49",
+    "labels": {
+      "org.opencontainers.image.version": "22.04"
+    },
+    "entrypoint": [
+      "python",
+      "-m",
+      "huggingfaceserver"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve/kserve-controller",
@@ -20780,6 +21192,30 @@
   },
   {
     "repository": "ai/containers/kserve/lgbserver",
+    "tag": "sha256-00a3a346cc97eb1d757546b4020718eddba569973cb80c65084671956fabec76",
+    "image_name": "ai/containers/kserve/lgbserver:sha256-00a3a346cc97eb1d757546b4020718eddba569973cb80c65084671956fabec76",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:d695b9e6471e7ffcc3170b19020063cfc72dae4e49462ce1184bd63f51666938",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/lgbserver",
+    "tag": "sha256-ca48612e40bb96545763006573dcb6d1cb2912b99ca6e722424e7dd1448bbbb7",
+    "image_name": "ai/containers/kserve/lgbserver:sha256-ca48612e40bb96545763006573dcb6d1cb2912b99ca6e722424e7dd1448bbbb7",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:6a98d221c14b9a9b5928e1dcdfe4eb5b00508f02c9497486b120cc32ca7302f0",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/lgbserver",
     "tag": "v0.15.2",
     "image_name": "ai/containers/kserve/lgbserver:v0.15.2",
     "architecture": "amd64",
@@ -21113,6 +21549,22 @@
       ],
       "details_path": "vulns/ai-containers-kserve-lgbserver-v0.20.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/lgbserver",
+    "tag": "v0.21.0",
+    "image_name": "ai/containers/kserve/lgbserver:v0.21.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:c7bcff67986abcc0da64783d7f98e690f8daf8bb5c95368f01c8af5e330c9dea",
+    "created": "2026-09-24 20:52",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "lgbserver"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve/models-web-app",
@@ -21652,6 +22104,30 @@
   },
   {
     "repository": "ai/containers/kserve/paddleserver",
+    "tag": "sha256-2cc8c446ffc3ae31e26f36ed97f800c1f8bf7cab8de7968f02c2aabdfda5f4a8",
+    "image_name": "ai/containers/kserve/paddleserver:sha256-2cc8c446ffc3ae31e26f36ed97f800c1f8bf7cab8de7968f02c2aabdfda5f4a8",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:7cc371a3d2bd2a70a039bbc9b638ee3ed9aecade9f8a6e86eec8036916aee516",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/paddleserver",
+    "tag": "sha256-a4e5b935a62784219e7cff4fc1844b5ad153493b7f56208b1302b7c567803332",
+    "image_name": "ai/containers/kserve/paddleserver:sha256-a4e5b935a62784219e7cff4fc1844b5ad153493b7f56208b1302b7c567803332",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:6a3cb91f12fd79f7d42c2a59efc42acb0763decadca1a1822c1c24f385be36fa",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/paddleserver",
     "tag": "v0.15.2",
     "image_name": "ai/containers/kserve/paddleserver:v0.15.2",
     "architecture": "amd64",
@@ -21985,6 +22461,46 @@
       ],
       "details_path": "vulns/ai-containers-kserve-paddleserver-v0.20.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/paddleserver",
+    "tag": "v0.21.0",
+    "image_name": "ai/containers/kserve/paddleserver:v0.21.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:50405f970d876c353323e14627319e9704a6317acb80cb08beaca818eeaac4d4",
+    "created": "2026-09-24 20:52",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "paddleserver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/pmmlserver",
+    "tag": "sha256-af4d17398c11f3fa424439ef0c2d2437a22d278fd7b8d984112e535085363f41",
+    "image_name": "ai/containers/kserve/pmmlserver:sha256-af4d17398c11f3fa424439ef0c2d2437a22d278fd7b8d984112e535085363f41",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:3ac195718070976972f1f9ba341d0abcd369b5884e4f5eb8122950409d52e518",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/pmmlserver",
+    "tag": "sha256-f1d59f0d0ea47b6a91a701bb8b7272e23564089131430967cd5def3dacf540ad",
+    "image_name": "ai/containers/kserve/pmmlserver:sha256-f1d59f0d0ea47b6a91a701bb8b7272e23564089131430967cd5def3dacf540ad",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:3c4082d18285b4f2103f00f7b4738fd2ccd6eedb5302b3dedae6cef457b0ad66",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve/pmmlserver",
@@ -22332,6 +22848,24 @@
       ],
       "details_path": "vulns/ai-containers-kserve-pmmlserver-v0.20.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/pmmlserver",
+    "tag": "v0.21.0",
+    "image_name": "ai/containers/kserve/pmmlserver:v0.21.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:75ffcc1b14345a34b4eb725ed16afe11f06f1f1317d86f8f22dbe5055d2ce1a6",
+    "created": "2026-09-24 20:51",
+    "labels": {
+      "org.opencontainers.image.version": "24.04"
+    },
+    "entrypoint": [
+      "python3",
+      "-m",
+      "pmmlserver"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve/router",
@@ -22847,6 +23381,30 @@
   },
   {
     "repository": "ai/containers/kserve/sklearnserver",
+    "tag": "sha256-0c370444e4afa20d8f46e902707d14c5e3296033552cb50ad1cc666ef11e9f0a",
+    "image_name": "ai/containers/kserve/sklearnserver:sha256-0c370444e4afa20d8f46e902707d14c5e3296033552cb50ad1cc666ef11e9f0a",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:d914093d43092b7d5369d045d42a156b61f7c93d1b43840a2bd03688ede3aeb7",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/sklearnserver",
+    "tag": "sha256-c51d4fd600daa0da2eea77c8acf946695f54dc55f7b8cb959aa7e4e4777e6f53",
+    "image_name": "ai/containers/kserve/sklearnserver:sha256-c51d4fd600daa0da2eea77c8acf946695f54dc55f7b8cb959aa7e4e4777e6f53",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:c34f533c058cadb7541341f01b3baa4ef49105f2dcd74d71129bc65d324351f3",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/sklearnserver",
     "tag": "v0.15.2",
     "image_name": "ai/containers/kserve/sklearnserver:v0.15.2",
     "architecture": "amd64",
@@ -23182,6 +23740,22 @@
     }
   },
   {
+    "repository": "ai/containers/kserve/sklearnserver",
+    "tag": "v0.21.0",
+    "image_name": "ai/containers/kserve/sklearnserver:v0.21.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:8967d3fa3a8132e5e4d0dd7fc743214c451f4d9481edb0ab306e657149fd5a06",
+    "created": "2026-09-24 20:52",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "sklearnserver"
+    ],
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kserve/storage-initializer",
     "tag": "sha256-3fcdd8a2f029a766e786190eed4704ce71257d8cb6b9333f9ea78ab7156683d9",
     "image_name": "ai/containers/kserve/storage-initializer:sha256-3fcdd8a2f029a766e786190eed4704ce71257d8cb6b9333f9ea78ab7156683d9",
@@ -23493,6 +24067,30 @@
     "entrypoint": [
       "/storage-initializer/scripts/initializer-entrypoint"
     ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/xgbserver",
+    "tag": "sha256-140df2254ddb45828846cba0cced2bb0f50f6d8828f7ad391b60e6d12bca6f4c",
+    "image_name": "ai/containers/kserve/xgbserver:sha256-140df2254ddb45828846cba0cced2bb0f50f6d8828f7ad391b60e6d12bca6f4c",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:49602844edc05910b59d3a96173f8c8e85d6ee8ecf92d94a50ae1bcaf7a81709",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/xgbserver",
+    "tag": "sha256-e41f885d587121992e098aff6137db67d7ef99da6ed4ee5294c836a9427c598c",
+    "image_name": "ai/containers/kserve/xgbserver:sha256-e41f885d587121992e098aff6137db67d7ef99da6ed4ee5294c836a9427c598c",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:2ff906c2ed727c243051c6270170a9db27dc87e765fdd5483345666f5dc25597",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
     "cmd": null
   },
   {
@@ -23830,6 +24428,22 @@
       ],
       "details_path": "vulns/ai-containers-kserve-xgbserver-v0.20.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/kserve/xgbserver",
+    "tag": "v0.21.0",
+    "image_name": "ai/containers/kserve/xgbserver:v0.21.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:9a1d5634e9eca7609c84eb272341c98ebdbf03da1bb639ef411e6ed20be66350",
+    "created": "2026-09-24 20:54",
+    "labels": {},
+    "entrypoint": [
+      "python",
+      "-m",
+      "xgbserver"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/kserve-controller",
@@ -28448,6 +29062,147 @@
     "cmd": null
   },
   {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "2.17.1",
+    "image_name": "ai/containers/kubeflow/kfp-driver:2.17.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:016b950e2483ec8b7f3befae28520b4425b40f3cd5b0c950001fdd3e71ad86c7",
+    "created": "2026-08-26 22:27",
+    "labels": {
+      "org.opencontainers.image.created": "2026-08-26T22:25:25.356Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "53910ff4f7a149153d20122fdf44205230cbb52c",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "release-2.17"
+    },
+    "entrypoint": [
+      "/bin/driver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "2.17.2",
+    "image_name": "ai/containers/kubeflow/kfp-driver:2.17.2",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4081fa56cb1914a6b357b6f77fc0f14d846ed142bc2697aa58380376d81308ab",
+    "created": "2026-09-04 21:43",
+    "labels": {
+      "org.opencontainers.image.created": "2026-09-04T21:41:29.315Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "2511cdbd74cd531c6633f2e094d235082a32917d",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "release-2.17"
+    },
+    "entrypoint": [
+      "/bin/driver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "2.17.3",
+    "image_name": "ai/containers/kubeflow/kfp-driver:2.17.3",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4461e2f63739a80810405fdf76bd4727ea68561a54b51e4bbf869b12d7a8d163",
+    "created": "2026-10-22 14:53",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-22T14:50:58.680Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "a0733cb51b0484a6050cafee989ffe3312f808ad",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.17.3"
+    },
+    "entrypoint": [
+      "/bin/driver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "sha256-2c5635b4f8c49fa27105db26f3de98074a615c789f5b817bb539eeb4a04e8a52",
+    "image_name": "ai/containers/kubeflow/kfp-driver:sha256-2c5635b4f8c49fa27105db26f3de98074a615c789f5b817bb539eeb4a04e8a52",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:61e6a52fa355816f0a1d0d0e782fd6afdf1c9ddc607c3377cb0b8821363e8b70",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "sha256-845bc58121835ad40081e5b6c9eb04f8705e3298692252bade47375b968f687f",
+    "image_name": "ai/containers/kubeflow/kfp-driver:sha256-845bc58121835ad40081e5b6c9eb04f8705e3298692252bade47375b968f687f",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:c802ac08ac61326d775b364404f10f222a3dfb6ece2363d4ba846281ec9ec296",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "sha256-9ea683fa5f282cf0296ac512cb2659975f9262bd32ffa3288d3f9ef8927757d3",
+    "image_name": "ai/containers/kubeflow/kfp-driver:sha256-9ea683fa5f282cf0296ac512cb2659975f9262bd32ffa3288d3f9ef8927757d3",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:3516a74e7949d468ae91be6604744a79db90780248d7c651ef859d1ac4a86e44",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "sha256-decaaf0665b1451b4a3ca0eae904ba9cf7e67e43789c44ab14344d800b3012aa",
+    "image_name": "ai/containers/kubeflow/kfp-driver:sha256-decaaf0665b1451b4a3ca0eae904ba9cf7e67e43789c44ab14344d800b3012aa",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:34fdc86dd4a5787b364f84f5ccf0fc604722295511f3d1aac35643d862ab75a8",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "sha256-df2fba6e32552f1a05a0ca4bb2dba4a200aefdcf9aa8dab735fcbe9477d247e6",
+    "image_name": "ai/containers/kubeflow/kfp-driver:sha256-df2fba6e32552f1a05a0ca4bb2dba4a200aefdcf9aa8dab735fcbe9477d247e6",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:52b8aee2e3ac349d672f6e87118aaab0576f873b388874238eb369d951e1738a",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "sha256-e71c03090e8904fac2a3a9792b4c9e11d5203d96965f057dd5af9281a4650aef",
+    "image_name": "ai/containers/kubeflow/kfp-driver:sha256-e71c03090e8904fac2a3a9792b4c9e11d5203d96965f057dd5af9281a4650aef",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:a156de5e9a431cfc7233fbd413f7da2a306362a06e103325bd5048aad1f01773",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
     "repository": "ai/containers/kubeflow/kfp-frontend",
     "tag": "2.16.0",
     "image_name": "ai/containers/kubeflow/kfp-frontend:2.16.0",
@@ -28954,6 +29709,29 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-launcher",
+    "tag": "2.17.3",
+    "image_name": "ai/containers/kubeflow/kfp-launcher:2.17.3",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:4f1c3cff2725413cbb903f623aed074c52e3c70c355501c87b29db044c83fcd2",
+    "created": "2026-10-22 14:52",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-22T14:50:58.391Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "a0733cb51b0484a6050cafee989ffe3312f808ad",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.17.3"
+    },
+    "entrypoint": [
+      "/bin/launcher-v2"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-launcher",
     "tag": "sha256-0bd8e8828dfc317bd6377919593e1224b523d9ca7563bac2377c782bc39950d8",
     "image_name": "ai/containers/kubeflow/kfp-launcher:sha256-0bd8e8828dfc317bd6377919593e1224b523d9ca7563bac2377c782bc39950d8",
     "architecture": null,
@@ -28995,6 +29773,30 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:f08cfee809b2579da09f1dfd2681bcdf20d771440afe5ba920f01776c961ac09",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-launcher",
+    "tag": "sha256-c1d1dace5d579f7ad9c9af2479a2d2922caad4c5b1f35619762484fc04c9aaa2",
+    "image_name": "ai/containers/kubeflow/kfp-launcher:sha256-c1d1dace5d579f7ad9c9af2479a2d2922caad4c5b1f35619762484fc04c9aaa2",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:3b10d8987229de6227e0a3ccfacd58f39266b83cbfd1dec7b7254e9fc2fc5df4",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-launcher",
+    "tag": "sha256-c695f784551b65aa14628b275b5647cc54ebbf9ef1e5f7618c43531627e5fb84",
+    "image_name": "ai/containers/kubeflow/kfp-launcher:sha256-c695f784551b65aa14628b275b5647cc54ebbf9ef1e5f7618c43531627e5fb84",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:d3c57b3cd926a14031a3993c9c324bbb3528a5b812e367bd759c3b972da74c47",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -30655,11 +31457,47 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-visualization-server",
+    "tag": "2.17.3",
+    "image_name": "ai/containers/kubeflow/kfp-visualization-server:2.17.3",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:d143f368b428c92cccf2b33c4c1b0274f8b1a14cf04f25659fe0f091e96cef6f",
+    "created": "2026-10-22 14:51",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-22T14:50:59.799Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "a0733cb51b0484a6050cafee989ffe3312f808ad",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.17.3"
+    },
+    "entrypoint": [
+      "python3",
+      "server.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-visualization-server",
     "tag": "sha256-1ad68e1357891a54811b3fa195d7cc15bcef25a2d64dd9fc81310d89d357b3a9",
     "image_name": "ai/containers/kubeflow/kfp-visualization-server:sha256-1ad68e1357891a54811b3fa195d7cc15bcef25a2d64dd9fc81310d89d357b3a9",
     "architecture": null,
     "os": null,
     "digest": "sha256:4c19bab67ee4f2d8507909366d0ac026ac002a5ee410c54b2b30aaa17a943a39",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-visualization-server",
+    "tag": "sha256-278cae2f924178b3413f45777a57cff8abb1fa3533d10ca31107d4361f7e51e3",
+    "image_name": "ai/containers/kubeflow/kfp-visualization-server:sha256-278cae2f924178b3413f45777a57cff8abb1fa3533d10ca31107d4361f7e51e3",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:33fd07e8713f0a0ccf6f729bb986636c7246e6426ab0ff7977025b76e35c1edc",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -30696,6 +31534,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:9e3689001d6791df4b670454d63b3e333681b5fd880083c72b0503b6b0ff9310",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-visualization-server",
+    "tag": "sha256-e74afb762855b335c6920ddbd821b8c56a02ebd875f50a5c5f82ed7cea9544d7",
+    "image_name": "ai/containers/kubeflow/kfp-visualization-server:sha256-e74afb762855b335c6920ddbd821b8c56a02ebd875f50a5c5f82ed7cea9544d7",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:333b53d48e99c7e2c4b9171c957f8781e6725db9b73d7e1c104bd14ab5159421",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -63107,6 +63957,25 @@
       ],
       "details_path": "vulns/ai-containers-tensorflow-serving-2.20.0-amd64-vuln.json"
     }
+  },
+  {
+    "repository": "ai/containers/tensorflow/serving",
+    "tag": "2.21.0",
+    "image_name": "ai/containers/tensorflow/serving:2.21.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b09456481317351201fbe0b3c5954273e1b697b4a4a7834dc56f01731137a529",
+    "created": "2026-09-29 22:22",
+    "labels": {
+      "maintainer": "gvasudevan@google.com",
+      "org.opencontainers.image.version": "22.04",
+      "tensorflow_serving_github_branchtag": "2.21.0",
+      "tensorflow_serving_github_commit": "75c8de0a8042f02ecbe6f95909bad8cd684a67f6"
+    },
+    "entrypoint": [
+      "/usr/bin/tf_serving_entrypoint.sh"
+    ],
+    "cmd": null
   },
   {
     "repository": "ai/containers/tensorflow/serving",

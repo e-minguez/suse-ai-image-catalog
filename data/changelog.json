@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-11-06 16:11",
+    "changes": [
+      "New Container (AppCo): ollama:0.40.15-nvidia-2.9 (aarch64)",
+      "New Container (AppCo): ollama:0.40.15-nvidia-2.9 (x86_64)",
+      "New Chart (Registry): ai/charts/litellm:1.100.1 (N/A)",
+      "New Chart (Registry): ai/charts/litellm:1.101.0 (N/A)",
+      "New Chart (Registry): ai/charts/litellm:1.106.2 (N/A)",
+      "New Chart (Registry): ai/charts/litellm:1.106.4 (N/A)",
+      "New Chart (Registry): ai/charts/qdrant:1.19.2 (N/A)",
+      "New Chart (Registry): ai/charts/qdrant:1.20.0 (N/A)",
+      "New Container (Registry): ai/containers/kserve/models-web-app:1.1.0 (x86_64)",
+      "New Container (Registry): ai/containers/kserve/models-web-app:sha256-0342b3235b9e3ba6991287c433db3abd1f79cb9945c301cd36b121344b527807 (N/A)",
+      "New Container (Registry): ai/containers/kserve/models-web-app:sha256-8335c79f964ea04fd26d4564e837ae9cd908fa79b2a154182c3d7b6dbda3d7a0 (N/A)",
+      "New Container (Registry): ai/containers/kserve/models-web-app:sha256-b20af8aa6689bb6498c8bcb63e5a72871aba9fad71c6c1737e2ab56a4156e233 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-api-server:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-api-server:sha256-107dc91a9c451dd16b260f4d5f96946f4dbe6cacac7a0dde6b32b95f586cc581 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-api-server:sha256-e28bb9453b1806cad91c76fbce085b1130914e3d53c78e19ae6d404d468803af (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-cache-server:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-cache-server:sha256-5c0fc2b9b179e7c7f3a5fd66752367e11e183942bdcd4ed390824c1435f357a3 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-cache-server:sha256-e8c5b7a21f8583f5bb45322d45e775ccbd050aceeb85316dc51076351f1f14e7 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-driver:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-driver:sha256-03763876e1a9a138543b98a256b5510a09d1a418d44b931e2449d43e184ba1b9 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-driver:sha256-bd0f40dc7c5806f1ed8e92941982bb4c127f12d768c487bae645e24000949243 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-frontend:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-frontend:sha256-4237e10583bfc0f70ed4719358822a0d5deb1700c703345c0bb22dbe31fa2350 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-frontend:sha256-564e95805d86ea7f17f04e0b8c090be8dc03d0e2327ee32e26e779a851955359 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-launcher:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-launcher:sha256-3e22a5f74b6f396e266bde7cea3b158e73784aad96611791640c6126abfa81cf (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-launcher:sha256-6f68ae4496a108d8afe25ccd64b43fdd26d60714ed41bf0ec7938bbe5f83c444 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-envoy:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-envoy:sha256-9da72193128d59adf1f544603da42a1cea4826061be0c28e6119441ce80e3630 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-envoy:sha256-b627076f72b540b89a8a458dc06b13eae1c73fbe485fc2e9dba23fcc8a798f72 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-writer:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-metadata-writer:sha256-f86fce12fb2625072638ccb774f9d3026d6bb973f6dae97999e930c5ee2071a8 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-persistence-agent:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-persistence-agent:sha256-44b0a019f16bc9e8392bb9e06c070694958cebeb0fa9d46efb3a25058e01128d (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-persistence-agent:sha256-634146d6d5e921fd6d186fe28cd14c2df0652db12aaba654cba3b39fcf06da9a (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-scheduled-workflow-controller:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-scheduled-workflow-controller:sha256-513ffc97c3a6a6cfacfa68d4f31a24ac936ae6ef620679ab43ff9a07d30f43f1 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-scheduled-workflow-controller:sha256-d04ef071a43b4a125cc7cf22425c50e8b20c87764ee2bd90ce6f4f60a779f528 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-viewer-crd-controller:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-viewer-crd-controller:sha256-9a1bc832d7d3e7f0db2b827efdfbe5191f7db6a7ba9f22067c7a5922fe2fb015 (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-viewer-crd-controller:sha256-f3f523d85f4beb5ed38d4cf62e8e05b859749b19b54105b028088fb2cee3a31b (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-visualization-server:2.18.0 (x86_64)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-visualization-server:sha256-5eee652406f7a01ee4e529bc2fac7e6c8d415b02055e4ffbc9127cb90536db0a (N/A)",
+      "New Container (Registry): ai/containers/kubeflow/kfp-visualization-server:sha256-d636aa0398b591ec1977f5410644dade2aab5113a091960038f76ed78683fd8b (N/A)",
+      "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:0.164.1 (x86_64)",
+      "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:sha256-6bb0a94bba3318f2d06d1f03aba049dc798508b8a342195a71256915b26b60ce (N/A)",
+      "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:sha256-740fe68e5a2b4c3ef45723f3ef7a614f6d31bfbb18e7ffe7e496680e59ed1d5c (N/A)"
+    ]
+  },
+  {
     "date": "2026-11-06 06:29",
     "changes": [
       "New Container (AppCo): lmcache-vllm-openai:0.5.6-nvidia-1.7 (aarch64)",
@@ -573,15 +625,6 @@
       "New Container (AppCo): milvus:2.6.25-nvidia-15.3 (aarch64)",
       "New Container (AppCo): milvus:2.6.25-15.3 (x86_64)",
       "New Container (AppCo): milvus:2.6.25-nvidia-15.3 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-10-26 21:12",
-    "changes": [
-      "New Container (AppCo): ollama:0.40.11-nvidia-2.3 (aarch64)",
-      "New Container (AppCo): ollama:0.40.11-nvidia-2.3 (x86_64)",
-      "New Container (AppCo): pytorch:2.14.1-nvidia-5.3 (aarch64)",
-      "New Container (AppCo): pytorch:2.14.1-nvidia-5.3 (x86_64)"
     ]
   }
 ]

@@ -107,6 +107,88 @@
   },
   {
     "repository": "ai/charts/litellm",
+    "tag": "1.100.1",
+    "image_name": "ai/charts/litellm:1.100.1",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:38d500825bfaf862416d87bd6f424a0d5faf30bac245b15af2f166702a185101",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/bci-micro:15.7-61.5",
+      "dp.apps.rancher.io/containers/postgresql:18.6-14.12",
+      "ai/containers/litellm:1.100.1",
+      "bci/bci-busybox"
+    ],
+    "vulnerabilities": {
+      "total": 326,
+      "critical": 14,
+      "high": 110,
+      "medium": 182,
+      "low": 18,
+      "scan_date": "2026-11-04 03:36",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.101.0",
+    "image_name": "ai/charts/litellm:1.101.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:4a0ea6304715e4c7d1327c4916d3854811fd022ac307d6ab89476e08f4d861a6",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/bci-micro:15.7-61.7",
+      "dp.apps.rancher.io/containers/postgresql:18.6-14.12",
+      "ai/containers/litellm:1.101.0",
+      "bci/bci-busybox"
+    ]
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.106.2",
+    "image_name": "ai/charts/litellm:1.106.2",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:5e328bce909023cf14e16586b5b8f837452cca72ec7de4b95d1c92348791e1d9",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/bci-micro:15.7-61.16",
+      "dp.apps.rancher.io/containers/postgresql:18.6-17.1",
+      "ai/containers/litellm:1.106.2",
+      "bci/bci-busybox"
+    ]
+  },
+  {
+    "repository": "ai/charts/litellm",
+    "tag": "1.106.4",
+    "image_name": "ai/charts/litellm:1.106.4",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:0274cbbfd303cbbad1593cb91df953f702ef03b67808470a0515f6576977bba5",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "dp.apps.rancher.io/containers/bci-micro:15.7-61.21",
+      "dp.apps.rancher.io/containers/postgresql:18.6-18.1",
+      "ai/containers/litellm:1.106.4",
+      "bci/bci-busybox"
+    ]
+  },
+  {
+    "repository": "ai/charts/litellm",
     "tag": "1.81.13",
     "image_name": "ai/charts/litellm:1.81.13",
     "architecture": null,
@@ -571,6 +653,58 @@
       "medium": 270,
       "low": 150,
       "scan_date": "2026-11-04 06:19",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/qdrant",
+    "tag": "1.19.2",
+    "image_name": "ai/charts/qdrant:1.19.2",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:8dae01d4eb288d3320bbdbb93d1658b4c49d4144ba17652126bd85b7fd30e0e9",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "ai/containers/qdrant:v1.19.2",
+      "bci/bci-base:latest"
+    ],
+    "vulnerabilities": {
+      "total": 434,
+      "critical": 4,
+      "high": 110,
+      "medium": 166,
+      "low": 136,
+      "scan_date": "2026-11-04 06:14",
+      "source": "aggregated",
+      "component_count": 1
+    }
+  },
+  {
+    "repository": "ai/charts/qdrant",
+    "tag": "1.20.0",
+    "image_name": "ai/charts/qdrant:1.20.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:5db6beb569795c1a135e4efde1d543a6e96cee77205feb04a9daa0b6bc85e9ce",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": [
+      "ai/containers/qdrant:v1.20.0",
+      "bci/bci-base:latest"
+    ],
+    "vulnerabilities": {
+      "total": 394,
+      "critical": 0,
+      "high": 100,
+      "medium": 150,
+      "low": 132,
+      "scan_date": "2026-11-04 06:10",
       "source": "aggregated",
       "component_count": 1
     }
@@ -23505,6 +23639,57 @@
   },
   {
     "repository": "ai/containers/kserve/models-web-app",
+    "tag": "1.1.0",
+    "image_name": "ai/containers/kserve/models-web-app:1.1.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:3c624594b95740d4716e6ea6fa5076f203c72a57121d9b1594528e147ce756ac",
+    "created": "2026-10-28 11:16",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T11:16:00.268Z",
+      "org.opencontainers.image.description": "KServe UI",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "febe936f868f92d173e1e02e4d1d8d66c28c8ba0",
+      "org.opencontainers.image.source": "https://github.com/kserve/models-web-app",
+      "org.opencontainers.image.title": "models-web-app",
+      "org.opencontainers.image.url": "https://github.com/kserve/models-web-app",
+      "org.opencontainers.image.version": "1.1.0"
+    },
+    "entrypoint": [
+      "gunicorn",
+      "-w",
+      "3",
+      "--worker-class",
+      "gevent",
+      "--bind",
+      "0.0.0.0:5000",
+      "--access-logfile",
+      "-",
+      "entrypoint:app"
+    ],
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kserve-models-web-app-1.1.0-ppc64le-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "ppc64le"
+      }
+    ]
+  },
+  {
+    "repository": "ai/containers/kserve/models-web-app",
+    "tag": "sha256-0342b3235b9e3ba6991287c433db3abd1f79cb9945c301cd36b121344b527807",
+    "image_name": "ai/containers/kserve/models-web-app:sha256-0342b3235b9e3ba6991287c433db3abd1f79cb9945c301cd36b121344b527807",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:e38414ecca77f0674ebdc3beb4bdb559a523e5f21bbc785994fc1aee735b2539",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/models-web-app",
     "tag": "sha256-200ac72cedfca66c863bb433b53c40c2e67f5841be769132badab82e0273032b",
     "image_name": "ai/containers/kserve/models-web-app:sha256-200ac72cedfca66c863bb433b53c40c2e67f5841be769132badab82e0273032b",
     "architecture": null,
@@ -23553,11 +23738,35 @@
   },
   {
     "repository": "ai/containers/kserve/models-web-app",
+    "tag": "sha256-8335c79f964ea04fd26d4564e837ae9cd908fa79b2a154182c3d7b6dbda3d7a0",
+    "image_name": "ai/containers/kserve/models-web-app:sha256-8335c79f964ea04fd26d4564e837ae9cd908fa79b2a154182c3d7b6dbda3d7a0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:bf6e7a4376f85162ad0dce6b3da1fefb453519bc4bb97f1b03b32f4356e89f8e",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/models-web-app",
     "tag": "sha256-98be68d86d66778dd301d9cdaf349dea67d3a72f478d57cfa1c02beb03f4841a",
     "image_name": "ai/containers/kserve/models-web-app:sha256-98be68d86d66778dd301d9cdaf349dea67d3a72f478d57cfa1c02beb03f4841a",
     "architecture": null,
     "os": null,
     "digest": "sha256:9d57f8d248e85a7351eb2f3a5c26a5c36c9e67e3effc1e3216a2e81cae299f53",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kserve/models-web-app",
+    "tag": "sha256-b20af8aa6689bb6498c8bcb63e5a72871aba9fad71c6c1737e2ab56a4156e233",
+    "image_name": "ai/containers/kserve/models-web-app:sha256-b20af8aa6689bb6498c8bcb63e5a72871aba9fad71c6c1737e2ab56a4156e233",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:4bb6a7bc1943da2d2c6ab25af636d9ab4afd7a75dfd3ea0a6680c69672952bd9",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -31188,6 +31397,43 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-api-server",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-api-server:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:0d916fa808a4933df089a54b47195667b872cb84d18464e5bb444c5709cc3118",
+    "created": "2026-10-28 01:19",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:27.437Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "/bin/apiserver --config=/config --sampleconfig=/config/sample_config.json -logtostderr=true --logLevel=${LOG_LEVEL}"
+    ]
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-api-server",
+    "tag": "sha256-107dc91a9c451dd16b260f4d5f96946f4dbe6cacac7a0dde6b32b95f586cc581",
+    "image_name": "ai/containers/kubeflow/kfp-api-server:sha256-107dc91a9c451dd16b260f4d5f96946f4dbe6cacac7a0dde6b32b95f586cc581",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:4bae04f010075214e004f64be71491138bb402f2720377cd0fbd7dab451fe9aa",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-api-server",
     "tag": "sha256-178833d760ab1f6013fa479604f225a411aca7726caac834d451194cef1b3d7b",
     "image_name": "ai/containers/kubeflow/kfp-api-server:sha256-178833d760ab1f6013fa479604f225a411aca7726caac834d451194cef1b3d7b",
     "architecture": null,
@@ -31253,6 +31499,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:277f3b6e6d6a5358844d20410c2846056f85e359ae7c53ce346c8e5bcdc036b9",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-api-server",
+    "tag": "sha256-e28bb9453b1806cad91c76fbce085b1130914e3d53c78e19ae6d404d468803af",
+    "image_name": "ai/containers/kubeflow/kfp-api-server:sha256-e28bb9453b1806cad91c76fbce085b1130914e3d53c78e19ae6d404d468803af",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:2f6fde6eec0e5915e773dc5188c4f14ea49339d8a54693d00c85546bb288f606",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -31572,6 +31830,29 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-cache-server",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-cache-server:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:ddb383f89ef9c791a5175aae71488c42f19fbd2bc679fe06785e41b050738e61",
+    "created": "2026-10-28 01:19",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:30.749Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": [
+      "/bin/cache_server"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-cache-server",
     "tag": "sha256-1ab677deb8764c87ce9c5f80ca649afe62431b4722cc57f8782b19a636209a18",
     "image_name": "ai/containers/kubeflow/kfp-cache-server:sha256-1ab677deb8764c87ce9c5f80ca649afe62431b4722cc57f8782b19a636209a18",
     "architecture": null,
@@ -31608,6 +31889,18 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-cache-server",
+    "tag": "sha256-5c0fc2b9b179e7c7f3a5fd66752367e11e183942bdcd4ed390824c1435f357a3",
+    "image_name": "ai/containers/kubeflow/kfp-cache-server:sha256-5c0fc2b9b179e7c7f3a5fd66752367e11e183942bdcd4ed390824c1435f357a3",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:d5b92d809cf7db1dcaa75e94728edd2134a0926d52b8f3ab829022ed4c89857f",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-cache-server",
     "tag": "sha256-941b957aeba5471ef0b5f3b4e679cf743cdb381c9aa0b6c1cb1cf7f173a4b913",
     "image_name": "ai/containers/kubeflow/kfp-cache-server:sha256-941b957aeba5471ef0b5f3b4e679cf743cdb381c9aa0b6c1cb1cf7f173a4b913",
     "architecture": null,
@@ -31637,6 +31930,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:de424c9467752c7ba7a98632b099fea8900bb04c75379cc6c790df5b424d59ec",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-cache-server",
+    "tag": "sha256-e8c5b7a21f8583f5bb45322d45e775ccbd050aceeb85316dc51076351f1f14e7",
+    "image_name": "ai/containers/kubeflow/kfp-cache-server:sha256-e8c5b7a21f8583f5bb45322d45e775ccbd050aceeb85316dc51076351f1f14e7",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:b494af3401daa5dad54e5eb875a4813ceabcd363643ff09fcec7f4c1acd4208b",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -31864,6 +32169,41 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-driver:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:a9ff4ce7a58d93840dc1a671ae722ff2a0a2fb48a70ad8570f66e24df39283a3",
+    "created": "2026-10-28 01:18",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:26.210Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": [
+      "/bin/driver"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "sha256-03763876e1a9a138543b98a256b5510a09d1a418d44b931e2449d43e184ba1b9",
+    "image_name": "ai/containers/kubeflow/kfp-driver:sha256-03763876e1a9a138543b98a256b5510a09d1a418d44b931e2449d43e184ba1b9",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:14f87f0fd91695ed1b803da7c6747852c226c8c84fe8732fd12b4cde641d28ef",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
     "tag": "sha256-2c5635b4f8c49fa27105db26f3de98074a615c789f5b817bb539eeb4a04e8a52",
     "image_name": "ai/containers/kubeflow/kfp-driver:sha256-2c5635b4f8c49fa27105db26f3de98074a615c789f5b817bb539eeb4a04e8a52",
     "architecture": null,
@@ -31893,6 +32233,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:3516a74e7949d468ae91be6604744a79db90780248d7c651ef859d1ac4a86e44",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-driver",
+    "tag": "sha256-bd0f40dc7c5806f1ed8e92941982bb4c127f12d768c487bae645e24000949243",
+    "image_name": "ai/containers/kubeflow/kfp-driver:sha256-bd0f40dc7c5806f1ed8e92941982bb4c127f12d768c487bae645e24000949243",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:9f7cf74ac2e706cc065ac96a7ea8064e6f80af674ccc9710d109ec55595a3002",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -32272,6 +32624,33 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-frontend",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-frontend:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:46651fb039052e858e6ca99ae334521de8d093b0c0c87ae3698464659714b519",
+    "created": "2026-10-28 01:17",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:28.869Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": [
+      "docker-entrypoint.sh"
+    ],
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "node dist/server.js ../client/ 3000"
+    ]
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-frontend",
     "tag": "sha256-1ae2be73e400dbd5992df113106bc6bccd8dc6157bf5c043e44ab9b2b6f4906f",
     "image_name": "ai/containers/kubeflow/kfp-frontend:sha256-1ae2be73e400dbd5992df113106bc6bccd8dc6157bf5c043e44ab9b2b6f4906f",
     "architecture": null,
@@ -32308,11 +32687,35 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-frontend",
+    "tag": "sha256-4237e10583bfc0f70ed4719358822a0d5deb1700c703345c0bb22dbe31fa2350",
+    "image_name": "ai/containers/kubeflow/kfp-frontend:sha256-4237e10583bfc0f70ed4719358822a0d5deb1700c703345c0bb22dbe31fa2350",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:8a5e5a36481b17e4c840974d6360ef3d418e2d1138b85a71d0c69ddd1cd60d87",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-frontend",
     "tag": "sha256-4b86c6231f46097af5d6271e97e400b0b1f303f9cb70af6b4244f52a16a2c5d9",
     "image_name": "ai/containers/kubeflow/kfp-frontend:sha256-4b86c6231f46097af5d6271e97e400b0b1f303f9cb70af6b4244f52a16a2c5d9",
     "architecture": null,
     "os": null,
     "digest": "sha256:a10584d3ca803f8bcbf400244b35e6295bbb7f870a3aa6ec084afdd6f0c705a5",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-frontend",
+    "tag": "sha256-564e95805d86ea7f17f04e0b8c090be8dc03d0e2327ee32e26e779a851955359",
+    "image_name": "ai/containers/kubeflow/kfp-frontend:sha256-564e95805d86ea7f17f04e0b8c090be8dc03d0e2327ee32e26e779a851955359",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:b9a2323fee746ccd68830a4d0e333736b5a250c1f8bad7a53cfdbb4803382deb",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -32656,6 +33059,29 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-launcher",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-launcher:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:b032a560cc0d699e45ccc782f42d369197407b5b43ccbe6ce5e26271f047ab51",
+    "created": "2026-10-28 01:18",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:29.795Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": [
+      "/bin/launcher-v2"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-launcher",
     "tag": "sha256-0bd8e8828dfc317bd6377919593e1224b523d9ca7563bac2377c782bc39950d8",
     "image_name": "ai/containers/kubeflow/kfp-launcher:sha256-0bd8e8828dfc317bd6377919593e1224b523d9ca7563bac2377c782bc39950d8",
     "architecture": null,
@@ -32680,6 +33106,18 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-launcher",
+    "tag": "sha256-3e22a5f74b6f396e266bde7cea3b158e73784aad96611791640c6126abfa81cf",
+    "image_name": "ai/containers/kubeflow/kfp-launcher:sha256-3e22a5f74b6f396e266bde7cea3b158e73784aad96611791640c6126abfa81cf",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:886d4e030e729564e3ba32ab94f28563a796515bb94455168b5e6eb275a737c7",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-launcher",
     "tag": "sha256-51e321993ccef901593c4e16d1a6d170527c70f29cff8a0070b7e903be4c215c",
     "image_name": "ai/containers/kubeflow/kfp-launcher:sha256-51e321993ccef901593c4e16d1a6d170527c70f29cff8a0070b7e903be4c215c",
     "architecture": null,
@@ -32697,6 +33135,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:f08cfee809b2579da09f1dfd2681bcdf20d771440afe5ba920f01776c961ac09",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-launcher",
+    "tag": "sha256-6f68ae4496a108d8afe25ccd64b43fdd26d60714ed41bf0ec7938bbe5f83c444",
+    "image_name": "ai/containers/kubeflow/kfp-launcher:sha256-6f68ae4496a108d8afe25ccd64b43fdd26d60714ed41bf0ec7938bbe5f83c444",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:561ff3f9f1b64935e11a5501ff2da495b2d16787d8c9ccd2c85932140039478d",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -33052,6 +33502,30 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-metadata-envoy",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-metadata-envoy:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:d4d65a5329e2d33f5f407f8ae6137ca360f43eb75241ca0ff3f84693fd9498b7",
+    "created": "2026-10-28 01:16",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:33.230Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": [
+      "/usr/local/bin/envoy",
+      "-c"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-metadata-envoy",
     "tag": "sha256-034f53ee86bf5cafe20c43627877dae02a867851a98c9f91dd3249d473f3e33e",
     "image_name": "ai/containers/kubeflow/kfp-metadata-envoy:sha256-034f53ee86bf5cafe20c43627877dae02a867851a98c9f91dd3249d473f3e33e",
     "architecture": null,
@@ -33105,6 +33579,30 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:d253905f45238ae01dc154a5114e92acfd8b55a0fede4198c42089888d0f12d5",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-metadata-envoy",
+    "tag": "sha256-9da72193128d59adf1f544603da42a1cea4826061be0c28e6119441ce80e3630",
+    "image_name": "ai/containers/kubeflow/kfp-metadata-envoy:sha256-9da72193128d59adf1f544603da42a1cea4826061be0c28e6119441ce80e3630",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:cbc700c1400608e7ebb7b3efc4cdb999284a41b2e8a98757508980172cffc6b9",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-metadata-envoy",
+    "tag": "sha256-b627076f72b540b89a8a458dc06b13eae1c73fbe485fc2e9dba23fcc8a798f72",
+    "image_name": "ai/containers/kubeflow/kfp-metadata-envoy:sha256-b627076f72b540b89a8a458dc06b13eae1c73fbe485fc2e9dba23fcc8a798f72",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:a2f32b3a04ce0eacab921946278c556112fb7028029a22fbde992c6551647ad1",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -33412,6 +33910,31 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-metadata-writer",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-metadata-writer:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:8643e735483ef3cf95f85c01bf7702074a52dc651958e1c2d50dd543b8a6ae0d",
+    "created": "2026-10-28 01:16",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:23.775Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "python3 -u /kfp/metadata_writer/metadata_writer.py"
+    ]
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-metadata-writer",
     "tag": "sha256-33a25b3f69da0bec1182394076148ba38305e064862c341083318ae9e6535868",
     "image_name": "ai/containers/kubeflow/kfp-metadata-writer:sha256-33a25b3f69da0bec1182394076148ba38305e064862c341083318ae9e6535868",
     "architecture": null,
@@ -33441,6 +33964,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:1967117588b788afba9670dfdc784807a2f0d0b3bc6ec755ee9341796aecd944",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-metadata-writer",
+    "tag": "sha256-f86fce12fb2625072638ccb774f9d3026d6bb973f6dae97999e930c5ee2071a8",
+    "image_name": "ai/containers/kubeflow/kfp-metadata-writer:sha256-f86fce12fb2625072638ccb774f9d3026d6bb973f6dae97999e930c5ee2071a8",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:6d043cf8c301cbc713e92cc1b038d2f1cabe4cfe1830791207a23b115cc91b86",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -33772,6 +34307,31 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-persistence-agent",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-persistence-agent:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:d840ff26cf6c7d45115055b16500b41b7765e081f87476cb2a57927aa7d2c16a",
+    "created": "2026-10-28 01:18",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:29.832Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "persistence_agent --logtostderr=true --namespace=${NAMESPACE} --ttlSecondsAfterWorkflowFinish=${TTL_SECONDS_AFTER_WORKFLOW_FINISH} --numWorker ${NUM_WORKERS} --executionType ${EXECUTIONTYPE} --logLevel=${LOG_LEVEL}"
+    ]
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-persistence-agent",
     "tag": "sha256-272a955302bba349d2ce6daf5a34957134af35d0dd975e2d01d8bb0bbbd350ff",
     "image_name": "ai/containers/kubeflow/kfp-persistence-agent:sha256-272a955302bba349d2ce6daf5a34957134af35d0dd975e2d01d8bb0bbbd350ff",
     "architecture": null,
@@ -33789,6 +34349,30 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:422fd029079e48e6f51aa53b26e1d2dbbcb3fefe9efba87ce0ff08ef19be7774",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-persistence-agent",
+    "tag": "sha256-44b0a019f16bc9e8392bb9e06c070694958cebeb0fa9d46efb3a25058e01128d",
+    "image_name": "ai/containers/kubeflow/kfp-persistence-agent:sha256-44b0a019f16bc9e8392bb9e06c070694958cebeb0fa9d46efb3a25058e01128d",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:a8fbc9b9357117056ae1da7cd5fbcba2d32839024601c4aefd1ec826a8df1a08",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-persistence-agent",
+    "tag": "sha256-634146d6d5e921fd6d186fe28cd14c2df0652db12aaba654cba3b39fcf06da9a",
+    "image_name": "ai/containers/kubeflow/kfp-persistence-agent:sha256-634146d6d5e921fd6d186fe28cd14c2df0652db12aaba654cba3b39fcf06da9a",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:247dbe03b016f03f7aae3dccf966b1ded2d03513501cd3eaa44ac55c0bc8a514",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -34168,6 +34752,38 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-scheduled-workflow-controller",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-scheduled-workflow-controller:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:eef9558a33495f3dc5ef397eab013c2430dcf8e92bc0ba3885f2f48ba3a99181",
+    "created": "2026-10-28 01:17",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:29.079Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "/bin/controller --logtostderr=true --multiUser=${MULTIUSER:-false} --namespace=${NAMESPACE} --logLevel=${LOG_LEVEL} --clientQPS=${CLIENT_QPS:-5} --clientBurst=${CLIENT_BURST:-10} --recurringRunResyncIntervalSeconds=${RESYNC_INTERVAL_SECONDS:-30} --metricsPort=${METRICS_PORT:-9090} --userIdentityHeader=\"${USER_IDENTITY_HEADER:-}\" --userIdentityValue=\"${USER_IDENTITY_VALUE:-}\""
+    ],
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-kfp-scheduled-workflow-controller-2.18.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      }
+    ]
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-scheduled-workflow-controller",
     "tag": "sha256-1c332c012107ccc4014e88f716329af239440a4c13880353ca2f679106fe3e84",
     "image_name": "ai/containers/kubeflow/kfp-scheduled-workflow-controller:sha256-1c332c012107ccc4014e88f716329af239440a4c13880353ca2f679106fe3e84",
     "architecture": null,
@@ -34185,6 +34801,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:280661245cfa8cf0c0909b0d741c3d5975ea16926d36cb01fd30b5374c8c993c",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-scheduled-workflow-controller",
+    "tag": "sha256-513ffc97c3a6a6cfacfa68d4f31a24ac936ae6ef620679ab43ff9a07d30f43f1",
+    "image_name": "ai/containers/kubeflow/kfp-scheduled-workflow-controller:sha256-513ffc97c3a6a6cfacfa68d4f31a24ac936ae6ef620679ab43ff9a07d30f43f1",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:e2e8f021c7ba535ef3d95a6f2f5df78a53805195a5f91aea025ead3ec89dff43",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -34221,6 +34849,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:168a91a69c6f454302d002c23c7abb00169edfbcc3dbea4060d0d37395c0de75",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-scheduled-workflow-controller",
+    "tag": "sha256-d04ef071a43b4a125cc7cf22425c50e8b20c87764ee2bd90ce6f4f60a779f528",
+    "image_name": "ai/containers/kubeflow/kfp-scheduled-workflow-controller:sha256-d04ef071a43b4a125cc7cf22425c50e8b20c87764ee2bd90ce6f4f60a779f528",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:65b7ee226f6a7d19ba6d4c5580c45555df1dbd2e99b8fbb1e47268cf89f09c62",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -34564,6 +35204,31 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-viewer-crd-controller",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-viewer-crd-controller:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:ad36c71bfa8c1331deac257980107b7c7ebc2938e312aea94da49e13754961ba",
+    "created": "2026-10-28 01:17",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:25.098Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": null,
+    "cmd": [
+      "/bin/sh",
+      "-c",
+      "/bin/controller -logtostderr=true -max_num_viewers=${MAX_NUM_VIEWERS} --namespace=${NAMESPACE}"
+    ]
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-viewer-crd-controller",
     "tag": "sha256-001f0f38d3867dff9beda74c638bdddfbbfaa12fdd06ed4088cad655d2028277",
     "image_name": "ai/containers/kubeflow/kfp-viewer-crd-controller:sha256-001f0f38d3867dff9beda74c638bdddfbbfaa12fdd06ed4088cad655d2028277",
     "architecture": null,
@@ -34581,6 +35246,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:cf8ef6cd97cdd1584d8d3699839a0c930b57cb401b98a52f5f9fb9e8adb653d6",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-viewer-crd-controller",
+    "tag": "sha256-9a1bc832d7d3e7f0db2b827efdfbe5191f7db6a7ba9f22067c7a5922fe2fb015",
+    "image_name": "ai/containers/kubeflow/kfp-viewer-crd-controller:sha256-9a1bc832d7d3e7f0db2b827efdfbe5191f7db6a7ba9f22067c7a5922fe2fb015",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:6a1bb3949930433182f9c995f568876672e82728dab5b3d91a5c8095a0ebc81c",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -34629,6 +35306,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:f33f4060a9d46b875ab2e11aecaef1eda5a928690b4b3caf82d65051d0ea40ed",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-viewer-crd-controller",
+    "tag": "sha256-f3f523d85f4beb5ed38d4cf62e8e05b859749b19b54105b028088fb2cee3a31b",
+    "image_name": "ai/containers/kubeflow/kfp-viewer-crd-controller:sha256-f3f523d85f4beb5ed38d4cf62e8e05b859749b19b54105b028088fb2cee3a31b",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:80bd330c037cfe699cb8895b15d0c3299b22477b9c3687b68962efcdab014bc5",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -34954,6 +35643,30 @@
   },
   {
     "repository": "ai/containers/kubeflow/kfp-visualization-server",
+    "tag": "2.18.0",
+    "image_name": "ai/containers/kubeflow/kfp-visualization-server:2.18.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:09bc9589eb2310339a6c4633d376379c03580d19c2f2709fc077ef8557c5e878",
+    "created": "2026-10-28 01:17",
+    "labels": {
+      "org.opencontainers.image.created": "2026-10-28T01:16:28.638Z",
+      "org.opencontainers.image.description": "Machine Learning Pipelines for Kubeflow",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "555bfa60a70da88c594960bdacfd78fa7c061043",
+      "org.opencontainers.image.source": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.title": "pipelines",
+      "org.opencontainers.image.url": "https://github.com/kubeflow/pipelines",
+      "org.opencontainers.image.version": "2.18.0"
+    },
+    "entrypoint": [
+      "python3",
+      "server.py"
+    ],
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-visualization-server",
     "tag": "sha256-1ad68e1357891a54811b3fa195d7cc15bcef25a2d64dd9fc81310d89d357b3a9",
     "image_name": "ai/containers/kubeflow/kfp-visualization-server:sha256-1ad68e1357891a54811b3fa195d7cc15bcef25a2d64dd9fc81310d89d357b3a9",
     "architecture": null,
@@ -34971,6 +35684,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:33fd07e8713f0a0ccf6f729bb986636c7246e6426ab0ff7977025b76e35c1edc",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-visualization-server",
+    "tag": "sha256-5eee652406f7a01ee4e529bc2fac7e6c8d415b02055e4ffbc9127cb90536db0a",
+    "image_name": "ai/containers/kubeflow/kfp-visualization-server:sha256-5eee652406f7a01ee4e529bc2fac7e6c8d415b02055e4ffbc9127cb90536db0a",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:f02737a227fc84949a7a75971e70f01daf494be1eeec0357f9cbf01f027a4909",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -35007,6 +35732,18 @@
     "architecture": null,
     "os": null,
     "digest": "sha256:9e3689001d6791df4b670454d63b3e333681b5fd880083c72b0503b6b0ff9310",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/kubeflow/kfp-visualization-server",
+    "tag": "sha256-d636aa0398b591ec1977f5410644dade2aab5113a091960038f76ed78683fd8b",
+    "image_name": "ai/containers/kubeflow/kfp-visualization-server:sha256-d636aa0398b591ec1977f5410644dade2aab5113a091960038f76ed78683fd8b",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:4d8bf5441dd213c47c7134e572b15d48d863551a9a887f94ff6f95308110ad40",
     "created": null,
     "labels": {},
     "entrypoint": null,
@@ -68756,6 +69493,60 @@
   },
   {
     "repository": "ai/containers/suse/suse-ai-opentelemetry-collector",
+    "tag": "0.164.1",
+    "image_name": "ai/containers/suse/suse-ai-opentelemetry-collector:0.164.1",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:7bb0b0a6128fdc2659c72acf7b26c9acac56b51685610806ef3b8683cb2c7744",
+    "created": "2026-11-05 18:11",
+    "labels": {
+      "com.suse.bci.micro.authors": "https://github.com/SUSE/bci/discussions",
+      "com.suse.bci.micro.created": "2026-10-21T17:40:03.658729903Z",
+      "com.suse.bci.micro.description": "A micro environment for containers based on the SUSE Linux Enterprise Base Container Image.",
+      "com.suse.bci.micro.disturl": "obs://build.suse.de/SUSE:SLE-15-SP7:Update:CR/containers/3dc30747facf3e23b453da60158ce18f-micro-image",
+      "com.suse.bci.micro.eula": "sle-bci",
+      "com.suse.bci.micro.lifecycle-url": "https://www.suse.com/lifecycle#suse-linux-enterprise-server-15",
+      "com.suse.bci.micro.name": "15.7-61.21",
+      "com.suse.bci.micro.reference": "registry.suse.com/bci/bci-micro:15.7-61.21",
+      "com.suse.bci.micro.release-stage": "released",
+      "com.suse.bci.micro.source": "https://sources.suse.com/SUSE:SLE-15-SP7:Update:CR/micro-image/3dc30747facf3e23b453da60158ce18f/",
+      "com.suse.bci.micro.supportlevel": "l3",
+      "com.suse.bci.micro.title": "SLE BCI 15 SP7 Micro",
+      "com.suse.bci.micro.until": "2031-07-31",
+      "com.suse.bci.micro.url": "https://www.suse.com/products/base-container-images/",
+      "com.suse.bci.micro.vendor": "SUSE LLC",
+      "com.suse.bci.micro.version": "15.7-61.21",
+      "com.suse.eula": "sle-bci",
+      "com.suse.lifecycle-url": "https://www.suse.com/lifecycle#suse-linux-enterprise-server-15",
+      "com.suse.release-stage": "released",
+      "com.suse.supportlevel": "l3",
+      "com.suse.supportlevel.until": "2031-07-31",
+      "io.artifacthub.package.logo-url": "https://opensource.suse.com/bci/SLE_BCI_logomark_green.svg",
+      "io.artifacthub.package.readme-url": "https://sources.suse.com/SUSE:SLE-15-SP7:Update:CR/micro-image/3dc30747facf3e23b453da60158ce18f/README.md",
+      "org.openbuildservice.disturl": "obs://build.suse.de/SUSE:SLE-15-SP7:Update:CR/containers/3dc30747facf3e23b453da60158ce18f-micro-image",
+      "org.opencontainers.image.authors": "https://github.com/SUSE/bci/discussions",
+      "org.opencontainers.image.created": "2026-11-05T18:06:34.949Z",
+      "org.opencontainers.image.description": "",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.ref.name": "15.7-61.21",
+      "org.opencontainers.image.revision": "cdb9ed07bdb8ef1250a07dbf99ce34c845750fd0",
+      "org.opencontainers.image.source": "https://github.com/SUSE/suse-ai-opentelemetry-collector",
+      "org.opencontainers.image.title": "suse-ai-opentelemetry-collector",
+      "org.opencontainers.image.url": "https://github.com/SUSE/suse-ai-opentelemetry-collector",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "v0.164.1",
+      "org.opensuse.reference": "registry.suse.com/bci/bci-micro:15.7-61.21"
+    },
+    "entrypoint": [
+      "/otelcol/otelcol-custom"
+    ],
+    "cmd": [
+      "--config",
+      "/otelcol/collector-config.yaml"
+    ]
+  },
+  {
+    "repository": "ai/containers/suse/suse-ai-opentelemetry-collector",
     "tag": "sha256-2d9cb14aa2e4a1499519d7bd49638915b69f480b9dbbe3b46d3b193f9d51371f",
     "image_name": "ai/containers/suse/suse-ai-opentelemetry-collector:sha256-2d9cb14aa2e4a1499519d7bd49638915b69f480b9dbbe3b46d3b193f9d51371f",
     "architecture": null,
@@ -68780,11 +69571,35 @@
   },
   {
     "repository": "ai/containers/suse/suse-ai-opentelemetry-collector",
+    "tag": "sha256-6bb0a94bba3318f2d06d1f03aba049dc798508b8a342195a71256915b26b60ce",
+    "image_name": "ai/containers/suse/suse-ai-opentelemetry-collector:sha256-6bb0a94bba3318f2d06d1f03aba049dc798508b8a342195a71256915b26b60ce",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:295d14cf0bbe5499ac11bbf32d0ca234c7b130ae797cd5545a66acdbab5fa2c1",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suse/suse-ai-opentelemetry-collector",
     "tag": "sha256-6e16249183f442f8274136b606439c50334d1fab03a266a32a3ecc3ce8d9b189",
     "image_name": "ai/containers/suse/suse-ai-opentelemetry-collector:sha256-6e16249183f442f8274136b606439c50334d1fab03a266a32a3ecc3ce8d9b189",
     "architecture": null,
     "os": null,
     "digest": "sha256:47ac13f96a533ca65ec7eb0db4591162f4ba1c689daa1b51e2d613fd40148f4f",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null
+  },
+  {
+    "repository": "ai/containers/suse/suse-ai-opentelemetry-collector",
+    "tag": "sha256-740fe68e5a2b4c3ef45723f3ef7a614f6d31bfbb18e7ffe7e496680e59ed1d5c",
+    "image_name": "ai/containers/suse/suse-ai-opentelemetry-collector:sha256-740fe68e5a2b4c3ef45723f3ef7a614f6d31bfbb18e7ffe7e496680e59ed1d5c",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:5441ea8e1d11f13cdfb4aa7d2b35477e2f9f9e0eb36bd23c841d1f631ecc9170",
     "created": null,
     "labels": {},
     "entrypoint": null,

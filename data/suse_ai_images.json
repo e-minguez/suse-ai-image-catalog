@@ -7609,6 +7609,100 @@
     "application": "ollama",
     "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
     "component": "ollama",
+    "image_name": "ollama:0.40.15-nvidia-2.9",
+    "version": "0.40.15",
+    "packaging_format": "CONTAINER",
+    "architecture": "aarch64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:7fabefcde6428d333df4c19154a2d38fe56638fc270a070eaa68d10a40413d99",
+    "last_updated": "2026-11-06 07:52",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "ollama-0.40.15-nvidia-2.9.aarch64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "ollama-0.40.15-nvidia-2.9.aarch64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "ollama-0",
+      "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
+      "org.opencontainers.image.created": "2026-11-06T07:45:23.867711240Z",
+      "org.opencontainers.image.description": "Ollama is an open-source platform for running and managing large language models (LLMs) locally, providing a CLI and REST API for model inference, deployment, and integration into AI-powered applications.",
+      "org.opencontainers.image.ref.name": "0.40.15-nvidia-2.9",
+      "org.opencontainers.image.title": "Ollama",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "0.40.15"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 3,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/7fabefcde6428d333df4c19154a2d38fe56638fc270a070eaa68d10a40413d99"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
+    "image_name": "ollama:0.40.15-nvidia-2.9",
+    "version": "0.40.15",
+    "packaging_format": "CONTAINER",
+    "architecture": "x86_64",
+    "os_family": "SLE",
+    "os_version": "15.7",
+    "digest": "SHA256:2064fddb0719cc2f29864732ec30848aecff715af6fd6be52f3b544cd4cc9aa6",
+    "last_updated": "2026-11-06 07:52",
+    "sboms": [
+      {
+        "type": "SBOM",
+        "format": "SPDX",
+        "filename": "ollama-0.40.15-nvidia-2.9.x86_64.spdx.json"
+      },
+      {
+        "type": "SBOM",
+        "format": "CYCLONEDX",
+        "filename": "ollama-0.40.15-nvidia-2.9.x86_64.cdx.json"
+      }
+    ],
+    "labels": {
+      "com.suse.apps.main-package": "ollama-0",
+      "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
+      "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
+      "org.opencontainers.image.created": "2026-11-06T07:07:43.892269106Z",
+      "org.opencontainers.image.description": "Ollama is an open-source platform for running and managing large language models (LLMs) locally, providing a CLI and REST API for model inference, deployment, and integration into AI-powered applications.",
+      "org.opencontainers.image.ref.name": "0.40.15-nvidia-2.9",
+      "org.opencontainers.image.title": "Ollama",
+      "org.opencontainers.image.url": "https://apps.rancher.io/applications/ollama",
+      "org.opencontainers.image.vendor": "SUSE LLC",
+      "org.opencontainers.image.version": "0.40.15"
+    },
+    "vulnerabilities": {
+      "scan_date": "",
+      "total": 3,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "source": "apps.rancher.io",
+      "artifact_url": "https://apps.rancher.io/artifacts/2064fddb0719cc2f29864732ec30848aecff715af6fd6be52f3b544cd4cc9aa6"
+    }
+  },
+  {
+    "application": "ollama",
+    "app_logo_url": "https://apps.rancher.io/logos/ollama.png",
+    "component": "ollama",
     "image_name": "ollama:0.40.14-nvidia-2.8",
     "version": "0.40.14",
     "packaging_format": "CONTAINER",

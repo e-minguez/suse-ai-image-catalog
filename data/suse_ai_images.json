@@ -10260,33 +10260,33 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.13.0-nvidia-2.2",
+    "image_name": "open-webui:0.13.0-nvidia-2.3",
     "version": "0.13.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:27ace5754841031c757836ac22d4c4c01e3038d5acc8258aa6f6dcc761756d18",
-    "last_updated": "2026-11-06 16:04",
+    "digest": "SHA256:2128ae02226457261e3c8273bc3b5bf6f7ca83d5d807c9b1131bc91aacb38145",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-0.13.0-nvidia-2.2.aarch64.spdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.3.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.13.0-nvidia-2.2.aarch64.cdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.3.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "open-webui-0",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-06T15:11:26.718607960Z",
+      "org.opencontainers.image.created": "2026-11-07T05:55:45.413778000Z",
       "org.opencontainers.image.description": "OpenWebUI is a web interface for interacting with LLMs. It offers prompt management, conversation history, multi-model support, RAG integration, role-based access control, and an extensible plugin system for customizing workflows.",
-      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.2",
+      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.3",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -10300,40 +10300,40 @@
       "medium": 28,
       "low": 4,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/27ace5754841031c757836ac22d4c4c01e3038d5acc8258aa6f6dcc761756d18"
+      "artifact_url": "https://apps.rancher.io/artifacts/2128ae02226457261e3c8273bc3b5bf6f7ca83d5d807c9b1131bc91aacb38145"
     }
   },
   {
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.13.0-nvidia-2.2",
+    "image_name": "open-webui:0.13.0-nvidia-2.3",
     "version": "0.13.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:a13525c0d99037aebabdb522e343e54ed0016e9d64468ffdcdcf9d6b5269b60f",
-    "last_updated": "2026-11-06 16:04",
+    "digest": "SHA256:ad539d7d5543ca84f7d3a989d29cfe16c7bb797c538b4995b3edfd47c441a102",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-0.13.0-nvidia-2.2.x86_64.spdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.3.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.13.0-nvidia-2.2.x86_64.cdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.3.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "open-webui-0",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-06T15:26:10.451038290Z",
+      "org.opencontainers.image.created": "2026-11-07T00:21:38.892276808Z",
       "org.opencontainers.image.description": "OpenWebUI is a web interface for interacting with LLMs. It offers prompt management, conversation history, multi-model support, RAG integration, role-based access control, and an extensible plugin system for customizing workflows.",
-      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.2",
+      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.3",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -10347,7 +10347,7 @@
       "medium": 28,
       "low": 4,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/a13525c0d99037aebabdb522e343e54ed0016e9d64468ffdcdcf9d6b5269b60f"
+      "artifact_url": "https://apps.rancher.io/artifacts/ad539d7d5543ca84f7d3a989d29cfe16c7bb797c538b4995b3edfd47c441a102"
     }
   },
   {
@@ -11505,33 +11505,33 @@
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:2.15.0-nvidia-5.5",
+    "image_name": "pytorch:2.15.0-nvidia-5.6",
     "version": "2.15.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:a6627c901159ae0f72c067122815dcca1cd129540678a53d18022d29df567055",
-    "last_updated": "2026-11-02 23:31",
+    "digest": "SHA256:a1ab900439fa1d89e41be800f19f2a0b3161e5a8c8f4c8436d03da1fc769ce30",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "pytorch-2.15.0-nvidia-5.5.aarch64.spdx.json"
+        "filename": "pytorch-2.15.0-nvidia-5.6.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "pytorch-2.15.0-nvidia-5.5.aarch64.cdx.json"
+        "filename": "pytorch-2.15.0-nvidia-5.6.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "pytorch-2",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-02T23:07:13.323480400Z",
+      "org.opencontainers.image.created": "2026-11-07T05:55:48.238416480Z",
       "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
-      "org.opencontainers.image.ref.name": "2.15.0-nvidia-5.5",
+      "org.opencontainers.image.ref.name": "2.15.0-nvidia-5.6",
       "org.opencontainers.image.title": "PyTorch",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -11545,40 +11545,40 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/a6627c901159ae0f72c067122815dcca1cd129540678a53d18022d29df567055"
+      "artifact_url": "https://apps.rancher.io/artifacts/a1ab900439fa1d89e41be800f19f2a0b3161e5a8c8f4c8436d03da1fc769ce30"
     }
   },
   {
     "application": "pytorch",
     "app_logo_url": "https://apps.rancher.io/logos/pytorch.png",
     "component": "pytorch",
-    "image_name": "pytorch:2.15.0-nvidia-5.5",
+    "image_name": "pytorch:2.15.0-nvidia-5.6",
     "version": "2.15.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:f971a9c215468acde6e0f7358fa0e7685a514aa176425c4f3f43bb61439b0969",
-    "last_updated": "2026-11-02 23:31",
+    "digest": "SHA256:e85b4b650d3e8af9046f487c91adb64779155378e0018362544e61bc67205eaa",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "pytorch-2.15.0-nvidia-5.5.x86_64.spdx.json"
+        "filename": "pytorch-2.15.0-nvidia-5.6.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "pytorch-2.15.0-nvidia-5.5.x86_64.cdx.json"
+        "filename": "pytorch-2.15.0-nvidia-5.6.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "pytorch-2",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-02T19:01:06.720620441Z",
+      "org.opencontainers.image.created": "2026-11-07T00:21:35.804635199Z",
       "org.opencontainers.image.description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
-      "org.opencontainers.image.ref.name": "2.15.0-nvidia-5.5",
+      "org.opencontainers.image.ref.name": "2.15.0-nvidia-5.6",
       "org.opencontainers.image.title": "PyTorch",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/pytorch",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -11592,7 +11592,7 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/f971a9c215468acde6e0f7358fa0e7685a514aa176425c4f3f43bb61439b0969"
+      "artifact_url": "https://apps.rancher.io/artifacts/e85b4b650d3e8af9046f487c91adb64779155378e0018362544e61bc67205eaa"
     }
   },
   {
@@ -14587,33 +14587,33 @@
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-lmstack-router",
-    "image_name": "lmcache-lmstack-router:0.1.13-nvidia-1.2",
+    "image_name": "lmcache-lmstack-router:0.1.13-nvidia-1.3",
     "version": "0.1.13",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:371639bacc625a60caf061919d114d53ece0cabdc3566e3de94cfc6224bf178a",
-    "last_updated": "2026-10-27 16:06",
+    "digest": "SHA256:c42627aa74f4614f5e140bee348f024db0b6a453d3eb50124a71dce829334e97",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "lmcache-lmstack-router-0.1.13-nvidia-1.2.aarch64.spdx.json"
+        "filename": "lmcache-lmstack-router-0.1.13-nvidia-1.3.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "lmcache-lmstack-router-0.1.13-nvidia-1.2.aarch64.cdx.json"
+        "filename": "lmcache-lmstack-router-0.1.13-nvidia-1.3.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "vllm-stack-0-router",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-10-27T13:59:28.278774040Z",
+      "org.opencontainers.image.created": "2026-11-07T05:16:34.918936360Z",
       "org.opencontainers.image.description": "The LMCache LMStack Router is a high-performance load balancer that efficiently distributes inference traffic across vLLM backend engines. It supports multi-model endpoints, flexible routing logic like round robin and session tracking, and automatic service discovery with fault tolerance via Kubernetes. Built for production observability, it also exports key instance metrics like queries per second, time to first token, and active request counts.",
-      "org.opencontainers.image.ref.name": "0.1.13-nvidia-1.2",
+      "org.opencontainers.image.ref.name": "0.1.13-nvidia-1.3",
       "org.opencontainers.image.title": "LMStack Router",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm-stack",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -14621,46 +14621,46 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 40,
+      "total": 55,
       "critical": 1,
-      "high": 7,
-      "medium": 28,
-      "low": 4,
+      "high": 15,
+      "medium": 34,
+      "low": 5,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/371639bacc625a60caf061919d114d53ece0cabdc3566e3de94cfc6224bf178a"
+      "artifact_url": "https://apps.rancher.io/artifacts/c42627aa74f4614f5e140bee348f024db0b6a453d3eb50124a71dce829334e97"
     }
   },
   {
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-lmstack-router",
-    "image_name": "lmcache-lmstack-router:0.1.13-nvidia-1.2",
+    "image_name": "lmcache-lmstack-router:0.1.13-nvidia-1.3",
     "version": "0.1.13",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:22312cc41764c847fdcbad77a0df59d69b8fc6d86b047a924f929552e7a6e702",
-    "last_updated": "2026-10-27 16:06",
+    "digest": "SHA256:c256e57762624b241b9ee0d8267f98bf7186a2abc2a7241a0c75add900dec1a4",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "lmcache-lmstack-router-0.1.13-nvidia-1.2.x86_64.spdx.json"
+        "filename": "lmcache-lmstack-router-0.1.13-nvidia-1.3.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "lmcache-lmstack-router-0.1.13-nvidia-1.2.x86_64.cdx.json"
+        "filename": "lmcache-lmstack-router-0.1.13-nvidia-1.3.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "vllm-stack-0-router",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-10-27T13:58:40.634495110Z",
+      "org.opencontainers.image.created": "2026-11-07T02:28:32.328785439Z",
       "org.opencontainers.image.description": "The LMCache LMStack Router is a high-performance load balancer that efficiently distributes inference traffic across vLLM backend engines. It supports multi-model endpoints, flexible routing logic like round robin and session tracking, and automatic service discovery with fault tolerance via Kubernetes. Built for production observability, it also exports key instance metrics like queries per second, time to first token, and active request counts.",
-      "org.opencontainers.image.ref.name": "0.1.13-nvidia-1.2",
+      "org.opencontainers.image.ref.name": "0.1.13-nvidia-1.3",
       "org.opencontainers.image.title": "LMStack Router",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm-stack",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -14668,13 +14668,13 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 40,
+      "total": 55,
       "critical": 1,
-      "high": 7,
-      "medium": 28,
-      "low": 4,
+      "high": 15,
+      "medium": 34,
+      "low": 5,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/22312cc41764c847fdcbad77a0df59d69b8fc6d86b047a924f929552e7a6e702"
+      "artifact_url": "https://apps.rancher.io/artifacts/c256e57762624b241b9ee0d8267f98bf7186a2abc2a7241a0c75add900dec1a4"
     }
   },
   {
@@ -14869,33 +14869,33 @@
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-vllm-openai",
-    "image_name": "lmcache-vllm-openai:0.5.6-nvidia-1.7",
+    "image_name": "lmcache-vllm-openai:0.5.6-nvidia-1.8",
     "version": "0.5.6",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:bff28fbb1e4a530ccb7143b6c0682034e4e4c705d8e60e4847cc02e94a6e350f",
-    "last_updated": "2026-11-05 23:49",
+    "digest": "SHA256:d57593a37c82d537b307bb6c30bb2d80bb5a3f2fb0c89ef003adf18706987db2",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.7.aarch64.spdx.json"
+        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.8.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.7.aarch64.cdx.json"
+        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.8.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "lmcache-0-vllm-openai",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-05T22:55:33.140213000Z",
+      "org.opencontainers.image.created": "2026-11-07T05:16:38.703988440Z",
       "org.opencontainers.image.description": "vLLM is a high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs). The vLLM OpenAI compatible server provides an HTTP server that implements several of OpenAI's APIs, such as the Completions API, Chat Completions API, and more. Combined with LMCache, a modular KV cache layer for LLM inference, it allows for workloads where long prompts, conversation history, and retrieved content to be reused across requests.",
-      "org.opencontainers.image.ref.name": "0.5.6-nvidia-1.7",
+      "org.opencontainers.image.ref.name": "0.5.6-nvidia-1.8",
       "org.opencontainers.image.title": "LMCache vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm-stack",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -14909,40 +14909,40 @@
       "medium": 13,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/bff28fbb1e4a530ccb7143b6c0682034e4e4c705d8e60e4847cc02e94a6e350f"
+      "artifact_url": "https://apps.rancher.io/artifacts/d57593a37c82d537b307bb6c30bb2d80bb5a3f2fb0c89ef003adf18706987db2"
     }
   },
   {
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "lmcache-vllm-openai",
-    "image_name": "lmcache-vllm-openai:0.5.6-nvidia-1.7",
+    "image_name": "lmcache-vllm-openai:0.5.6-nvidia-1.8",
     "version": "0.5.6",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:196365a2e6ae6b0cb4d1bdd75c73dfab87c96cd8315f9f7ae88e6a09ad392e3f",
-    "last_updated": "2026-11-05 23:49",
+    "digest": "SHA256:3496b031a2a3ec026ae57fd94ecf5745f873a456ce2478792b2629b3945a2634",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.7.x86_64.cdx.json"
+        "format": "SPDX",
+        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.8.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.7.x86_64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "lmcache-vllm-openai-0.5.6-nvidia-1.8.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "lmcache-0-vllm-openai",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-05T22:53:30.326894296Z",
+      "org.opencontainers.image.created": "2026-11-07T02:28:34.228607501Z",
       "org.opencontainers.image.description": "vLLM is a high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs). The vLLM OpenAI compatible server provides an HTTP server that implements several of OpenAI's APIs, such as the Completions API, Chat Completions API, and more. Combined with LMCache, a modular KV cache layer for LLM inference, it allows for workloads where long prompts, conversation history, and retrieved content to be reused across requests.",
-      "org.opencontainers.image.ref.name": "0.5.6-nvidia-1.7",
+      "org.opencontainers.image.ref.name": "0.5.6-nvidia-1.8",
       "org.opencontainers.image.title": "LMCache vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm-stack",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -14956,7 +14956,7 @@
       "medium": 13,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/196365a2e6ae6b0cb4d1bdd75c73dfab87c96cd8315f9f7ae88e6a09ad392e3f"
+      "artifact_url": "https://apps.rancher.io/artifacts/3496b031a2a3ec026ae57fd94ecf5745f873a456ce2478792b2629b3945a2634"
     }
   },
   {
@@ -15235,33 +15235,33 @@
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "vllm-openai",
-    "image_name": "vllm-openai:0.32.0-nvidia-1.5",
+    "image_name": "vllm-openai:0.32.0-nvidia-1.6",
     "version": "0.32.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:747d3f915c4f01f97d8a72b4adac796dc81d4e47209154161e68d659baa1bb10",
-    "last_updated": "2026-11-05 23:49",
+    "digest": "SHA256:6fa948c083980ca2f3b1606c321b764b826df03da115fe022e5f319308208d44",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "vllm-openai-0.32.0-nvidia-1.5.aarch64.spdx.json"
+        "filename": "vllm-openai-0.32.0-nvidia-1.6.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "vllm-openai-0.32.0-nvidia-1.5.aarch64.cdx.json"
+        "filename": "vllm-openai-0.32.0-nvidia-1.6.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "vllm-0-openai",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-05T22:55:39.693258200Z",
+      "org.opencontainers.image.created": "2026-11-07T05:16:32.353546480Z",
       "org.opencontainers.image.description": "vLLM is a high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs). The vLLM OpenAI compatible server provides an HTTP server that implements several of OpenAI's APIs, such as the Completions API, Chat Completions API, and more.",
-      "org.opencontainers.image.ref.name": "0.32.0-nvidia-1.5",
+      "org.opencontainers.image.ref.name": "0.32.0-nvidia-1.6",
       "org.opencontainers.image.title": "vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm-openai",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -15275,40 +15275,40 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/747d3f915c4f01f97d8a72b4adac796dc81d4e47209154161e68d659baa1bb10"
+      "artifact_url": "https://apps.rancher.io/artifacts/6fa948c083980ca2f3b1606c321b764b826df03da115fe022e5f319308208d44"
     }
   },
   {
     "application": "vllm",
     "app_logo_url": "https://apps.rancher.io/logos/vllm.png",
     "component": "vllm-openai",
-    "image_name": "vllm-openai:0.32.0-nvidia-1.5",
+    "image_name": "vllm-openai:0.32.0-nvidia-1.6",
     "version": "0.32.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:a764d4b8f19a10f7341a66773332d2de1d7232760bf96c2c2a94bd20055821e9",
-    "last_updated": "2026-11-05 23:49",
+    "digest": "SHA256:4dc459ef465edfa75d75dace581ba9ad2900e50a848d7dd99cdc4bace605164d",
+    "last_updated": "2026-11-07 06:39",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "vllm-openai-0.32.0-nvidia-1.5.x86_64.spdx.json"
+        "filename": "vllm-openai-0.32.0-nvidia-1.6.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "vllm-openai-0.32.0-nvidia-1.5.x86_64.cdx.json"
+        "filename": "vllm-openai-0.32.0-nvidia-1.6.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "vllm-0-openai",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-05T22:53:28.326997904Z",
+      "org.opencontainers.image.created": "2026-11-07T02:28:35.794939484Z",
       "org.opencontainers.image.description": "vLLM is a high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs). The vLLM OpenAI compatible server provides an HTTP server that implements several of OpenAI's APIs, such as the Completions API, Chat Completions API, and more.",
-      "org.opencontainers.image.ref.name": "0.32.0-nvidia-1.5",
+      "org.opencontainers.image.ref.name": "0.32.0-nvidia-1.6",
       "org.opencontainers.image.title": "vLLM OpenAI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/vllm-openai",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -15322,7 +15322,7 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/a764d4b8f19a10f7341a66773332d2de1d7232760bf96c2c2a94bd20055821e9"
+      "artifact_url": "https://apps.rancher.io/artifacts/4dc459ef465edfa75d75dace581ba9ad2900e50a848d7dd99cdc4bace605164d"
     }
   },
   {

@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-11-08 15:22",
+    "changes": [
+      "New Container (AppCo): vllm-openai:0.33.0-nvidia-1.7 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.33.0-nvidia-1.7 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-08 06:03",
     "changes": [
       "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-1.10 (aarch64)",
@@ -601,13 +608,6 @@
     "date": "2026-10-28 15:24",
     "changes": [
       "New Chart (AppCo): ollama:1.93.0-5.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-10-28 05:31",
-    "changes": [
-      "New Container (AppCo): ollama:0.40.12-nvidia-2.4 (aarch64)",
-      "New Container (AppCo): ollama:0.40.12-nvidia-2.4 (x86_64)"
     ]
   }
 ]

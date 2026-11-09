@@ -10260,33 +10260,33 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.13.0-nvidia-2.3",
+    "image_name": "open-webui:0.13.0-nvidia-2.5",
     "version": "0.13.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:2128ae02226457261e3c8273bc3b5bf6f7ca83d5d807c9b1131bc91aacb38145",
-    "last_updated": "2026-11-07 06:39",
+    "digest": "SHA256:7f174f1aad68a743fe39ba8a74742edfeecd005db5e7f90e53eb3764c6a974ca",
+    "last_updated": "2026-11-09 15:13",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-0.13.0-nvidia-2.3.aarch64.spdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.5.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.13.0-nvidia-2.3.aarch64.cdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.5.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "open-webui-0",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-07T05:55:45.413778000Z",
+      "org.opencontainers.image.created": "2026-11-09T14:28:08.194115120Z",
       "org.opencontainers.image.description": "OpenWebUI is a web interface for interacting with LLMs. It offers prompt management, conversation history, multi-model support, RAG integration, role-based access control, and an extensible plugin system for customizing workflows.",
-      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.3",
+      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.5",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -10300,40 +10300,40 @@
       "medium": 28,
       "low": 4,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/2128ae02226457261e3c8273bc3b5bf6f7ca83d5d807c9b1131bc91aacb38145"
+      "artifact_url": "https://apps.rancher.io/artifacts/7f174f1aad68a743fe39ba8a74742edfeecd005db5e7f90e53eb3764c6a974ca"
     }
   },
   {
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.13.0-nvidia-2.3",
+    "image_name": "open-webui:0.13.0-nvidia-2.5",
     "version": "0.13.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:ad539d7d5543ca84f7d3a989d29cfe16c7bb797c538b4995b3edfd47c441a102",
-    "last_updated": "2026-11-07 06:39",
+    "digest": "SHA256:aade4816e8a930115415bcac263d0d4d971893aa3e833d6040792de6fd27434e",
+    "last_updated": "2026-11-09 15:13",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-0.13.0-nvidia-2.3.x86_64.spdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.5.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.13.0-nvidia-2.3.x86_64.cdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.5.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "open-webui-0",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-07T00:21:38.892276808Z",
+      "org.opencontainers.image.created": "2026-11-09T14:28:16.616074730Z",
       "org.opencontainers.image.description": "OpenWebUI is a web interface for interacting with LLMs. It offers prompt management, conversation history, multi-model support, RAG integration, role-based access control, and an extensible plugin system for customizing workflows.",
-      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.3",
+      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.5",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -10347,39 +10347,39 @@
       "medium": 28,
       "low": 4,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/ad539d7d5543ca84f7d3a989d29cfe16c7bb797c538b4995b3edfd47c441a102"
+      "artifact_url": "https://apps.rancher.io/artifacts/aade4816e8a930115415bcac263d0d4d971893aa3e833d6040792de6fd27434e"
     }
   },
   {
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:18.0.0-1.1",
+    "image_name": "open-webui:18.0.0-3.1",
     "version": "0.13.0",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:eb7122917509b6ba02baa64ac9b5c1630189a3f2d8958faded0dc11954a0880a",
-    "last_updated": "2026-11-06 16:21",
+    "digest": "SHA256:c9d83197118a5db0faef4d2033da4cff2d6f256a11d1987d25cc6804a8109001",
+    "last_updated": "2026-11-09 10:39",
     "sboms": [],
     "labels": {},
     "chart_images": [
       "dp.apps.rancher.io/containers/apache-tika:4.0.0-1.1",
       "dp.apps.rancher.io/containers/ollama:0.40.14-nvidia-2.8",
-      "dp.apps.rancher.io/containers/open-webui:0.13.0-nvidia-2.2",
+      "dp.apps.rancher.io/containers/open-webui:0.13.0-nvidia-2.3",
       "dp.apps.rancher.io/containers/redis:8.10.3-1.4"
     ],
     "vulnerabilities": {
       "total": 79,
       "critical": 6,
-      "high": 34,
-      "medium": 30,
+      "high": 35,
+      "medium": 31,
       "low": 4,
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 4,
-      "artifact_url": "https://apps.rancher.io/artifacts/eb7122917509b6ba02baa64ac9b5c1630189a3f2d8958faded0dc11954a0880a"
+      "artifact_url": "https://apps.rancher.io/artifacts/c9d83197118a5db0faef4d2033da4cff2d6f256a11d1987d25cc6804a8109001"
     }
   },
   {

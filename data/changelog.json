@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-11-10 02:57",
+    "changes": [
+      "New Container (AppCo): ollama:0.40.15-nvidia-2.10 (aarch64)",
+      "New Container (AppCo): ollama:0.40.15-nvidia-2.10 (x86_64)",
+      "New Container (AppCo): open-webui:0.13.0-nvidia-2.6 (aarch64)",
+      "New Container (AppCo): open-webui:0.13.0-nvidia-2.6 (x86_64)",
+      "New Chart (AppCo): open-webui:18.0.0-4.1 (N/A)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.127 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.127 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.120 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.120 (x86_64)",
+      "New Container (AppCo): pytorch:2.15.0-nvidia-5.7 (aarch64)",
+      "New Container (AppCo): pytorch:2.15.0-nvidia-5.7 (x86_64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.13-nvidia-1.4 (aarch64)",
+      "New Container (AppCo): lmcache-lmstack-router:0.1.13-nvidia-1.4 (x86_64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-1.11 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-1.11 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.33.0-nvidia-1.8 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.33.0-nvidia-1.8 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-09 19:02",
     "changes": [
       "New Container (AppCo): open-webui:0.13.0-nvidia-2.5 (aarch64)",
@@ -603,13 +625,6 @@
       "New Container (Registry): ai/containers/qdrant:sha256-af0c2dadbdceef1eed84ec4bc225d853c70bc4e3fa1e58cd965ea71d38b94e40 (N/A)",
       "New Container (Registry): ai/containers/qdrant:v1.19.1 (x86_64)",
       "New Container (Registry): ai/containers/qdrant:v1.19.1-gpu-nvidia (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-10-29 15:18",
-    "changes": [
-      "New Container (AppCo): ollama:0.40.13-nvidia-2.5 (aarch64)",
-      "New Container (AppCo): ollama:0.40.13-nvidia-2.5 (x86_64)"
     ]
   }
 ]

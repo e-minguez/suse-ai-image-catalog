@@ -3,33 +3,33 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.25-15.9",
+    "image_name": "milvus:2.6.25-15.11",
     "version": "2.6.25",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:84d7cf24918a8c7a51aa54d6b469342378615a6a678de2bf122ce077f3b45209",
-    "last_updated": "2026-11-10 07:45",
+    "digest": "SHA256:c8ff4606d33b0ed2eb138c84ebc771c03e775dfd1e328fa3bf9b45b7e87e109e",
+    "last_updated": "2026-11-11 08:05",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "milvus-2.6.25-15.9.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "milvus-2.6.25-15.11.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "milvus-2.6.25-15.9.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "milvus-2.6.25-15.11.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-10T01:39:29.171769520Z",
+      "org.opencontainers.image.created": "2026-11-11T01:51:24.002011920Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.25-15.9",
+      "org.opencontainers.image.ref.name": "2.6.25-15.11",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -43,40 +43,40 @@
       "medium": 23,
       "low": 6,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/84d7cf24918a8c7a51aa54d6b469342378615a6a678de2bf122ce077f3b45209"
+      "artifact_url": "https://apps.rancher.io/artifacts/c8ff4606d33b0ed2eb138c84ebc771c03e775dfd1e328fa3bf9b45b7e87e109e"
     }
   },
   {
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.25-nvidia-15.9",
+    "image_name": "milvus:2.6.25-nvidia-15.11",
     "version": "2.6.25",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:05262e930ffb845b1917946bbb3c52537dda9c09b23972daaa8c48a033312d1d",
-    "last_updated": "2026-11-10 07:45",
+    "digest": "SHA256:8d0aec90240975293156fbe07f34f2df9b2c83a857f7e94e3cedf9298ee56799",
+    "last_updated": "2026-11-11 08:05",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "milvus-2.6.25-nvidia-15.9.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "milvus-2.6.25-nvidia-15.11.aarch64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "milvus-2.6.25-nvidia-15.9.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "milvus-2.6.25-nvidia-15.11.aarch64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6-nvidia",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-10T07:07:18.539775640Z",
+      "org.opencontainers.image.created": "2026-11-11T06:11:31.701119000Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.25-nvidia-15.9",
+      "org.opencontainers.image.ref.name": "2.6.25-nvidia-15.11",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -90,40 +90,40 @@
       "medium": 23,
       "low": 6,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/05262e930ffb845b1917946bbb3c52537dda9c09b23972daaa8c48a033312d1d"
+      "artifact_url": "https://apps.rancher.io/artifacts/8d0aec90240975293156fbe07f34f2df9b2c83a857f7e94e3cedf9298ee56799"
     }
   },
   {
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.25-15.9",
+    "image_name": "milvus:2.6.25-15.11",
     "version": "2.6.25",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:a528555d2b9703baf2b63ac1ef2d9e0f372365c5e92554a4d749f36e86453a7c",
-    "last_updated": "2026-11-10 07:45",
+    "digest": "SHA256:5d4ac62e8f102880c8d633691f74bf3b63da6181dc2ab04853bb5a4e56d59c41",
+    "last_updated": "2026-11-11 08:05",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "milvus-2.6.25-15.9.x86_64.cdx.json"
+        "filename": "milvus-2.6.25-15.11.x86_64.cdx.json"
       },
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.25-15.9.x86_64.spdx.json"
+        "filename": "milvus-2.6.25-15.11.x86_64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-09T23:41:01.335666157Z",
+      "org.opencontainers.image.created": "2026-11-11T00:06:09.253880969Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.25-15.9",
+      "org.opencontainers.image.ref.name": "2.6.25-15.11",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -137,40 +137,40 @@
       "medium": 23,
       "low": 6,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/a528555d2b9703baf2b63ac1ef2d9e0f372365c5e92554a4d749f36e86453a7c"
+      "artifact_url": "https://apps.rancher.io/artifacts/5d4ac62e8f102880c8d633691f74bf3b63da6181dc2ab04853bb5a4e56d59c41"
     }
   },
   {
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:2.6.25-nvidia-15.9",
+    "image_name": "milvus:2.6.25-nvidia-15.11",
     "version": "2.6.25",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:0253516ec04c5f6d64bd80ee4c010a506256b401ad1c5054c3d85bd0a700365d",
-    "last_updated": "2026-11-10 07:45",
+    "digest": "SHA256:fa60579adbfaf31026ee5832202c20eff6d92859f99e6a9dcc642aa1850c7a05",
+    "last_updated": "2026-11-11 08:05",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "milvus-2.6.25-nvidia-15.9.x86_64.cdx.json"
+        "filename": "milvus-2.6.25-nvidia-15.11.x86_64.cdx.json"
       },
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "milvus-2.6.25-nvidia-15.9.x86_64.spdx.json"
+        "filename": "milvus-2.6.25-nvidia-15.11.x86_64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "milvus-2.6-nvidia",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-09T23:49:38.865640279Z",
+      "org.opencontainers.image.created": "2026-11-11T00:15:08.817819673Z",
       "org.opencontainers.image.description": "Milvus is a high-performance vector database built for scale. It is used by AI applications to organize and search through large amount of unstructured data, such as text, images, and multi-modal information.",
-      "org.opencontainers.image.ref.name": "2.6.25-nvidia-15.9",
+      "org.opencontainers.image.ref.name": "2.6.25-nvidia-15.11",
       "org.opencontainers.image.title": "Milvus",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/milvus",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -184,7 +184,7 @@
       "medium": 23,
       "low": 6,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/0253516ec04c5f6d64bd80ee4c010a506256b401ad1c5054c3d85bd0a700365d"
+      "artifact_url": "https://apps.rancher.io/artifacts/fa60579adbfaf31026ee5832202c20eff6d92859f99e6a9dcc642aa1850c7a05"
     }
   },
   {
@@ -3545,33 +3545,33 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.18.0-18.8",
+    "image_name": "mlflow:3.18.0-18.11",
     "version": "3.18.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:065247c5f1f915b69b46db09b581d65a9ad2be1596cc42e380c27204187d8408",
-    "last_updated": "2026-11-10 07:37",
+    "digest": "SHA256:9617a5268726774b8d2832a06aa2d638e4a0be776feadcfed7c8a700ce65e4cd",
+    "last_updated": "2026-11-11 10:13",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-3.18.0-18.8.aarch64.spdx.json"
+        "filename": "mlflow-3.18.0-18.11.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-3.18.0-18.8.aarch64.cdx.json"
+        "filename": "mlflow-3.18.0-18.11.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-3",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-09T21:02:28.021981200Z",
+      "org.opencontainers.image.created": "2026-11-10T20:46:24.344676120Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.18.0-18.8",
+      "org.opencontainers.image.ref.name": "3.18.0-18.11",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -3585,40 +3585,40 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/065247c5f1f915b69b46db09b581d65a9ad2be1596cc42e380c27204187d8408"
+      "artifact_url": "https://apps.rancher.io/artifacts/9617a5268726774b8d2832a06aa2d638e4a0be776feadcfed7c8a700ce65e4cd"
     }
   },
   {
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.18.0-18.8",
+    "image_name": "mlflow:3.18.0-18.11",
     "version": "3.18.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:6f2e951fb5ae79d2723f8e0416e69784255bbacb384f6f7dfeca7c0348a49f08",
-    "last_updated": "2026-11-10 07:37",
+    "digest": "SHA256:4369a9fe4f88580cc020514f54203c0455964b784d32f748b5c433fdfbf02c19",
+    "last_updated": "2026-11-11 10:13",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-3.18.0-18.8.x86_64.spdx.json"
+        "filename": "mlflow-3.18.0-18.11.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-3.18.0-18.8.x86_64.cdx.json"
+        "filename": "mlflow-3.18.0-18.11.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-3",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-09T20:02:59.988423993Z",
+      "org.opencontainers.image.created": "2026-11-10T20:43:24.816749328Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "3.18.0-18.8",
+      "org.opencontainers.image.ref.name": "3.18.0-18.11",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -3632,7 +3632,7 @@
       "medium": 1,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/6f2e951fb5ae79d2723f8e0416e69784255bbacb384f6f7dfeca7c0348a49f08"
+      "artifact_url": "https://apps.rancher.io/artifacts/4369a9fe4f88580cc020514f54203c0455964b784d32f748b5c433fdfbf02c19"
     }
   },
   {
@@ -6591,33 +6591,33 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:2.22.4-21.5",
+    "image_name": "mlflow:2.22.4-21.8",
     "version": "2.22.4",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:d450678ede02f6bdf6682d31186fa5a46e7cbde0600a3e655802eee1d2fc78b8",
-    "last_updated": "2026-11-10 07:36",
+    "digest": "SHA256:52ef419489d0e0bd5b93a2f4b74692751458499009990571c344340f9a1fdabf",
+    "last_updated": "2026-11-11 10:13",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-2.22.4-21.5.aarch64.spdx.json"
+        "filename": "mlflow-2.22.4-21.8.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-2.22.4-21.5.aarch64.cdx.json"
+        "filename": "mlflow-2.22.4-21.8.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-2",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-09T21:02:16.460964360Z",
+      "org.opencontainers.image.created": "2026-11-10T20:44:55.875122280Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "2.22.4-21.5",
+      "org.opencontainers.image.ref.name": "2.22.4-21.8",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -6631,40 +6631,40 @@
       "medium": 34,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/d450678ede02f6bdf6682d31186fa5a46e7cbde0600a3e655802eee1d2fc78b8"
+      "artifact_url": "https://apps.rancher.io/artifacts/52ef419489d0e0bd5b93a2f4b74692751458499009990571c344340f9a1fdabf"
     }
   },
   {
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:2.22.4-21.5",
+    "image_name": "mlflow:2.22.4-21.8",
     "version": "2.22.4",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:72dc34b182f122b4a728a614e814bfbc72dc528c1438b9debc4eeb28feaceae8",
-    "last_updated": "2026-11-10 07:36",
+    "digest": "SHA256:697815cca44908a42dc54705abda34f0b113a2b690044a335d1a04ccd6e551fb",
+    "last_updated": "2026-11-11 10:13",
     "sboms": [
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "mlflow-2.22.4-21.5.x86_64.cdx.json"
+        "filename": "mlflow-2.22.4-21.8.x86_64.cdx.json"
       },
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "mlflow-2.22.4-21.5.x86_64.spdx.json"
+        "filename": "mlflow-2.22.4-21.8.x86_64.spdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "mlflow-2",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-09T20:12:09.893751564Z",
+      "org.opencontainers.image.created": "2026-11-10T20:43:27.584464750Z",
       "org.opencontainers.image.description": "MLflow is an open source platform for the complete machine learning lifecycle.",
-      "org.opencontainers.image.ref.name": "2.22.4-21.5",
+      "org.opencontainers.image.ref.name": "2.22.4-21.8",
       "org.opencontainers.image.title": "MLflow",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/mlflow",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -6678,7 +6678,7 @@
       "medium": 34,
       "low": 2,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/72dc34b182f122b4a728a614e814bfbc72dc528c1438b9debc4eeb28feaceae8"
+      "artifact_url": "https://apps.rancher.io/artifacts/697815cca44908a42dc54705abda34f0b113a2b690044a335d1a04ccd6e551fb"
     }
   },
   {
@@ -10354,33 +10354,33 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.13.0-nvidia-2.7",
+    "image_name": "open-webui:0.13.0-nvidia-2.8",
     "version": "0.13.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:18f5eec1f38ddd17e87c5eabe15c48e4d1d4bbb6bc0088214125d24e3a04e919",
-    "last_updated": "2026-11-10 20:35",
+    "digest": "SHA256:d0e069656a07d3090f3060fbbe17a03c8238e6de4172f2097f512a1588ba37c7",
+    "last_updated": "2026-11-11 07:49",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-0.13.0-nvidia-2.7.aarch64.spdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.8.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.13.0-nvidia-2.7.aarch64.cdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.8.aarch64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "open-webui-0",
       "org.opencontainers.image.base.digest": "sha256:a0255639ce95d4197bb708aaee637f830a545561c1d8c13d06ddde763c922977",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-10T18:58:27.591446440Z",
+      "org.opencontainers.image.created": "2026-11-11T07:05:11.657104640Z",
       "org.opencontainers.image.description": "OpenWebUI is a web interface for interacting with LLMs. It offers prompt management, conversation history, multi-model support, RAG integration, role-based access control, and an extensible plugin system for customizing workflows.",
-      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.7",
+      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.8",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -10388,46 +10388,46 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 64,
+      "total": 65,
       "critical": 6,
       "high": 26,
-      "medium": 28,
+      "medium": 29,
       "low": 4,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/18f5eec1f38ddd17e87c5eabe15c48e4d1d4bbb6bc0088214125d24e3a04e919"
+      "artifact_url": "https://apps.rancher.io/artifacts/d0e069656a07d3090f3060fbbe17a03c8238e6de4172f2097f512a1588ba37c7"
     }
   },
   {
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:0.13.0-nvidia-2.7",
+    "image_name": "open-webui:0.13.0-nvidia-2.8",
     "version": "0.13.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:2412e02bff055e1e5bd105ce9e7f29307deefccf57c3ccaf6d77370f138171d4",
-    "last_updated": "2026-11-10 20:35",
+    "digest": "SHA256:fad4a50bfd00e7d31de24a1f3b7be46954416a6df3f74a5f5a5eb9ab58de0f7f",
+    "last_updated": "2026-11-11 07:49",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-0.13.0-nvidia-2.7.x86_64.spdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.8.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-0.13.0-nvidia-2.7.x86_64.cdx.json"
+        "filename": "open-webui-0.13.0-nvidia-2.8.x86_64.cdx.json"
       }
     ],
     "labels": {
       "com.suse.apps.main-package": "open-webui-0",
       "org.opencontainers.image.base.digest": "sha256:546de6e30c40f06acee7ee3b19b127280b49d129d4063f398fb8e7a8fdbd5c54",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-61.21",
-      "org.opencontainers.image.created": "2026-11-10T19:17:28.603928508Z",
+      "org.opencontainers.image.created": "2026-11-11T07:03:45.897801673Z",
       "org.opencontainers.image.description": "OpenWebUI is a web interface for interacting with LLMs. It offers prompt management, conversation history, multi-model support, RAG integration, role-based access control, and an extensible plugin system for customizing workflows.",
-      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.7",
+      "org.opencontainers.image.ref.name": "0.13.0-nvidia-2.8",
       "org.opencontainers.image.title": "Open WebUI",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui",
       "org.opencontainers.image.vendor": "SUSE LLC",
@@ -10435,45 +10435,45 @@
     },
     "vulnerabilities": {
       "scan_date": "",
-      "total": 64,
+      "total": 65,
       "critical": 6,
       "high": 26,
-      "medium": 28,
+      "medium": 29,
       "low": 4,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/2412e02bff055e1e5bd105ce9e7f29307deefccf57c3ccaf6d77370f138171d4"
+      "artifact_url": "https://apps.rancher.io/artifacts/fad4a50bfd00e7d31de24a1f3b7be46954416a6df3f74a5f5a5eb9ab58de0f7f"
     }
   },
   {
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:18.0.0-5.1",
+    "image_name": "open-webui:18.0.0-6.1",
     "version": "0.13.0",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:21b9a7737295c4629182f57a6595b22e58f6ab08be34adc16334648aec642b8b",
-    "last_updated": "2026-11-11 03:15",
+    "digest": "SHA256:bfe524a795404b2f4bba8d39888e23e68fcc7b7dc38334ff6a5f0e1a69b6df06",
+    "last_updated": "2026-11-11 08:30",
     "sboms": [],
     "labels": {},
     "chart_images": [
       "dp.apps.rancher.io/containers/apache-tika:4.0.0-1.1",
       "dp.apps.rancher.io/containers/ollama:0.40.14-nvidia-2.8",
-      "dp.apps.rancher.io/containers/open-webui:0.13.0-nvidia-2.7",
+      "dp.apps.rancher.io/containers/open-webui:0.13.0-nvidia-2.8",
       "dp.apps.rancher.io/containers/redis:8.10.3-1.5"
     ],
     "vulnerabilities": {
-      "total": 79,
+      "total": 80,
       "critical": 6,
       "high": 35,
-      "medium": 31,
+      "medium": 32,
       "low": 4,
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 4,
-      "artifact_url": "https://apps.rancher.io/artifacts/21b9a7737295c4629182f57a6595b22e58f6ab08be34adc16334648aec642b8b"
+      "artifact_url": "https://apps.rancher.io/artifacts/bfe524a795404b2f4bba8d39888e23e68fcc7b7dc38334ff6a5f0e1a69b6df06"
     }
   },
   {

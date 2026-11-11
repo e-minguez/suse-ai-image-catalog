@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-11 06:08",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.25-92.1 (N/A)",
+      "New Chart (AppCo): mlflow:3.18.0-3.1 (N/A)",
+      "New Chart (AppCo): open-webui:18.0.0-5.1 (N/A)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.130 (aarch64)",
+      "New Container (AppCo): open-webui-mcpo:0.0.17-2.130 (x86_64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.123 (aarch64)",
+      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.123 (x86_64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:3.0.0-8.3 (aarch64)",
+      "New Container (AppCo): suse-ai-observability-extension-setup:3.0.0-8.3 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-10 22:04",
     "changes": [
       "New Container (AppCo): ollama:0.40.16-nvidia-2.12 (aarch64)",
@@ -462,19 +476,6 @@
     "date": "2026-10-31 05:31",
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-91.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-10-30 15:18",
-    "changes": [
-      "New Container (AppCo): lmcache-vllm-openai:0.5.6-nvidia-1.5 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.5.6-nvidia-1.5 (x86_64)",
-      "New Container (GHCR): suse/chart/aif-operator:2.4.0-dev.1 (N/A)",
-      "New Container (GHCR): suse/chart/aif-ui:2.4.0-dev.1 (N/A)",
-      "New Container (GHCR): suse/aif-operator:2.4.0-dev.1 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.4.0-dev.1-arm64 (arm64)",
-      "New Container (GHCR): suse/aif-ui:2.4.0-dev.1-amd64 (x86_64)",
-      "New Container (GHCR): suse/aif-ui:2.4.0-dev.1 (x86_64)"
     ]
   }
 ]

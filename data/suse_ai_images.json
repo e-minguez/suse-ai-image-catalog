@@ -943,20 +943,20 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:5.0.25-93.1",
+    "image_name": "milvus:5.0.25-94.1",
     "version": "2.6.21",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:9f4f61980e38e1b0ad5a28c6a183b8b26f78e0fef70e0bb1c9069e5b0102a294",
-    "last_updated": "2026-11-12 03:42",
+    "digest": "SHA256:e1de87ae6593317d1232c45e1f89a4f063263e13a1064020481d0433a811d543",
+    "last_updated": "2026-11-13 02:32",
     "sboms": [],
     "labels": {},
     "chart_images": [
       "dp.apps.rancher.io/containers/apache-kafka:4.3.2-8.4",
-      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.39",
-      "dp.apps.rancher.io/containers/bci-busybox:15.7-25.39",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-26.1",
+      "dp.apps.rancher.io/containers/bci-busybox:15.7-26.1",
       "dp.apps.rancher.io/containers/etcd:3.7.3-5.2",
       "dp.apps.rancher.io/containers/heaptrack:1.3.0-14.1",
       "dp.apps.rancher.io/containers/milvus:2.6.21-11.24",
@@ -972,7 +972,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 8,
-      "artifact_url": "https://apps.rancher.io/artifacts/9f4f61980e38e1b0ad5a28c6a183b8b26f78e0fef70e0bb1c9069e5b0102a294"
+      "artifact_url": "https://apps.rancher.io/artifacts/e1de87ae6593317d1232c45e1f89a4f063263e13a1064020481d0433a811d543"
     }
   },
   {
@@ -11632,18 +11632,18 @@
     "application": "open-webui-mcpo",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-mcpo.png",
     "component": "open-webui-mcpo",
-    "image_name": "open-webui-mcpo:2.0.0-1.1",
+    "image_name": "open-webui-mcpo:2.0.0-2.1",
     "version": "0.0.20",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:1fc7eb598377d5754c749d1f37c47ddfd7e986c3e8ac5d9e1e546446b12b3fe1",
-    "last_updated": "2026-11-12 11:45",
+    "digest": "SHA256:5ff20e87b0074334636f1c6184677346f7a3e687594e045b7ab36cd31317ed4a",
+    "last_updated": "2026-11-13 01:54",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/open-webui-mcpo:0.0.20-1.1"
+      "dp.apps.rancher.io/containers/open-webui-mcpo:0.0.20-2.1"
     ],
     "vulnerabilities": {
       "total": 19,
@@ -11654,7 +11654,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 1,
-      "artifact_url": "https://apps.rancher.io/artifacts/1fc7eb598377d5754c749d1f37c47ddfd7e986c3e8ac5d9e1e546446b12b3fe1"
+      "artifact_url": "https://apps.rancher.io/artifacts/5ff20e87b0074334636f1c6184677346f7a3e687594e045b7ab36cd31317ed4a"
     }
   },
   {

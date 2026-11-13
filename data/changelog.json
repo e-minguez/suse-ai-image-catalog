@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-11-13 06:31",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.25-94.1 (N/A)",
+      "New Chart (AppCo): open-webui-mcpo:2.0.0-2.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-11-12 22:38",
     "changes": [
       "New Container (AppCo): milvus:2.6.25-16.1 (aarch64)",
@@ -308,15 +315,6 @@
       "New Container (GHCR): suse/aif-ui:2.4.0-rc.1-amd64 (x86_64)",
       "New Container (GHCR): suse/aif-ui:2.4.0-rc.1-arm64 (arm64)",
       "New Container (GHCR): suse/aif-ui:2.4.0-rc.1 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-11-03 12:17",
-    "changes": [
-      "New Chart (AppCo): mlflow:3.17.2-1.1 (N/A)",
-      "New Container (AppCo): ollama:0.40.14-nvidia-2.7 (aarch64)",
-      "New Container (AppCo): ollama:0.40.14-nvidia-2.7 (x86_64)",
-      "New Chart (AppCo): ollama:1.94.0-6.1 (N/A)"
     ]
   }
 ]

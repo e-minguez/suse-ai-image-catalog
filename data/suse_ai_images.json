@@ -943,36 +943,36 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:5.0.25-94.1",
+    "image_name": "milvus:5.0.25-95.1",
     "version": "2.6.21",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:e1de87ae6593317d1232c45e1f89a4f063263e13a1064020481d0433a811d543",
-    "last_updated": "2026-11-13 02:32",
+    "digest": "SHA256:935ded6c9b600c980b3cc1be8753cae1dde6cabccd217a125e4b4ba225be7098",
+    "last_updated": "2026-11-14 04:17",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/apache-kafka:4.3.2-8.4",
+      "dp.apps.rancher.io/containers/apache-kafka:4.3.2-9.1",
       "dp.apps.rancher.io/containers/bci-busybox:15.7-26.1",
       "dp.apps.rancher.io/containers/bci-busybox:15.7-26.1",
-      "dp.apps.rancher.io/containers/etcd:3.7.3-5.2",
-      "dp.apps.rancher.io/containers/heaptrack:1.3.0-14.1",
+      "dp.apps.rancher.io/containers/etcd:3.7.3-6.1",
+      "dp.apps.rancher.io/containers/heaptrack:1.3.0-15.1",
       "dp.apps.rancher.io/containers/milvus:2.6.21-11.24",
-      "dp.apps.rancher.io/containers/mc:0.20250813.083541-21.2",
-      "dp.apps.rancher.io/containers/minio:0.20251015.172955-21.2"
+      "dp.apps.rancher.io/containers/mc:0.20250813.083541-22.1",
+      "dp.apps.rancher.io/containers/minio:0.20251015.172955-22.1"
     ],
     "vulnerabilities": {
-      "total": 179,
+      "total": 185,
       "critical": 3,
       "high": 95,
-      "medium": 65,
+      "medium": 71,
       "low": 8,
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 8,
-      "artifact_url": "https://apps.rancher.io/artifacts/e1de87ae6593317d1232c45e1f89a4f063263e13a1064020481d0433a811d543"
+      "artifact_url": "https://apps.rancher.io/artifacts/935ded6c9b600c980b3cc1be8753cae1dde6cabccd217a125e4b4ba225be7098"
     }
   },
   {
@@ -3661,18 +3661,18 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.18.0-4.1",
+    "image_name": "mlflow:3.18.0-5.1",
     "version": "3.18.0",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:ba4912147ae9b8e99f45b29dc3d5148fa1e4983bc4411494be4fc80ddd170864",
-    "last_updated": "2026-11-12 02:08",
+    "digest": "SHA256:1599b1de30ee5df1511ab9f60d7b53592520babb31cf81ed9f7594d7548d8280",
+    "last_updated": "2026-11-14 02:33",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/mlflow:3.18.0-18.11"
+      "dp.apps.rancher.io/containers/mlflow:3.18.0-19.1"
     ],
     "vulnerabilities": {
       "total": 3,
@@ -3683,7 +3683,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 1,
-      "artifact_url": "https://apps.rancher.io/artifacts/ba4912147ae9b8e99f45b29dc3d5148fa1e4983bc4411494be4fc80ddd170864"
+      "artifact_url": "https://apps.rancher.io/artifacts/1599b1de30ee5df1511ab9f60d7b53592520babb31cf81ed9f7594d7548d8280"
     }
   },
   {
@@ -10470,32 +10470,32 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:18.3.0-11.1",
+    "image_name": "open-webui:18.3.0-12.1",
     "version": "0.13.3",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:bf75f46cd8b6219f569cd85ce153d80da1e7af9108c16640154a82a02e01765b",
-    "last_updated": "2026-11-13 08:16",
+    "digest": "SHA256:6d3f834156261750281b3db63e4c1429f7d9ed721d50d1cb1daebf041c41e4ba",
+    "last_updated": "2026-11-14 04:47",
     "sboms": [],
     "labels": {},
     "chart_images": [
       "dp.apps.rancher.io/containers/apache-tika:4.0.0-1.1",
       "dp.apps.rancher.io/containers/ollama:0.40.14-nvidia-2.8",
       "dp.apps.rancher.io/containers/open-webui:0.13.3-nvidia-3.1",
-      "dp.apps.rancher.io/containers/redis:8.10.3-1.6"
+      "dp.apps.rancher.io/containers/redis:8.10.3-2.1"
     ],
     "vulnerabilities": {
       "total": 22,
       "critical": 2,
       "high": 12,
-      "medium": 4,
+      "medium": 5,
       "low": 0,
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 4,
-      "artifact_url": "https://apps.rancher.io/artifacts/bf75f46cd8b6219f569cd85ce153d80da1e7af9108c16640154a82a02e01765b"
+      "artifact_url": "https://apps.rancher.io/artifacts/6d3f834156261750281b3db63e4c1429f7d9ed721d50d1cb1daebf041c41e4ba"
     }
   },
   {

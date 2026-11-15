@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-15 00:09",
+    "changes": [
+      "New Chart (AppCo): suse-ai-observability-extension:3.0.0-14.1 (N/A)"
+    ]
+  },
+  {
     "date": "2026-11-14 11:41",
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-95.1 (N/A)",
@@ -278,14 +284,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.5.6-nvidia-1.7 (x86_64)",
       "New Container (AppCo): vllm-openai:0.32.0-nvidia-1.5 (aarch64)",
       "New Container (AppCo): vllm-openai:0.32.0-nvidia-1.5 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-11-05 12:22",
-    "changes": [
-      "New Chart (AppCo): ollama:1.95.0-8.1 (N/A)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.1 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.1 (x86_64)"
     ]
   }
 ]

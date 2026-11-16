@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-16 18:47",
+    "changes": [
+      "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:0.165.0 (x86_64)",
+      "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:sha256-4a613a898ae9b20a67e5586b6f8cba6d55daae34ee980f9dd2f295c8e06b238a (N/A)",
+      "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:sha256-dbd6e50fa3b10db69da66781febb8422fee7ca64c351b4228c55cf55a79c4715 (N/A)"
+    ]
+  },
+  {
     "date": "2026-11-15 00:09",
     "changes": [
       "New Chart (AppCo): suse-ai-observability-extension:3.0.0-14.1 (N/A)"
@@ -275,15 +283,6 @@
       "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:0.164.1 (x86_64)",
       "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:sha256-6bb0a94bba3318f2d06d1f03aba049dc798508b8a342195a71256915b26b60ce (N/A)",
       "New Container (Registry): ai/containers/suse/suse-ai-opentelemetry-collector:sha256-740fe68e5a2b4c3ef45723f3ef7a614f6d31bfbb18e7ffe7e496680e59ed1d5c (N/A)"
-    ]
-  },
-  {
-    "date": "2026-11-06 06:29",
-    "changes": [
-      "New Container (AppCo): lmcache-vllm-openai:0.5.6-nvidia-1.7 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.5.6-nvidia-1.7 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.32.0-nvidia-1.5 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.32.0-nvidia-1.5 (x86_64)"
     ]
   }
 ]

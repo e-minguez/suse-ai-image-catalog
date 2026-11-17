@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-17 13:40",
+    "changes": [
+      "New Chart (AppCo): milvus:5.0.25-96.1 (N/A)",
+      "New Chart (AppCo): mlflow:3.18.0-6.1 (N/A)",
+      "New Chart (AppCo): open-webui:18.3.0-13.1 (N/A)",
+      "New Chart (AppCo): open-webui-mcpo:2.0.0-3.1 (N/A)",
+      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11-slim (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.15.2 (x86_64)",
+      "Updated Container (Registry): ai/containers/suse/suse-ai-ollama-exporter:3.0.0 (x86_64)",
+      "New Container (Registry): ai/containers/suse/suse-ai-ollama-exporter:sha256-75403f42eeb0016e924763ddb57e45fcf9580a378338eb5fb50c856d46d2e5b7 (N/A)",
+      "New Container (Registry): ai/containers/suse/suse-ai-ollama-exporter:sha256-d9378617ca8ef34ab98293a46de6791b6d9ac046d0cc96a6317b641d0fc8aa4b (N/A)"
+    ]
+  },
+  {
     "date": "2026-11-17 03:13",
     "changes": [
       "New Container (AppCo): milvus:2.6.25-16.2 (aarch64)",
@@ -240,14 +255,6 @@
       "New Container (AppCo): lmcache-vllm-openai:0.5.6-nvidia-1.8 (x86_64)",
       "New Container (AppCo): vllm-openai:0.32.0-nvidia-1.6 (aarch64)",
       "New Container (AppCo): vllm-openai:0.32.0-nvidia-1.6 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-11-06 21:41",
-    "changes": [
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.2 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.2 (x86_64)",
-      "New Chart (AppCo): open-webui:18.0.0-1.1 (N/A)"
     ]
   }
 ]

@@ -943,18 +943,18 @@
     "application": "milvus",
     "app_logo_url": "https://apps.rancher.io/logos/milvus.png",
     "component": "milvus",
-    "image_name": "milvus:5.0.25-95.1",
+    "image_name": "milvus:5.0.25-96.1",
     "version": "2.6.21",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:935ded6c9b600c980b3cc1be8753cae1dde6cabccd217a125e4b4ba225be7098",
-    "last_updated": "2026-11-14 04:17",
+    "digest": "SHA256:13151baddbbe440508fcdcf49a76fdefd6d6fcac98a7fd986955924be5b8dd52",
+    "last_updated": "2026-11-17 08:47",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/apache-kafka:4.3.2-9.1",
+      "dp.apps.rancher.io/containers/apache-kafka:4.4.0-1.2",
       "dp.apps.rancher.io/containers/bci-busybox:15.7-26.1",
       "dp.apps.rancher.io/containers/bci-busybox:15.7-26.1",
       "dp.apps.rancher.io/containers/etcd:3.7.3-6.1",
@@ -972,7 +972,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 8,
-      "artifact_url": "https://apps.rancher.io/artifacts/935ded6c9b600c980b3cc1be8753cae1dde6cabccd217a125e4b4ba225be7098"
+      "artifact_url": "https://apps.rancher.io/artifacts/13151baddbbe440508fcdcf49a76fdefd6d6fcac98a7fd986955924be5b8dd52"
     }
   },
   {
@@ -3661,18 +3661,18 @@
     "application": "mlflow",
     "app_logo_url": "https://apps.rancher.io/logos/mlflow.png",
     "component": "mlflow",
-    "image_name": "mlflow:3.18.0-5.1",
+    "image_name": "mlflow:3.18.0-6.1",
     "version": "3.18.0",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:1599b1de30ee5df1511ab9f60d7b53592520babb31cf81ed9f7594d7548d8280",
-    "last_updated": "2026-11-14 02:33",
+    "digest": "SHA256:67ae6ef3ea8f46583c849f9e24adcc12353160c1eb78de00b46ea7a79d145266",
+    "last_updated": "2026-11-17 07:35",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/mlflow:3.18.0-19.1"
+      "dp.apps.rancher.io/containers/mlflow:3.18.0-19.2"
     ],
     "vulnerabilities": {
       "total": 3,
@@ -3683,7 +3683,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 1,
-      "artifact_url": "https://apps.rancher.io/artifacts/1599b1de30ee5df1511ab9f60d7b53592520babb31cf81ed9f7594d7548d8280"
+      "artifact_url": "https://apps.rancher.io/artifacts/67ae6ef3ea8f46583c849f9e24adcc12353160c1eb78de00b46ea7a79d145266"
     }
   },
   {
@@ -10470,21 +10470,21 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:18.3.0-12.1",
+    "image_name": "open-webui:18.3.0-13.1",
     "version": "0.13.3",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:6d3f834156261750281b3db63e4c1429f7d9ed721d50d1cb1daebf041c41e4ba",
-    "last_updated": "2026-11-14 04:47",
+    "digest": "SHA256:c5c8c6cf6cbdd4f7b96bb315737e96b56ab431d5712a2d09352f238e60763362",
+    "last_updated": "2026-11-17 09:26",
     "sboms": [],
     "labels": {},
     "chart_images": [
       "dp.apps.rancher.io/containers/apache-tika:4.0.0-1.1",
       "dp.apps.rancher.io/containers/ollama:0.40.14-nvidia-2.8",
       "dp.apps.rancher.io/containers/open-webui:0.13.3-nvidia-3.1",
-      "dp.apps.rancher.io/containers/redis:8.10.3-2.1"
+      "dp.apps.rancher.io/containers/redis:8.10.3-2.2"
     ],
     "vulnerabilities": {
       "total": 22,
@@ -10495,7 +10495,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 4,
-      "artifact_url": "https://apps.rancher.io/artifacts/6d3f834156261750281b3db63e4c1429f7d9ed721d50d1cb1daebf041c41e4ba"
+      "artifact_url": "https://apps.rancher.io/artifacts/c5c8c6cf6cbdd4f7b96bb315737e96b56ab431d5712a2d09352f238e60763362"
     }
   },
   {
@@ -11686,18 +11686,18 @@
     "application": "open-webui-mcpo",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-mcpo.png",
     "component": "open-webui-mcpo",
-    "image_name": "open-webui-mcpo:2.0.0-2.1",
+    "image_name": "open-webui-mcpo:2.0.0-3.1",
     "version": "0.0.20",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:5ff20e87b0074334636f1c6184677346f7a3e687594e045b7ab36cd31317ed4a",
-    "last_updated": "2026-11-13 01:54",
+    "digest": "SHA256:f578338b3e1b2d0e3f71ce60208ff6fbf3a25b190ab4948b27ca20c10e52d370",
+    "last_updated": "2026-11-17 08:15",
     "sboms": [],
     "labels": {},
     "chart_images": [
-      "dp.apps.rancher.io/containers/open-webui-mcpo:0.0.20-2.1"
+      "dp.apps.rancher.io/containers/open-webui-mcpo:0.0.20-2.2"
     ],
     "vulnerabilities": {
       "total": 19,
@@ -11708,7 +11708,7 @@
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 1,
-      "artifact_url": "https://apps.rancher.io/artifacts/5ff20e87b0074334636f1c6184677346f7a3e687594e045b7ab36cd31317ed4a"
+      "artifact_url": "https://apps.rancher.io/artifacts/f578338b3e1b2d0e3f71ce60208ff6fbf3a25b190ab4948b27ca20c10e52d370"
     }
   },
   {

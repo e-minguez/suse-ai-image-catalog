@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-17 23:50",
+    "changes": [
+      "New Container (AppCo): open-webui:0.13.4-nvidia-4.3 (aarch64)",
+      "New Container (AppCo): open-webui:0.13.4-nvidia-4.3 (x86_64)",
+      "New Container (AppCo): open-webui:0.13.3-nvidia-4.2 (aarch64)",
+      "New Container (AppCo): open-webui:0.13.3-nvidia-4.2 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-17 13:40",
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-96.1 (N/A)",
@@ -240,21 +249,6 @@
     "changes": [
       "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-1.10 (aarch64)",
       "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-1.10 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-11-07 15:10",
-    "changes": [
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.3 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.3 (x86_64)",
-      "New Container (AppCo): pytorch:2.15.0-nvidia-5.6 (aarch64)",
-      "New Container (AppCo): pytorch:2.15.0-nvidia-5.6 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.13-nvidia-1.3 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.13-nvidia-1.3 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.5.6-nvidia-1.8 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.5.6-nvidia-1.8 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.32.0-nvidia-1.6 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.32.0-nvidia-1.6 (x86_64)"
     ]
   }
 ]

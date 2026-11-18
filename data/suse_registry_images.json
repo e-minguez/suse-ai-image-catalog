@@ -52,6 +52,19 @@
     "chart_images": []
   },
   {
+    "repository": "ai/charts/kubeflow",
+    "tag": "0.6.0",
+    "image_name": "ai/charts/kubeflow:0.6.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:b3555e3e0c202a92797b7508e7aaea30146a2fe19b79562a8cab3afd2a2aa43e",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": []
+  },
+  {
     "repository": "ai/charts/litellm",
     "tag": "0.1.836",
     "image_name": "ai/charts/litellm:0.1.836",
@@ -30545,52 +30558,6 @@
     }
   },
   {
-    "repository": "ai/containers/kubeflow/katib/katib-db-manager",
-    "tag": "v0.19.0",
-    "image_name": "ai/containers/kubeflow/katib/katib-db-manager:v0.19.0",
-    "architecture": "amd64",
-    "os": "linux",
-    "digest": "sha256:93d431d2e7cfe8c212c966e15456b56d31dd6056f185b690e887fd879f21865e",
-    "created": "2025-10-30 21:26",
-    "labels": {},
-    "entrypoint": [
-      "./katib-db-manager"
-    ],
-    "cmd": null,
-    "sboms": [
-      {
-        "path": "sboms/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-amd64-cyclonedx.json",
-        "format": "CycloneDX",
-        "arch": "amd64"
-      },
-      {
-        "path": "sboms/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-arm64-cyclonedx.json",
-        "format": "CycloneDX",
-        "arch": "arm64"
-      }
-    ],
-    "vulnerabilities": {
-      "total": 54,
-      "critical": 4,
-      "high": 28,
-      "medium": 20,
-      "low": 2,
-      "scan_date": "2026-06-13 00:20",
-      "source": "attestation",
-      "details_files": [
-        {
-          "arch": "amd64",
-          "path": "vulns/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-amd64-vuln.json"
-        },
-        {
-          "arch": "arm64",
-          "path": "vulns/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-arm64-vuln.json"
-        }
-      ],
-      "details_path": "vulns/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-amd64-vuln.json"
-    }
-  },
-  {
     "repository": "ai/containers/kubeflow/katib/katib-ui",
     "tag": "v0.19.0",
     "image_name": "ai/containers/kubeflow/katib/katib-ui:v0.19.0",
@@ -60804,7 +60771,7 @@
     "image_name": "ai/containers/python:3.11",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:731670a425deabbc48d39f0ee3115cfa665b2a4002c19939ad3e88b2832b4549",
+    "digest": "sha256:55c475496e35ad8d898659c85f92b42d3b1c58f25f5d79023baf0840b0b4a462",
     "created": "2026-11-05 09:41",
     "labels": {},
     "entrypoint": null,

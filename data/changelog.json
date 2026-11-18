@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-18 17:34",
+    "changes": [
+      "New Chart (AppCo): open-webui:18.4.0-14.1 (N/A)",
+      "New Chart (Registry): ai/charts/kubeflow:0.6.0 (N/A)",
+      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-18 07:14",
     "changes": [
       "New Container (AppCo): vllm-openai:0.34.0-nvidia-2.2 (aarch64)",
@@ -242,13 +250,6 @@
       "New Container (AppCo): open-webui:0.13.0-nvidia-2.5 (aarch64)",
       "New Container (AppCo): open-webui:0.13.0-nvidia-2.5 (x86_64)",
       "New Chart (AppCo): open-webui:18.0.0-3.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-11-08 15:22",
-    "changes": [
-      "New Container (AppCo): vllm-openai:0.33.0-nvidia-1.7 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.33.0-nvidia-1.7 (x86_64)"
     ]
   }
 ]

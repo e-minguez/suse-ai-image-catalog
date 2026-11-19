@@ -30558,6 +30558,52 @@
     }
   },
   {
+    "repository": "ai/containers/kubeflow/katib/katib-db-manager",
+    "tag": "v0.19.0",
+    "image_name": "ai/containers/kubeflow/katib/katib-db-manager:v0.19.0",
+    "architecture": "amd64",
+    "os": "linux",
+    "digest": "sha256:93d431d2e7cfe8c212c966e15456b56d31dd6056f185b690e887fd879f21865e",
+    "created": "2025-10-30 21:26",
+    "labels": {},
+    "entrypoint": [
+      "./katib-db-manager"
+    ],
+    "cmd": null,
+    "sboms": [
+      {
+        "path": "sboms/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-amd64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "amd64"
+      },
+      {
+        "path": "sboms/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-arm64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "arm64"
+      }
+    ],
+    "vulnerabilities": {
+      "total": 54,
+      "critical": 4,
+      "high": 28,
+      "medium": 20,
+      "low": 2,
+      "scan_date": "2026-06-13 00:20",
+      "source": "attestation",
+      "details_files": [
+        {
+          "arch": "amd64",
+          "path": "vulns/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-amd64-vuln.json"
+        },
+        {
+          "arch": "arm64",
+          "path": "vulns/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-arm64-vuln.json"
+        }
+      ],
+      "details_path": "vulns/ai-containers-kubeflow-katib-katib-db-manager-v0.19.0-amd64-vuln.json"
+    }
+  },
+  {
     "repository": "ai/containers/kubeflow/katib/katib-ui",
     "tag": "v0.19.0",
     "image_name": "ai/containers/kubeflow/katib/katib-ui:v0.19.0",

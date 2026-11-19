@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-19 13:04",
+    "changes": [
+      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-2.2 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-2.2 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.34.0-nvidia-2.3 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.34.0-nvidia-2.3 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-19 02:04",
     "changes": [
       "New Container (Registry): ai/containers/kubeflow/katib/katib-db-manager:v0.19.0 (x86_64)",
@@ -232,28 +241,6 @@
       "New Container (AppCo): mlflow:2.22.4-21.5 (x86_64)",
       "New Container (AppCo): ollama:0.40.16-nvidia-2.11 (aarch64)",
       "New Container (AppCo): ollama:0.40.16-nvidia-2.11 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-11-10 02:57",
-    "changes": [
-      "New Container (AppCo): ollama:0.40.15-nvidia-2.10 (aarch64)",
-      "New Container (AppCo): ollama:0.40.15-nvidia-2.10 (x86_64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.6 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.6 (x86_64)",
-      "New Chart (AppCo): open-webui:18.0.0-4.1 (N/A)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.127 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.127 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.120 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.120 (x86_64)",
-      "New Container (AppCo): pytorch:2.15.0-nvidia-5.7 (aarch64)",
-      "New Container (AppCo): pytorch:2.15.0-nvidia-5.7 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.13-nvidia-1.4 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.13-nvidia-1.4 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-1.11 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-1.11 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.33.0-nvidia-1.8 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.33.0-nvidia-1.8 (x86_64)"
     ]
   }
 ]

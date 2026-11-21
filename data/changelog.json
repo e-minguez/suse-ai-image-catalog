@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-21 01:37",
+    "changes": [
+      "New Container (AppCo): milvus:2.6.27-16.4 (aarch64)",
+      "New Container (AppCo): milvus:2.6.27-nvidia-16.4 (aarch64)",
+      "New Container (AppCo): milvus:2.6.27-16.4 (x86_64)",
+      "New Container (AppCo): milvus:2.6.27-nvidia-16.4 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-20 07:11",
     "changes": [
       "New Container (AppCo): milvus:2.6.26-16.3 (aarch64)",
@@ -225,19 +234,6 @@
       "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.123 (x86_64)",
       "New Container (AppCo): suse-ai-observability-extension-setup:3.0.0-8.3 (aarch64)",
       "New Container (AppCo): suse-ai-observability-extension-setup:3.0.0-8.3 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-11-10 22:04",
-    "changes": [
-      "New Container (AppCo): ollama:0.40.16-nvidia-2.12 (aarch64)",
-      "New Container (AppCo): ollama:0.40.16-nvidia-2.12 (x86_64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.7 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.7 (x86_64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.128 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.17-2.128 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.121 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.121 (x86_64)"
     ]
   }
 ]

@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-24 15:06",
+    "changes": [
+      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-2.3 (aarch64)",
+      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-2.3 (x86_64)",
+      "New Container (AppCo): vllm-openai:0.34.0-nvidia-2.4 (aarch64)",
+      "New Container (AppCo): vllm-openai:0.34.0-nvidia-2.4 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-21 12:41",
     "changes": [
       "New Container (AppCo): ollama:0.40.17-nvidia-3.3 (aarch64)",
@@ -211,22 +220,6 @@
     "changes": [
       "New Container (AppCo): open-webui:0.13.0-nvidia-2.9 (aarch64)",
       "New Container (AppCo): open-webui:0.13.0-nvidia-2.9 (x86_64)"
-    ]
-  },
-  {
-    "date": "2026-11-11 16:23",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.25-15.11 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-15.11 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-15.11 (x86_64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-15.11 (x86_64)",
-      "New Container (AppCo): mlflow:3.18.0-18.11 (aarch64)",
-      "New Container (AppCo): mlflow:3.18.0-18.11 (x86_64)",
-      "New Container (AppCo): mlflow:2.22.4-21.8 (aarch64)",
-      "New Container (AppCo): mlflow:2.22.4-21.8 (x86_64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.8 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.8 (x86_64)",
-      "New Chart (AppCo): open-webui:18.0.0-6.1 (N/A)"
     ]
   }
 ]

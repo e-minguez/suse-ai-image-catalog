@@ -10940,32 +10940,32 @@
     "application": "open-webui",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui.png",
     "component": "open-webui",
-    "image_name": "open-webui:18.4.0-14.1",
+    "image_name": "open-webui:18.4.0-15.1",
     "version": "0.13.4",
     "packaging_format": "HELM_CHART",
     "architecture": null,
     "os_family": null,
     "os_version": null,
-    "digest": "SHA256:62ce39fbf0bfd1263e04254beef7c0e56d8705aa90ef68d7846bd86ced6981b0",
-    "last_updated": "2026-11-18 07:27",
+    "digest": "SHA256:9c1f19f4b073ebfec02b4836d21d2e83443abaa262201055cd2c58f898e3258d",
+    "last_updated": "2026-11-25 01:56",
     "sboms": [],
     "labels": {},
     "chart_images": [
       "dp.apps.rancher.io/containers/apache-tika:4.0.0-1.1",
       "dp.apps.rancher.io/containers/ollama:0.40.14-nvidia-2.8",
-      "dp.apps.rancher.io/containers/open-webui:0.13.4-nvidia-4.3",
+      "dp.apps.rancher.io/containers/open-webui:0.13.4-nvidia-4.4",
       "dp.apps.rancher.io/containers/redis:8.10.3-2.2"
     ],
     "vulnerabilities": {
       "total": 22,
       "critical": 2,
       "high": 12,
-      "medium": 5,
+      "medium": 6,
       "low": 0,
       "scan_date": "",
       "source": "aggregated_appco_images",
       "component_count": 4,
-      "artifact_url": "https://apps.rancher.io/artifacts/62ce39fbf0bfd1263e04254beef7c0e56d8705aa90ef68d7846bd86ced6981b0"
+      "artifact_url": "https://apps.rancher.io/artifacts/9c1f19f4b073ebfec02b4836d21d2e83443abaa262201055cd2c58f898e3258d"
     }
   },
   {

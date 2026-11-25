@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-11-25 01:02",
+    "changes": [
+      "New Container (AppCo): open-webui:0.13.4-nvidia-4.4 (aarch64)",
+      "New Container (AppCo): open-webui:0.13.4-nvidia-4.4 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-24 15:06",
     "changes": [
       "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-2.3 (aarch64)",
@@ -213,13 +220,6 @@
       "New Container (AppCo): open-webui-mcpo:0.0.20-1.1 (aarch64)",
       "New Container (AppCo): open-webui-mcpo:0.0.20-1.1 (x86_64)",
       "New Chart (AppCo): open-webui-mcpo:2.0.0-1.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-11-12 02:07",
-    "changes": [
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.9 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.0-nvidia-2.9 (x86_64)"
     ]
   }
 ]

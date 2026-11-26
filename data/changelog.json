@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-26 00:22",
+    "changes": [
+      "New Container (AppCo): open-webui:0.13.5-nvidia-4.5 (aarch64)",
+      "New Container (AppCo): open-webui:0.13.5-nvidia-4.5 (x86_64)",
+      "New Chart (AppCo): open-webui:18.5.0-16.1 (N/A)",
+      "New Chart (Registry): ai/charts/kubeflow:0.7.0 (N/A)",
+      "Updated Container (Registry): ai/containers/python:3.11 (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.11-slim (x86_64)",
+      "Updated Container (Registry): ai/containers/python:3.15.2 (x86_64)",
+      "New Container (GHCR): suse/chart/aif-operator:2.5.0-rc.1 (N/A)",
+      "New Container (GHCR): suse/chart/aif-ui:2.5.0-rc.1 (N/A)",
+      "New Container (GHCR): suse/aif-operator:2.5.0-rc.1 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.5.0-rc.1-amd64 (x86_64)",
+      "New Container (GHCR): suse/aif-ui:2.5.0-rc.1-arm64 (arm64)",
+      "New Container (GHCR): suse/aif-ui:2.5.0-rc.1 (x86_64)"
+    ]
+  },
+  {
     "date": "2026-11-25 14:28",
     "changes": [
       "New Chart (AppCo): open-webui:18.4.0-15.1 (N/A)"
@@ -178,41 +196,6 @@
     "changes": [
       "New Chart (AppCo): milvus:5.0.25-94.1 (N/A)",
       "New Chart (AppCo): open-webui-mcpo:2.0.0-2.1 (N/A)"
-    ]
-  },
-  {
-    "date": "2026-11-12 22:38",
-    "changes": [
-      "New Container (AppCo): milvus:2.6.25-16.1 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-16.1 (aarch64)",
-      "New Container (AppCo): milvus:2.6.25-16.1 (x86_64)",
-      "New Container (AppCo): milvus:2.6.25-nvidia-16.1 (x86_64)",
-      "New Container (AppCo): ollama:0.40.16-nvidia-3.1 (aarch64)",
-      "New Container (AppCo): ollama:0.40.16-nvidia-3.1 (x86_64)",
-      "New Container (AppCo): open-webui:0.13.3-nvidia-3.1 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.3-nvidia-3.1 (x86_64)",
-      "New Container (AppCo): open-webui:0.13.2-nvidia-2.12 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.2-nvidia-2.12 (x86_64)",
-      "New Chart (AppCo): open-webui:18.2.0-10.1 (N/A)",
-      "New Container (AppCo): open-webui:0.13.1-nvidia-2.11 (aarch64)",
-      "New Container (AppCo): open-webui:0.13.1-nvidia-2.11 (x86_64)",
-      "New Chart (AppCo): open-webui:18.1.0-9.1 (N/A)",
-      "New Container (AppCo): open-webui-mcpo:0.0.20-2.1 (aarch64)",
-      "New Container (AppCo): open-webui-mcpo:0.0.20-2.1 (x86_64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.124 (aarch64)",
-      "New Container (AppCo): open-webui-pipelines:0.20250819.030501-8.124 (x86_64)",
-      "New Container (AppCo): pytorch:2.15.0-nvidia-6.1 (aarch64)",
-      "New Container (AppCo): pytorch:2.15.0-nvidia-6.1 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:3.0.0-8.5 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-setup:3.0.0-8.5 (x86_64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.52 (aarch64)",
-      "New Container (AppCo): suse-ai-observability-extension-runtime:1.5.0-5.52 (x86_64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.13-nvidia-2.1 (aarch64)",
-      "New Container (AppCo): lmcache-lmstack-router:0.1.13-nvidia-2.1 (x86_64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-2.1 (aarch64)",
-      "New Container (AppCo): lmcache-vllm-openai:0.5.7-nvidia-2.1 (x86_64)",
-      "New Container (AppCo): vllm-openai:0.33.0-nvidia-2.1 (aarch64)",
-      "New Container (AppCo): vllm-openai:0.33.0-nvidia-2.1 (x86_64)"
     ]
   }
 ]

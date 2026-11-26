@@ -65,6 +65,19 @@
     "chart_images": []
   },
   {
+    "repository": "ai/charts/kubeflow",
+    "tag": "0.7.0",
+    "image_name": "ai/charts/kubeflow:0.7.0",
+    "architecture": null,
+    "os": null,
+    "digest": "sha256:8c1095cd8ff79806cc81a9b420dc8f63a73b4e99beca155959de536dc2723a20",
+    "created": null,
+    "labels": {},
+    "entrypoint": null,
+    "cmd": null,
+    "chart_images": []
+  },
+  {
     "repository": "ai/charts/litellm",
     "tag": "0.1.836",
     "image_name": "ai/charts/litellm:0.1.836",
@@ -60817,8 +60830,8 @@
     "image_name": "ai/containers/python:3.11",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:55c475496e35ad8d898659c85f92b42d3b1c58f25f5d79023baf0840b0b4a462",
-    "created": "2026-11-05 09:41",
+    "digest": "sha256:1829edfddfa93b381f575e89221003055b9a0b6cf03dfe786edd798bb6817e83",
+    "created": "2026-11-24 08:29",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -60917,8 +60930,8 @@
     "image_name": "ai/containers/python:3.11-slim",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535",
-    "created": "2026-11-05 08:00",
+    "digest": "sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c",
+    "created": "2026-11-24 05:02",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -66317,8 +66330,8 @@
     "image_name": "ai/containers/python:3.15.2",
     "architecture": "amd64",
     "os": "linux",
-    "digest": "sha256:46837ed3105db0029b6d656816185c6258e3b39690532fb782428e0a5fd76182",
-    "created": "2026-11-05 09:35",
+    "digest": "sha256:e4bc83a3314d078d651f06c8440e9a03ba892ee2f6577437f174abd8731fb343",
+    "created": "2026-11-24 07:45",
     "labels": {},
     "entrypoint": null,
     "cmd": [
@@ -66356,6 +66369,11 @@
         "arch": "ppc64le"
       },
       {
+        "path": "sboms/ai-containers-python-3.15.2-riscv64-cyclonedx.json",
+        "format": "CycloneDX",
+        "arch": "riscv64"
+      },
+      {
         "path": "sboms/ai-containers-python-3.15.2-s390x-cyclonedx.json",
         "format": "CycloneDX",
         "arch": "s390x"
@@ -66372,12 +66390,12 @@
       }
     ],
     "vulnerabilities": {
-      "total": 35985,
-      "critical": 144,
-      "high": 5076,
-      "medium": 14224,
-      "low": 15524,
-      "scan_date": "2026-11-04 10:52",
+      "total": 38662,
+      "critical": 155,
+      "high": 5538,
+      "medium": 15013,
+      "low": 16829,
+      "scan_date": "2026-11-17 14:24",
       "source": "attestation",
       "details_files": [
         {
@@ -66403,6 +66421,10 @@
         {
           "arch": "ppc64le",
           "path": "vulns/ai-containers-python-3.15.2-ppc64le-vuln.json"
+        },
+        {
+          "arch": "riscv64",
+          "path": "vulns/ai-containers-python-3.15.2-riscv64-vuln.json"
         },
         {
           "arch": "s390x",

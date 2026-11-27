@@ -12576,32 +12576,32 @@
     "application": "open-webui-pipelines",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-pipelines.png",
     "component": "open-webui-pipelines",
-    "image_name": "open-webui-pipelines:0.20250819.030501-8.124",
+    "image_name": "open-webui-pipelines:0.20250819.030501-8.125",
     "version": "0.20250819.030501",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:4639d5268d1afb82efec002dbeaba9b29685a78a5f4ec8b51d4a361d5eb29e66",
-    "last_updated": "2026-11-12 14:17",
+    "digest": "SHA256:412996715f5b2961368824602550407ef05d9b0ec4fada002e69bb3aff95bf07",
+    "last_updated": "2026-11-27 13:30",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.124.aarch64.cdx.json"
+        "format": "SPDX",
+        "filename": "open-webui-pipelines-0.20250819.030501-8.125.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.124.aarch64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "open-webui-pipelines-0.20250819.030501-8.125.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:7c68c1b71b24692b04dba0dd39d6bfa84a7d869909288fed3e2713ee45ff12a6",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-62.1",
-      "org.opencontainers.image.created": "2026-11-12T13:58:39.107465680Z",
+      "org.opencontainers.image.created": "2026-11-27T13:10:32.205359000Z",
       "org.opencontainers.image.description": "Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs and much more! Easily extend functionalities, integrate unique logic, and create dynamic workflows with just a few lines of code.",
-      "org.opencontainers.image.ref.name": "0.20250819.030501-8.124",
+      "org.opencontainers.image.ref.name": "0.20250819.030501-8.125",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-pipelines-container/72a8c152a1f5f742ec21b2560d6dfcfd/",
       "org.opencontainers.image.title": "Open WebUI Pipelines",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-pipelines",
@@ -12616,39 +12616,39 @@
       "medium": 9,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/4639d5268d1afb82efec002dbeaba9b29685a78a5f4ec8b51d4a361d5eb29e66"
+      "artifact_url": "https://apps.rancher.io/artifacts/412996715f5b2961368824602550407ef05d9b0ec4fada002e69bb3aff95bf07"
     }
   },
   {
     "application": "open-webui-pipelines",
     "app_logo_url": "https://apps.rancher.io/logos/open-webui-pipelines.png",
     "component": "open-webui-pipelines",
-    "image_name": "open-webui-pipelines:0.20250819.030501-8.124",
+    "image_name": "open-webui-pipelines:0.20250819.030501-8.125",
     "version": "0.20250819.030501",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:47ccaca3373aee33b56507022a26395e9c3e49e216097f08e34ec963119c2855",
-    "last_updated": "2026-11-12 14:17",
+    "digest": "SHA256:1aaa049249c71a5a63c57a03e4b0de2cb334a11d7e33afd926c5219b91ff5abb",
+    "last_updated": "2026-11-27 13:30",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.124.x86_64.spdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.125.x86_64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "open-webui-pipelines-0.20250819.030501-8.124.x86_64.cdx.json"
+        "filename": "open-webui-pipelines-0.20250819.030501-8.125.x86_64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:82978402ac573c2be65b88d67d41c084b63be59c7ab820f64ec3c2ae3485e647",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-62.1",
-      "org.opencontainers.image.created": "2026-11-12T14:03:22.603746098Z",
+      "org.opencontainers.image.created": "2026-11-27T13:10:35.324080450Z",
       "org.opencontainers.image.description": "Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs and much more! Easily extend functionalities, integrate unique logic, and create dynamic workflows with just a few lines of code.",
-      "org.opencontainers.image.ref.name": "0.20250819.030501-8.124",
+      "org.opencontainers.image.ref.name": "0.20250819.030501-8.125",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/open-webui-pipelines-container/72a8c152a1f5f742ec21b2560d6dfcfd/",
       "org.opencontainers.image.title": "Open WebUI Pipelines",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/open-webui-pipelines",
@@ -12663,7 +12663,7 @@
       "medium": 9,
       "low": 1,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/47ccaca3373aee33b56507022a26395e9c3e49e216097f08e34ec963119c2855"
+      "artifact_url": "https://apps.rancher.io/artifacts/1aaa049249c71a5a63c57a03e4b0de2cb334a11d7e33afd926c5219b91ff5abb"
     }
   },
   {
@@ -14245,32 +14245,32 @@
     "application": "suse-ai-observability-extension",
     "app_logo_url": "https://apps.rancher.io/logos/suse-ai-observability-extension.png",
     "component": "suse-ai-observability-extension-setup",
-    "image_name": "suse-ai-observability-extension-setup:3.0.0-9.1",
+    "image_name": "suse-ai-observability-extension-setup:3.0.0-9.2",
     "version": "3.0.0",
     "packaging_format": "CONTAINER",
     "architecture": "aarch64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:804bed39bced7bbff209ae0f146dd72e2f715fc814c145031b5504aabc31dd9e",
-    "last_updated": "2026-11-13 20:01",
+    "digest": "SHA256:57ce349be64f59be97cf41a3ca5243519f8f5b876976dc86bc2bce97cabc69a5",
+    "last_updated": "2026-11-27 13:30",
     "sboms": [
       {
         "type": "SBOM",
         "format": "SPDX",
-        "filename": "suse-ai-observability-extension-setup-3.0.0-9.1.aarch64.spdx.json"
+        "filename": "suse-ai-observability-extension-setup-3.0.0-9.2.aarch64.spdx.json"
       },
       {
         "type": "SBOM",
         "format": "CYCLONEDX",
-        "filename": "suse-ai-observability-extension-setup-3.0.0-9.1.aarch64.cdx.json"
+        "filename": "suse-ai-observability-extension-setup-3.0.0-9.2.aarch64.cdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:7c68c1b71b24692b04dba0dd39d6bfa84a7d869909288fed3e2713ee45ff12a6",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-62.1",
-      "org.opencontainers.image.created": "2026-11-13T19:50:10.576684160Z",
+      "org.opencontainers.image.created": "2026-11-27T13:02:58.346355520Z",
       "org.opencontainers.image.description": "Configures and manages AI-specific UI elements in SUSE Observability",
-      "org.opencontainers.image.ref.name": "3.0.0-9.1",
+      "org.opencontainers.image.ref.name": "3.0.0-9.2",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/suse-ai-observability-extension-setup-container/80252805d7ccabdfbf3ccb8e1d1d012f/",
       "org.opencontainers.image.title": "SUSE AI Observability Extension Setup",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/suse-ai-observability-extension",
@@ -14285,39 +14285,39 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/804bed39bced7bbff209ae0f146dd72e2f715fc814c145031b5504aabc31dd9e"
+      "artifact_url": "https://apps.rancher.io/artifacts/57ce349be64f59be97cf41a3ca5243519f8f5b876976dc86bc2bce97cabc69a5"
     }
   },
   {
     "application": "suse-ai-observability-extension",
     "app_logo_url": "https://apps.rancher.io/logos/suse-ai-observability-extension.png",
     "component": "suse-ai-observability-extension-setup",
-    "image_name": "suse-ai-observability-extension-setup:3.0.0-9.1",
+    "image_name": "suse-ai-observability-extension-setup:3.0.0-9.2",
     "version": "3.0.0",
     "packaging_format": "CONTAINER",
     "architecture": "x86_64",
     "os_family": "SLE",
     "os_version": "15.7",
-    "digest": "SHA256:628fe1ecb4952ea74def47d29a24605b9bdfc16b6b1997c7d684231281207003",
-    "last_updated": "2026-11-13 20:01",
+    "digest": "SHA256:c75ec909518480a779f8397838cbb1caf5f4f21b553bad4ab91b95338fb2f63f",
+    "last_updated": "2026-11-27 13:30",
     "sboms": [
       {
         "type": "SBOM",
-        "format": "SPDX",
-        "filename": "suse-ai-observability-extension-setup-3.0.0-9.1.x86_64.spdx.json"
+        "format": "CYCLONEDX",
+        "filename": "suse-ai-observability-extension-setup-3.0.0-9.2.x86_64.cdx.json"
       },
       {
         "type": "SBOM",
-        "format": "CYCLONEDX",
-        "filename": "suse-ai-observability-extension-setup-3.0.0-9.1.x86_64.cdx.json"
+        "format": "SPDX",
+        "filename": "suse-ai-observability-extension-setup-3.0.0-9.2.x86_64.spdx.json"
       }
     ],
     "labels": {
       "org.opencontainers.image.base.digest": "sha256:82978402ac573c2be65b88d67d41c084b63be59c7ab820f64ec3c2ae3485e647",
       "org.opencontainers.image.base.name": "registry.suse.com/bci/bci-micro:15.7-62.1",
-      "org.opencontainers.image.created": "2026-11-13T19:55:34.260906446Z",
+      "org.opencontainers.image.created": "2026-11-27T13:10:29.832732516Z",
       "org.opencontainers.image.description": "Configures and manages AI-specific UI elements in SUSE Observability",
-      "org.opencontainers.image.ref.name": "3.0.0-9.1",
+      "org.opencontainers.image.ref.name": "3.0.0-9.2",
       "org.opencontainers.image.source": "https://sources.suse.com/Product:SUSE-AI:SLE-15-SP7/suse-ai-observability-extension-setup-container/80252805d7ccabdfbf3ccb8e1d1d012f/",
       "org.opencontainers.image.title": "SUSE AI Observability Extension Setup",
       "org.opencontainers.image.url": "https://apps.rancher.io/applications/suse-ai-observability-extension",
@@ -14332,7 +14332,7 @@
       "medium": 0,
       "low": 0,
       "source": "apps.rancher.io",
-      "artifact_url": "https://apps.rancher.io/artifacts/628fe1ecb4952ea74def47d29a24605b9bdfc16b6b1997c7d684231281207003"
+      "artifact_url": "https://apps.rancher.io/artifacts/c75ec909518480a779f8397838cbb1caf5f4f21b553bad4ab91b95338fb2f63f"
     }
   },
   {
